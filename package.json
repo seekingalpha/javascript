@@ -1,0 +1,32 @@
+{
+  "name": "seekingalpha-javascript-style",
+  "version": "1.0.0",
+  "description": "Set of linting rules, guides and best practices for best Javascript code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekingalpha/javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "style",
+    "guide",
+    "seekingalpha",
+    "lint",
+    "es6",
+    "lint",
+    "rules",
+    "code",
+    "style"
+  ],
+  "author": "Aleksey Kovalevsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seekingalpha/javascript/issues"
+  },
+  "homepage": "https://github.com/seekingalpha/javascript#readme"
+}
