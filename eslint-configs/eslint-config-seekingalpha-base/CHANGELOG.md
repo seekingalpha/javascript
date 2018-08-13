@@ -1,5 +1,5 @@
 # Change Log
 
-## 1.0.0 - 2018-08-12
+## 1.0.1 - 2018-08-13
 
- - Initial commmit.
+ - Initial commit.
