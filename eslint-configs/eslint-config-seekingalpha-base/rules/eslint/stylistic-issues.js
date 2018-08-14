@@ -315,7 +315,7 @@ module.exports = {
         ignoreRegExpLiterals: false,
         ignoreStrings: false,
         ignoreTemplateLiterals: false,
-        ignoreUrls: false
+        ignoreUrls: true
       }
     ],
 
