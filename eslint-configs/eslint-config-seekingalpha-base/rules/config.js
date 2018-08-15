@@ -6,7 +6,7 @@ module.exports = {
   idLengthMax: 50,
   indent: 2,
   maxDepth: 2,
-  maxLen: 120,
+  maxLen: 150,
   maxLinesMax: 250,
   maxLinesPerFunctionMax: 50,
   maxNestedCallbacks: 3,

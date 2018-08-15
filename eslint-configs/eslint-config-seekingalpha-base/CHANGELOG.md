@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.4 - 2018-08-15
+
+ - [minor] loosen `max-len` rule extending max line lenght to 150 chars
+ - [fix] `dot-notation` rule allowing keywords
+ - [path] disable `func-names` rule
+ 
 ## 1.0.3 - 2018-08-15
 
  - Fix package installation guide using NPM 

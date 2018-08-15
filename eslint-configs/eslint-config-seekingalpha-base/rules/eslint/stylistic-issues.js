@@ -142,9 +142,12 @@ module.exports = {
       }
     ],
 
-    // https://eslint.org/docs/rules/func-names
+    /*
+     * https://eslint.org/docs/rules/func-names
+     * TODO enable when needed?
+     */
     'func-names': [
-      'error',
+      'off',
       'always'
     ],
 
