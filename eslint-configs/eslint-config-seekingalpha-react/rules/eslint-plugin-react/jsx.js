@@ -140,7 +140,7 @@ module.exports = {
     'react/jsx-one-expression-per-line': [
       'error',
       {
-        allow: 'single-child'
+        allow: 'literal'
       }
     ],
 
