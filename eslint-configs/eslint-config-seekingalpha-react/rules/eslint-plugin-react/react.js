@@ -97,7 +97,6 @@ module.exports = {
           'shape',
           'size',
           'style',
-          'type',
           'valign',
           'vspace'
         ]
@@ -264,7 +263,7 @@ module.exports = {
       {
         ignore: [],
         customValidators: [],
-        skipUndeclared: false
+        skipUndeclared: true
       }
     ],
 
