@@ -279,8 +279,7 @@ module.exports = {
     'jsx-a11y/scope': 'error',
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md
-    'jsx-a11y/tabindex-no-positive': 'error',
-
+    'jsx-a11y/tabindex-no-positive': 'error'
 
   }
 

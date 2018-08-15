@@ -181,12 +181,6 @@ module.exports = {
       }
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': [
-      'error',
-      'always'
-    ],
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-tag-spacing': [
       'error',
