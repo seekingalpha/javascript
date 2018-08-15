@@ -7,6 +7,7 @@
  - [patch: loosen rules] `react/prop-types` rule now skips undeclared propTypes validation
  - [patch: loosen rules] `react/jsx-one-expression-per-line` rule allows single-child one line expressions 
  - [fix] `react/forbid-dom-props` reenable 'type' property
+ - [fix] added settings section for `eslint-plugin-react` with React ver. 16.4.1
  
 ## 1.0.2 - 2018-08-15
 
