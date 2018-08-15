@@ -38,10 +38,12 @@
   "engines": {
     "node": ">= 7"
   },
+  "dependencies": {
+    "eslint-config-seekingalpha-base": "^1.0.3"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^5.3.0",
-    "eslint-config-seekingalpha-base": "^1.0.2",
     "eslint-plugin-array-func": "^3.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsdoc": "^3.7.1",
