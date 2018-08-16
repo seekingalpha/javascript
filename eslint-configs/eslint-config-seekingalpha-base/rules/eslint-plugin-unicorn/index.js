@@ -6,6 +6,8 @@ module.exports = {
 
   rules: {
 
+    extends: ['./node.js'],
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md
     'unicorn/catch-error-name': [
       'error',

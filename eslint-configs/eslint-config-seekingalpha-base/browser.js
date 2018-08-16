@@ -5,7 +5,7 @@ module.exports = {
     './rules/parser-options.js',
 
     // ESLint rules (https://eslint.org/docs/rules/)
-    './rules/eslint/index.js',
+    './rules/eslint/browser.js',
 
     // eslint-plugin-import rules (https://github.com/benmosher/eslint-plugin-import)
     './rules/eslint-plugin-import/index.js',
@@ -28,9 +28,7 @@ module.exports = {
   ],
 
   env: {
-    browser: true,
-    node: true,
-    'shared-node-browser': true
+    browser: true
   }
 
 };

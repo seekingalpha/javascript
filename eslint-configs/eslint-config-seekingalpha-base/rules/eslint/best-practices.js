@@ -145,7 +145,7 @@ module.exports = {
     'no-implied-eval': 'error',
 
     // https://eslint.org/docs/rules/no-invalid-this
-    'no-invalid-this': 'error',
+    'no-invalid-this': 'off',
 
     // https://eslint.org/docs/rules/no-iterator
     'no-iterator': 'error',
