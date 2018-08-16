@@ -1,8 +1,14 @@
 # Change Log
 
+## 1.1.0 - 2018-08-16
+ - [new] introduce `seekingalpha-base/browser` and `seekingalpha-base/node` shareable configurations
+ - [deps] update `eslint-plugin-import` to version 2.14.0 
+ - [patch] disable `init-declarations` rule
+ - [patch] disable `no-invalid-this` rule
+
 ## 1.0.4 - 2018-08-15
 
- - [minor] loosen `max-len` rule extending max line lenght to 150 chars
+ - [minor] loosen `max-len` rule extending max line length to 150 chars
  - [fix] `dot-notation` rule allowing keywords
  - [patch] disable `func-names` rule
  

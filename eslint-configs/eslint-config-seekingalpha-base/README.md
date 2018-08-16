@@ -6,11 +6,11 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@"^5.3.0" eslint-plugin-array-func@"^3.0.0" eslint-plugin-import@"^2.13.0" eslint-plugin-jsdoc@"^3.7.1" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-promise@"^3.8.0" eslint-plugin-unicorn@"^5.0.0" --save-dev
+    npm install eslint@"^5.3.0" eslint-plugin-array-func@"^3.0.0" eslint-plugin-import@"^2.14.0" eslint-plugin-jsdoc@"^3.7.1" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-promise@"^3.8.0" eslint-plugin-unicorn@"^5.0.0" --save-dev
 
 or **Yarn**:
 
-    yarn add --dev eslint@^5.3.0 eslint-plugin-array-func@^3.0.0 eslint-plugin-import@^2.13.0 eslint-plugin-jsdoc@^3.7.1 eslint-plugin-no-use-extend-native@^0.3.12 eslint-plugin-promise@^3.8.0 eslint-plugin-unicorn@^5.0.0
+    yarn add --dev eslint@^5.3.0 eslint-plugin-array-func@^3.0.0 eslint-plugin-import@^2.14.0 eslint-plugin-jsdoc@^3.7.1 eslint-plugin-no-use-extend-native@^0.3.12 eslint-plugin-promise@^3.8.0 eslint-plugin-unicorn@^5.0.0
 
     
 Install SeekingAlpha shareable ESLint:
@@ -32,14 +32,36 @@ This shareable config includes all ESLint rules including ECMAScript 6 features 
 * [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 * [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-base` rules:
+We expose three configurations:
+
+* `seekingalpha-base` - exports all avaliable ESLint [rules](https://eslint.org/docs/rules/) and all rules of plugins above.
+* `seekingalpha-base/browser` - exports only browser related rules for ESLint and mentioned plugins. It also sets `browser` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments).
+* `seekingalpha-base/node` - exports only Node.js related rules for ESLint and mentioned plugins. It also sets `node` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments). 
+
+
+Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the .eslintrc.js in your project with relevant configuration:
 
 ```javascript
+// for seekingalpha-base
 {
   extends: [
     'seekingalpha-base'
   ]
 }  
+
+// for seekingalpha-base/browser
+{
+  extends: [
+    'seekingalpha-base/browser'
+  ]
+}
+
+// for seekingalpha-base/node
+{
+  extends: [
+    'seekingalpha-base/node'
+  ]
+}
 ```
 
 ## License

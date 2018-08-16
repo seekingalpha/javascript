@@ -6,7 +6,7 @@ module.exports = {
 
     // https://eslint.org/docs/rules/init-declarations
     'init-declarations': [
-      'error',
+      'off',
       'always'
     ],
 
