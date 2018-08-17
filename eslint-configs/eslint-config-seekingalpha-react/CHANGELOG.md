@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.0 - 2018-08-17
+
+- [deps] update `eslint-config-seekingalpha-base` dependency to `^1.1.1`
+- [deps] update `eslint-plugin-import` dependency to `^2.14.0`
+
 ## 1.0.4 - 2018-08-15
 
  - [fix] `react/jsx-one-expression-per-line` allow only literals
