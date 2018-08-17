@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.1 - 2018-08-17
+
+- [doc] fix npm installation guide
+
 ## 1.1.0 - 2018-08-17
 
 - [deps] update `eslint-config-seekingalpha-base` dependency to `^1.1.1`
