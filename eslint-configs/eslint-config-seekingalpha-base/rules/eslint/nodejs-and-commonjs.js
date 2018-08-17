@@ -38,10 +38,10 @@ module.exports = {
      * https://eslint.org/docs/rules/no-process-env
      * https://stackoverflow.com/questions/5869216/how-to-store-node-js-deployment-settings-configuration-files
      */
-    'no-process-env': 'error',
+    'no-process-env': 'off',
 
     // https://eslint.org/docs/rules/no-process-exit
-    'no-process-exit': 'error',
+    'no-process-exit': 'off',
 
     // https://eslint.org/docs/rules/no-restricted-modules
     'no-restricted-modules': [
@@ -52,7 +52,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/no-sync
-    'no-sync': 'error'
+    'no-sync': 'off'
 
   }
 

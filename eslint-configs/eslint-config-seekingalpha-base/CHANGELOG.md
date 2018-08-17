@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.1 - 2018-08-17
+ - [patch] disable `no-sync` rule
+ - [patch] disable `no-process-env` rule
+ - [patch] disable `no-process-exit` rule
+ - [patch] disable `import/no-nodejs-modules` rule
+
 ## 1.1.0 - 2018-08-16
  - [new] introduce `seekingalpha-base/browser` and `seekingalpha-base/node` shareable configurations
  - [deps] update `eslint-plugin-import` to version 2.14.0 
