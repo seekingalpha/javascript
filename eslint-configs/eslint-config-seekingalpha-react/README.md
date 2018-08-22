@@ -1,4 +1,4 @@
-# eslint-config-seekingalpha-base
+# eslint-config-seekingalpha-react
 
 This package includes the shareable ESLint config used by [SeekingAlpha](https://seekingalpha.com/).
 
