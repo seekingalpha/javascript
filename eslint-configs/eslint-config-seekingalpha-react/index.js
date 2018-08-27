@@ -14,7 +14,7 @@ module.exports = {
     './rules/eslint-plugin-jsx-a11y/index.js',
 
     // https://github.com/gajus/eslint-plugin-flowtype
-    './rules/eslint-plugin-flowtype'
+    './rules/eslint-plugin-flowtype/index.js'
   ],
 
   parserOptions: {
