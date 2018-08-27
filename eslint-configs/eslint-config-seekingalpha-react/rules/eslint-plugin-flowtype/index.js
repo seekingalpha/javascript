@@ -5,40 +5,40 @@ module.exports = {
   ],
   'rules': {
     'flowtype/boolean-style': [
-      2,
+      'error',
       'boolean'
     ],
-    'flowtype/define-flow-type': 1,
-    'flowtype/delimiter-dangle': 0,
+    'flowtype/define-flow-type': 'warn',
+    'flowtype/delimiter-dangle': 'off',
     'flowtype/generic-spacing': [
-      2,
+      'error',
       'never'
     ],
-    'flowtype/no-types-missing-file-annotation': 2,
-    'flowtype/no-weak-types': 0,
-    'flowtype/require-parameter-type': 0,
-    'flowtype/require-return-type': 0,
-    'flowtype/require-valid-file-annotation': 0,
-    'flowtype/semi': 0,
+    'flowtype/no-types-missing-file-annotation': 'error',
+    'flowtype/no-weak-types': 'off',
+    'flowtype/require-parameter-type': 'off',
+    'flowtype/require-return-type': 'off',
+    'flowtype/require-valid-file-annotation': 'off',
+    'flowtype/semi': 'off',
     'flowtype/space-after-type-colon': [
-      2,
+      'error',
       'always'
     ],
     'flowtype/space-before-generic-bracket': [
-      2,
+      'error',
       'never'
     ],
     'flowtype/space-before-type-colon': [
-      2,
+      'error',
       'never'
     ],
-    'flowtype/type-id-match': 0,
+    'flowtype/type-id-match': 'off',
     'flowtype/union-intersection-spacing': [
-      2,
+      'error',
       'always'
     ],
-    'flowtype/use-flow-type': 1,
-    'flowtype/valid-syntax': 1
+    'flowtype/use-flow-type': 'warn',
+    'flowtype/valid-syntax': 'warn'
   },
   'settings': {
     'flowtype': {
