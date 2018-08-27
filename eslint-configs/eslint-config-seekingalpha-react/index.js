@@ -11,7 +11,10 @@ module.exports = {
     './rules/eslint-plugin-react/index.js',
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y
-    './rules/eslint-plugin-jsx-a11y/index.js'
+    './rules/eslint-plugin-jsx-a11y/index.js',
+
+    // https://github.com/gajus/eslint-plugin-flowtype
+    './rules/eslint-plugin-flowtype'
   ],
 
   parserOptions: {
