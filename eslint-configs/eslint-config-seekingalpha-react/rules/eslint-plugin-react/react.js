@@ -57,7 +57,6 @@ module.exports = {
       'error',
       {
         forbid: [
-          'className',
           'style'
         ]
       }
