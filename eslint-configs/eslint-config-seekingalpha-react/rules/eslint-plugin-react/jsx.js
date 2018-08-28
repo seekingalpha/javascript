@@ -22,8 +22,8 @@ module.exports = {
     'react/jsx-closing-bracket-location': [
       'error',
       {
-        selfClosing: 'line-aligned',
-        nonEmpty: 'after-props'
+        selfClosing: 'tag-aligned',
+        nonEmpty: 'tag-aligned'
       }
     ],
 
