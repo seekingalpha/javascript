@@ -57,7 +57,15 @@ module.exports = {
       'error',
       {
         forbid: [
-          'style'
+          'style',
+          {
+            propName: 'className',
+            allowedFor: [
+              'Link',
+              'Button',
+              'Icon'
+            ]
+          }
         ]
       }
     ],
