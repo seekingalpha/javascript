@@ -61,9 +61,9 @@ module.exports = {
           {
             propName: 'className',
             allowedFor: [
-              'Link',
               'Button',
-              'Icon'
+              'Icon',
+              'Link'
             ]
           }
         ]
