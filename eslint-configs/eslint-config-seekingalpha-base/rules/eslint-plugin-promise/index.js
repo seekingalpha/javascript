@@ -18,9 +18,6 @@ module.exports = {
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md
     'promise/catch-or-return': 'error',
 
-    // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md
-    'promise/no-native': 'error',
-
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md
     'promise/no-nesting': 'error',
 
