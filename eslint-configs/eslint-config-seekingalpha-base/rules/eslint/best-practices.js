@@ -22,9 +22,22 @@ module.exports = {
 
     /*
      * https://eslint.org/docs/rules/class-methods-use-this
-     * TODO override for React
      */
-    'class-methods-use-this': 'error',
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: [
+          'componentDidMount',
+          'componentDidUpdate',
+          'componentWillMount',
+          'componentWillReceiveProps',
+          'componentWillUnmount',
+          'componentWillUpdate',
+          'render',
+          'shouldComponentUpdate'
+        ]
+      }
+    ],
 
     // https://eslint.org/docs/rules/complexity
     complexity: [
