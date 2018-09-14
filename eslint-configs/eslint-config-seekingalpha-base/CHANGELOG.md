@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.1.3 - 2018-09-11
+ - [patch] added exeption to `class-methods-use-this` for React classes
+ - [patch] fixed `promise/catch-or-return`
+
+ 
+## 1.1.2 - 2018-09-06
+ - [patch] deprecated 'promise/no-native'
+ - [patch] fixed consistent line breaks
+  
 ## 1.1.1 - 2018-08-17
  - [patch] disable `no-sync` rule
  - [patch] disable `no-process-env` rule
