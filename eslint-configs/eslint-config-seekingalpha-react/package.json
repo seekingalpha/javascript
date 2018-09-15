@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js,.jsx ."
+    "lint": "eslint --ext .js ."
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,12 @@
     "react"
   ],
   "author": "Aleksey Kovalevsky",
+  "contributors": [
+    {
+      "name": "Artem Prokhatskyi",
+      "url": "https://github.com/prokhatskiy"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seekingalpha/javascript/issues"
@@ -38,32 +44,45 @@
   "engines": {
     "node": ">= 7"
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint --ext .js",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "eslint-config-seekingalpha-base": "^1.2.0"
+  },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.3.0",
-    "eslint-config-seekingalpha-base": "^1.1.2",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
     "eslint-plugin-array-func": "^3.0.0",
+    "eslint-plugin-chai-expect": "^1.1.1",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsdoc": "^3.7.1",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsdoc": "^3.8.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
-    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-unicorn": "^5.0.0"
+    "eslint-plugin-unicorn": "^6.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.3.0",
-    "eslint-config-seekingalpha-base": "^1.1.2",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
     "eslint-plugin-array-func": "^3.0.0",
+    "eslint-plugin-chai-expect": "^1.1.1",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsdoc": "^3.7.1",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsdoc": "^3.8.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
-    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-unicorn": "^5.0.0"
+    "eslint-plugin-unicorn": "^6.0.1"
   }
 }
