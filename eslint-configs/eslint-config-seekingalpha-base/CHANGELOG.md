@@ -1,10 +1,22 @@
 # Change Log
 
+## 1.2.0 - 2018-09-15
+ - [new] extend `class-methods-use-this` rule with `exceptMethods` for ReactJS(`componentDidMount`, `componentDidUpdate`, `componentWillMount`, `componentWillReceiveProps`, `componentWillUnmount`, `componentWillUpdate`, `render`, `shouldComponentUpdate`)
+ - [minor] loosen `promise/catch-or-return` with `{ allowThen: true }`
+
+## 1.1.3 - 2018-09-11
+ - [new] extend `class-methods-use-this` rule with `exceptMethods` for ReactJS(`componentDidMount`, `componentDidUpdate`, `componentWillMount`, `componentWillReceiveProps`, `componentWillUnmount`, `componentWillUpdate`, `render`, `shouldComponentUpdate`)
+ - [minor] loosen `promise/catch-or-return` with `{ allowThen: true }`
+ 
+## 1.1.2 - 2018-09-5
+ - [patch] disable `romise/no-native` rule
+ - [minor] loosen `function-paren-newline`rule from `never` to `consistent`
+
 ## 1.1.1 - 2018-08-17
  - [patch] disable `no-sync` rule
  - [patch] disable `no-process-env` rule
  - [patch] disable `no-process-exit` rule
- - [patch] disable `import/no-nodejs-modules` rule
+ - [patch] disable `import/no-nodejs-modules`rule
 
 ## 1.1.0 - 2018-08-16
  - [new] introduce `seekingalpha-base/browser` and `seekingalpha-base/node` shareable configurations
