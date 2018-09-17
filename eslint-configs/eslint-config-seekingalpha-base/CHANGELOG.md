@@ -1,14 +1,23 @@
 # Change Log
 
-## 1.1.3 - 2018-09-11
- - [patch] added exeption to `class-methods-use-this` for React classes
- - [patch] fixed `promise/catch-or-return`
+## 1.2.0 - 2018-09-15
+ - [deps] update `eslint` to version 5.6.0
+ - [deps] update `eslint-plugin-jsdoc` to version 3.8.0
+ - [deps] update `eslint-plugin-promise` to version 4.0.1
+ - [deps] update `eslint-plugin-unicorn` to version 6.0.1
+ - [docs] update `CHANGELOG.md` including previous releases
+ - [docs] updates `README.md` installation guide
+ - [minor] loosen `max-lines-per-function` rule allowing 100 lines
+ - [minor] extand `import/ignore` rule with `less` and `hbs` extensions
 
+## 1.1.3 - 2018-09-11
+ - [new] extend `class-methods-use-this` rule with `exceptMethods` for ReactJS(`componentDidMount`, `componentDidUpdate`, `componentWillMount`, `componentWillReceiveProps`, `componentWillUnmount`, `componentWillUpdate`, `render`, `shouldComponentUpdate`)
+ - [minor] loosen `promise/catch-or-return` with `{ allowThen: true }`
  
-## 1.1.2 - 2018-09-06
- - [patch] deprecated 'promise/no-native'
- - [patch] fixed consistent line breaks
-  
+## 1.1.2 - 2018-09-5
+ - [patch] disable `romise/no-native` rule
+ - [minor] loosen `function-paren-newline`rule from `never` to `consistent`
+
 ## 1.1.1 - 2018-08-17
  - [patch] disable `no-sync` rule
  - [patch] disable `no-process-env` rule

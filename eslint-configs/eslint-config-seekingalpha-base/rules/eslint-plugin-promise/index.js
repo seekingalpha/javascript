@@ -16,7 +16,15 @@ module.exports = {
     'promise/param-names': 'error',
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md
-    'promise/catch-or-return': [ 'error', { allowThen: true } ],
+    'promise/catch-or-return': [
+      'error',
+      {
+        allowThen: true
+      }
+    ],
+
+    // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md
+    'promise/no-native': 'off',
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md
     'promise/no-nesting': 'error',

@@ -1,20 +1,39 @@
 # Change Log
 
+## 2.0.0 - 2018-09-15
+- [deps] update `eslint` to version 5.6.0
+- [deps] update `eslint-plugin-jsdoc` to version 3.8.0
+- [deps] update `eslint-plugin-promise` to version 4.0.1
+- [deps] update `eslint-plugin-unicorn` to version 6.0.1
+- [docs] update `CHANGELOG.md` including previous releases
+- [docs] updates `README.md` installation guide
+- [breaking] make `eslint-config-seekingalpha-base` pkg direct dependency
+
 ## 1.1.5 - 2018-09-06
- - [patch] deprecated `promise/no-native`
- - [patch] changed `react/jsx-closing-bracket-location`
+
+- [breaking] make `eslint-config-seekingalpha-base` peerDependency
+
+## 1.1.4 - 2018-08-28
+
+- [breaking] update `react/jsx-closing-bracket-location` rule, set `selfClosing: 'tag-aligned'` and `nonEmpty: 'tag-aligned'` options
+- [minor] loosen `react/forbid-component-props` rule allowing `className` for `Button`, `Icon`, and `Link` components
 
 ## 1.1.3 - 2018-08-27
- - [new] added rules for `flow-types`
- 
+
+- [new] integrate `eslint-plugin-flowtype`
+
+## 1.1.2 - 2018-08-22
+
+- [doc] README.md language fixes
+
 ## 1.1.1 - 2018-08-17
 
- - [doc] fix npm installation guide
+- [doc] fix npm installation guide
 
 ## 1.1.0 - 2018-08-17
 
- - [deps] update `eslint-config-seekingalpha-base` dependency to `^1.1.1`
- - [deps] update `eslint-plugin-import` dependency to `^2.14.0`
+- [deps] update `eslint-config-seekingalpha-base` dependency to `^1.1.1`
+- [deps] update `eslint-plugin-import` dependency to `^2.14.0`
 
 ## 1.0.4 - 2018-08-15
 

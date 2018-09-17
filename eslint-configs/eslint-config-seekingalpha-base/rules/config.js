@@ -8,7 +8,7 @@ module.exports = {
   maxDepth: 2,
   maxLen: 150,
   maxLinesMax: 250,
-  maxLinesPerFunctionMax: 50,
+  maxLinesPerFunctionMax: 100,
   maxNestedCallbacks: 3,
   maxParams: 4,
   maxStatements: 10,

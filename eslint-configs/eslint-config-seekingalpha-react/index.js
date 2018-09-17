@@ -14,7 +14,13 @@ module.exports = {
     './rules/eslint-plugin-jsx-a11y/index.js',
 
     // https://github.com/gajus/eslint-plugin-flowtype
-    './rules/eslint-plugin-flowtype/index.js'
+    './rules/eslint-plugin-flowtype/index.js',
+
+    // https://github.com/jest-community/eslint-plugin-jest
+    './rules/eslint-plugin-jest/index.js',
+
+    // https://github.com/turbo87/eslint-plugin-chai-expect
+    './rules/eslint-plugin-chai-expect/index.js'
   ],
 
   parserOptions: {
