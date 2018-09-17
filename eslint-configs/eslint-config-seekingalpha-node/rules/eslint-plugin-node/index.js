@@ -1,7 +1,4 @@
 module.exports = {
-  extends: [
-    'plugin:node/recommended'
-  ],
   'rules': {
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-require.md
@@ -53,6 +50,8 @@ module.exports = {
     'node/no-unpublished-require': 'off',
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/shebang.md
-    'node/shebang': 'off'
+    'node/shebang': 'off',
+
+    'node/no-process-exit': 'off'
   }
 };
