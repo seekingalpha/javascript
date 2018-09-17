@@ -3,7 +3,6 @@ module.exports = {
   parser: 'babel-eslint',
 
   extends: [
-    'plugin:node/recommended',
 
     // https://www.npmjs.com/package/eslint-config-seekingalpha-base
     'seekingalpha-base',

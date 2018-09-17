@@ -23,7 +23,7 @@ For **Yarn**:
 
 ## Usage
 
-This shareable config includes all ESLint rules including ECMAScript 6 features, set of [legacy rules](https://eslint.org/docs/rules/#deprecated) and additional rules for `React` We also extend our configuration with following plugins:
+This shareable config includes all ESLint rules including ECMAScript 6 features, set of [legacy rules](https://eslint.org/docs/rules/#deprecated) and additional rules for `node` We also extend our configuration with following plugins:
 
 * [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 * [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
@@ -33,7 +33,7 @@ This shareable config includes all ESLint rules including ECMAScript 6 features,
 * [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 * [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
 
-If you don't need configuration extended with `React` rules, check out our [base config](https://www.npmjs.com/package/eslint-config-seekingalpha-base).
+If you don't need configuration extended with `node` rules, check out our [base config](https://www.npmjs.com/package/eslint-config-seekingalpha-base).
 
 Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-node` rules:
 

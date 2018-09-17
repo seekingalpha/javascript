@@ -1,5 +1,9 @@
 module.exports = {
+  extends: [
+    'plugin:node/recommended'
+  ],
   'rules': {
+
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-require.md
     'node/no-extraneous-require': 'error',
 
