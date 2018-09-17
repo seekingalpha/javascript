@@ -10,6 +10,8 @@ module.exports = {
 
     './rules/eslint/index.js',
 
+    './rules/eslint-plugin-unicorn/index.js',
+
     // https://github.com/mysticatea/eslint-plugin-node
     './rules/eslint-plugin-node/index.js'
   ],
