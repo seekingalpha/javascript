@@ -22,7 +22,7 @@
  - [patch] disable `no-sync` rule
  - [patch] disable `no-process-env` rule
  - [patch] disable `no-process-exit` rule
- - [patch] disable `import/no-nodejs-modules`rule
+ - [patch] disable `import/no-nodejs-modules` rule
 
 ## 1.1.0 - 2018-08-16
  - [new] introduce `seekingalpha-base/browser` and `seekingalpha-base/node` shareable configurations
