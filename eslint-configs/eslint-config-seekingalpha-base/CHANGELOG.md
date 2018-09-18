@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.3.0 - 2018-09-18
+ - [path] removed rule for node.js
+
 ## 1.2.0 - 2018-09-15
  - [deps] update `eslint` to version 5.6.0
  - [deps] update `eslint-plugin-jsdoc` to version 3.8.0
