@@ -1,6 +1,9 @@
 # Change Log
 
-## 2.0.0 - 2018-09-15
+## 1.2.1 - 2018-09-18 
+ - [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
+ 
+## 1.2.0 - 2018-09-15
 - [deps] update `eslint` to version 5.6.0
 - [deps] update `eslint-plugin-jsdoc` to version 3.8.0
 - [deps] update `eslint-plugin-promise` to version 4.0.1
