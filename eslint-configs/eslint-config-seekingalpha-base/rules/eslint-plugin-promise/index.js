@@ -36,7 +36,7 @@ module.exports = {
     'promise/no-callback-in-promise': 'error',
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md
-    'promise/avoid-new': 'error',
+    'promise/avoid-new': 'off',
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md
     'promise/no-new-statics': 'error',
