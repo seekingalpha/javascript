@@ -179,8 +179,7 @@ module.exports = {
         // These numbers are used in simple cases, we can exclude them
         ignore: [
           0,
-          1,
-          2
+          1
         ],
         ignoreArrayIndexes: true,
         enforceConst: true,
