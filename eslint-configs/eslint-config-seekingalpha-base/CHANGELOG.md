@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.3.1 - 2018-10-16
+ - [patch] deprecated `promise/avoid-new`
+ - [patch] added `0` and `1` to ignore in `no-magic-numbers`
+ 
 ## 1.3.0 - 2018-09-18
  - [path] removed rule for node.js
 
