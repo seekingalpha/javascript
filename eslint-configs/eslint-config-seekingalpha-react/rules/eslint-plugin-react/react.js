@@ -31,7 +31,7 @@ module.exports = {
     'react/default-props-match-prop-types': [
       'error',
       {
-        allowRequiredDefaults: false
+        'allowRequiredDefaults': true
       }
     ],
 
@@ -279,10 +279,7 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
     'react/require-default-props': [
-      'error',
-      {
-        forbidDefaultForRequired: true
-      }
+      'error'
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
