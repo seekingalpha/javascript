@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.3 - 2018-10-17
+ - [patch] allowRequiredDefaults according to comment https://github.com/facebook/flow/issues/1660#issuecomment-386619834 
+ 
 ## 1.2.2 - 2018-10-16 
  - [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
  
