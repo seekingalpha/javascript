@@ -1,7 +1,10 @@
 # Change Log
 
-## 1.2.5 - 2018-11-20
+## 1.2.6 - 2018-11-20
 - [deps] update `eslint-config-seekingalpha-base` to version 1.3.2
+
+## 1.2.5 - 2018-11-20
+- wrong update
 
 ## 1.2.4 - 2018-11-20
 - [patch: loosen rules] disable `flowtype/sort-keys`
