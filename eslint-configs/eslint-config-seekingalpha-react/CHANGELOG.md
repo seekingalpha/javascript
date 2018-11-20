@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.5 - 2018-11-20
+- [deps] update `eslint-config-seekingalpha-base` to version 1.3.2
+
 ## 1.2.4 - 2018-11-20
 - [patch: loosen rules] disable `flowtype/sort-keys`
 - [patch: loosen rules] disable `react/no-danger`
