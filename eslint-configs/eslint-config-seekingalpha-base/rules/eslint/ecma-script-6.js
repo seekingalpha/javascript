@@ -7,19 +7,13 @@ module.exports = {
     // https://eslint.org/docs/rules/arrow-body-style
     'arrow-body-style': [
       'error',
-      'as-needed',
-      {
-        requireReturnForObjectLiteral: true
-      }
+      'always'
     ],
 
     // https://eslint.org/docs/rules/arrow-parens
     'arrow-parens': [
       'error',
-      'as-needed',
-      {
-        requireForBlockBody: true
-      }
+      'always'
     ],
 
     // https://eslint.org/docs/rules/arrow-spacing

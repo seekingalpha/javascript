@@ -120,16 +120,6 @@ module.exports = {
       'always'
     ],
 
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-sort-keys
-    'flowtype/sort-keys': [
-      'error',
-      'asc',
-      {
-        caseSensitive: true,
-        natural: false
-      }
-    ],
-
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-after-type-colon
     'flowtype/space-after-type-colon': [
       'error',
