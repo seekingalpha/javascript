@@ -1,5 +1,7 @@
 # Change Log
-## 1.3.1 - 2018-11-20
+## 1.3.3 - 2018-11-20
+ - [patch: loosen rule] removed rule `array-element-newline`
+## 1.3.2 - 2018-11-20
  - [patch] changed `comma-dangle` rule, now trailing coma is required for multiline statements 
  - [patch] changed `arrow-body-style` rule, enforces braces around the function body
  - [patch] changed `arrow-parens` rule, requires parens around arguments in all cases.  

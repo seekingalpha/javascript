@@ -21,15 +21,6 @@ module.exports = {
       'never'
     ],
 
-    // https://eslint.org/docs/rules/array-element-newline
-    'array-element-newline': [
-      'error',
-      {
-        multiline: true,
-        minItems: config.arrayElementNewlineMinItems
-      }
-    ],
-
     // https://eslint.org/docs/rules/block-spacing
     'block-spacing': [
       'error',
