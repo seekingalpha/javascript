@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SeekingAlpha's sharable node.js ESLint config",
   "main": "index.js",
   "scripts": {

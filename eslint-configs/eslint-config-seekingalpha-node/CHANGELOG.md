@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.4 - 2018-11-20
+- [deps] update `eslint-config-seekingalpha-base` to version 1.3.2
+
 ## 1.0.3 - 2018-10-16
 - [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
 
