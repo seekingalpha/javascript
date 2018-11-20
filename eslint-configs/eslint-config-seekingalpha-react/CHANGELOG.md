@@ -1,13 +1,17 @@
 # Change Log
 
+## 1.2.4 - 2018-11-20
+- [patch: loosen rules] disable `flowtype/sort-keys`
+- [patch: loosen rules] disable `react/no-danger`
+
 ## 1.2.3 - 2018-10-17
- - [patch] allowRequiredDefaults according to comment https://github.com/facebook/flow/issues/1660#issuecomment-386619834 
+- [patch] allowRequiredDefaults according to comment https://github.com/facebook/flow/issues/1660#issuecomment-386619834 
  
 ## 1.2.2 - 2018-10-16 
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
+- [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
  
 ## 1.2.1 - 2018-09-18 
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
+- [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
  
 ## 1.2.0 - 2018-09-15
 - [deps] update `eslint` to version 5.6.0
