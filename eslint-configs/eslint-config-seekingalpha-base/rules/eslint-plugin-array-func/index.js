@@ -12,8 +12,7 @@ module.exports = {
 
     'array-func/prefer-array-from': 'error',
 
-    'array-func/avoid-reverse': 'error'
-
-  }
+    'array-func/avoid-reverse': 'error',
+  },
 
 };

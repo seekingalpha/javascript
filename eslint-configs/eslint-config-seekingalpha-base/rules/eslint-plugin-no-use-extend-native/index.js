@@ -6,8 +6,8 @@ module.exports = {
 
   rules: {
 
-    'no-use-extend-native/no-use-extend-native': 'error'
+    'no-use-extend-native/no-use-extend-native': 'error',
 
-  }
+  },
 
 };

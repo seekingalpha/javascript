@@ -11,8 +11,8 @@ module.exports = {
       'error',
       'never',
       {
-        always: []
-      }
+        always: [],
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react/jsx-child-element-spacing.md
@@ -23,8 +23,8 @@ module.exports = {
       'error',
       {
         selfClosing: 'tag-aligned',
-        nonEmpty: 'tag-aligned'
-      }
+        nonEmpty: 'tag-aligned',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
@@ -37,29 +37,29 @@ module.exports = {
         when: 'never',
         allowMultiline: true,
         spacing: {
-          objectLiterals: 'always'
-        }
-      }
+          objectLiterals: 'always',
+        },
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     'react/jsx-equals-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': [
       'error',
       {
-        extensions: ['.jsx']
-      }
+        extensions: ['.jsx'],
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'react/jsx-first-prop-new-line': [
       'error',
-      'multiline-multiprop'
+      'multiline-multiprop',
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
@@ -67,20 +67,20 @@ module.exports = {
       'error',
       {
         eventHandlerPrefix: 'handle',
-        eventHandlerPropPrefix: 'on'
-      }
+        eventHandlerPropPrefix: 'on',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
     'react/jsx-indent': [
       'error',
-      config.jsxIndent
+      config.jsxIndent,
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     'react/jsx-indent-props': [
       'error',
-      config.jsxIndentProps
+      config.jsxIndentProps,
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
@@ -90,8 +90,8 @@ module.exports = {
     'react/jsx-max-depth': [
       'error',
       {
-        max: config.jsxMaxDepth
-      }
+        max: config.jsxMaxDepth,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
@@ -99,8 +99,8 @@ module.exports = {
       'error',
       {
         maximum: config.jsxMaxPropsPerLine,
-        when: 'always'
-      }
+        when: 'always',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
@@ -113,24 +113,24 @@ module.exports = {
     'react/jsx-no-duplicate-props': [
       'error',
       {
-        ignoreCase: false
-      }
+        ignoreCase: false,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': [
       'off',
       {
-        noStrings: true
-      }
+        noStrings: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
     'react/jsx-no-target-blank': [
       'error',
       {
-        enforceDynamicLinks: 'always'
-      }
+        enforceDynamicLinks: 'always',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
@@ -140,8 +140,8 @@ module.exports = {
     'react/jsx-one-expression-per-line': [
       'error',
       {
-        allow: 'literal'
-      }
+        allow: 'literal',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
@@ -149,8 +149,8 @@ module.exports = {
       'error',
       {
         props: 'never',
-        children: 'never'
-      }
+        children: 'never',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
@@ -158,8 +158,8 @@ module.exports = {
       'error',
       {
         allowAllCaps: false,
-        ignore: []
-      }
+        ignore: [],
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
@@ -169,8 +169,8 @@ module.exports = {
     'react/jsx-sort-default-props': [
       'off',
       {
-        ignoreCase: true
-      }
+        ignoreCase: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
@@ -182,8 +182,8 @@ module.exports = {
         shorthandFirst: true,
         shorthandLast: false,
         noSortAlphabetically: false,
-        reservedFirst: false
-      }
+        reservedFirst: false,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
@@ -193,8 +193,8 @@ module.exports = {
         closingSlash: 'never',
         beforeSelfClosing: 'always',
         afterOpening: 'never',
-        beforeClosing: 'never'
-      }
+        beforeClosing: 'never',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
@@ -213,10 +213,10 @@ module.exports = {
         arrow: 'parens-new-line',
         condition: 'parens-new-line',
         logical: 'parens-new-line',
-        prop: 'parens-new-line'
-      }
-    ]
+        prop: 'parens-new-line',
+      },
+    ],
 
-  }
+  },
 
 };

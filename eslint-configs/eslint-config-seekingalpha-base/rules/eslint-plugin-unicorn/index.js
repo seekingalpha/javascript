@@ -10,8 +10,8 @@ module.exports = {
     'unicorn/catch-error-name': [
       'error',
       {
-        name: 'err'
-      }
+        name: 'err',
+      },
     ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/explicit-length-check.md
@@ -78,8 +78,8 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
-    'unicorn/prefer-add-event-listener': 'error'
+    'unicorn/prefer-add-event-listener': 'error',
 
-  }
+  },
 
 };

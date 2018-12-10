@@ -10,8 +10,8 @@ module.exports = {
     'accessor-pairs': [
       'error',
       {
-        getWithoutSet: true
-      }
+        getWithoutSet: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/array-callback-return
@@ -34,17 +34,17 @@ module.exports = {
           'componentWillUnmount',
           'componentWillUpdate',
           'render',
-          'shouldComponentUpdate'
-        ]
-      }
+          'shouldComponentUpdate',
+        ],
+      },
     ],
 
     // https://eslint.org/docs/rules/complexity
     complexity: [
       'error',
       {
-        max: config.complexity
-      }
+        max: config.complexity,
+      },
     ],
 
     // https://eslint.org/docs/rules/consistent-return
@@ -57,28 +57,28 @@ module.exports = {
     'default-case': [
       'error',
       {
-        commentPattern: '^skip\\sdefault'
-      }
+        commentPattern: '^skip\\sdefault',
+      },
     ],
 
     // https://eslint.org/docs/rules/dot-location
     'dot-location': [
       'error',
-      'property'
+      'property',
     ],
 
     // https://eslint.org/docs/rules/dot-notation
     'dot-notation': [
       'error',
       {
-        allowKeywords: true
-      }
+        allowKeywords: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/eqeqeq
     eqeqeq: [
       'error',
-      'always'
+      'always',
     ],
 
     /*
@@ -90,7 +90,7 @@ module.exports = {
     // https://eslint.org/docs/rules/max-classes-per-file
     'max-classes-per-file': [
       'error',
-      config.maxClassesPerFile
+      config.maxClassesPerFile,
     ],
 
     // https://eslint.org/docs/rules/no-alert
@@ -109,8 +109,8 @@ module.exports = {
     'no-else-return': [
       'error',
       {
-        allowElseIf: false
-      }
+        allowElseIf: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-empty-function
@@ -144,8 +144,8 @@ module.exports = {
     'no-global-assign': [
       'error',
       {
-        exceptions: []
-      }
+        exceptions: [],
+      },
     ],
 
     // https://eslint.org/docs/rules/no-implicit-coercion
@@ -179,12 +179,12 @@ module.exports = {
         // These numbers are used in simple cases, we can exclude them
         ignore: [
           0,
-          1
+          1,
         ],
         ignoreArrayIndexes: true,
         enforceConst: true,
-        detectObjects: false
-      }
+        detectObjects: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-multi-spaces
@@ -223,40 +223,40 @@ module.exports = {
       {
         object: 'arguments',
         property: 'callee',
-        message: 'arguments.callee is deprecated'
+        message: 'arguments.callee is deprecated',
       },
       {
         object: 'global',
         property: 'isFinite',
-        message: 'Use Number.isFinite instead'
+        message: 'Use Number.isFinite instead',
       },
       {
         object: 'window',
         property: 'isFinite',
-        message: 'Use Number.isFinite instead'
+        message: 'Use Number.isFinite instead',
       },
       {
         object: 'global',
         property: 'isNaN',
-        message: 'Use Number.isNaN instead'
+        message: 'Use Number.isNaN instead',
       },
       {
         object: 'window',
         property: 'isNaN',
-        message: 'Use Number.isNaN instead'
+        message: 'Use Number.isNaN instead',
       },
       {
         property: '__defineGetter__',
-        message: 'Use Object.defineProperty instead'
+        message: 'Use Object.defineProperty instead',
       },
       {
         property: '__defineSetter__',
-        message: 'Use Object.defineProperty instead'
+        message: 'Use Object.defineProperty instead',
       },
       {
         object: 'require',
-        message: 'Please call require() directly.'
-      }
+        message: 'Please call require() directly.',
+      },
     ],
 
     // https://eslint.org/docs/rules/no-return-assign
@@ -272,8 +272,8 @@ module.exports = {
     'no-self-assign': [
       'error',
       {
-        props: false
-      }
+        props: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-self-compare
@@ -294,8 +294,8 @@ module.exports = {
       {
         allowShortCircuit: false,
         allowTernary: false,
-        allowTaggedTemplates: false
-      }
+        allowTaggedTemplates: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-unused-labels
@@ -326,8 +326,8 @@ module.exports = {
     'prefer-promise-reject-errors': [
       'error',
       {
-        allowEmptyReject: true
-      }
+        allowEmptyReject: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/radix
@@ -350,13 +350,13 @@ module.exports = {
       'error',
       'outside',
       {
-        functionPrototypeMethods: false
-      }
+        functionPrototypeMethods: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/yoda
-    yoda: 'error'
+    yoda: 'error',
 
-  }
+  },
 
 };

@@ -7,7 +7,7 @@ module.exports = {
     // https://eslint.org/docs/rules/init-declarations
     'init-declarations': [
       'off',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/no-delete-var
@@ -21,20 +21,20 @@ module.exports = {
       'error',
       {
         name: 'event',
-        message: 'Use local parameter instead.'
+        message: 'Use local parameter instead.',
       },
       {
         name: 'fdescribe',
-        message: 'Do not commit fdescribe. Use describe instead.'
+        message: 'Do not commit fdescribe. Use describe instead.',
       },
       {
         name: 'isFinite',
-        message: 'Use Number.isFinite instead.'
+        message: 'Use Number.isFinite instead.',
       },
       {
         name: 'isNaN',
-        message: 'Use Number.isNaN instead'
-      }
+        message: 'Use Number.isNaN instead',
+      },
     ],
 
     /*
@@ -46,8 +46,8 @@ module.exports = {
       {
         builtinGlobals: true,
         hoist: 'all',
-        allow: []
-      }
+        allow: [],
+      },
     ],
 
     // https://eslint.org/docs/rules/no-shadow-restricted-names
@@ -72,8 +72,8 @@ module.exports = {
         caughtErrorsIgnorePattern: '[iI]gnored',
         ignoreRestSiblings: false,
         vars: 'all',
-        varsIgnorePattern: '[iI]gnored'
-      }
+        varsIgnorePattern: '[iI]gnored',
+      },
     ],
 
     // https://eslint.org/docs/rules/no-use-before-define
@@ -82,10 +82,10 @@ module.exports = {
       {
         functions: true,
         classes: true,
-        variables: true
-      }
-    ]
+        variables: true,
+      },
+    ],
 
-  }
+  },
 
 };

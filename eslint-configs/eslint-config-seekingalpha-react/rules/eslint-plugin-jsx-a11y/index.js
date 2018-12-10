@@ -17,13 +17,13 @@ module.exports = {
           'img',
           'object',
           'area',
-          "input[type='image']"
+          "input[type='image']",
         ],
         img: ['Image'],
         object: ['Object'],
         area: ['Area'],
-        "input[type='image']": ['InputImage']
-      }
+        "input[type='image']": ['InputImage'],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
@@ -32,9 +32,9 @@ module.exports = {
       {
         components: [
           'Anchor',
-          'Link'
-        ]
-      }
+          'Link',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
@@ -43,15 +43,15 @@ module.exports = {
       {
         components: [
           'Anchor',
-          'Link'
+          'Link',
         ],
         specialLink: ['to'],
         aspects: [
           'noHref',
           'invalidHref',
-          'preferButton'
-        ]
-      }
+          'preferButton',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-activedescendant-has-tabindex.md
@@ -67,8 +67,8 @@ module.exports = {
     'jsx-a11y/aria-role': [
       'error',
       {
-        ignoreNonDom: false
-      }
+        ignoreNonDom: false,
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-unsupported-elements.md
@@ -81,8 +81,8 @@ module.exports = {
     'jsx-a11y/heading-has-content': [
       'error',
       {
-        components: ['']
-      }
+        components: [''],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md
@@ -131,9 +131,9 @@ module.exports = {
           'doc-backlink',
           'doc-biblioref',
           'doc-glossref',
-          'doc-noteref'
-        ]
-      }
+          'doc-noteref',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
@@ -145,8 +145,8 @@ module.exports = {
       {
         audio: [],
         video: [],
-        track: []
-      }
+        track: [],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md
@@ -159,8 +159,8 @@ module.exports = {
     'jsx-a11y/no-autofocus': [
       'error',
       {
-        ignoreNonDOM: true
-      }
+        ignoreNonDOM: true,
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md
@@ -169,9 +169,9 @@ module.exports = {
       {
         elements: [
           'marquee',
-          'blink'
-        ]
-      }
+          'blink',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-interactive-element-to-noninteractive-role.md
@@ -180,9 +180,9 @@ module.exports = {
       {
         tr: [
           'none',
-          'presentation'
-        ]
-      }
+          'presentation',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md
@@ -195,9 +195,9 @@ module.exports = {
           'onMouseUp',
           'onKeyPress',
           'onKeyDown',
-          'onKeyUp'
-        ]
-      }
+          'onKeyUp',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-to-interactive-role.md
@@ -211,7 +211,7 @@ module.exports = {
           'radiogroup',
           'tablist',
           'tree',
-          'treegrid'
+          'treegrid',
         ],
         ol: [
           'listbox',
@@ -220,18 +220,18 @@ module.exports = {
           'radiogroup',
           'tablist',
           'tree',
-          'treegrid'
+          'treegrid',
         ],
         li: [
           'menuitem',
           'option',
           'row',
           'tab',
-          'treeitem'
+          'treeitem',
         ],
         table: ['grid'],
-        td: ['gridcell']
-      }
+        td: ['gridcell'],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-tabindex.md
@@ -239,8 +239,8 @@ module.exports = {
       'error',
       {
         tags: [],
-        roles: ['tabpanel']
-      }
+        roles: ['tabpanel'],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
@@ -250,8 +250,8 @@ module.exports = {
     'jsx-a11y/no-redundant-roles': [
       'error',
       {
-        nav: ['navigation']
-      }
+        nav: ['navigation'],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
@@ -264,9 +264,9 @@ module.exports = {
           'onMouseUp',
           'onKeyPress',
           'onKeyDown',
-          'onKeyUp'
-        ]
-      }
+          'onKeyUp',
+        ],
+      },
     ],
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-has-required-aria-props.md
@@ -279,8 +279,8 @@ module.exports = {
     'jsx-a11y/scope': 'error',
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md
-    'jsx-a11y/tabindex-no-positive': 'error'
+    'jsx-a11y/tabindex-no-positive': 'error',
 
-  }
+  },
 
 };

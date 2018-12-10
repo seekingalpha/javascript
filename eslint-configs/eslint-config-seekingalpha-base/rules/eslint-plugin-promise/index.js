@@ -19,8 +19,8 @@ module.exports = {
     'promise/catch-or-return': [
       'error',
       {
-        allowThen: true
-      }
+        allowThen: true,
+      },
     ],
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md
@@ -45,8 +45,8 @@ module.exports = {
     'promise/no-return-in-finally': 'error',
 
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md
-    'promise/valid-params': 'error'
+    'promise/valid-params': 'error',
 
-  }
+  },
 
 };

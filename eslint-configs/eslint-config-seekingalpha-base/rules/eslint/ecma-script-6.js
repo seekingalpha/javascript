@@ -7,13 +7,13 @@ module.exports = {
     // https://eslint.org/docs/rules/arrow-body-style
     'arrow-body-style': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/arrow-parens
     'arrow-parens': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/arrow-spacing
@@ -21,8 +21,8 @@ module.exports = {
       'error',
       {
         before: true,
-        after: true
-      }
+        after: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/constructor-super
@@ -33,8 +33,8 @@ module.exports = {
       'error',
       {
         before: false,
-        after: true
-      }
+        after: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-class-assign
@@ -44,8 +44,8 @@ module.exports = {
     'no-confusing-arrow': [
       'error',
       {
-        allowParens: true
-      }
+        allowParens: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-const-assign
@@ -78,8 +78,8 @@ module.exports = {
       {
         ignoreDestructuring: false,
         ignoreImport: false,
-        ignoreExport: false
-      }
+        ignoreExport: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-var
@@ -91,8 +91,8 @@ module.exports = {
       'always',
       {
         ignoreConstructors: false,
-        avoidQuotes: true
-      }
+        avoidQuotes: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/prefer-arrow-callback
@@ -100,8 +100,8 @@ module.exports = {
       'error',
       {
         allowNamedFunctions: false,
-        allowUnboundThis: true
-      }
+        allowUnboundThis: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/prefer-const
@@ -109,8 +109,8 @@ module.exports = {
       'error',
       {
         destructuring: 'any',
-        ignoreReadBeforeAssign: false
-      }
+        ignoreReadBeforeAssign: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/prefer-destructuring
@@ -119,16 +119,16 @@ module.exports = {
       {
         VariableDeclarator: {
           array: false,
-          object: true
+          object: true,
         },
         AssignmentExpression: {
           array: true,
-          object: true
-        }
+          object: true,
+        },
       },
       {
-        enforceForRenamedProperties: false
-      }
+        enforceForRenamedProperties: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/prefer-numeric-literals
@@ -149,7 +149,7 @@ module.exports = {
     // https://eslint.org/docs/rules/rest-spread-spacing
     'rest-spread-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/sort-imports
@@ -164,9 +164,9 @@ module.exports = {
     // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/es6.js
     'yield-star-spacing': [
       'error',
-      'after'
-    ]
+      'after',
+    ],
 
-  }
+  },
 
 };

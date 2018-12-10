@@ -1,7 +1,5 @@
 module.exports = {
 
-  extends: [
-    './browser.js'
-  ]
+  extends: ['./browser.js'],
 
 };

@@ -7,9 +7,9 @@ module.exports = {
     // https://eslint.org/docs/rules/strict
     strict: [
       'error',
-      'never'
-    ]
+      'never',
+    ],
 
-  }
+  },
 
 };

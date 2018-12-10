@@ -20,7 +20,7 @@ module.exports = {
     './rules/eslint-plugin-jest/index.js',
 
     // https://github.com/turbo87/eslint-plugin-chai-expect
-    './rules/eslint-plugin-chai-expect/index.js'
+    './rules/eslint-plugin-chai-expect/index.js',
   ],
 
   parserOptions: {
@@ -29,13 +29,13 @@ module.exports = {
     ecmaFeatures: {
       generators: false,
       jsx: true,
-      objectLiteralDuplicateProperties: false
-    }
+      objectLiteralDuplicateProperties: false,
+    },
   },
 
   env: {
     es6: true,
-    browser: true
-  }
+    browser: true,
+  },
 
 };

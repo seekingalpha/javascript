@@ -10,11 +10,11 @@ module.exports = {
       {
         propTypeNames: [
           'bool',
-          'mutuallyExclusiveTrueProps'
+          'mutuallyExclusiveTrueProps',
         ],
         rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
-        message: 'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})'
-      }
+        message: 'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})',
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md
@@ -23,30 +23,30 @@ module.exports = {
       {
         button: true,
         submit: true,
-        reset: true
-      }
+        reset: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
     'react/default-props-match-prop-types': [
       'error',
       {
-        'allowRequiredDefaults': true
-      }
+        allowRequiredDefaults: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
     'react/destructuring-assignment': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/display-name': [
       'off',
       {
-        ignoreTranspilerName: false
-      }
+        ignoreTranspilerName: false,
+      },
     ],
 
     /*
@@ -63,11 +63,11 @@ module.exports = {
             allowedFor: [
               'Button',
               'Icon',
-              'Link'
-            ]
-          }
-        ]
-      }
+              'Link',
+            ],
+          },
+        ],
+      },
     ],
 
     /*
@@ -105,9 +105,9 @@ module.exports = {
           'size',
           'style',
           'valign',
-          'vspace'
-        ]
-      }
+          'vspace',
+        ],
+      },
     ],
 
     /*
@@ -133,9 +133,9 @@ module.exports = {
           's',
           'strike',
           'tt',
-          'u'
-        ]
-      }
+          'u',
+        ],
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
@@ -145,19 +145,19 @@ module.exports = {
         forbid: [
           'any',
           'array',
-          'object'
+          'object',
         ],
         checkContextTypes: true,
-        checkChildContextTypes: true
-      }
+        checkChildContextTypes: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
     'react/forbid-foreign-prop-types': [
       'error',
       {
-        allowInPropTypes: true
-      }
+        allowInPropTypes: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
@@ -197,8 +197,8 @@ module.exports = {
     'react/no-multi-comp': [
       'error',
       {
-        ignoreStateless: false
-      }
+        ignoreStateless: false,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
@@ -237,8 +237,8 @@ module.exports = {
       'error',
       {
         customValidators: [],
-        skipShapeProps: true
-      }
+        skipShapeProps: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-state.md
@@ -250,15 +250,15 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
     'react/prefer-es6-class': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
       'error',
       {
-        ignorePureComponents: true
-      }
+        ignorePureComponents: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
@@ -267,24 +267,22 @@ module.exports = {
       {
         ignore: [],
         customValidators: [],
-        skipUndeclared: true
-      }
+        skipUndeclared: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     'react/react-in-jsx-scope': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-    'react/require-default-props': [
-      'error'
-    ],
+    'react/require-default-props': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
     'react/require-optimization': [
       'error',
       {
-        allowDecorators: ['pureComponentDecorator']
-      }
+        allowDecorators: ['pureComponentDecorator'],
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
@@ -304,7 +302,7 @@ module.exports = {
           '/^on.+$/',
           'instance-methods',
           'everything-else',
-          'rendering'
+          'rendering',
         ],
         groups: {
           lifecycle: [
@@ -332,14 +330,14 @@ module.exports = {
             'getSnapshotBeforeUpdate',
             'componentDidUpdate',
             'componentDidCatch',
-            'componentWillUnmount'
+            'componentWillUnmount',
           ],
           rendering: [
             '/^render.+$/',
-            'render'
-          ]
-        }
-      }
+            'render',
+          ],
+        },
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
@@ -349,16 +347,16 @@ module.exports = {
         ignoreCase: true,
         callbacksLast: true,
         requiredFirst: true,
-        sortShapeProp: true
-      }
+        sortShapeProp: true,
+      },
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
     'react/style-prop-object': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
-    'react/void-dom-elements-no-children': 'error'
+    'react/void-dom-elements-no-children': 'error',
 
-  }
+  },
 
 };

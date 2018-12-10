@@ -15,37 +15,37 @@ module.exports = {
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/exports-style.md
     'node/exports-style': [
       'error',
-      'module.exports'
+      'module.exports',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/buffer.md
     'node/prefer-global/buffer': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/console.md
     'node/prefer-global/console': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/process.md
     'node/prefer-global/process': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/url-search-params.md
     'node/prefer-global/url-search-params': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/url.md
     'node/prefer-global/url': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md
@@ -54,6 +54,6 @@ module.exports = {
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/shebang.md
     'node/shebang': 'off',
 
-    'node/no-process-exit': 'off'
-  }
+    'node/no-process-exit': 'off',
+  },
 };

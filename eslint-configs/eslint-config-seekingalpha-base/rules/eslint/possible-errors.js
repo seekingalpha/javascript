@@ -11,8 +11,8 @@ module.exports = {
     'getter-return': [
       'error',
       {
-        allowImplicit: false
-      }
+        allowImplicit: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-async-promise-executor
@@ -52,8 +52,8 @@ module.exports = {
     'no-empty': [
       'error',
       {
-        allowEmptyCatch: true
-      }
+        allowEmptyCatch: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-empty-character-class
@@ -77,8 +77,8 @@ module.exports = {
         nestedBinaryExpressions: false,
         returnAssign: false,
         ignoreJSX: 'all',
-        enforceForArrowConditionals: false
-      }
+        enforceForArrowConditionals: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-extra-semi
@@ -142,10 +142,10 @@ module.exports = {
     'valid-typeof': [
       'error',
       {
-        requireStringLiterals: true
-      }
-    ]
+        requireStringLiterals: true,
+      },
+    ],
 
-  }
+  },
 
 };

@@ -17,18 +17,18 @@ module.exports = {
         MemberExpression: 0,
         FunctionDeclaration: {
           parameters: 1,
-          body: 1
+          body: 1,
         },
         FunctionExpression: {
           parameters: 1,
-          body: 1
+          body: 1,
         },
         CallExpression: {
-          arguments: 1
+          arguments: 1,
         },
         ArrayExpression: 1,
-        ObjectExpression: 1
-      }
+        ObjectExpression: 1,
+      },
     ],
 
     // https://eslint.org/docs/rules/lines-around-directive
@@ -36,14 +36,14 @@ module.exports = {
       'error',
       {
         before: 'always',
-        after: 'always'
-      }
+        after: 'always',
+      },
     ],
 
     // https://eslint.org/docs/rules/newline-after-var
     'newline-after-var': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/newline-before-return
@@ -62,8 +62,8 @@ module.exports = {
     'no-spaced-func': 'error',
 
     // https://eslint.org/docs/rules/prefer-reflect
-    'prefer-reflect': 'off'
+    'prefer-reflect': 'off',
 
-  }
+  },
 
 };

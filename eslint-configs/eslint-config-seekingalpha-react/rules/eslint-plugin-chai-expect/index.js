@@ -9,8 +9,8 @@ module.exports = {
 
     'chai-expect/missing-assertion': 'error',
 
-    'chai-expect/terminating-properties': 'error'
+    'chai-expect/terminating-properties': 'error',
 
-  }
+  },
 
 };

@@ -1,15 +1,21 @@
 # Change Log
+## 1.4.0 - 2018-12-10
+ - [deps] update `eslint` to version 5.10.0
+ - [deps] update `eslint-plugin-array-func` to version 3.1.0
+ - internal lint error fixes and documentation updates
+
 ## 1.3.3 - 2018-11-20
  - [patch: loosen rule] removed rule `array-element-newline`
+
 ## 1.3.2 - 2018-11-20
- - [patch] changed `comma-dangle` rule, now trailing coma is required for multiline statements 
+ - [patch] changed `comma-dangle` rule, now trailing coma is required for multiline statements
  - [patch] changed `arrow-body-style` rule, enforces braces around the function body
- - [patch] changed `arrow-parens` rule, requires parens around arguments in all cases.  
+ - [patch] changed `arrow-parens` rule, requires parens around arguments in all cases.
 
 ## 1.3.1 - 2018-10-16
  - [patch] deprecated `promise/avoid-new`
  - [patch] added `0` and `1` to ignore in `no-magic-numbers`
- 
+
 ## 1.3.0 - 2018-09-18
  - [path] removed rule for node.js
 
@@ -26,7 +32,7 @@
 ## 1.1.3 - 2018-09-11
  - [new] extend `class-methods-use-this` rule with `exceptMethods` for ReactJS(`componentDidMount`, `componentDidUpdate`, `componentWillMount`, `componentWillReceiveProps`, `componentWillUnmount`, `componentWillUpdate`, `render`, `shouldComponentUpdate`)
  - [minor] loosen `promise/catch-or-return` with `{ allowThen: true }`
- 
+
 ## 1.1.2 - 2018-09-5
  - [patch] disable `romise/no-native` rule
  - [minor] loosen `function-paren-newline`rule from `never` to `consistent`
@@ -39,7 +45,7 @@
 
 ## 1.1.0 - 2018-08-16
  - [new] introduce `seekingalpha-base/browser` and `seekingalpha-base/node` shareable configurations
- - [deps] update `eslint-plugin-import` to version 2.14.0 
+ - [deps] update `eslint-plugin-import` to version 2.14.0
  - [patch] disable `init-declarations` rule
  - [patch] disable `no-invalid-this` rule
 
@@ -48,15 +54,15 @@
  - [minor] loosen `max-len` rule extending max line length to 150 chars
  - [fix] `dot-notation` rule allowing keywords
  - [patch] disable `func-names` rule
- 
+
 ## 1.0.3 - 2018-08-15
 
- - Fix package installation guide using NPM 
+ - Fix package installation guide using NPM
 
 ## 1.0.2 - 2018-08-14
 
  - [patch: loosen rules] ignore links in `max-len`
- 
+
 ## 1.0.1 - 2018-08-13
 
  - Initial commit.

@@ -25,13 +25,13 @@ module.exports = {
       {
         devDependencies: true,
         optionalDependencies: true,
-        peerDependencies: true
-      }
+        peerDependencies: true,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
-    'import/no-mutable-exports': 'error'
+    'import/no-mutable-exports': 'error',
 
-  }
+  },
 
 };

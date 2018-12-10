@@ -49,8 +49,8 @@ module.exports = {
     'jsdoc/require-returns-type': 'error',
 
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/valid-types.md
-    'jsdoc/valid-types': 'error'
+    'jsdoc/valid-types': 'error',
 
-  }
+  },
 
 };
