@@ -7,7 +7,7 @@ module.exports = {
     './variables.js',
     './stylistic-issues.js',
     './ecma-script-6.js',
-    './deprecated.js'
-  ]
+    './deprecated.js',
+  ],
 
 };

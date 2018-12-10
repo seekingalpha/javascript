@@ -22,8 +22,8 @@ module.exports = {
       'error',
       'ignorePackages',
       {
-        js: 'never'
-      }
+        js: 'never',
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
@@ -34,11 +34,11 @@ module.exports = {
           [
             'builtin',
             'external',
-            'internal'
-          ]
+            'internal',
+          ],
         ],
-        'newlines-between': true
-      }
+        'newlines-between': true,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
@@ -51,8 +51,8 @@ module.exports = {
     'import/max-dependencies': [
       'error',
       {
-        max: config.importMaxDependenciesMax
-      }
+        max: config.importMaxDependenciesMax,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
@@ -76,12 +76,12 @@ module.exports = {
       {
         importFunctions: [
           'dynamicImport',
-          'importedComponent'
+          'importedComponent',
         ],
-        webpackChunknameFormat: '[0-9a-zA-Z-_/.]+'
-      }
-    ]
+        webpackChunknameFormat: '[0-9a-zA-Z-_/.]+',
+      },
+    ],
 
-  }
+  },
 
 };

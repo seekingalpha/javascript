@@ -6,17 +6,17 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@"^5.6.0" eslint-plugin-array-func@"^3.0.0" eslint-plugin-import@"^2.14.0" eslint-plugin-jsdoc@"^3.8.0" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-promise@"^4.0.1" eslint-plugin-unicorn@"^6.0.1" --save-dev
+    npm install eslint@"^5.10.0" eslint-plugin-array-func@"^3.1.0" eslint-plugin-import@"^2.14.0" eslint-plugin-jsdoc@"^3.8.0" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-promise@"^4.0.1" eslint-plugin-unicorn@"^6.0.1" --save-dev
 
 or **Yarn**:
 
     yarn add --dev eslint@^5.6.0 eslint-plugin-array-func@^3.0.0 eslint-plugin-import@^2.14.0 eslint-plugin-jsdoc@^3.8.0 eslint-plugin-no-use-extend-native@^0.3.12 eslint-plugin-promise@^4.0.1 eslint-plugin-unicorn@^6.0.1
 
-    
+
 Install SeekingAlpha shareable ESLint:
-    
+
     npm install eslint-config-seekingalpha-base --save-dev
-    
+
 For **Yarn**:
 
     yarn add --dev eslint-config-seekingalpha-base
@@ -36,7 +36,7 @@ We expose three configurations:
 
 * `seekingalpha-base` - exports all avaliable ESLint [rules](https://eslint.org/docs/rules/) and all rules of plugins above.
 * `seekingalpha-base/browser` - exports only browser related rules for ESLint and mentioned plugins. It also sets `browser` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments).
-* `seekingalpha-base/node` - exports only Node.js related rules for ESLint and mentioned plugins. It also sets `node` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments). 
+* `seekingalpha-base/node` - exports only Node.js related rules for ESLint and mentioned plugins. It also sets `node` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments).
 
 
 Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the .eslintrc.js in your project with relevant configuration:
@@ -47,7 +47,7 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
   extends: [
     'seekingalpha-base'
   ]
-}  
+}
 
 // for seekingalpha-base/browser
 {

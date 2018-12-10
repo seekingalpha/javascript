@@ -11,20 +11,20 @@ module.exports = {
       'error',
       {
         multiline: true,
-        minItems: config.arrayBracketNewlineMinItems
-      }
+        minItems: config.arrayBracketNewlineMinItems,
+      },
     ],
 
     // https://eslint.org/docs/rules/array-bracket-spacing
     'array-bracket-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/block-spacing
     'block-spacing': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/brace-style
@@ -32,8 +32,8 @@ module.exports = {
       'error',
       '1tbs',
       {
-        allowSingleLine: false
-      }
+        allowSingleLine: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/camelcase
@@ -41,8 +41,8 @@ module.exports = {
       'error',
       {
         properties: 'never',
-        ignoreDestructuring: false
-      }
+        ignoreDestructuring: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/capitalized-comments
@@ -53,20 +53,20 @@ module.exports = {
         line: {
           ignorePattern: '.*',
           ignoreInlineComments: true,
-          ignoreConsecutiveComments: true
+          ignoreConsecutiveComments: true,
         },
         block: {
           ignorePattern: '.*',
           ignoreInlineComments: true,
-          ignoreConsecutiveComments: true
-        }
-      }
+          ignoreConsecutiveComments: true,
+        },
+      },
     ],
 
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       'error',
-      'always-multiline'
+      'always-multiline',
     ],
 
     // https://eslint.org/docs/rules/comma-spacing
@@ -74,8 +74,8 @@ module.exports = {
       'error',
       {
         before: false,
-        after: true
-      }
+        after: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/comma-style
@@ -94,33 +94,33 @@ module.exports = {
           ObjectExpression: false,
           ObjectPattern: false,
           VariableDeclaration: false,
-          NewExpression: false
-        }
-      }
+          NewExpression: false,
+        },
+      },
     ],
 
     // https://eslint.org/docs/rules/computed-property-spacing
     'computed-property-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/consistent-this
     'consistent-this': [
       'error',
-      'that'
+      'that',
     ],
 
     // https://eslint.org/docs/rules/eol-last
     'eol-last': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/func-name-matching
@@ -129,8 +129,8 @@ module.exports = {
       'always',
       {
         considerPropertyDescriptor: true,
-        includeCommonJSModuleExports: true
-      }
+        includeCommonJSModuleExports: true,
+      },
     ],
 
     /*
@@ -139,7 +139,7 @@ module.exports = {
      */
     'func-names': [
       'off',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/func-style
@@ -147,14 +147,14 @@ module.exports = {
       'error',
       'expression',
       {
-        allowArrowFunctions: true
-      }
+        allowArrowFunctions: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': [
       'error',
-      'consistent'
+      'consistent',
     ],
 
     // https://eslint.org/docs/rules/id-blacklist
@@ -166,8 +166,8 @@ module.exports = {
       {
         max: config.idLengthMax,
         properties: 'always',
-        exceptions: []
-      }
+        exceptions: [],
+      },
     ],
 
     // https://eslint.org/docs/rules/id-match
@@ -176,7 +176,7 @@ module.exports = {
     // https://eslint.org/docs/rules/implicit-arrow-linebreak
     'implicit-arrow-linebreak': [
       'error',
-      'beside'
+      'beside',
     ],
 
     // https://eslint.org/docs/rules/indent
@@ -190,28 +190,28 @@ module.exports = {
         MemberExpression: 0,
         FunctionDeclaration: {
           parameters: 1,
-          body: 1
+          body: 1,
         },
         FunctionExpression: {
           parameters: 1,
-          body: 1
+          body: 1,
         },
         CallExpression: {
-          arguments: 1
+          arguments: 1,
         },
         ArrayExpression: 1,
         ObjectExpression: 1,
         ImportDeclaration: 1,
         flatTernaryExpressions: false,
         ignoredNodes: [],
-        ignoreComments: false
-      }
+        ignoreComments: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': [
       'error',
-      'prefer-double'
+      'prefer-double',
     ],
 
     // https://eslint.org/docs/rules/key-spacing
@@ -220,8 +220,8 @@ module.exports = {
       {
         beforeColon: false,
         afterColon: true,
-        mode: 'strict'
-      }
+        mode: 'strict',
+      },
     ],
 
     // https://eslint.org/docs/rules/keyword-spacing
@@ -232,16 +232,16 @@ module.exports = {
         after: true,
         overrides: {
           return: {
-            after: true
+            after: true,
           },
           throw: {
-            after: true
+            after: true,
           },
           case: {
-            after: true
-          }
-        }
-      }
+            after: true,
+          },
+        },
+      },
     ],
 
     // https://eslint.org/docs/rules/line-comment-position
@@ -250,14 +250,14 @@ module.exports = {
       {
         position: 'above',
         ignorePattern: '',
-        applyDefaultPatterns: true
-      }
+        applyDefaultPatterns: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/linebreak-style
     'linebreak-style': [
       'error',
-      'unix'
+      'unix',
     ],
 
     // https://eslint.org/docs/rules/lines-around-comment
@@ -277,8 +277,8 @@ module.exports = {
         allowClassStart: true,
         allowClassEnd: false,
         applyDefaultIgnorePatterns: true,
-        ignorePattern: 'ignore-comment'
-      }
+        ignorePattern: 'ignore-comment',
+      },
     ],
 
     // https://eslint.org/docs/rules/lines-between-class-members
@@ -286,14 +286,14 @@ module.exports = {
       'error',
       'always',
       {
-        exceptAfterSingleLine: false
-      }
+        exceptAfterSingleLine: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/max-depth
     'max-depth': [
       'error',
-      config.maxDepth
+      config.maxDepth,
     ],
 
     // https://eslint.org/docs/rules/max-len
@@ -309,8 +309,8 @@ module.exports = {
         ignoreRegExpLiterals: false,
         ignoreStrings: false,
         ignoreTemplateLiterals: false,
-        ignoreUrls: true
-      }
+        ignoreUrls: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/max-lines
@@ -319,8 +319,8 @@ module.exports = {
       {
         max: config.maxLinesMax,
         skipBlankLines: true,
-        skipComments: true
-      }
+        skipComments: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/max-lines-per-function
@@ -330,46 +330,46 @@ module.exports = {
         max: config.maxLinesPerFunctionMax,
         skipBlankLines: true,
         skipComments: true,
-        IIFEs: true
-      }
+        IIFEs: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/max-nested-callbacks
     'max-nested-callbacks': [
       'error',
-      config.maxNestedCallbacks
+      config.maxNestedCallbacks,
     ],
 
     // https://eslint.org/docs/rules/max-params
     'max-params': [
       'error',
-      config.maxParams
+      config.maxParams,
     ],
 
     // https://eslint.org/docs/rules/max-statements
     'max-statements': [
       'error',
-      config.maxStatements
+      config.maxStatements,
     ],
 
     // https://eslint.org/docs/rules/max-statements-per-line
     'max-statements-per-line': [
       'error',
       {
-        max: config.maxStatementsPerLine
-      }
+        max: config.maxStatementsPerLine,
+      },
     ],
 
     // https://eslint.org/docs/rules/multiline-comment-style
     'multiline-comment-style': [
       'error',
-      'starred-block'
+      'starred-block',
     ],
 
     // https://eslint.org/docs/rules/multiline-ternary
     'multiline-ternary': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/new-cap
@@ -380,8 +380,8 @@ module.exports = {
         newIsCapExceptions: [],
         capIsNew: false,
         capIsNewExceptions: [],
-        properties: true
-      }
+        properties: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/new-parens
@@ -391,8 +391,8 @@ module.exports = {
     'newline-per-chained-call': [
       'error',
       {
-        ignoreChainWithDepth: 2
-      }
+        ignoreChainWithDepth: 2,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-array-constructor
@@ -421,7 +421,7 @@ module.exports = {
             '*',
             '/',
             '%',
-            '**'
+            '**',
           ],
           [
             '&',
@@ -430,7 +430,7 @@ module.exports = {
             '~',
             '<<',
             '>>',
-            '>>>'
+            '>>>',
           ],
           [
             '==',
@@ -440,19 +440,19 @@ module.exports = {
             '>',
             '>=',
             '<',
-            '<='
+            '<=',
           ],
           [
             '&&',
-            '||'
+            '||',
           ],
           [
             'in',
-            'instanceof'
-          ]
+            'instanceof',
+          ],
         ],
-        allowSamePrecedence: true
-      }
+        allowSamePrecedence: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
@@ -467,8 +467,8 @@ module.exports = {
       {
         max: config.noMultipleEmptyLinesMax,
         maxEOF: config.noMultipleEmptyLinesEOF,
-        maxBOF: config.noMultipleEmptyLinesBOF
-      }
+        maxBOF: config.noMultipleEmptyLinesBOF,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-negated-condition
@@ -488,24 +488,24 @@ module.exports = {
       'error',
       {
         selector: 'CallExpression[callee.name="setTimeout"][arguments.length!=2]',
-        message: 'setTimeout must always be invoked with two arguments.'
+        message: 'setTimeout must always be invoked with two arguments.',
       },
       {
         selector: 'ForInStatement',
-        message: 'Use Object.(keys || values) instead'
+        message: 'Use Object.(keys || values) instead',
       },
       {
         selector: 'LabeledStatement',
-        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.'
+        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
       },
       {
         selector: 'WithStatement',
-        message: 'Do not use with DOT'
+        message: 'Do not use with DOT',
       },
       {
         selector: 'BinaryExpression[operator="in"]',
-        message: 'use prototype.hasOwnProperty() instead'
-      }
+        message: 'use prototype.hasOwnProperty() instead',
+      },
     ],
 
     // https://eslint.org/docs/rules/no-tabs
@@ -519,8 +519,8 @@ module.exports = {
       'error',
       {
         skipBlankLines: false,
-        ignoreComments: false
-      }
+        ignoreComments: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-underscore-dangle
@@ -530,16 +530,16 @@ module.exports = {
         allow: [],
         allowAfterThis: false,
         allowAfterSuper: false,
-        enforceInMethodNames: false
-      }
+        enforceInMethodNames: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-unneeded-ternary
     'no-unneeded-ternary': [
       'error',
       {
-        defaultAssignment: false
-      }
+        defaultAssignment: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-whitespace-before-property
@@ -550,8 +550,8 @@ module.exports = {
       'error',
       'beside',
       {
-        overrides: {}
-      }
+        overrides: {},
+      },
     ],
 
     // https://eslint.org/docs/rules/object-curly-newline
@@ -561,24 +561,24 @@ module.exports = {
         ObjectExpression: {
           minProperties: config.newlineObjectExpressionMin,
           multiline: true,
-          consistent: true
+          consistent: true,
         },
         ObjectPattern: {
           minProperties: config.newlineObjectPatternMin,
           multiline: true,
-          consistent: true
+          consistent: true,
         },
         ImportDeclaration: {
           minProperties: config.newlineImportDeclarationMin,
           multiline: true,
-          consistent: true
+          consistent: true,
         },
         ExportDeclaration: {
           minProperties: config.newlineExportDeclarationMin,
           multiline: true,
-          consistent: true
-        }
-      }
+          consistent: true,
+        },
+      },
     ],
 
     // https://eslint.org/docs/rules/object-curly-spacing
@@ -587,40 +587,40 @@ module.exports = {
       'always',
       {
         arraysInObjects: true,
-        objectsInObjects: true
-      }
+        objectsInObjects: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/object-property-newline
     'object-property-newline': [
       'error',
       {
-        allowAllPropertiesOnSameLine: false
-      }
+        allowAllPropertiesOnSameLine: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/one-var
     'one-var': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var-declaration-per-line': [
       'error',
-      'initializations'
+      'initializations',
     ],
 
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': [
       'error',
-      'none'
+      'none',
     ],
 
     // https://eslint.org/docs/rules/padded-blocks
@@ -629,8 +629,8 @@ module.exports = {
       {
         blocks: 'never',
         classes: 'never',
-        switches: 'never'
-      }
+        switches: 'never',
+      },
     ],
 
     // https://eslint.org/docs/rules/padding-line-between-statements
@@ -646,8 +646,8 @@ module.exports = {
       {
         keywords: false,
         unnecessary: true,
-        numbers: false
-      }
+        numbers: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/quotes
@@ -656,8 +656,8 @@ module.exports = {
       'single',
       {
         avoidEscape: true,
-        allowTemplateLiterals: false
-      }
+        allowTemplateLiterals: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/require-jsdoc
@@ -669,15 +669,15 @@ module.exports = {
           MethodDefinition: true,
           ClassDeclaration: true,
           ArrowFunctionExpression: false,
-          FunctionExpression: true
-        }
-      }
+          FunctionExpression: true,
+        },
+      },
     ],
 
     // https://eslint.org/docs/rules/semi
     semi: [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/semi-spacing
@@ -685,14 +685,14 @@ module.exports = {
       'error',
       {
         before: false,
-        after: true
-      }
+        after: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/semi-style
     'semi-style': [
       'error',
-      'last'
+      'last',
     ],
 
     // https://eslint.org/docs/rules/sort-keys
@@ -701,16 +701,16 @@ module.exports = {
       'asc',
       {
         caseSensitive: false,
-        natural: true
-      }
+        natural: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/sort-vars
     'sort-vars': [
       'off',
       {
-        ignoreCase: true
-      }
+        ignoreCase: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/space-before-blocks
@@ -722,14 +722,14 @@ module.exports = {
       {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always'
-      }
+        asyncArrow: 'always',
+      },
     ],
 
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/space-infix-ops
@@ -741,14 +741,14 @@ module.exports = {
       {
         words: true,
         nonwords: false,
-        overrides: {}
-      }
+        overrides: {},
+      },
     ],
 
     // https://eslint.org/docs/rules/spaced-comment
     'spaced-comment': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://eslint.org/docs/rules/switch-colon-spacing
@@ -756,25 +756,25 @@ module.exports = {
       'error',
       {
         after: true,
-        before: false
-      }
+        before: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/template-tag-spacing
     'template-tag-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/unicode-bom
     'unicode-bom': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://eslint.org/docs/rules/wrap-regex
-    'wrap-regex': 'error'
+    'wrap-regex': 'error',
 
-  }
+  },
 
 };

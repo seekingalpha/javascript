@@ -15,7 +15,7 @@ module.exports = {
     'jest/no-identical-title': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-have-length.md
-    'jest/prefer-to-have-length': 'error'
-  }
+    'jest/prefer-to-have-length': 'error',
+  },
 
 };

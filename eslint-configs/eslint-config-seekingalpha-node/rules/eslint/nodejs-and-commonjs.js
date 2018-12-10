@@ -24,8 +24,8 @@ module.exports = {
       'error',
       {
         allowCall: false,
-        grouping: false
-      }
+        grouping: false,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-new-require
@@ -47,13 +47,13 @@ module.exports = {
     'no-restricted-modules': [
       'error',
       {
-        paths: []
-      }
+        paths: [],
+      },
     ],
 
     // https://eslint.org/docs/rules/no-sync
-    'no-sync': 'off'
+    'no-sync': 'off',
 
-  }
+  },
 
 };

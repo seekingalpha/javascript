@@ -9,8 +9,8 @@ module.exports = {
       'error',
       {
         commonjs: true,
-        caseSensitive: true
-      }
+        caseSensitive: true,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
@@ -23,8 +23,8 @@ module.exports = {
     'import/namespace': [
       'error',
       {
-        allowComputed: true
-      }
+        allowComputed: true,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
@@ -36,8 +36,8 @@ module.exports = {
       {
         esmodule: true,
         commonjs: true,
-        amd: false
-      }
+        amd: false,
+      },
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
@@ -59,8 +59,8 @@ module.exports = {
     'import/no-useless-path-segments': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
-    'no-relative-parent-imports': 'off'
+    'no-relative-parent-imports': 'off',
 
-  }
+  },
 
 };

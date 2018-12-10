@@ -20,5 +20,5 @@ module.exports = {
   newlineObjectPatternMin: 4,
   newlineImportDeclarationMin: 4,
   newlineExportDeclarationMin: 4,
-  importMaxDependenciesMax: 15
+  importMaxDependenciesMax: 15,
 };

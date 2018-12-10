@@ -7,12 +7,12 @@ module.exports = {
     // ESLint rules (https://eslint.org/docs/rules/)
     './rules/eslint/nodejs-and-commonjs.js',
 
-    './rules/eslint-plugin-unicorn/node.js'
+    './rules/eslint-plugin-unicorn/node.js',
 
   ],
 
   env: {
-    node: true
-  }
+    node: true,
+  },
 
 };

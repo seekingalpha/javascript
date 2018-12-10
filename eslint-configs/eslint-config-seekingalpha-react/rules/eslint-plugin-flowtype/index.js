@@ -9,19 +9,19 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-array-style-complex-type
     'flowtype/array-style-complex-type': [
       'error',
-      'verbose'
+      'verbose',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-array-style-simple-type
     'flowtype/array-style-simple-type': [
       'error',
-      'verbose'
+      'verbose',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-boolean-style
     'flowtype/boolean-style': [
       'error',
-      'boolean'
+      'boolean',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-define-flow-type
@@ -30,19 +30,19 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-delimiter-dangle
     'flowtype/delimiter-dangle': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-generic-spacing
     'flowtype/generic-spacing': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-newline-after-flow-annotation
     'flowtype/newline-after-flow-annotation': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-dupe-keys
@@ -72,7 +72,7 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-object-type-delimiter
     'flowtype/object-type-delimiter': [
       'error',
-      'comma'
+      'comma',
     ],
 
     /*
@@ -99,7 +99,7 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-types-at-top
     'flowtype/require-types-at-top': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-types-at-top
@@ -107,8 +107,8 @@ module.exports = {
       'error',
       'always',
       {
-        annotationStyle: 'line'
-      }
+        annotationStyle: 'line',
+      },
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-variable-type
@@ -117,25 +117,25 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-semi
     'flowtype/semi': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-after-type-colon
     'flowtype/space-after-type-colon': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-before-generic-bracket
     'flowtype/space-before-generic-bracket': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-before-type-colon
     'flowtype/space-before-type-colon': [
       'error',
-      'never'
+      'never',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-type-id-match
@@ -150,20 +150,20 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-union-intersection-spacing
     'flowtype/union-intersection-spacing': [
       'error',
-      'always'
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-use-flow-type
-    'flowtype/use-flow-type': 'warn'
+    'flowtype/use-flow-type': 'warn',
 
   },
 
   settings: {
 
     flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
+      onlyFilesWithFlowAnnotation: true,
+    },
 
-  }
+  },
 
 };

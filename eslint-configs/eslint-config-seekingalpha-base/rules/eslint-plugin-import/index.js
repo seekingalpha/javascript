@@ -5,7 +5,7 @@ module.exports = {
   extends: [
     './static-analysis.js',
     './helpful-warnings.js',
-    './module-systems.js'
+    './module-systems.js',
   ],
 
   plugins: ['import'],
@@ -17,22 +17,22 @@ module.exports = {
         extensions: [
           '.js',
           '.jsx',
-          '.json'
-        ]
-      }
+          '.json',
+        ],
+      },
     },
 
     'import/extensions': [
       '.js',
-      '.jsx'
+      '.jsx',
     ],
 
     'import/core-modules': [],
     'import/ignore': [
       'node_modules',
-      '\\.(scss|css|less|hbs|svg|json)$'
-    ]
+      '\\.(scss|css|less|hbs|svg|json)$',
+    ],
 
-  }
+  },
 
 };

@@ -4,16 +4,16 @@ module.exports = {
 
   extends: [
     './react.js',
-    './jsx.js'
+    './jsx.js',
   ],
 
   settings: {
 
     react: {
       pragma: 'React',
-      version: '16.4.1'
-    }
+      version: '16.4.1',
+    },
 
-  }
+  },
 
 };

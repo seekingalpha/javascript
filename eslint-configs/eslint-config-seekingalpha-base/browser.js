@@ -23,12 +23,12 @@ module.exports = {
     './rules/eslint-plugin-promise/index.js',
 
     // eslint-plugin-unicorn rules (https://github.com/sindresorhus/eslint-plugin-unicorn)
-    './rules/eslint-plugin-unicorn/index.js'
+    './rules/eslint-plugin-unicorn/index.js',
 
   ],
 
   env: {
-    browser: true
-  }
+    browser: true,
+  },
 
 };

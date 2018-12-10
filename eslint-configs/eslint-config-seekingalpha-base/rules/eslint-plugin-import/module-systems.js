@@ -14,8 +14,8 @@ module.exports = {
     'import/no-amd': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
-    'import/no-nodejs-modules': 'off'
+    'import/no-nodejs-modules': 'off',
 
-  }
+  },
 
 };
