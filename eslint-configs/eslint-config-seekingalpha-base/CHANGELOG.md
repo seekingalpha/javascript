@@ -1,4 +1,8 @@
 # Change Log
+## 1.5.0 - 2018-13-10
+ - [deps] fix `peerDependencies` version
+ - [docs] updates `README.md` installation guide
+
 ## 1.4.0 - 2018-12-10
  - [deps] update `eslint` to version 5.10.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.0
