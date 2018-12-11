@@ -6,17 +6,17 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@"^5.6.0" babel-eslint@"^8.2.6" eslint-plugin-array-func@"^3.0.0" eslint-plugin-import@"^2.14.0" eslint-plugin-jsdoc@"^3.8.0" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-node@"^7.0.1" eslint-plugin-promise@"^4.0.1" eslint-plugin-unicorn@"^5.0.0" --save-dev
+    npm install eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-import@2.14.0 eslint-plugin-jsdoc@3.14.0 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-node@8.0.0 eslint-plugin-promise@4.0.1 eslint-plugin-unicorn@6.0.1 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev eslint@^5.6.0 babel-eslint@^8.2.6 eslint-plugin-array-func@^3.0.0 eslint-plugin-import@^2.14.0 eslint-plugin-jsdoc@^3.8.0 eslint-plugin-no-use-extend-native@^0.3.12 eslint-plugin-node@^7.0.1 eslint-plugin-promise@^4.0.1 eslint-plugin-unicorn@^5.0.0
+    yarn add --dev eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-import@2.14.0 eslint-plugin-jsdoc@3.14.0 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-node@8.0.0 eslint-plugin-promise@4.0.1 eslint-plugin-unicorn@6.0.1
 
-    
+
 Install SeekingAlpha shareable ESLint:
-    
+
     npm install eslint-config-seekingalpha-node --save-dev
-    
+
 For **Yarn**:
 
     yarn add --dev eslint-config-seekingalpha-node
@@ -42,7 +42,7 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
   extends: [
     'seekingalpha-node'
   ]
-}  
+}
 ```
 
 ## License

@@ -55,5 +55,17 @@ module.exports = {
     'node/shebang': 'off',
 
     'node/no-process-exit': 'off',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/text-decoder.md
+    'node/prefer-global/text-decoder': [
+      'error',
+      'always',
+    ],
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/text-encoder.md
+    'node/prefer-global/text-encoder': [
+      'error',
+      'always',
+    ],
   },
 };
