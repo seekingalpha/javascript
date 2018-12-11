@@ -1,4 +1,8 @@
 # Change Log
+## 1.5.1 - 2018-13-10
+ - [deps] update `eslint-plugin-jsdoc` to version 3.14.0
+ - [docs] updates `README.md` installation guide
+
 ## 1.5.0 - 2018-13-10
  - [deps] fix `peerDependencies` version
  - [docs] updates `README.md` installation guide
