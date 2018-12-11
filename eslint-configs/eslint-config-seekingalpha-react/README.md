@@ -6,17 +6,17 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install babel-eslint@"^9.0.0" eslint@"^5.6.0" eslint-plugin-array-func@"^3.0.0" eslint-plugin-chai-expect@"^1.1.1" eslint-plugin-flowtype@"^2.50.0" eslint-plugin-import@"^2.14.0" eslint-plugin-jest@"^21.22.0" eslint-plugin-jsdoc@"^3.8.0" eslint-plugin-jsx-a11y@"^6.1.1" eslint-plugin-no-use-extend-native@"^0.3.12" eslint-plugin-promise@"^4.0.1" eslint-plugin-react@"^7.11.1" eslint-plugin-unicorn@"^6.0.1" --save-dev
+    npm install babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-import@2.14.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsdoc@3.14.0 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-promise@4.0.1 eslint-plugin-react@7.11.1 eslint-plugin-unicorn@6.0.1 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev babel-eslint@^9.0.0 eslint@^5.6.0 eslint-plugin-array-func@^3.0.0 eslint-plugin-chai-expect@^1.1.1 eslint-plugin-flowtype@^2.50.0 eslint-plugin-import@^2.14.0 eslint-plugin-jest@^21.22.0 eslint-plugin-jsdoc@^3.8.0 eslint-plugin-jsx-a11y@^6.1.1 eslint-plugin-no-use-extend-native@^0.3.12 eslint-plugin-promise@^4.0.1 eslint-plugin-react@^7.11.1 eslint-plugin-unicorn@^6.0.1
+    yarn add --dev babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-import@2.14.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsdoc@3.14.0 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-promise@4.0.1 eslint-plugin-react@7.11.1 eslint-plugin-unicorn@6.0.1
 
-    
+
 Install SeekingAlpha shareable ESLint:
-    
+
     npm install eslint-config-seekingalpha-react --save-dev
-    
+
 For **Yarn**:
 
     yarn add --dev eslint-config-seekingalpha-react
@@ -46,7 +46,7 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
   extends: [
     'seekingalpha-react'
   ]
-}  
+}
 ```
 
 ## License
