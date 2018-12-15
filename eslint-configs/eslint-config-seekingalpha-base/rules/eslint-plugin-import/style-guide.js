@@ -37,7 +37,7 @@ module.exports = {
             'internal',
           ],
         ],
-        'newlines-between': true,
+        'newlines-between': 'always',
       },
     ],
 

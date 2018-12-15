@@ -59,7 +59,7 @@ module.exports = {
     'import/no-useless-path-segments': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
-    'no-relative-parent-imports': 'off',
+    'import/no-relative-parent-imports': 'off',
 
   },
 

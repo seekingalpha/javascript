@@ -27,6 +27,9 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/require-example.md
     'jsdoc/require-example': 'off',
 
+    // https://github.com/gajus/eslint-plugin-jsdoc
+    'jsdoc/check-examples': 'off',
+
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/require-hyphen-before-param-description.md
     'jsdoc/require-hyphen-before-param-description': 'error',
 
@@ -50,6 +53,9 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/valid-types.md
     'jsdoc/valid-types': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc
+    'jsdoc/require-description': 'error',
 
   },
 

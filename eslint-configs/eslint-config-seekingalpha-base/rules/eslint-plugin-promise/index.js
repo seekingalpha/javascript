@@ -47,6 +47,11 @@ module.exports = {
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md
     'promise/valid-params': 'error',
 
+    // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md
+    'promise/prefer-await-to-callbacks': 'off',
+
+    // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md
+    'promise/prefer-await-to-then': 'off',
   },
 
 };
