@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-seekingalpha-base",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "SeekingAlpha's sharable base ESLint config",
   "main": "index.js",
   "scripts": {
+    "eslint-find-rules": "eslint-find-rules -u ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -48,20 +48,6 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
     'seekingalpha-base'
   ]
 }
-
-// for seekingalpha-base/browser
-{
-  extends: [
-    'seekingalpha-base/browser'
-  ]
-}
-
-// for seekingalpha-base/node
-{
-  extends: [
-    'seekingalpha-base/node'
-  ]
-}
 ```
 
 ## License

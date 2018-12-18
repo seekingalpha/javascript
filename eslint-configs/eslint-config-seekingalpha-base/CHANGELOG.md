@@ -1,9 +1,17 @@
 # Change Log
-## 1.5.1 - 2018-13-10
+
+## 1.6.0 - 2018-12-15
+ - [major] remove `seekingalpha-base/browser` configuration
+ - [patch] add eslint-plugin-import [Style guide](https://www.npmjs.com/package/eslint-plugin-import#style-guide) rules
+ - [patch] add `jsdoc/require-description` rule
+ - [patch] add `unicorn/prefer-exponentiation-operator` rule
+ - [docs] updates `README.md` installation guide
+
+## 1.5.1 - 2018-12-10
  - [deps] update `eslint-plugin-jsdoc` to version 3.14.0
  - [docs] updates `README.md` installation guide
 
-## 1.5.0 - 2018-13-10
+## 1.5.0 - 2018-12-10
  - [deps] fix `peerDependencies` version
  - [docs] updates `README.md` installation guide
 
@@ -25,7 +33,7 @@
  - [patch] added `0` and `1` to ignore in `no-magic-numbers`
 
 ## 1.3.0 - 2018-09-18
- - [path] removed rule for node.js
+ - [patch] removed rule for node.js
 
 ## 1.2.0 - 2018-09-15
  - [deps] update `eslint` to version 5.6.0

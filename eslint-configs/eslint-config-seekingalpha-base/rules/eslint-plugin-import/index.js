@@ -3,9 +3,10 @@
 module.exports = {
 
   extends: [
-    './static-analysis.js',
     './helpful-warnings.js',
     './module-systems.js',
+    './static-analysis.js',
+    './style-guide.js',
   ],
 
   plugins: ['import'],

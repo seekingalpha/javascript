@@ -21,6 +21,9 @@ module.exports = {
       'never',
     ],
 
+    // https://eslint.org/docs/rules/array-element-newline
+    'array-element-newline': 'off',
+
     // https://eslint.org/docs/rules/block-spacing
     'block-spacing': [
       'error',
