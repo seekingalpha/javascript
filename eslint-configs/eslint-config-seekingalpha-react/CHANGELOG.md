@@ -17,6 +17,7 @@
  - [new] `jest/valid-expect` rule error
  - [new] `jest/valid-expect-in-promise` rule error
  - [new] `jsx-a11y/label-has-associated-control` rule error
+ - [new] `react/no-danger` rule error
 
 ## 1.3.0 - 2018-12-11
  - [deps] update `eslint-config-seekingalpha-base` to version 1.5.1
