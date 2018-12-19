@@ -9,13 +9,13 @@ module.exports = {
     'import/first': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
-    'import/exports-last': 'error',
+    'import/exports-last': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
     'import/no-duplicates': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
-    'import/no-namespace': 'error',
+    'import/no-namespace': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': [
@@ -65,10 +65,10 @@ module.exports = {
     'import/no-default-export': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
-    'import/no-anonymous-default-export': 'error',
+    'import/no-anonymous-default-export': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
-    'import/group-exports': 'error',
+    'import/group-exports': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
     'import/dynamic-import-chunkname': [

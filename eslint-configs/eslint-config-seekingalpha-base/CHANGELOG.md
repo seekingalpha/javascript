@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.7.1 - 2018-12-19
+ - [patch] disable `import/exports-last` rule
+ - [patch] disable `import/no-namespace` rule
+ - [patch] disable `import/no-anonymous-default-export` rule
+ - [patch] disable `import/group-exports` rule
+
 ## 1.7.0 - 2018-12-19
  - [major] remove default `env` configuration
  - [major] update `parserOptions`
