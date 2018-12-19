@@ -1,5 +1,24 @@
 # Change Log
 
+## 1.4.0 - 2018-12-18
+ - [deps] update `eslint-config-seekingalpha-base` to version 1.6.0
+ - [new] `flowtype/require-compound-type-alias` rule error with `never` option
+ - [new] `jest/consistent-test-it` rule error
+ - [new] `jest/expect-expect` rule error
+ - [new] `jest/no-jasmine-globals` rule error
+ - [new] `jest/no-jest-import` rule error
+ - [new] `jest/no-large-snapshots` rule error with `maxSize: 50` option
+ - [new] `jest/no-test-prefixes` rule error
+ - [new] `jest/no-test-return-statement` rule error
+ - [new] `jest/prefer-strict-equal` rule error
+ - [new] `jest/prefer-to-be-null` rule error
+ - [new] `jest/prefer-to-be-undefined` rule error
+ - [new] `jest/valid-describe` rule error
+ - [new] `jest/valid-expect` rule error
+ - [new] `jest/valid-expect-in-promise` rule error
+ - [new] `jsx-a11y/label-has-associated-control` rule error
+ - [new] `react/no-danger` rule error
+
 ## 1.3.0 - 2018-12-11
  - [deps] update `eslint-config-seekingalpha-base` to version 1.5.1
  - [deps] update `eslint` to version 5.10.0

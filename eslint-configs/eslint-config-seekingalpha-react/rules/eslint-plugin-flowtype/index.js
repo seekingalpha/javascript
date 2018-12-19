@@ -156,6 +156,18 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-use-flow-type
     'flowtype/use-flow-type': 'warn',
 
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-compound-type-alias
+    'flowtype/require-compound-type-alias': [
+      'error',
+      'never',
+    ],
+
+    // https://github.com/gajus/eslint-plugin-flowtype#require-exact-type
+    'flowtype/require-exact-type': 'off',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#sort-keys
+    'flowtype/sort-keys': 'off',
+
   },
 
   settings: {
