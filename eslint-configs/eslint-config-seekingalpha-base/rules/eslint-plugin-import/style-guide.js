@@ -45,7 +45,7 @@ module.exports = {
     'import/newline-after-import': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
     'import/max-dependencies': [

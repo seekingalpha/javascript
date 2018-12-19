@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.7.2 - 2018-12-19
+ - [patch] disable `import/prefer-default-export` rule
+
 ## 1.7.1 - 2018-12-19
  - [patch] disable `import/exports-last` rule
  - [patch] disable `import/no-namespace` rule
