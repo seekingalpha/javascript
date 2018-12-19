@@ -20,24 +20,8 @@ module.exports = {
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
 
-    /*
-     * https://eslint.org/docs/rules/class-methods-use-this
-     */
-    'class-methods-use-this': [
-      'error',
-      {
-        exceptMethods: [
-          'componentDidMount',
-          'componentDidUpdate',
-          'componentWillMount',
-          'componentWillReceiveProps',
-          'componentWillUnmount',
-          'componentWillUpdate',
-          'render',
-          'shouldComponentUpdate',
-        ],
-      },
-    ],
+    // https://eslint.org/docs/rules/class-methods-use-this
+    'class-methods-use-this': 'error',
 
     // https://eslint.org/docs/rules/complexity
     complexity: [
