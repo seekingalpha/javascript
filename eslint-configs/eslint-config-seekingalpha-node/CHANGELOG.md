@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.0.0 - 2018-12-19
+  - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
+  - [major] keep only `eslint-plugin-node` rules
+  - [major] remove default `env` configuration
+  - [major] update `parserOptions`
+  - [docs] updates `README.md` installation guide
+
 ## 1.2.0 - 2018-12-11
   - [deps] update `eslint-config-seekingalpha-base` to version 1.5.1
   - [deps] update `eslint` to version 5.10.0
