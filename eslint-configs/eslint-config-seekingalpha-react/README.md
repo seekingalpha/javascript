@@ -6,11 +6,11 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-import@2.14.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsdoc@3.14.0 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-promise@4.0.1 eslint-plugin-react@7.11.1 eslint-plugin-unicorn@6.0.1 --save-dev
+    npm install babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-react@7.11.1 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-import@2.14.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsdoc@3.14.0 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-promise@4.0.1 eslint-plugin-react@7.11.1 eslint-plugin-unicorn@6.0.1
+    yarn add --dev babel-eslint@10.0.1 eslint@5.10.0 eslint-plugin-chai-expect@2.0.1 eslint-plugin-flowtype@3.2.0 eslint-plugin-jest@22.1.2 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-react@7.11.1
 
 
 Install SeekingAlpha shareable ESLint:
@@ -25,12 +25,6 @@ For **Yarn**:
 
 This shareable config includes all ESLint rules including ECMAScript 6 features, set of [legacy rules](https://eslint.org/docs/rules/#deprecated) and additional rules for `React` We also extend our configuration with following plugins:
 
-* [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-* [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
-* [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
-* [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
-* [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-* [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 * [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 * [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)

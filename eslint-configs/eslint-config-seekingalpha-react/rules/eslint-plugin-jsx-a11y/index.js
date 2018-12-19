@@ -19,10 +19,10 @@ module.exports = {
           'area',
           "input[type='image']",
         ],
-        img: ['Image'],
-        object: ['Object'],
-        area: ['Area'],
-        "input[type='image']": ['InputImage'],
+        img: [],
+        object: [],
+        area: [],
+        "input[type='image']": [],
       },
     ],
 
@@ -282,7 +282,16 @@ module.exports = {
     'jsx-a11y/tabindex-no-positive': 'error',
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
-    'jsx-a11y/label-has-associated-control': 'error',
+    'jsx-a11y/label-has-associated-control': [
+      'error',
+      {
+        labelComponents: [],
+        labelAttributes: [],
+        controlComponents: [],
+        assert: 'both',
+        depth: 10,
+      },
+    ],
 
   },
 

@@ -1,11 +1,9 @@
 module.exports = {
 
-  parser: 'babel-eslint',
-
   extends: [
 
-    // https://www.npmjs.com/package/eslint-config-seekingalpha-base
-    'seekingalpha-base',
+    // https://github.com/yannickcr/eslint-plugin-react
+    './rules/eslint/index.js',
 
     // https://github.com/yannickcr/eslint-plugin-react
     './rules/eslint-plugin-react/index.js',
@@ -24,18 +22,13 @@ module.exports = {
   ],
 
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
-      generators: false,
+      impliedStrict: true,
+      globalReturn: false,
       jsx: true,
-      objectLiteralDuplicateProperties: false,
     },
-  },
-
-  env: {
-    es6: true,
-    browser: true,
   },
 
 };
