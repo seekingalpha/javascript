@@ -4,6 +4,9 @@ module.exports = {
     node: true,
   },
 
-  extends: './eslint-configs/eslint-config-seekingalpha-base/index.js',
+  extends: [
+    'eslint-config-seekingalpha-base',
+    'eslint-config-seekingalpha-node',
+  ],
 
 };

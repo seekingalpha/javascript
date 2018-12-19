@@ -7,13 +7,4 @@ module.exports = {
     './jsx.js',
   ],
 
-  settings: {
-
-    react: {
-      pragma: 'React',
-      version: '16.4.1',
-    },
-
-  },
-
 };

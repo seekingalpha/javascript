@@ -293,13 +293,15 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [
-      'error',
-      {
+      'error', {
         order: [
           'static-methods',
           'instance-variables',
           'lifecycle',
           '/^on.+$/',
+          'getters',
+          'setters',
+          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
           'instance-methods',
           'everything-else',
           'rendering',
@@ -315,21 +317,15 @@ module.exports = {
             'defaultProps',
             'constructor',
             'getDefaultProps',
-            'state',
             'getInitialState',
+            'state',
             'getChildContext',
-            'getDerivedStateFromProps',
             'componentWillMount',
-            'UNSAFE_componentWillMount',
             'componentDidMount',
             'componentWillReceiveProps',
-            'UNSAFE_componentWillReceiveProps',
             'shouldComponentUpdate',
             'componentWillUpdate',
-            'UNSAFE_componentWillUpdate',
-            'getSnapshotBeforeUpdate',
             'componentDidUpdate',
-            'componentDidCatch',
             'componentWillUnmount',
           ],
           rendering: [

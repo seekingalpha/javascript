@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.0 - 2018-12-19
+  - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
+  - [major] remove default `env` configuration
+  - [major] update `parserOptions`
+  - [docs] updates `README.md` installation guide
+
 ## 1.4.0 - 2018-12-18
  - [deps] update `eslint-config-seekingalpha-base` to version 1.6.0
  - [new] `flowtype/require-compound-type-alias` rule error with `never` option
