@@ -62,7 +62,7 @@ module.exports = {
     'jest/no-test-prefixes': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
-    'jest/no-test-return-statement': 'error',
+    'jest/no-test-return-statement': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-expect-assertions.md
     'jest/prefer-expect-assertions': 'off',

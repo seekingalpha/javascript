@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.0.1 - 2018-12-19
+  - [patch: loosen rules] disable `jest/no-test-return-statement`
+
 ## 2.0.0 - 2018-12-19
   - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
   - [major] remove default `env` configuration
