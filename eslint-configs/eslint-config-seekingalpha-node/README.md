@@ -6,11 +6,11 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-import@2.14.0 eslint-plugin-jsdoc@3.14.0 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-node@8.0.0 eslint-plugin-promise@4.0.1 eslint-plugin-unicorn@6.0.1 --save-dev
+    npm install eslint@5.10.0 eslint-plugin-node@8.0.0 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev eslint@5.10.0 eslint-plugin-array-func@3.1.0 eslint-plugin-import@2.14.0 eslint-plugin-jsdoc@3.14.0 eslint-plugin-no-use-extend-native@0.3.12 eslint-plugin-node@8.0.0 eslint-plugin-promise@4.0.1 eslint-plugin-unicorn@6.0.1
+    yarn add --dev eslint@5.10.0 eslint-plugin-node@8.0.0
 
 
 Install SeekingAlpha shareable ESLint:
@@ -23,17 +23,9 @@ For **Yarn**:
 
 ## Usage
 
-This shareable config includes all ESLint rules including ECMAScript 6 features, set of [legacy rules](https://eslint.org/docs/rules/#deprecated) and additional rules for `node` We also extend our configuration with following plugins:
+This shareable config includes all rules from following plugins:
 
-* [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-* [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
-* [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
-* [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
-* [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-* [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 * [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
-
-If you don't need configuration extended with `node` rules, check out our [base config](https://www.npmjs.com/package/eslint-config-seekingalpha-base).
 
 Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-node` rules:
 
