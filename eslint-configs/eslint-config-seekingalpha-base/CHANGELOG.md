@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.7.0 - 2018-12-19
+ - [major] remove default `env` configuration
+ - [major] update `parserOptions`
+ - [pathc] clean React specific methods from `class-methods-use-this` rule
+
 ## 1.6.0 - 2018-12-15
  - [major] remove `seekingalpha-base/browser` configuration
  - [patch] add eslint-plugin-import [Style guide](https://www.npmjs.com/package/eslint-plugin-import#style-guide) rules

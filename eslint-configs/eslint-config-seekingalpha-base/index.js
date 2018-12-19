@@ -2,8 +2,6 @@ module.exports = {
 
   extends: [
 
-    './rules/parser-options.js',
-
     // ESLint rules (https://eslint.org/docs/rules/)
     './rules/eslint/index.js',
 
@@ -27,10 +25,13 @@ module.exports = {
 
   ],
 
-  env: {
-    browser: true,
-    node: true,
-    'shared-node-browser': true,
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      impliedStrict: true,
+      globalReturn: false,
+    },
   },
 
 };
