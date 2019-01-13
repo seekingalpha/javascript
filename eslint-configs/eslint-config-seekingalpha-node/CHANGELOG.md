@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0 - 2019-1-13
+ - [deps] update `eslint` to version 5.12.0
+ - [deps] update `eslint-plugin-node` to version 8.0.1
+ - [beaking] enable `node/no-process-exit` rule
+ - [docs] updates `README.md` installation guide
+
 ## 2.0.0 - 2018-12-19
   - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
   - [major] keep only `eslint-plugin-node` rules
@@ -35,5 +41,4 @@
  - [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
 
 ## 1.0.0 - 2018-09-14
-
  - Initial commit
