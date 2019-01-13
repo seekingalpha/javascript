@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.1.0 - 2019-1-13
+ - [deps] update `eslint` to version 5.12.0
+ - [deps] update `eslint-plugin-flowtype` to version 3.2.1
+ - [deps] update `eslint-plugin-jest"` to version 22.1.3
+ - [deps] update `eslint-plugin-react` to version 7.12.3
+ - [beaking] drop `eslint-plugin-chai-expect` plugin integration
+ - [new] added `react/jsx-fragments` rule to force short Fragment notation
+ - [docs] updates `README.md` installation guide
+
 ## 2.0.1 - 2018-12-19
   - [patch: loosen rules] disable `jest/no-test-return-statement`
 
