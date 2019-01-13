@@ -45,6 +45,9 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/require-param-type.md
     'jsdoc/require-param-type': 'error',
 
+    // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/require-returns.md
+    'jsdoc/require-returns': 'error',
+
     // https://github.com/gajus/eslint-plugin-jsdoc/blob/master/.README/rules/require-returns-description.md
     'jsdoc/require-returns-description': 'error',
 

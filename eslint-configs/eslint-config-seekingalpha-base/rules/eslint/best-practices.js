@@ -133,7 +133,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/no-implicit-coercion
-    'no-implicit-coercion': 'off',
+    'no-implicit-coercion': 'error',
 
     // https://eslint.org/docs/rules/no-implicit-globals
     'no-implicit-globals': 'error',
@@ -287,6 +287,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-useless-call
     'no-useless-call': 'error',
+
+    // https://eslint.org/docs/rules/no-useless-catch
+    'no-useless-catch': 'error',
 
     // https://eslint.org/docs/rules/no-useless-concat
     'no-useless-concat': 'error',
