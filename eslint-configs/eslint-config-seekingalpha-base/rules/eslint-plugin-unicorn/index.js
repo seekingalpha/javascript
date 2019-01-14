@@ -27,7 +27,7 @@ module.exports = {
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
      * Already validated by EsLint node rule
      */
-    'unicorn/no-process-exit': 'off',
+    'unicorn/no-process-exit': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
     'unicorn/throw-new-error': 'error',

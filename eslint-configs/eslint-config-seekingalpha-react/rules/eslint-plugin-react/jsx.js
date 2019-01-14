@@ -62,6 +62,11 @@ module.exports = {
       'multiline-multiprop',
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+    'react/jsx-fragments': [
+      'error', 'syntax',
+    ],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': [
       'error',

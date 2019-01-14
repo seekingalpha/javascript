@@ -1,5 +1,19 @@
 # Change Log
 
+## 1.8.0 - 2019-1-13
+ - [deps] update `eslint` to version 5.12.0
+ - [deps] update `eslint-plugin-array-func` to version 3.1.1
+ - [deps] update `eslint-plugin-jsdoc` to version 3.15.1
+ - [deps] update `eslint-plugin-no-use-extend-native` to version 0.4.0
+ - [beaking] enable `import/no-nodejs-modules` rule
+ - [beaking] enable `unicorn/no-process-exit` rule
+ - [beaking] enable `no-implicit-coercion` rule
+ - [beaking] enable `no-process-env` rule
+ - [beaking] enable `no-process-exit` rule
+ - [new] added `no-useless-catch` rule
+ - [new] added `jsdoc/require-returns` rule
+ - [docs] updates `README.md` installation guide
+
 ## 1.7.2 - 2018-12-19
  - [patch] disable `import/prefer-default-export` rule
 
@@ -57,7 +71,7 @@
  - [docs] update `CHANGELOG.md` including previous releases
  - [docs] updates `README.md` installation guide
  - [minor] loosen `max-lines-per-function` rule allowing 100 lines
- - [minor] extand `import/ignore` rule with `less` and `hbs` extensions
+ - [minor] extend `import/ignore` rule with `less` and `hbs` extensions
 
 ## 1.1.3 - 2018-09-11
  - [new] extend `class-methods-use-this` rule with `exceptMethods` for ReactJS(`componentDidMount`, `componentDidUpdate`, `componentWillMount`, `componentWillReceiveProps`, `componentWillUnmount`, `componentWillUpdate`, `render`, `shouldComponentUpdate`)
