@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.1.1 - 2019-1-13
+ - [deps] fix `peerDependencies` versions
+
 ## 2.1.0 - 2019-1-13
  - [deps] update `eslint` to version 5.12.0
  - [deps] update `eslint-plugin-flowtype` to version 3.2.1

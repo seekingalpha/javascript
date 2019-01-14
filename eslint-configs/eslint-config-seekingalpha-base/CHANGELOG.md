@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.8.1 - 2019-1-13
+ - [deps] update `eslint-plugin-unicorn` to version 7.0.0
+ - [deps] update `eslint-plugin-array-func` to version 3.1.2
+ - [deps] fix `peerDependencies` versions
+ - [beaking] enable `unicorn/no-console-spaces` rule
+ - [beaking] enable `unicorn/no-unreadable-array-destructuring` rule
+ - [beaking] enable `unicorn/no-unused-properties` rule
+ - [beaking] enable `unicorn/prefer-node-append` rule
+ - [beaking] enable `unicorn/prefer-query-selector` rule
+ - [docs] updates `README.md` installation guide
+
 ## 1.8.0 - 2019-1-13
  - [deps] update `eslint` to version 5.12.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.1
