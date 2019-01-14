@@ -48,13 +48,35 @@ module.exports = {
       'always',
     ],
 
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-import.md
+    'node/no-extraneous-import': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/process-exit-as-throw.md
+    'node/process-exit-as-throw': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md
+    'node/no-unsupported-features/es-builtins': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md
+    'node/no-unsupported-features/node-builtins': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-bin.md
+    'node/no-unpublished-bin': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-missing-import.md
+    'node/no-missing-import': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md
+    'node/no-unpublished-import': 'off',
+
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md
     'node/no-unpublished-require': 'off',
 
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-deprecated-api.md
+    'node/no-deprecated-api': 'error',
+
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/shebang.md
     'node/shebang': 'off',
-
-    'node/no-process-exit': 'error',
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/text-decoder.md
     'node/prefer-global/text-decoder': [
