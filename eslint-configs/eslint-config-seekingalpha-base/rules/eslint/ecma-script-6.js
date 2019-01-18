@@ -55,7 +55,7 @@ module.exports = {
     'no-dupe-class-members': 'error',
 
     // https://eslint.org/docs/rules/no-duplicate-imports
-    'no-duplicate-imports': 'error',
+    'no-duplicate-imports': 'off',
 
     // https://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 'error',
