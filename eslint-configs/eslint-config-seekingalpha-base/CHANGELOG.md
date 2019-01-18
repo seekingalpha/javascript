@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.8.2 - 2019-1-18
+ - [minor] loosen `no-duplicate-imports` to resolve conflict with flow types
+
 ## 1.8.1 - 2019-1-13
  - [deps] update `eslint-plugin-unicorn` to version 7.0.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.2
