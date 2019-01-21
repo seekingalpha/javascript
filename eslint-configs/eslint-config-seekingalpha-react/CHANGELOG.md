@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.1.3 - 2019-1-21
+ - [patch: loosen rules] disable `flowtype/no-existential-type`
+ 
 ## 2.1.2 - 2019-1-21
  - [deps] upgrade `eslint-plugin-react` to version 7.12.4
  

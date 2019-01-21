@@ -48,9 +48,6 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-dupe-keys
     'flowtype/no-dupe-keys': 'error',
 
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-existential-type
-    'flowtype/no-existential-type': 'error',
-
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
     'flowtype/no-flow-fix-me-comments': 'error',
 
