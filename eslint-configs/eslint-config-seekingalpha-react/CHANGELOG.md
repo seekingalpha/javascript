@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.1.1 - 2019-1-21
+ - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ 
 ## 2.1.1 - 2019-1-13
  - [deps] fix `peerDependencies` versions
 
