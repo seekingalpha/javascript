@@ -49,7 +49,8 @@ module.exports = {
     'flowtype/no-dupe-keys': 'error',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-existential-type
-    'flowtype/no-existential-type': 'error',
+    // should be disabled to support recompose flow types
+    'flowtype/no-existential-type': 'off',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
     'flowtype/no-flow-fix-me-comments': 'error',
