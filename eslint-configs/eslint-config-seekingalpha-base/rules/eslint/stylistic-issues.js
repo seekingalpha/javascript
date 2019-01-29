@@ -117,7 +117,7 @@ module.exports = {
     // https://eslint.org/docs/rules/eol-last
     'eol-last': [
       'error',
-      'never',
+      'always',
     ],
 
     // https://eslint.org/docs/rules/func-call-spacing
