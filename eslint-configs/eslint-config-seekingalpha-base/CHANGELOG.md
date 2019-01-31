@@ -8,6 +8,9 @@
  - [beaking] enable `jsdoc/require-returns-check` rule
  - [docs] updates `README.md` installation guide
 
+## 1.8.3 - 2019-1-31
+ - [minor] enable `eol-last`
+
 ## 1.8.2 - 2019-1-18
  - [minor] loosen `no-duplicate-imports` to resolve conflict with flow types
 
