@@ -48,8 +48,10 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-dupe-keys
     'flowtype/no-dupe-keys': 'error',
 
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-existential-type
-    // should be disabled to support recompose flow types
+    /*
+     * https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-existential-type
+     * should be disabled to support recompose flow types
+     */
     'flowtype/no-existential-type': 'off',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
