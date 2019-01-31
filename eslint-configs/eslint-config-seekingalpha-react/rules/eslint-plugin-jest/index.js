@@ -91,6 +91,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-expect-in-promise.md
     'jest/valid-expect-in-promise': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-todo.md
+    'jest/prefer-todo': 'error',
+
   },
 
 };

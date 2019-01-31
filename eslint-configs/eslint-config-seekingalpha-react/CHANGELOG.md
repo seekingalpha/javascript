@@ -1,11 +1,19 @@
 # Change Log
 
+## 2.2.0 - 2019-1-31
+ - [deps] upgrade `eslint` to version 5.12.1
+ - [deps] upgrade `eslint-plugin-jest` to version 22.2.1
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.0
+ - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ - [new] `jest/prefer-todo` rule error
+ - [docs] updates `README.md` installation guide
+
 ## 2.1.3 - 2019-1-21
  - [patch: loosen rules] disable `flowtype/no-existential-type`
- 
+
 ## 2.1.2 - 2019-1-21
  - [deps] upgrade `eslint-plugin-react` to version 7.12.4
- 
+
 ## 2.1.1 - 2019-1-13
  - [deps] fix `peerDependencies` versions
 
