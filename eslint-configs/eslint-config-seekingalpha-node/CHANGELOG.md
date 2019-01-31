@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.3.0 - 2018-1-31
+ - [deps] update `eslint` to version 5.12.1
+ - [docs] updates `README.md` installation guide
+
 ## 2.2.0 - 2019-1-13
  - [beaking] enable `node/no-extraneous-import` rule
  - [beaking] enable `node/process-exit-as-throw` rule
