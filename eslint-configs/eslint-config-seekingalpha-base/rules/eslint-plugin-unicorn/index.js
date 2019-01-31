@@ -33,7 +33,7 @@ module.exports = {
     'unicorn/no-unused-properties': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-append.md
-    'unicorn/prefer-node-append': 'error',
+    'unicorn/prefer-node-append': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'error',

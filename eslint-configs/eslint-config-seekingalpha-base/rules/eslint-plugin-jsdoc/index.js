@@ -60,6 +60,9 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-jsdoc
     'jsdoc/require-description': 'error',
 
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-returns-check
+    'jsdoc/require-returns-check': 'error',
+
   },
 
 };

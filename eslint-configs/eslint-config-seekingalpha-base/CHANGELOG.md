@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.9.0 - 2019-1-31
+ - [deps] update `eslint` to version 5.12.1
+ - [deps] update `eslint-plugin-import` to version 5.16.0
+ - [deps] update `eslint-plugin-jsdoc` to version 4.1.0
+ - [deps] update `eslint-plugin-unicorn` to version 7.1.0
+ - [beaking] enable `jsdoc/require-returns-check` rule
+ - [docs] updates `README.md` installation guide
+
 ## 1.8.2 - 2019-1-18
  - [minor] loosen `no-duplicate-imports` to resolve conflict with flow types
 

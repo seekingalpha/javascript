@@ -82,6 +82,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-export.md
+    'import/no-named-export': 'off',
+
   },
 
 };
