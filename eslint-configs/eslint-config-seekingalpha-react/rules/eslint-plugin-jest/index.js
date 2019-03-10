@@ -94,6 +94,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-todo.md
     'jest/prefer-todo': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
+    'jest/prefer-called-with': 'error',
+
   },
 
 };

@@ -17,6 +17,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest
     './rules/eslint-plugin-jest/index.js',
 
+    // https://reactjs.org/docs/hooks-rules.html
+    './rules/eslint-plugin-react-hooks/index.js',
+
   ],
 
   parserOptions: {
