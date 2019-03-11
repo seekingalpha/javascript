@@ -317,6 +317,12 @@ module.exports = {
       },
     ],
 
+    /*
+     * https://eslint.org/docs/rules/prefer-named-capture-group
+     * supported only by  ECMAScript 2018
+     */
+    'prefer-named-capture-group': 'off',
+
     // https://eslint.org/docs/rules/radix
     radix: 'error',
 

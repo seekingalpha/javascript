@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.2.0 - 2019-3-10
+ - [deps] update `eslint` to version 5.15.1
+ - [deps] update `eslint-plugin-array-func` to version 3.1.3
+ - [deps] update `eslint-plugin-jsdoc` to version 4.1.1
+ - [docs] updates `README.md` installation guide
+
 ## 1.9.0 - 2019-1-31
  - [deps] update `eslint` to version 5.12.1
  - [deps] update `eslint-plugin-import` to version 5.16.0

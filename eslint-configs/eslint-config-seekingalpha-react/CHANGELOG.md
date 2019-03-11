@@ -1,5 +1,15 @@
 # Change Log
 
+## 2.3.0 - 2019-3-10
+ - [deps] upgrade `eslint` to version 5.15.1
+ - [deps] upgrade `eslint-plugin-flowtype` to version 3.4.2
+ - [deps] upgrade `eslint-plugin-jest` to version 22.3.0
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.1
+ - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ - [new] `jest/prefer-called-with` rule error
+ - [new] add `eslint-plugin-react-hooks`
+ - [docs] updates `README.md` installation guide
+
 ## 2.2.0 - 2019-1-31
  - [deps] upgrade `eslint` to version 5.12.1
  - [deps] upgrade `eslint-plugin-jest` to version 22.2.1
