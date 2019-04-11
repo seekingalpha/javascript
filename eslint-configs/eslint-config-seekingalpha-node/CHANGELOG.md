@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.5.0 - 2019-4-11
+ - [deps] update `eslint` to version 5.16.0
+ - [docs] updates `README.md` installation guide
+
 ## 2.4.0 - 2019-3-10
  - [deps] update `eslint` to version 5.15.1
  - [docs] updates `README.md` installation guide

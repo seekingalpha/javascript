@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.4.0 - 2019-4-11
+ - [deps] upgrade `eslint` to version 5.16.0
+ - [deps] upgrade `eslint-plugin-flowtype` to version 3.6.1
+ - [deps] upgrade `eslint-plugin-jest` to version 22.4.1
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 1.6.0
+ - [new] `jest/no-empty-title` rule error
+ - [new] `jsx-a11y/control-has-associated-label` rule error
+ - [docs] updates `README.md` installation guide
+
 ## 2.3.0 - 2019-3-10
  - [deps] upgrade `eslint` to version 5.15.1
  - [deps] upgrade `eslint-plugin-flowtype` to version 3.4.2

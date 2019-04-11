@@ -1,6 +1,22 @@
 # Change Log
 
-## 2.2.0 - 2019-3-10
+## 2.1.0 - 2019-4-11
+ - [deps] update `eslint` to version 5.16.0
+ - [deps] update `eslint-plugin-jsdoc` to version 4.8.3
+ - [deps] update `eslint-plugin-promise` to version 4.1.1
+ - [deps] update `eslint-plugin-unicorn` to version 8.0.2
+ - [beaking] enable `jsdoc/check-alignment` rule
+ - [beaking] enable `jsdoc/check-indentation` rule
+ - [beaking] enable `jsdoc/check-syntax` rule
+ - [beaking] enable `unicorn/no-for-loop` rule
+ - [beaking] enable `unicorn/no-zero-fractions` rule
+ - [beaking] enable `unicorn/prefer-includes` rule
+ - [beaking] enable `unicorn/prefer-node-remove` rule
+ - [beaking] enable `unicorn/prefer-text-content` rule
+ - [beaking] enable `unicorn/prevent-abbreviations` rule
+ - [docs] updates `README.md` installation guide
+
+## 2.0.0 - 2019-3-10
  - [deps] update `eslint` to version 5.15.1
  - [deps] update `eslint-plugin-array-func` to version 3.1.3
  - [deps] update `eslint-plugin-jsdoc` to version 4.1.1
