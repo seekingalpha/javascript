@@ -14,6 +14,7 @@
  - [beaking] enable `unicorn/prefer-node-remove` rule
  - [beaking] enable `unicorn/prefer-text-content` rule
  - [beaking] enable `unicorn/prevent-abbreviations` rule
+ - [docs] updates `README.md` installation guide
 
 ## 2.0.0 - 2019-3-10
  - [deps] update `eslint` to version 5.15.1
