@@ -63,6 +63,15 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-returns-check
     'jsdoc/require-returns-check': 'error',
 
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-alignment
+    'jsdoc/check-alignment': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#check-indentation
+    'jsdoc/check-indentation': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#check-syntax
+    'jsdoc/check-syntax': 'error',
+
   },
 
 };
