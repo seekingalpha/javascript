@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.1.1 - 2019-4-11
+ - [beaking] disable `unicorn/prevent-abbreviations` rule
+
 ## 2.1.0 - 2019-4-11
  - [deps] update `eslint` to version 5.16.0
  - [deps] update `eslint-plugin-jsdoc` to version 4.8.3

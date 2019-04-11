@@ -114,7 +114,7 @@ module.exports = {
     'unicorn/prefer-text-content': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': 'off',
 
   },
 
