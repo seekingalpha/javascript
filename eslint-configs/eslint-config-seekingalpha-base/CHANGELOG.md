@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.2.0 - 2019-4-24
+ - [deps] update `eslint-plugin-import` to version 2.17.2
+
 ## 2.1.1 - 2019-4-11
  - [beaking] disable `unicorn/prevent-abbreviations` rule
 
