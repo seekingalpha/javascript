@@ -141,14 +141,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 'error',
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
-    'react/jsx-one-expression-per-line': [
-      'error',
-      {
-        allow: 'literal',
-      },
-    ],
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
     'react/jsx-curly-brace-presence': [
       'error',
