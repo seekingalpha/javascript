@@ -72,6 +72,27 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-jsdoc#check-syntax
     'jsdoc/check-syntax': 'error',
 
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-implements-on-classes
+    'jsdoc/implements-on-classes': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#match-description
+    'jsdoc/match-description': [
+      'error', {
+        tags: {
+          param: true,
+          returns: true,
+        },
+      },
+    ],
+
+    /*
+     * https://github.com/gajus/eslint-plugin-jsdoc#no-types
+     * we use Flow
+     */
+    'jsdoc/no-types': 'off',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#require-jsdoc
+    'jsdoc/require-jsdoc': 'off',
   },
 
 };

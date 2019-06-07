@@ -116,6 +116,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': 'off',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-event-key.md
+    'unicorn/prefer-event-key': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md
+    'unicorn/prefer-flat-map': 'error',
   },
 
 };

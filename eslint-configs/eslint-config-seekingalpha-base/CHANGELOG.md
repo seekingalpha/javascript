@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.3.0 - 2019-6-7
+ - [deps] update `eslint-plugin-import` to version 2.17.3
+ - [deps] update `eslint-plugin-jsdoc` to version 7.2.3
+ - [deps] update `eslint-plugin-unicorn` to version 9.0.0
+ - [beaking] enable `import/no-unused-modules` rule
+ - [beaking] enable `jsdoc/implements-on-classes` rule
+ - [beaking] enable `jsdoc/match-description` rule
+ - [beaking] enable `jsdoc/no-types` rule
+ - [beaking] enable `jsdoc/require-jsdoc` rule
+ - [beaking] enable `unicorn/prefer-event-key` rule
+ - [beaking] enable `unicorn/prefer-flat-map` rule
+
 ## 2.2.0 - 2019-4-24
  - [deps] update `eslint-plugin-import` to version 2.17.2
 
