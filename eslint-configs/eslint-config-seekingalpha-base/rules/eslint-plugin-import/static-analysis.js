@@ -61,14 +61,11 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
     'import/no-relative-parent-imports': 'off',
 
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-    'import/no-unused-modules': [
-      'error',
-      {
-        missingExports: true,
-        unusedExports: true,
-      },
-    ],
+    /*
+     * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
+     * enable after mod.name bug fixed
+     */
+    'import/no-unused-modules': 'off',
   },
 
 };

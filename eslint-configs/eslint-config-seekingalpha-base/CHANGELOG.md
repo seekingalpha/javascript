@@ -1,6 +1,9 @@
 # Change Log
 
-## 2.3.0 - 2019-6-7
+## 2.3.1 - 2019-06-08
+ - [minor] disable `import/no-unused-modules` rule
+
+## 2.3.0 - 2019-06-07
  - [deps] update `eslint-plugin-import` to version 2.17.3
  - [deps] update `eslint-plugin-jsdoc` to version 7.2.3
  - [deps] update `eslint-plugin-unicorn` to version 9.0.0
@@ -12,13 +15,13 @@
  - [beaking] enable `unicorn/prefer-event-key` rule
  - [beaking] enable `unicorn/prefer-flat-map` rule
 
-## 2.2.0 - 2019-4-24
+## 2.2.0 - 2019-04-24
  - [deps] update `eslint-plugin-import` to version 2.17.2
 
-## 2.1.1 - 2019-4-11
+## 2.1.1 - 2019-04-11
  - [beaking] disable `unicorn/prevent-abbreviations` rule
 
-## 2.1.0 - 2019-4-11
+## 2.1.0 - 2019-04-11
  - [deps] update `eslint` to version 5.16.0
  - [deps] update `eslint-plugin-jsdoc` to version 4.8.3
  - [deps] update `eslint-plugin-promise` to version 4.1.1
@@ -34,13 +37,13 @@
  - [beaking] enable `unicorn/prevent-abbreviations` rule
  - [docs] updates `README.md` installation guide
 
-## 2.0.0 - 2019-3-10
+## 2.0.0 - 2019-03-10
  - [deps] update `eslint` to version 5.15.1
  - [deps] update `eslint-plugin-array-func` to version 3.1.3
  - [deps] update `eslint-plugin-jsdoc` to version 4.1.1
  - [docs] updates `README.md` installation guide
 
-## 1.9.0 - 2019-1-31
+## 1.9.0 - 2019-01-31
  - [deps] update `eslint` to version 5.12.1
  - [deps] update `eslint-plugin-import` to version 5.16.0
  - [deps] update `eslint-plugin-jsdoc` to version 4.1.0
@@ -48,13 +51,13 @@
  - [beaking] enable `jsdoc/require-returns-check` rule
  - [docs] updates `README.md` installation guide
 
-## 1.8.3 - 2019-1-31
+## 1.8.3 - 2019-01-31
  - [minor] enable `eol-last`
 
-## 1.8.2 - 2019-1-18
+## 1.8.2 - 2019-01-18
  - [minor] loosen `no-duplicate-imports` to resolve conflict with flow types
 
-## 1.8.1 - 2019-1-13
+## 1.8.1 - 2019-01-13
  - [deps] update `eslint-plugin-unicorn` to version 7.0.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.2
  - [deps] fix `peerDependencies` versions
@@ -65,7 +68,7 @@
  - [beaking] enable `unicorn/prefer-query-selector` rule
  - [docs] updates `README.md` installation guide
 
-## 1.8.0 - 2019-1-13
+## 1.8.0 - 2019-01-13
  - [deps] update `eslint` to version 5.12.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.1
  - [deps] update `eslint-plugin-jsdoc` to version 3.15.1
@@ -159,19 +162,14 @@
  - [patch] disable `no-invalid-this` rule
 
 ## 1.0.4 - 2018-08-15
-
  - [minor] loosen `max-len` rule extending max line length to 150 chars
  - [fix] `dot-notation` rule allowing keywords
  - [patch] disable `func-names` rule
-
 ## 1.0.3 - 2018-08-15
-
- - Fix package installation guide using NPM
+ - [docs] fix package installation guide using NPM
 
 ## 1.0.2 - 2018-08-14
-
  - [patch: loosen rules] ignore links in `max-len`
 
 ## 1.0.1 - 2018-08-13
-
  - Initial commit.
