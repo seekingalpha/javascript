@@ -15,8 +15,8 @@ module.exports = {
       },
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react/jsx-child-element-spacing.md
-    'react/jsx-child-element-spacing': 'off',
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
+    'react/jsx-child-element-spacing': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     'react/jsx-closing-bracket-location': [
@@ -118,7 +118,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': [
       'error',
       {
-        ignoreCase: false,
+        ignoreCase: true,
       },
     ],
 
@@ -225,6 +225,11 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     'react/no-danger': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+    'react/jsx-props-no-spreading': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
+    'react/prefer-read-only-props': 'error',
   },
 
 };

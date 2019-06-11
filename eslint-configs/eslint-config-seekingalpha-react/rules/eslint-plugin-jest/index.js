@@ -100,6 +100,12 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-empty-title.md
     'jest/no-empty-title': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-commented-out-tests.md
+    'jest/no-commented-out-tests': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
+    'jest/no-mocks-import': 'error',
+
   },
 
 };
