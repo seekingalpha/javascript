@@ -82,10 +82,7 @@ module.exports = {
     'flowtype/require-parameter-type': 'error',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-return-type
-    'flowtype/require-return-type': [
-      'error',
-      'always',
-    ],
+    'flowtype/require-return-type': 'off',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-types-at-top
     'flowtype/require-types-at-top': [

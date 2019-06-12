@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.5.1 - 2019-06-12
+ - [loosen rules] `flowtype/require-return-type` disabled
+
 ## 2.5.0 - 2019-06-11
  - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.1
  - [deps] upgrade `eslint-plugin-jest` to version 22.6.4
@@ -65,13 +68,13 @@
  - [docs] updates `README.md` installation guide
 
 ## 2.0.1 - 2018-12-19
-  - [patch: loosen rules] disable `jest/no-test-return-statement`
+ - [patch: loosen rules] disable `jest/no-test-return-statement`
 
 ## 2.0.0 - 2018-12-19
-  - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
-  - [major] remove default `env` configuration
-  - [major] update `parserOptions`
-  - [docs] updates `README.md` installation guide
+ - [major] make this config standalone dropping direct dependency on `eslint-config-seekingalpha-base`
+ - [major] remove default `env` configuration
+ - [major] update `parserOptions`
+ - [docs] updates `README.md` installation guide
 
 ## 1.4.0 - 2018-12-18
  - [deps] update `eslint-config-seekingalpha-base` to version 1.6.0
