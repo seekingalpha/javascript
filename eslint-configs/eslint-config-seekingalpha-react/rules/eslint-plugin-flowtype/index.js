@@ -30,7 +30,7 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-delimiter-dangle
     'flowtype/delimiter-dangle': [
       'error',
-      'never',
+      'always',
     ],
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-generic-spacing
