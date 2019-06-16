@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.6.0 - 2019-06-16
+ - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.3
+ - [new] `flowtype/delimiter-dangle` enable with 'always' option
+
 ## 2.5.1 - 2019-06-12
  - [loosen rules] `flowtype/require-return-type` disabled
 
