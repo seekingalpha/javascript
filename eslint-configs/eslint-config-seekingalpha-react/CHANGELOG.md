@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.8.0 - 2019-06-18
+ - [beaking] `flowtype/delimiter-dangle` rule `always` option replaced with `always-multiline`
+
 ## 2.7.0 - 2019-06-18
  - [deps] update `babel-eslint` to version 10.0.1
 
