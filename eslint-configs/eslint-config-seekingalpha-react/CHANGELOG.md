@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.7.0 - 2019-06-18
+ - [deps] update `babel-eslint` to version 10.0.1
+
 ## 2.6.0 - 2019-06-16
  - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.3
  - [new] `flowtype/delimiter-dangle` enable with 'always' option

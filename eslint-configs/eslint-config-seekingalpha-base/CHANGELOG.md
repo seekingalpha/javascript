@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.5.0 - 2019-06-18
+ - [deps] update `eslint-plugin-jsdoc` to version 8.1.0
+ - [beaking] `comma-dangle` rule `always-multiline` option replaced with `always`
+
 ## 2.4.0 - 2019-06-11
  - [deps] update `eslint-plugin-jsdoc` to version 8.0.1
  - [deps] update `eslint-plugin-unicorn` to version 9.1.0
