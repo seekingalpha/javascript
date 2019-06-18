@@ -1,11 +1,11 @@
 # Change Log
 
 ## 2.6.0 - 2019-06-18
- - [beaking] `comma-dangle` rule `always` option replaced with `always-multiline`
+ - [breaking] `comma-dangle` rule `always` option replaced with `always-multiline`
 
 ## 2.5.0 - 2019-06-18
  - [deps] update `eslint-plugin-jsdoc` to version 8.1.0
- - [beaking] `comma-dangle` rule `always-multiline` option replaced with `always`
+ - [breaking] `comma-dangle` rule `always-multiline` option replaced with `always`
 
 ## 2.4.0 - 2019-06-11
  - [deps] update `eslint-plugin-jsdoc` to version 8.0.1
@@ -18,34 +18,34 @@
  - [deps] update `eslint-plugin-import` to version 2.17.3
  - [deps] update `eslint-plugin-jsdoc` to version 7.2.3
  - [deps] update `eslint-plugin-unicorn` to version 9.0.0
- - [beaking] enable `import/no-unused-modules` rule
- - [beaking] enable `jsdoc/implements-on-classes` rule
- - [beaking] enable `jsdoc/match-description` rule
- - [beaking] enable `jsdoc/no-types` rule
- - [beaking] enable `jsdoc/require-jsdoc` rule
- - [beaking] enable `unicorn/prefer-event-key` rule
- - [beaking] enable `unicorn/prefer-flat-map` rule
+ - [breaking] enable `import/no-unused-modules` rule
+ - [breaking] enable `jsdoc/implements-on-classes` rule
+ - [breaking] enable `jsdoc/match-description` rule
+ - [breaking] enable `jsdoc/no-types` rule
+ - [breaking] enable `jsdoc/require-jsdoc` rule
+ - [breaking] enable `unicorn/prefer-event-key` rule
+ - [breaking] enable `unicorn/prefer-flat-map` rule
 
 ## 2.2.0 - 2019-04-24
  - [deps] update `eslint-plugin-import` to version 2.17.2
 
 ## 2.1.1 - 2019-04-11
- - [beaking] disable `unicorn/prevent-abbreviations` rule
+ - [breaking] disable `unicorn/prevent-abbreviations` rule
 
 ## 2.1.0 - 2019-04-11
  - [deps] update `eslint` to version 5.16.0
  - [deps] update `eslint-plugin-jsdoc` to version 4.8.3
  - [deps] update `eslint-plugin-promise` to version 4.1.1
  - [deps] update `eslint-plugin-unicorn` to version 8.0.2
- - [beaking] enable `jsdoc/check-alignment` rule
- - [beaking] enable `jsdoc/check-indentation` rule
- - [beaking] enable `jsdoc/check-syntax` rule
- - [beaking] enable `unicorn/no-for-loop` rule
- - [beaking] enable `unicorn/no-zero-fractions` rule
- - [beaking] enable `unicorn/prefer-includes` rule
- - [beaking] enable `unicorn/prefer-node-remove` rule
- - [beaking] enable `unicorn/prefer-text-content` rule
- - [beaking] enable `unicorn/prevent-abbreviations` rule
+ - [breaking] enable `jsdoc/check-alignment` rule
+ - [breaking] enable `jsdoc/check-indentation` rule
+ - [breaking] enable `jsdoc/check-syntax` rule
+ - [breaking] enable `unicorn/no-for-loop` rule
+ - [breaking] enable `unicorn/no-zero-fractions` rule
+ - [breaking] enable `unicorn/prefer-includes` rule
+ - [breaking] enable `unicorn/prefer-node-remove` rule
+ - [breaking] enable `unicorn/prefer-text-content` rule
+ - [breaking] enable `unicorn/prevent-abbreviations` rule
  - [docs] updates `README.md` installation guide
 
 ## 2.0.0 - 2019-03-10
@@ -59,7 +59,7 @@
  - [deps] update `eslint-plugin-import` to version 5.16.0
  - [deps] update `eslint-plugin-jsdoc` to version 4.1.0
  - [deps] update `eslint-plugin-unicorn` to version 7.1.0
- - [beaking] enable `jsdoc/require-returns-check` rule
+ - [breaking] enable `jsdoc/require-returns-check` rule
  - [docs] updates `README.md` installation guide
 
 ## 1.8.3 - 2019-01-31
@@ -72,11 +72,11 @@
  - [deps] update `eslint-plugin-unicorn` to version 7.0.0
  - [deps] update `eslint-plugin-array-func` to version 3.1.2
  - [deps] fix `peerDependencies` versions
- - [beaking] enable `unicorn/no-console-spaces` rule
- - [beaking] enable `unicorn/no-unreadable-array-destructuring` rule
- - [beaking] enable `unicorn/no-unused-properties` rule
- - [beaking] enable `unicorn/prefer-node-append` rule
- - [beaking] enable `unicorn/prefer-query-selector` rule
+ - [breaking] enable `unicorn/no-console-spaces` rule
+ - [breaking] enable `unicorn/no-unreadable-array-destructuring` rule
+ - [breaking] enable `unicorn/no-unused-properties` rule
+ - [breaking] enable `unicorn/prefer-node-append` rule
+ - [breaking] enable `unicorn/prefer-query-selector` rule
  - [docs] updates `README.md` installation guide
 
 ## 1.8.0 - 2019-01-13
@@ -84,11 +84,11 @@
  - [deps] update `eslint-plugin-array-func` to version 3.1.1
  - [deps] update `eslint-plugin-jsdoc` to version 3.15.1
  - [deps] update `eslint-plugin-no-use-extend-native` to version 0.4.0
- - [beaking] enable `import/no-nodejs-modules` rule
- - [beaking] enable `unicorn/no-process-exit` rule
- - [beaking] enable `no-implicit-coercion` rule
- - [beaking] enable `no-process-env` rule
- - [beaking] enable `no-process-exit` rule
+ - [breaking] enable `import/no-nodejs-modules` rule
+ - [breaking] enable `unicorn/no-process-exit` rule
+ - [breaking] enable `no-implicit-coercion` rule
+ - [breaking] enable `no-process-env` rule
+ - [breaking] enable `no-process-exit` rule
  - [new] added `no-useless-catch` rule
  - [new] added `jsdoc/require-returns` rule
  - [docs] updates `README.md` installation guide
@@ -105,7 +105,7 @@
 ## 1.7.0 - 2018-12-19
  - [major] remove default `env` configuration
  - [major] update `parserOptions`
- - [pathc] clean React specific methods from `class-methods-use-this` rule
+ - [patch] clean React specific methods from `class-methods-use-this` rule
 
 ## 1.6.0 - 2018-12-15
  - [major] remove `seekingalpha-base/browser` configuration
