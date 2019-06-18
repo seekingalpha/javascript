@@ -13,13 +13,13 @@
  - [docs] updates `README.md` installation guide
 
 ## 2.2.0 - 2019-1-13
- - [beaking] enable `node/no-extraneous-import` rule
- - [beaking] enable `node/process-exit-as-throw` rule
- - [beaking] enable `node/no-unsupported-features/es-builtins` rule
- - [beaking] enable `node/no-unsupported-features/node-builtins` rule
- - [beaking] enable `node/no-unpublished-bin` rule
- - [beaking] enable `node/no-missing-import` rule
- - [beaking] enable `node/no-deprecated-api` rule
+ - [breaking] enable `node/no-extraneous-import` rule
+ - [breaking] enable `node/process-exit-as-throw` rule
+ - [breaking] enable `node/no-unsupported-features/es-builtins` rule
+ - [breaking] enable `node/no-unsupported-features/node-builtins` rule
+ - [breaking] enable `node/no-unpublished-bin` rule
+ - [breaking] enable `node/no-missing-import` rule
+ - [breaking] enable `node/no-deprecated-api` rule
 
 ## 2.1.1 - 2019-1-13
  - [deps] fix `peerDependencies` versions
@@ -27,7 +27,7 @@
 ## 2.1.0 - 2019-1-13
  - [deps] update `eslint` to version 5.12.0
  - [deps] update `eslint-plugin-node` to version 8.0.1
- - [beaking] enable `node/no-process-exit` rule
+ - [breaking] enable `node/no-process-exit` rule
  - [docs] updates `README.md` installation guide
 
 ## 2.0.0 - 2018-12-19

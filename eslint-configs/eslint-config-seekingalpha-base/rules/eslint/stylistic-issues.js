@@ -69,7 +69,7 @@ module.exports = {
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       'error',
-      'always',
+      'always-multiline',
     ],
 
     // https://eslint.org/docs/rules/comma-spacing

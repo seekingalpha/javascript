@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.8.0 - 2019-06-18
+ - [breaking] `flowtype/delimiter-dangle` rule `always` option replaced with `always-multiline`
+
 ## 2.7.0 - 2019-06-18
  - [deps] update `babel-eslint` to version 10.0.1
 
@@ -70,7 +73,7 @@
  - [deps] update `eslint-plugin-flowtype` to version 3.2.1
  - [deps] update `eslint-plugin-jest"` to version 22.1.3
  - [deps] update `eslint-plugin-react` to version 7.12.3
- - [beaking] drop `eslint-plugin-chai-expect` plugin integration
+ - [breaking] drop `eslint-plugin-chai-expect` plugin integration
  - [new] added `react/jsx-fragments` rule to force short Fragment notation
  - [docs] updates `README.md` installation guide
 
