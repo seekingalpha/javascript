@@ -89,5 +89,22 @@ module.exports = {
       'error',
       'always',
     ],
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/file-extension-in-import.md
+    'node/file-extension-in-import': [
+      'error',
+      'always',
+      {
+        '.js': 'never',
+        '.jsx': 'never',
+      },
+    ],
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-promises/dns.md
+    'node/prefer-promises/dns': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-promises/fs.md
+    'node/prefer-promises/fs': 'error',
+
   },
 };

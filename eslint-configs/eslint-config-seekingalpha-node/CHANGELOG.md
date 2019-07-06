@@ -1,18 +1,25 @@
 # Change Log
 
-## 2.5.0 - 2019-4-11
+## 2.6.0 - 2019-07-06
+ - [deps] update `eslint-plugin-node` to version 9.1.0
+ - [breaking] enable `node/file-extension-in-import` rule with `{ '.js': 'never', '.jsx': 'never' } option
+ - [breaking] enable `node/prefer-promises/dns` rule
+ - [breaking] enable `node/prefer-promises/fs` rule
+ - [docs] updates `README.md` installation guide
+
+## 2.5.0 - 2019-04-11
  - [deps] update `eslint` to version 5.16.0
  - [docs] updates `README.md` installation guide
 
-## 2.4.0 - 2019-3-10
+## 2.4.0 - 2019-03-10
  - [deps] update `eslint` to version 5.15.1
  - [docs] updates `README.md` installation guide
 
-## 2.3.0 - 2019-1-31
+## 2.3.0 - 2019-01-31
  - [deps] update `eslint` to version 5.12.1
  - [docs] updates `README.md` installation guide
 
-## 2.2.0 - 2019-1-13
+## 2.2.0 - 2019-01-13
  - [breaking] enable `node/no-extraneous-import` rule
  - [breaking] enable `node/process-exit-as-throw` rule
  - [breaking] enable `node/no-unsupported-features/es-builtins` rule
@@ -21,10 +28,10 @@
  - [breaking] enable `node/no-missing-import` rule
  - [breaking] enable `node/no-deprecated-api` rule
 
-## 2.1.1 - 2019-1-13
+## 2.1.1 - 2019-01-13
  - [deps] fix `peerDependencies` versions
 
-## 2.1.0 - 2019-1-13
+## 2.1.0 - 2019-01-13
  - [deps] update `eslint` to version 5.12.0
  - [deps] update `eslint-plugin-node` to version 8.0.1
  - [breaking] enable `node/no-process-exit` rule
