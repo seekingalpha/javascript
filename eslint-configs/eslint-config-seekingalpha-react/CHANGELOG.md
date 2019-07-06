@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.9.0 - 2019-07-06
+ - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.4
+ - [deps] upgrade `eslint-plugin-jest` to version 22.7.2
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.3
+ - [deps] upgrade `eslint-plugin-react` to version 7.14.2
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 1.6.1
+ - [new] `react/jsx-curly-newline` enable with `{ multiline: 'require', singleline: 'forbid' }`
+
 ## 2.8.0 - 2019-06-18
  - [breaking] `flowtype/delimiter-dangle` rule `always` option replaced with `always-multiline`
 

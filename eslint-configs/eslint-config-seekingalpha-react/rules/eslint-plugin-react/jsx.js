@@ -230,6 +230,15 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
     'react/prefer-read-only-props': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
+    'react/jsx-curly-newline': [
+      'error',
+      {
+        multiline: 'require',
+        singleline: 'forbid',
+      },
+    ],
   },
 
 };
