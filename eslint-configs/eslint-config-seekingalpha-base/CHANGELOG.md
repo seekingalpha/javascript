@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.7.0 - 2019-07-07
+ - [deps] update `eslint-plugin-no-use-extend-native` to version 0.4.1
+ - [deps] update `eslint-plugin-promise` to version 4.2.1
+ - [deps] update `eslint-plugin-unicorn` to version 9.1.1
+
 ## 2.6.0 - 2019-06-18
  - [breaking] `comma-dangle` rule `always` option replaced with `always-multiline`
 
