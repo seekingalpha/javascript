@@ -1,4 +1,6 @@
 # Change Log
+## 2.9.1 - 2019-07-07
+ - [loosen] `react/jsx-curly-newline` enable with `{ multiline: 'consistent', singleline: 'consistent' }`
 
 ## 2.9.0 - 2019-07-06
  - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.4

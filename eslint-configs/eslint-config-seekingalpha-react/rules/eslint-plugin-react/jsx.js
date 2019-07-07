@@ -235,8 +235,8 @@ module.exports = {
     'react/jsx-curly-newline': [
       'error',
       {
-        multiline: 'require',
-        singleline: 'forbid',
+        multiline: 'consistent',
+        singleline: 'consistent',
       },
     ],
   },
