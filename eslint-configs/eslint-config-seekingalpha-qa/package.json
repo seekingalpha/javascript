@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-seekingalpha-qa",
+  "version": "1.0.0",
+  "description": "SeekingAlpha's sharable QA ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-rules": "eslint-find-rules -u ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekingalpha/javascript"
+  },
+  "keywords": [
+    "code",
+    "codelinter",
+    "policy",
+    "quality",
+    "eslint",
+    "eslintconfig",
+    "ECMAScript6",
+    "sa",
+    "seekingalpha",
+    "javascript",
+    "ES6",
+    "rules",
+    "style",
+    "guide",
+    "protractor"
+  ],
+  "author": "Aleksey Kovalevsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seekingalpha/javascript/issues"
+  },
+  "homepage": "https://github.com/seekingalpha/javascript#readme",
+  "engines": {
+    "node": ">= 7"
+  },
+  "peerDependencies": {
+    "eslint": "5.16.0",
+    "eslint-plugin-mocha": "5.3.0",
+    "eslint-plugin-protractor": "1.41.1"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-find-rules": "3.3.1",
+    "eslint-plugin-mocha": "5.3.0",
+    "eslint-plugin-protractor": "1.41.1"
+  }
+}
