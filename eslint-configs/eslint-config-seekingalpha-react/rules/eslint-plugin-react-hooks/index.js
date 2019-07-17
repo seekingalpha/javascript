@@ -9,8 +9,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
 
     // https://reactjs.org/docs/hooks-rules.html
-    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
   },
-
 };

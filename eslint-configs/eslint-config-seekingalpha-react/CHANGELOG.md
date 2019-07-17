@@ -1,4 +1,6 @@
 # Change Log
+## 2.9.2 - 2019-07-08
+ - [loosen] `react-hooks/exhaustive-deps`
 ## 2.9.1 - 2019-07-07
  - [loosen] `react/jsx-curly-newline` enable with `{ multiline: 'consistent', singleline: 'consistent' }`
 
