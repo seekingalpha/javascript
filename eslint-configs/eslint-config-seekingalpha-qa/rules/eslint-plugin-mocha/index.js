@@ -63,7 +63,7 @@ module.exports = {
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-suite-description.md
     'mocha/valid-suite-description': [
       'error',
-      '^[A-Z]',
+      '^[A-Z]\\d+: should',
     ],
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-test-description.md
