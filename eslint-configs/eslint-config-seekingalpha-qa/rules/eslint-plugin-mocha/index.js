@@ -63,11 +63,14 @@ module.exports = {
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-suite-description.md
     'mocha/valid-suite-description': [
       'error',
-      '^[A-Z]\\d+: should',
+      '^[A-Z]',
     ],
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-test-description.md
-    'mocha/valid-test-description': 'error',
+    'mocha/valid-test-description': [
+      'error',
+      '^[A-Z]\\d+: should',
+    ],
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-async-describe.md
     'mocha/no-async-describe': 'error',
