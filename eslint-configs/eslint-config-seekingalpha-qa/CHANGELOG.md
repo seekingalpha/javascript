@@ -3,7 +3,7 @@
 ## 1.3.0 - 2018-07-29
  - [deps] update `eslint-plugin-mocha` to version `5.3.0`
  - [deps] update `eslint-plugin-protractor` to version `2.0.0`
- - [breading] enable `mocha/no-return-from-async` rule
+ - [breaking] enable `mocha/no-return-from-async` rule
 
 ## 1.2.0 - 2018-07-17
  - [breaking] revert `mocha/valid-suite-description` validation regex to `^[A-Z]`
