@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.8.1 - 2019-07-29
+ - [deps] update `eslint-plugin-import` to version 2.18.2
+ - [deps] update `eslint-plugin-jsdoc` to version 15.7.2
+
 ## 2.7.0 - 2019-07-12
  - [deps] update `eslint-plugin-jsdoc` to version 15.3.5
  - [deps] update `eslint-plugin-import` to version 2.18.0

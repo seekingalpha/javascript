@@ -1,4 +1,13 @@
 # Change Log
+## 2.10.0 - 2019-07-19
+ - [deps] upgrade `eslint-plugin-jest` to version 22.14.0
+ - [deps] upgrade `eslint-plugin-react` to version 7.14.3
+ - [new] `jest/no-duplicate-hooks` rule error
+ - [new] `jest/no-export` rule error
+ - [new] `jest/no-if` rule error
+ - [new] `jest/no-standalone-expect` rule error
+ - [new] `jest/no-try-expect` rule error
+
 ## 2.9.1 - 2019-07-07
  - [loosen] `react/jsx-curly-newline` enable with `{ multiline: 'consistent', singleline: 'consistent' }`
 

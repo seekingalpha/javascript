@@ -106,6 +106,20 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
     'jest/no-mocks-import': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
+    'jest/no-duplicate-hooks': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-export.md
+    'jest/no-export': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-if.md
+    'jest/no-if': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-standalone-expect.md
+    'jest/no-standalone-expect': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-try-expect.md
+    'jest/no-try-expect': 'error',
   },
 
 };
