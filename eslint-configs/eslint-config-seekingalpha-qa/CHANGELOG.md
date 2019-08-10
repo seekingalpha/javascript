@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.0.1 - 2018-08-10
+ - [breaking] disable broken `protractor/empty-script` rule
+
 ## 2.0.0 - 2018-08-10
  - [deps] update `eslint` to version `6.1.0`
  - [deps] update `eslint-plugin-protractor` to version `2.1.0`
