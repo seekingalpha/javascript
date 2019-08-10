@@ -379,8 +379,8 @@ module.exports = {
     'new-cap': [
       'error',
       {
-        newIsCap: true,
-        newIsCapExceptions: [],
+        newIsCap: true, // eslint-disable-line unicorn/no-keyword-prefix
+        newIsCapExceptions: [], // eslint-disable-line unicorn/no-keyword-prefix
         capIsNew: false,
         capIsNewExceptions: [],
         properties: true,
