@@ -123,7 +123,13 @@ module.exports = {
     'unicorn/prefer-flat-map': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md
-    'unicorn/no-keyword-prefix': 'error',
+    'unicorn/no-keyword-prefix': [
+      'error',
+      {
+        blacklist: ['new'],
+        checkProperties: true,
+      },
+    ],
   },
 
 };

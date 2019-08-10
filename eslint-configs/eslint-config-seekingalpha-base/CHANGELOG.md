@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.0.1 - 2019-08-10
+ - [patch] loosen `unicorn/no-keyword-prefix` rule with `blacklist: ['new']` option
+
 ## 3.0.0 - 2019-08-10
  - [deps] update `eslint` to version 6.1.0
  - [deps] update `eslint-plugin-jsdoc` to version 15.8.0
