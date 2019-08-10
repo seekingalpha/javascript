@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.0.1 - 2019-08-10
+ - [patch: loosen rules] `flowtype/require-indexer-name` switched to `never` option
+
 ## 3.0.0 - 2019-08-10
  - [deps] upgrade `eslint` to version 6.1.0
  - [deps] upgrade `eslint-plugin-flowtype` to version 4.2.0

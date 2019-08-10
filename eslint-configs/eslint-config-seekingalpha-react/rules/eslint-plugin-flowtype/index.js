@@ -184,7 +184,7 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#require-indexer-name
     'flowtype/require-indexer-name': [
       'error',
-      'always',
+      'never',
     ],
 
   },
