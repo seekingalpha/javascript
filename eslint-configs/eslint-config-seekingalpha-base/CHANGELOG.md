@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.0.0 - 2019-08-10
+ - [deps] update `eslint` to version 6.1.0
+ - [deps] update `eslint-plugin-jsdoc` to version 15.8.0
+ - [deps] update `eslint-plugin-unicorn` to version 10.0.0
+ - [breaking] enable `unicorn/no-keyword-prefix` rule
+ - [docs] updates `README.md` installation guide
+
 ## 2.8.1 - 2019-07-29
  - [deps] update `eslint-plugin-import` to version 2.18.2
  - [deps] update `eslint-plugin-jsdoc` to version 15.7.2

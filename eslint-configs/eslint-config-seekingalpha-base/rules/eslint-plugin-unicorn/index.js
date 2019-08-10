@@ -121,6 +121,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md
     'unicorn/prefer-flat-map': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md
+    'unicorn/no-keyword-prefix': 'error',
   },
 
 };
