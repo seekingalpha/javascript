@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.0.0 - 2019-08-10
+ - [deps] update `eslint` to version 6.1.0
+ - [docs] updates `README.md` installation guide
+
 ## 2.6.0 - 2019-07-06
  - [deps] update `eslint-plugin-node` to version 9.1.0
  - [breaking] enable `node/file-extension-in-import` rule with `{ '.js': 'never', '.jsx': 'never' } option
