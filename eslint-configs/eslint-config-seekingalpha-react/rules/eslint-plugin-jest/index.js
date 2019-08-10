@@ -120,6 +120,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-try-expect.md
     'jest/no-try-expect': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
+    'jest/no-expect-resolves': 'error',
   },
 
 };

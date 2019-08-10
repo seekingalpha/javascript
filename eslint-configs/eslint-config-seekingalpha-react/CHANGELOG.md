@@ -1,4 +1,14 @@
 # Change Log
+
+## 3.0.0 - 2019-08-10
+ - [deps] upgrade `eslint` to version 6.1.0
+ - [deps] upgrade `eslint-plugin-flowtype` to version 4.2.0
+ - [deps] upgrade `eslint-plugin-jest` to version 22.15.0
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 1.7.0
+ - [new] `flowtype/arrow-parens` rule error
+ - [new] `flowtype/require-indexer-name` rule error
+ - [new] `jest/no-expect-resolves` rule error
+
 ## 2.10.0 - 2019-07-19
  - [deps] upgrade `eslint-plugin-jest` to version 22.14.0
  - [deps] upgrade `eslint-plugin-react` to version 7.14.3

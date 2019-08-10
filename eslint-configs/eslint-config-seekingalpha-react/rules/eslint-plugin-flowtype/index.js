@@ -174,6 +174,19 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-inexact-type
     'flowtype/require-inexact-type': 'off',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-arrow-parens
+    'flowtype/arrow-parens': [
+      'error',
+      'always',
+    ],
+
+    // https://github.com/gajus/eslint-plugin-flowtype#require-indexer-name
+    'flowtype/require-indexer-name': [
+      'error',
+      'always',
+    ],
+
   },
 
   settings: {
