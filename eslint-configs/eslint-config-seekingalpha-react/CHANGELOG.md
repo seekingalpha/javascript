@@ -2,7 +2,7 @@
 
 ## 3.1.0 - 2019-15-10
  - [deps] upgrade `eslint-plugin-jest` to version 22.15.1
- - [patch: loosen rules] `react/jsx-no-binde` enable `ignoreDOMComponents` option
+ - [patch: loosen rules] `react/jsx-no-bind` enable `ignoreDOMComponents` option
  
 ## 3.0.1 - 2019-08-10
  - [patch: loosen rules] `flowtype/require-indexer-name` switched to `never` option
