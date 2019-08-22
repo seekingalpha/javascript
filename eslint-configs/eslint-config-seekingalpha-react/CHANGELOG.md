@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.2.0 - 2019-08-22
+ - [deps] upgrade `eslint` to version 6.2.1
+ - [deps] upgrade `eslint-plugin-jest` to version 22.15.2
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 2.0.1
+
 ## 3.1.0 - 2019-15-10
  - [deps] upgrade `eslint-plugin-jest` to version 22.15.1
  - [patch: loosen rules] `react/jsx-no-bind` enable `ignoreDOMComponents` option

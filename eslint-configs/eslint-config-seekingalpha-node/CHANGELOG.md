@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.1.0 - 2019-08-22
+ - [deps] update `eslint` to version 6.2.1
+
 ## 3.0.0 - 2019-08-10
  - [deps] update `eslint` to version 6.1.0
  - [docs] updates `README.md` installation guide

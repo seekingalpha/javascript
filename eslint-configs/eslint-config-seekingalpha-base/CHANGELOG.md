@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.1.0 - 2019-08-22
+ - [deps] update `eslint` to version 6.2.1
+ - [deps] update `eslint-plugin-jsdoc` to version 15.8.3
+ - [breaking] enable `function-call-argument-newline` rule with `never` option
+ - [docs] updates `README.md` installation guide
+
 ## 3.0.1 - 2019-08-10
  - [patch] loosen `unicorn/no-keyword-prefix` rule with `blacklist: ['new']` option
 
