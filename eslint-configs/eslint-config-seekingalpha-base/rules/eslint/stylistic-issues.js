@@ -778,6 +778,10 @@ module.exports = {
     // https://eslint.org/docs/rules/wrap-regex
     'wrap-regex': 'error',
 
+    // https://eslint.org/docs/rules/function-call-argument-newline
+    'function-call-argument-newline': [
+      'error', 'never',
+    ],
   },
 
 };
