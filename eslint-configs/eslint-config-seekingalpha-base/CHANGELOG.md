@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.1.1 - 2019-08-22
+ - [patch] disable `function-call-argument-newline` breaking arrow functions
+
 ## 3.1.0 - 2019-08-22
  - [deps] update `eslint` to version 6.2.1
  - [deps] update `eslint-plugin-jsdoc` to version 15.8.3
