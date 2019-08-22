@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.1.0 - 2018-08-22
+ - [deps] update `eslint` to version `6.2.1`
+ - [deps] update `eslint-plugin-mocha` to version `6.1.0`
+
 ## 2.0.1 - 2018-08-10
  - [breaking] disable broken `protractor/empty-script` rule
 
