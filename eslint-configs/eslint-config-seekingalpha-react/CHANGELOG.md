@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.4.0 - 2019-08-28
+ - [deps] update `babel-eslint` to version 10.0.3
+
 ## 3.3.0 - 2019-08-25
  - [deps] upgrade `eslint` to version 6.2.2
  
