@@ -1,4 +1,9 @@
 # Change Log
+ 
+## 3.5.0 - 2019-09-02
+ - [deps] upgrade `eslint` to version 6.3.0
+ - [deps] upgrade `eslint-plugin-jest` to version 22.16.0
+ - [new] `jest/require-top-level-describe` rule error
 
 ## 3.4.0 - 2019-08-28
  - [deps] update `babel-eslint` to version 10.0.3

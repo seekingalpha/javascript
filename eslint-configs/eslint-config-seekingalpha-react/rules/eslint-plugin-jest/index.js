@@ -123,6 +123,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
     'jest/no-expect-resolves': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
+    'jest/require-top-level-describe': 'error',
   },
 
 };
