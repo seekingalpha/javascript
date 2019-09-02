@@ -778,13 +778,12 @@ module.exports = {
     // https://eslint.org/docs/rules/wrap-regex
     'wrap-regex': 'error',
 
+
     /*
      * TODO Enable when fixed for arrow functions
      * https://eslint.org/docs/rules/function-call-argument-newline
-     * 'function-call-argument-newline': [
-     *   'error', 'never',
-     * ],
      */
+    'function-call-argument-newline': 'off',
   },
 
 };
