@@ -1,6 +1,10 @@
 # Change Log
 
-## 3.2.0 - 2019-09-02
+## 3.4.0 - 2019-09-10
+ - [deps] update `eslint-plugin-node` to version 10.0.0
+ - [breaking] enable `node/no-exports-assign` rule
+ 
+## 3.3.0 - 2019-09-02
  - [deps] update `eslint` to version 6.3.0
  - [deps] update `eslint-plugin-node` to version 9.2.0
  

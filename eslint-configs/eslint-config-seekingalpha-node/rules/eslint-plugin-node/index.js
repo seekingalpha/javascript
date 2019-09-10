@@ -106,5 +106,7 @@ module.exports = {
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-promises/fs.md
     'node/prefer-promises/fs': 'error',
 
+    // https://github.com/mysticatea/eslint-plugin-node/blob/HEAD/docs/rules/no-exports-assign.md
+    'node/no-exports-assign': 'error',
   },
 };
