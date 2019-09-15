@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-base",
-  "version": "0.0.1",
+  "version": "3.4.0",
   "description": "SeekingAlpha's sharable base ESLint config",
   "main": "index.js",
   "scripts": {
