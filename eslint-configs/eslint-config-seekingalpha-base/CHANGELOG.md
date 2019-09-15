@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.4.0 - 2019-09-15
+ - [deps] update `eslint` to version 6.4.0
+ - [deps] update `eslint-plugin-jsdoc` to version 15.9.2
+ - [breaking] enable `default-param-last` rule
+ - [breaking] enable `prefer-regex-literals` rule
+ - [breaking] enable `no-import-assign` rule
+
 ## 3.3.0 - 2019-09-02
  - [deps] update `eslint` to version 6.3.0
  - [deps] update `eslint-plugin-jsdoc` to version 15.9.1

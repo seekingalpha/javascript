@@ -146,6 +146,8 @@ module.exports = {
       },
     ],
 
+    // https://eslint.org/docs/rules/no-import-assign
+    'no-import-assign': 'error',
   },
 
 };
