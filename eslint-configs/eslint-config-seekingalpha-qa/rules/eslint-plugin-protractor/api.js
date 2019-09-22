@@ -31,11 +31,8 @@ module.exports = {
     // https://github.com/alecxe/eslint-plugin-protractor/blob/master/docs/rules/bare-element-finders.md
     'protractor/bare-element-finders': 'error',
 
-    /*
-     * Enable when fixed for string literals
-     * https://github.com/alecxe/eslint-plugin-protractor/blob/master/docs/rules/empty-script.md
-     *'protractor/empty-script': 'error',
-     */
+    // https://github.com/alecxe/eslint-plugin-protractor/blob/master/docs/rules/empty-script.md
+    'protractor/empty-script': 'error',
   },
 
 };

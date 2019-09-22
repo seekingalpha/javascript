@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.5.0 - 2019-09-22
+ - [deps] update `eslint-plugin-protractor` to version `2.1.1`
+ - [breaking] enable `protractor/empty-script` rule
+ 
 ## 2.4.0 - 2019-09-15
  - [deps] update `eslint` to version `6.4.0`
  - [deps] update `eslint-plugin-mocha` to version `6.1.1`
