@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.5.0 - 2019-09-22
+ - [deps] update `eslint-plugin-unicorn` to version 11.0.1
+ - [breaking] enable `unicorn/consistent-function-scoping` rule
+ - [breaking] enable `unicorn/prefer-dataset` rule
+ 
 ## 3.4.0 - 2019-09-15
  - [deps] update `eslint` to version 6.4.0
  - [deps] update `eslint-plugin-jsdoc` to version 15.9.2

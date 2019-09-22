@@ -130,6 +130,25 @@ module.exports = {
         checkProperties: true,
       },
     ],
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
+    'unicorn/consistent-function-scoping': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/expiring-todo-comments.md
+    'unicorn/expiring-todo-comments': 'off',
+
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
+     * Disabled in favour of ESLint's rule
+     * https://eslint.org/docs/rules/no-nested-ternary
+     */
+    'unicorn/no-nested-ternary': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dataset.md
+    'unicorn/prefer-dataset': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md
+    'unicorn/prefer-reflect-apply': 'off',
   },
 
 };
