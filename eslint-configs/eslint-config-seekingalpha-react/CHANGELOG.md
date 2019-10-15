@@ -1,5 +1,13 @@
 # Change Log
 
+## 3.8.0 - 2019-10-16
+ - [deps] upgrade `eslint` to version 6.5.1
+ - [deps] upgrade `eslint-plugin-jest` to version 22.19.0
+ - [deps] upgrade `eslint-plugin-react` to version 7.16.0
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 2.1.2
+ - [new] `jest/prefer-hooks-on-top` rule error
+ - [new] `react/jsx-no-useless-fragment` rule error
+ 
 ## 3.7.0 - 2019-09-15
  - [deps] upgrade `eslint` to version 6.4.0
  
