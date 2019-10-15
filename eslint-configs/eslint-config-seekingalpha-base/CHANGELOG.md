@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.6.0 - 2019-10-15
+ - [deps] update `eslint` to version 6.5.1
+ - [deps] update `eslint-plugin-jsdoc` to version 15.11.1
+ - [deps] update `eslint-plugin-unicorn` to version 12.1.0
+ - [breaking] enable `unicorn/prefer-string-slice` rule
+ 
 ## 3.5.0 - 2019-09-22
  - [deps] update `eslint-plugin-unicorn` to version 11.0.1
  - [breaking] enable `unicorn/consistent-function-scoping` rule

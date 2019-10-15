@@ -149,6 +149,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md
     'unicorn/prefer-reflect-apply': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md
+    'unicorn/prefer-string-slice': 'error',
   },
 
 };
