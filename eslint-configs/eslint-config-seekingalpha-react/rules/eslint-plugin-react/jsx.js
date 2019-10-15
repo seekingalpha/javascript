@@ -247,6 +247,9 @@ module.exports = {
         singleline: 'consistent',
       },
     ],
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
+    'react/jsx-no-useless-fragment': 'error',
   },
 
 };

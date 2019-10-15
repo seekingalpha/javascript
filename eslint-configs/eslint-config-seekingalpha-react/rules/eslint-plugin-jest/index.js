@@ -126,6 +126,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
     'jest/require-top-level-describe': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
+    'jest/prefer-hooks-on-top': 'error',
   },
 
 };
