@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.9.0 - 2019-10-23
+ - [deps] upgrade `eslint-plugin-jest` to version 22.20.0
+ - [deps] upgrade `eslint-plugin-react-hooks` to version 2.2.0
+ - [new] `jest/valid-title` rule error
+ - [patch] `react/sort-comp` updated order
+ 
 ## 3.8.0 - 2019-10-16
  - [deps] upgrade `eslint` to version 6.5.1
  - [deps] upgrade `eslint-plugin-jest` to version 22.19.0
