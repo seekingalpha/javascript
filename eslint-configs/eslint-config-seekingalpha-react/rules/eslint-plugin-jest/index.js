@@ -129,6 +129,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
     'jest/prefer-hooks-on-top': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
+    'jest/valid-title': 'error',
   },
 
 };
