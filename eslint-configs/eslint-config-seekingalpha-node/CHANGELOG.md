@@ -1,46 +1,49 @@
 # Change Log
 
+## 3.7.0 - 2019-10-27
+ - [deps] update `eslint` to version `6.6.0`
+ 
 ## 3.6.0 - 2019-10-16
- - [deps] update `eslint` to version 6.5.1
+ - [deps] update `eslint` to version `6.5.1`
  
 ## 3.5.0 - 2019-09-15
- - [deps] update `eslint` to version 6.4.0
+ - [deps] update `eslint` to version `6.4.0`
  
 ## 3.4.0 - 2019-09-10
- - [deps] update `eslint-plugin-node` to version 10.0.0
+ - [deps] update `eslint-plugin-node` to version `10.0.0`
  - [breaking] enable `node/no-exports-assign` rule
  
 ## 3.3.0 - 2019-09-02
- - [deps] update `eslint` to version 6.3.0
- - [deps] update `eslint-plugin-node` to version 9.2.0
+ - [deps] update `eslint` to version `6.3.0`
+ - [deps] update `eslint-plugin-node` to version `9.2.0`
  
 ## 3.2.0 - 2019-08-25
- - [deps] update `eslint` to version 6.2.2
+ - [deps] update `eslint` to version `6.2.2`
  
 ## 3.1.0 - 2019-08-22
- - [deps] update `eslint` to version 6.2.1
+ - [deps] update `eslint` to version `6.2.1`
 
 ## 3.0.0 - 2019-08-10
- - [deps] update `eslint` to version 6.1.0
+ - [deps] update `eslint` to version `6.1.0`
  - [docs] updates `README.md` installation guide
 
 ## 2.6.0 - 2019-07-06
- - [deps] update `eslint-plugin-node` to version 9.1.0
- - [breaking] enable `node/file-extension-in-import` rule with `{ '.js': 'never', '.jsx': 'never' } option
+ - [deps] update `eslint-plugin-node` to version `9.1.0`
+ - [breaking] enable `node/file-extension-in-import` rule with `{ '.js': 'never', '.jsx': 'never' }` option
  - [breaking] enable `node/prefer-promises/dns` rule
  - [breaking] enable `node/prefer-promises/fs` rule
  - [docs] updates `README.md` installation guide
 
 ## 2.5.0 - 2019-04-11
- - [deps] update `eslint` to version 5.16.0
+ - [deps] update `eslint` to version `5.16.0`
  - [docs] updates `README.md` installation guide
 
 ## 2.4.0 - 2019-03-10
- - [deps] update `eslint` to version 5.15.1
+ - [deps] update `eslint` to version `5.15.1`
  - [docs] updates `README.md` installation guide
 
 ## 2.3.0 - 2019-01-31
- - [deps] update `eslint` to version 5.12.1
+ - [deps] update `eslint` to version `5.12.1`
  - [docs] updates `README.md` installation guide
 
 ## 2.2.0 - 2019-01-13
@@ -56,8 +59,8 @@
  - [deps] fix `peerDependencies` versions
 
 ## 2.1.0 - 2019-01-13
- - [deps] update `eslint` to version 5.12.0
- - [deps] update `eslint-plugin-node` to version 8.0.1
+ - [deps] update `eslint` to version `5.12.0`
+ - [deps] update `eslint-plugin-node` to version `8.0.1`
  - [breaking] enable `node/no-process-exit` rule
  - [docs] updates `README.md` installation guide
 
@@ -69,31 +72,31 @@
  - [docs] updates `README.md` installation guide
 
 ## 1.2.0 - 2018-12-11
- - [deps] update `eslint-config-seekingalpha-base` to version 1.5.1
- - [deps] update `eslint` to version 5.10.0
- - [deps] update `eslint-plugin-array-func` to version 3.1.0
- - [deps] update `eslint-plugin-jsdoc` to version 3.14.0
- - [deps] update `eslint-plugin-node` to version 8.0.0
- - [deps] update `eslint-plugin-unicorn` to version 6.0.1
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.5.1`
+ - [deps] update `eslint` to version `5.10.0`
+ - [deps] update `eslint-plugin-array-func` to version `3.1.0`
+ - [deps] update `eslint-plugin-jsdoc` to version `3.14.0`
+ - [deps] update `eslint-plugin-node` to version `8.0.0`
+ - [deps] update `eslint-plugin-unicorn` to version `6.0.1`
  - [deps] fix `peerDependencies` version
  - [docs] updates `README.md` installation guide
  - [new] `node/prefer-global/text-decoder` rule error
  - [new] `node/prefer-global/text-encoder` rule error
 
 ## 1.0.5 - 2018-11-20
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.2
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.2`
 
 ## 1.0.4 - 2018-11-20
  - wrong update
 
 ## 1.0.3 - 2018-10-16
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.1`
 
 ## 1.0.2 - 2018-09-18
  - [deps] delete `eslint-config-seekingalpha-base` from peer deps
 
 ## 1.0.1 - 2018-09-18
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.0`
 
 ## 1.0.0 - 2018-09-14
  - Initial commit
