@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.8.0 - 2019-10-27
+ - [deps] update `eslint` to version 6.6.0
+ - [deps] update `eslint-plugin-jsdoc` to version 15.12.1
+ 
 ## 3.7.0 - 2019-10-23
  - [deps] update `eslint-plugin-jsdoc` to version 15.12.0
  
