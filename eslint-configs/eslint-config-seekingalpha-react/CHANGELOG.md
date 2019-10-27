@@ -1,61 +1,65 @@
 # Change Log
 
+## 3.10.0 - 2019-10-27
+ - [deps] upgrade `eslint` to version `6.6.0`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.21.0`
+ 
 ## 3.9.0 - 2019-10-23
- - [deps] upgrade `eslint-plugin-jest` to version 22.20.0
- - [deps] upgrade `eslint-plugin-react-hooks` to version 2.2.0
+ - [deps] upgrade `eslint-plugin-jest` to version `22.20.0`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `2.2.0`
  - [new] `jest/valid-title` rule error
  - [patch] `react/sort-comp` updated order
  
 ## 3.8.0 - 2019-10-16
- - [deps] upgrade `eslint` to version 6.5.1
- - [deps] upgrade `eslint-plugin-jest` to version 22.19.0
- - [deps] upgrade `eslint-plugin-react` to version 7.16.0
- - [deps] upgrade `eslint-plugin-react-hooks` to version 2.1.2
+ - [deps] upgrade `eslint` to version `6.5.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.19.0`
+ - [deps] upgrade `eslint-plugin-react` to version `7.16.0`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `2.1.2`
  - [new] `jest/prefer-hooks-on-top` rule error
  - [new] `react/jsx-no-useless-fragment` rule error
  
 ## 3.7.0 - 2019-09-15
- - [deps] upgrade `eslint` to version 6.4.0
+ - [deps] upgrade `eslint` to version `6.4.0`
  
 ## 3.6.0 - 2019-09-10
- - [deps] upgrade `eslint-plugin-jest` to version 22.17.0
- - [deps] upgrade `eslint-plugin-flowtype` to version 4.3.0
+ - [deps] upgrade `eslint-plugin-jest` to version `22.17.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.3.0`
   
 ## 3.5.0 - 2019-09-02
- - [deps] upgrade `eslint` to version 6.3.0
- - [deps] upgrade `eslint-plugin-jest` to version 22.16.0
+ - [deps] upgrade `eslint` to version `6.3.0`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.16.0`
  - [new] `jest/require-top-level-describe` rule error
 
 ## 3.4.0 - 2019-08-28
- - [deps] update `babel-eslint` to version 10.0.3
+ - [deps] update `babel-eslint` to version `10.0.3`
 
 ## 3.3.0 - 2019-08-25
- - [deps] upgrade `eslint` to version 6.2.2
+ - [deps] upgrade `eslint` to version `6.2.2`
  
 ## 3.2.0 - 2019-08-22
- - [deps] upgrade `eslint` to version 6.2.1
- - [deps] upgrade `eslint-plugin-jest` to version 22.15.2
- - [deps] upgrade `eslint-plugin-react-hooks` to version 2.0.1
+ - [deps] upgrade `eslint` to version `6.2.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.15.2`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `2.0.1`
 
 ## 3.1.0 - 2019-15-10
- - [deps] upgrade `eslint-plugin-jest` to version 22.15.1
+ - [deps] upgrade `eslint-plugin-jest` to version `22.15.1`
  - [patch: loosen rules] `react/jsx-no-bind` enable `ignoreDOMComponents` option
  
 ## 3.0.1 - 2019-08-10
  - [patch: loosen rules] `flowtype/require-indexer-name` switched to `never` option
 
 ## 3.0.0 - 2019-08-10
- - [deps] upgrade `eslint` to version 6.1.0
- - [deps] upgrade `eslint-plugin-flowtype` to version 4.2.0
- - [deps] upgrade `eslint-plugin-jest` to version 22.15.0
- - [deps] upgrade `eslint-plugin-react-hooks` to version 1.7.0
+ - [deps] upgrade `eslint` to version `6.1.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.2.0`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.15.0`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `1.7.0`
  - [new] `flowtype/arrow-parens` rule error
  - [new] `flowtype/require-indexer-name` rule error
  - [new] `jest/no-expect-resolves` rule error
 
 ## 2.10.0 - 2019-07-19
- - [deps] upgrade `eslint-plugin-jest` to version 22.14.0
- - [deps] upgrade `eslint-plugin-react` to version 7.14.3
+ - [deps] upgrade `eslint-plugin-jest` to version `22.14.0`
+ - [deps] upgrade `eslint-plugin-react` to version `7.14.3`
  - [new] `jest/no-duplicate-hooks` rule error
  - [new] `jest/no-export` rule error
  - [new] `jest/no-if` rule error
@@ -66,30 +70,30 @@
  - [loosen] `react/jsx-curly-newline` enable with `{ multiline: 'consistent', singleline: 'consistent' }`
 
 ## 2.9.0 - 2019-07-06
- - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.4
- - [deps] upgrade `eslint-plugin-jest` to version 22.7.2
- - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.3
- - [deps] upgrade `eslint-plugin-react` to version 7.14.2
- - [deps] upgrade `eslint-plugin-react-hooks` to version 1.6.1
+ - [deps] upgrade `eslint-plugin-flowtype` to version `3.10.4`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.7.2`
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.2.3`
+ - [deps] upgrade `eslint-plugin-react` to version `7.14.2`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `1.6.1`
  - [new] `react/jsx-curly-newline` enable with `{ multiline: 'require', singleline: 'forbid' }`
 
 ## 2.8.0 - 2019-06-18
  - [breaking] `flowtype/delimiter-dangle` rule `always` option replaced with `always-multiline`
 
 ## 2.7.0 - 2019-06-18
- - [deps] update `babel-eslint` to version 10.0.1
+ - [deps] update `babel-eslint` to version `10.0.1`
 
 ## 2.6.0 - 2019-06-16
- - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.3
+ - [deps] upgrade `eslint-plugin-flowtype` to version `3.10.3`
  - [new] `flowtype/delimiter-dangle` enable with 'always' option
 
 ## 2.5.1 - 2019-06-12
  - [loosen rules] `flowtype/require-return-type` disabled
 
 ## 2.5.0 - 2019-06-11
- - [deps] upgrade `eslint-plugin-flowtype` to version 3.10.1
- - [deps] upgrade `eslint-plugin-jest` to version 22.6.4
- - [deps] upgrade `eslint-plugin-react` to version 7.13.0
+ - [deps] upgrade `eslint-plugin-flowtype` to version `3.10.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.6.4`
+ - [deps] upgrade `eslint-plugin-react` to version `7.13.0`
  - [new] `flowtype/require-parameter-type` rule error
  - [new] `flowtype/require-return-type` rule error
  - [new] `flowtype/type-id-match` rule error
@@ -106,29 +110,29 @@
  - [docs] updates `README.md` installation guide
 
 ## 2.4.0 - 2019-04-11
- - [deps] upgrade `eslint` to version 5.16.0
- - [deps] upgrade `eslint-plugin-flowtype` to version 3.6.1
- - [deps] upgrade `eslint-plugin-jest` to version 22.4.1
- - [deps] upgrade `eslint-plugin-react-hooks` to version 1.6.0
+ - [deps] upgrade `eslint` to version `5.16.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `3.6.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.4.1`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `1.6.0`
  - [new] `jest/no-empty-title` rule error
  - [new] `jsx-a11y/control-has-associated-label` rule error
  - [docs] updates `README.md` installation guide
 
 ## 2.3.0 - 2019-03-10
- - [deps] upgrade `eslint` to version 5.15.1
- - [deps] upgrade `eslint-plugin-flowtype` to version 3.4.2
- - [deps] upgrade `eslint-plugin-jest` to version 22.3.0
- - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.1
- - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ - [deps] upgrade `eslint` to version `5.15.1`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `3.4.2`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.3.0`
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.2.1`
+ - [deps] upgrade `eslint-plugin-react` to version `7.12.4`
  - [new] `jest/prefer-called-with` rule error
  - [new] add `eslint-plugin-react-hooks`
  - [docs] updates `README.md` installation guide
 
 ## 2.2.0 - 2019-01-31
- - [deps] upgrade `eslint` to version 5.12.1
- - [deps] upgrade `eslint-plugin-jest` to version 22.2.1
- - [deps] upgrade `eslint-plugin-jsx-a11y` to version 6.2.0
- - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ - [deps] upgrade `eslint` to version `5.12.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `22.2.1`
+ - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.2.0`
+ - [deps] upgrade `eslint-plugin-react` to version `7.12.4`
  - [new] `jest/prefer-todo` rule error
  - [docs] updates `README.md` installation guide
 
@@ -136,16 +140,16 @@
  - [patch: loosen rules] disable `flowtype/no-existential-type`
 
 ## 2.1.2 - 2019-01-21
- - [deps] upgrade `eslint-plugin-react` to version 7.12.4
+ - [deps] upgrade `eslint-plugin-react` to version `7.12.4`
 
 ## 2.1.1 - 2019-01-13
  - [deps] fix `peerDependencies` versions
 
 ## 2.1.0 - 2019-01-13
- - [deps] update `eslint` to version 5.12.0
- - [deps] update `eslint-plugin-flowtype` to version 3.2.1
- - [deps] update `eslint-plugin-jest"` to version 22.1.3
- - [deps] update `eslint-plugin-react` to version 7.12.3
+ - [deps] update `eslint` to version `5.12.0`
+ - [deps] update `eslint-plugin-flowtype` to version `3.2.1`
+ - [deps] update `eslint-plugin-jest"` to version `22.1.3`
+ - [deps] update `eslint-plugin-react` to version `7.12.3`
  - [breaking] drop `eslint-plugin-chai-expect` plugin integration
  - [new] added `react/jsx-fragments` rule to force short Fragment notation
  - [docs] updates `README.md` installation guide
@@ -160,7 +164,7 @@
  - [docs] updates `README.md` installation guide
 
 ## 1.4.0 - 2018-12-18
- - [deps] update `eslint-config-seekingalpha-base` to version 1.6.0
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.6.0`
  - [new] `flowtype/require-compound-type-alias` rule error with `never` option
  - [new] `jest/consistent-test-it` rule error
  - [new] `jest/expect-expect` rule error
@@ -179,17 +183,17 @@
  - [new] `react/no-danger` rule error
 
 ## 1.3.0 - 2018-12-11
- - [deps] update `eslint-config-seekingalpha-base` to version 1.5.1
- - [deps] update `eslint` to version 5.10.0
- - [deps] update `eslint-plugin-array-func` to version 3.1.0
- - [deps] update `eslint-plugin-jsdoc` to version 3.14.0
- - [deps] update `eslint-plugin-node` to version 8.0.0
- - [deps] update `eslint-plugin-unicorn` to version 6.0.1
- - [deps] update `babel-eslint` to version 10.0.1
- - [deps] update `eslint-plugin-chai-expect` to version 2.0.1
- - [deps] update `eslint-plugin-flowtype` to version 3.2.0
- - [deps] update `eslint-plugin-jsx-a11y` to version 6.1.1
- - [deps] update `eslint-plugin-jest` to version 22.1.2
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.5.1`
+ - [deps] update `eslint` to version `5.10.0`
+ - [deps] update `eslint-plugin-array-func` to version `3.1.0`
+ - [deps] update `eslint-plugin-jsdoc` to version `3.14.0`
+ - [deps] update `eslint-plugin-node` to version `8.0.0`
+ - [deps] update `eslint-plugin-unicorn` to version `6.0.1`
+ - [deps] update `babel-eslint` to version `10.0.1`
+ - [deps] update `eslint-plugin-chai-expect` to version `2.0.1`
+ - [deps] update `eslint-plugin-flowtype` to version `3.2.0`
+ - [deps] update `eslint-plugin-jsx-a11y` to version `6.1.1`
+ - [deps] update `eslint-plugin-jest` to version `22.1.2`
  - [deps] fix `peerDependencies` version
  - [docs] updates `README.md` installation guide
  - [new] `jest/require-tothrow-message` rule error
@@ -200,7 +204,7 @@
  - [new] `jest/no-truthy-falsy` rule error
 
 ## 1.2.6 - 2018-11-20
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.2
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.2`
 
 ## 1.2.5 - 2018-11-20
  - wrong update
@@ -210,19 +214,19 @@
  - [patch: loosen rules] disable `react/no-danger`
 
 ## 1.2.3 - 2018-10-17
- - [patch] allowRequiredDefaults according to comment https://github.com/facebook/flow/issues/1660#issuecomment-386619834
+ - [patch] allowRequiredDefaults according to comment [https://github.com/facebook/flow/issues/1660#issuecomment-386619834](https://github.com/facebook/flow/issues/1660#issuecomment-386619834)
 
 ## 1.2.2 - 2018-10-16
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.1
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.1`
 
 ## 1.2.1 - 2018-09-18
- - [deps] update `eslint-config-seekingalpha-base` to version 1.3.0
+ - [deps] update `eslint-config-seekingalpha-base` to version `1.3.0`
 
 ## 1.2.0 - 2018-09-15
- - [deps] update `eslint` to version 5.6.0
- - [deps] update `eslint-plugin-jsdoc` to version 3.8.0
- - [deps] update `eslint-plugin-promise` to version 4.0.1
- - [deps] update `eslint-plugin-unicorn` to version 6.0.1
+ - [deps] update `eslint` to version `5.6.0`
+ - [deps] update `eslint-plugin-jsdoc` to version `3.8.0`
+ - [deps] update `eslint-plugin-promise` to version `4.0.1`
+ - [deps] update `eslint-plugin-unicorn` to version `6.0.1`
  - [docs] update `CHANGELOG.md` including previous releases
  - [docs] updates `README.md` installation guide
  - [breaking] make `eslint-config-seekingalpha-base` pkg direct dependency
@@ -263,7 +267,7 @@
 
 ## 1.0.1 - 2018-08-15
  - [doc] fix package installation guide using NPM
- - [deps] set direct dependency on eslint-config-seekingalpha-base
+ - [deps] set direct dependency on `eslint-config-seekingalpha-base`
 
 ## 1.0.0 - 2018-08-14
  - Initial commit
