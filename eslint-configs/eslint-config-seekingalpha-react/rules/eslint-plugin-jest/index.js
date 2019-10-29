@@ -18,7 +18,7 @@ module.exports = {
     'jest/prefer-to-have-length': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/require-tothrow-message.md
-    'jest/require-tothrow-message': 'error',
+    'jest/require-to-throw-message': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-alias-methods.md
     'jest/no-alias-methods': 'error',
