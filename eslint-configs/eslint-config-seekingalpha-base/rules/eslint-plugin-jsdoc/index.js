@@ -93,6 +93,15 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-jsdoc#require-jsdoc
     'jsdoc/require-jsdoc': 'off',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-access
+    'jsdoc/check-access': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#check-values
+    'jsdoc/check-values': 'off',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-empty-tags
+    'jsdoc/empty-tags': 'error',
   },
 
 };

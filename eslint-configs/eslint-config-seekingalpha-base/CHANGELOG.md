@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.10.0 - 2019-11-14
+ - [deps] update `eslint-plugin-jsdoc` to version `18.0.1`
+ - [breaking] enable `jsdoc/check-access` rule
+ - [breaking] enable `jsdoc/empty-tags` rule
+  
 ## 3.9.0 - 2019-10-29
  - [deps] update `eslint-plugin-jsdoc` to version `15.12.2`
  
