@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.12.0 - 2019-11-14
+ - [deps] upgrade `eslint-plugin-jest` to version `23.0.3`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.4.1`
+ 
 ## 3.11.1 - 2019-10-29
  - [patch] remove `jest/no-empty-title` rule which was replaced with `jest/valid-title` rule
  
