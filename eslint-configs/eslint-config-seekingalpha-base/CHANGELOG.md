@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.11.0 - 2019-11-20
+ - [deps] update `eslint-plugin-jsdoc` to version `18.1.3`
+ - [deps] update `eslint-plugin-unicorn` to version `13.0.0`
+ 
 ## 3.10.0 - 2019-11-14
  - [deps] update `eslint-plugin-jsdoc` to version `18.0.1`
  - [breaking] enable `jsdoc/check-access` rule
