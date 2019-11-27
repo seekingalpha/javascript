@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.14.0 - 2019-11-27
+ - [deps] upgrade `eslint` to version `6.7.1`
+ - [deps] upgrade `eslint-plugin-jest` to version `23.0.5`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.5.2`
+ 
 ## 3.13.0 - 2019-11-20
  - [deps] upgrade `eslint-plugin-jest` to version `23.0.4`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.3.0`
