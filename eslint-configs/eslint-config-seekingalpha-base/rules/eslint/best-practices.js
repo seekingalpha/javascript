@@ -355,6 +355,14 @@ module.exports = {
 
     // https://eslint.org/docs/rules/prefer-regex-literals
     'prefer-regex-literals': 'error',
+
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': [
+      'error', 'getBeforeSet',
+    ],
+
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
   },
 
 };

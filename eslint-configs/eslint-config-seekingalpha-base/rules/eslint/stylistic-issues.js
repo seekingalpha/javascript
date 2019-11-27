@@ -784,6 +784,9 @@ module.exports = {
      * https://eslint.org/docs/rules/function-call-argument-newline
      */
     'function-call-argument-newline': 'off',
+
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
   },
 
 };

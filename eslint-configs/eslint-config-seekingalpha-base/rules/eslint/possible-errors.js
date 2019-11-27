@@ -148,6 +148,12 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-import-assign
     'no-import-assign': 'error',
+
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
   },
 
 };

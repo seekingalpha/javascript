@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.12.0 - 2019-11-27
+ - [deps] update `eslint` to version `6.7.1`
+ - [deps] update `eslint-plugin-jsdoc` to version `18.1.5`
+ - [breaking] enable `grouped-accessor-pairs` rule
+ - [breaking] enable `no-constructor-return` rule
+ - [breaking] enable `no-dupe-else-if` rule
+ - [breaking] enable `no-setter-return` rule
+ - [breaking] enable `prefer-exponentiation-operator` rule
+ 
 ## 3.11.0 - 2019-11-20
  - [deps] update `eslint-plugin-jsdoc` to version `18.1.3`
  - [deps] update `eslint-plugin-unicorn` to version `13.0.0`
