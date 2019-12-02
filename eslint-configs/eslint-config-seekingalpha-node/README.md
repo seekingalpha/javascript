@@ -10,7 +10,7 @@ Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-d
 
 or **Yarn**:
 
-    yarn add --dev eslint@6.7.1 eslint-plugin-node@10.0.0
+    yarn add --dev eslint@6.7.2 eslint-plugin-node@10.0.0
 
 
 Install SeekingAlpha shareable ESLint:
