@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.13.0 - 2019-12-02
+ - [deps] update `eslint` to version `6.7.2`
+ - [deps] update `eslint-plugin-jsdoc` to version `18.4.1`
+ - [deps] update `eslint-plugin-unicorn` to version `14.0.1`
+ - [breaking] enable `unicorn/prefer-negative-index` rule
+ - [breaking] enable `unicorn/prefer-trim-start-end` rule
+ 
 ## 3.12.0 - 2019-11-27
  - [deps] update `eslint` to version `6.7.1`
  - [deps] update `eslint-plugin-jsdoc` to version `18.1.5`
