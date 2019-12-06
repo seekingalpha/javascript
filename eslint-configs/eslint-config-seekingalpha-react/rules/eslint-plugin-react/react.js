@@ -275,7 +275,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-    'react/require-default-props': ['error'],
+    'react/require-default-props': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
     'react/require-optimization': [
