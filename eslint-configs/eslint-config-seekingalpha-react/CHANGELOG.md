@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.15.1 - 2019-12-06
+ - [patch: loosen rules] disable `react/require-default-props`
+
 ## 3.15.0 - 2019-12-02
  - [deps] upgrade `eslint` to version `6.7.2`
  - [deps] upgrade `eslint-plugin-jest` to version `23.1.1`
