@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.14.0 - 2019-12-11
+ - [deps] update `eslint-plugin-import` to version `2.19.1`
+ - [deps] update `eslint-plugin-jsdoc` to version `18.4.3`
+ 
 ## 3.13.0 - 2019-12-02
  - [deps] update `eslint` to version `6.7.2`
  - [deps] update `eslint-plugin-jsdoc` to version `18.4.1`
