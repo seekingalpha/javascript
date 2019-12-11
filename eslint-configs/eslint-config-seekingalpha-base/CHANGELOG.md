@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.14.1 - 2019-12-11
+ - [patch] allow omit `.jsx` extension for `import/extension` rule
+ 
 ## 3.14.0 - 2019-12-11
  - [deps] update `eslint-plugin-import` to version `2.19.1`
  - [deps] update `eslint-plugin-jsdoc` to version `18.4.3`
