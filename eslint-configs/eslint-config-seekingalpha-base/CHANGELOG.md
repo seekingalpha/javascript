@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.14.2 - 2019-12-11
+ - [patch] update `import/order` groups order
+ 
 ## 3.14.1 - 2019-12-11
  - [patch] allow omit `.jsx` extension for `import/extension` rule
  

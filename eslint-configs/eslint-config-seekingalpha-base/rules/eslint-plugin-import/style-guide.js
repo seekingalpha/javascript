@@ -32,12 +32,15 @@ module.exports = {
       'error',
       {
         groups: [
-          [
-            'builtin',
-            'external',
-            'internal',
-          ],
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'unknown',
+          'index',
         ],
+
         'newlines-between': 'always',
       },
     ],
