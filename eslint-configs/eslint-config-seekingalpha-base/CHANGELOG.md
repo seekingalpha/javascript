@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.15.0 - 2019-12-21
+ - [deps] update `eslint` to version `6.8.0`
+ 
 ## 3.14.2 - 2019-12-11
  - [patch] update `import/order` groups order
  
