@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.16.0 - 2019-12-30
+ - [deps] update `eslint-plugin-jsdoc` to version `18.6.2`
+ - [deps] update `eslint-plugin-unicorn` to version `15.0.1`
+ 
 ## 3.15.0 - 2019-12-21
  - [deps] update `eslint` to version `6.8.0`
  
