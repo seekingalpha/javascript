@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.17.0 - 2019-12-31
+ - [deps] upgrade `eslint-plugin-jest` to version `23.2.0`
+ 
 ## 3.16.0 - 2019-12-21
  - [deps] upgrade `eslint` to version `6.8.0`
  
