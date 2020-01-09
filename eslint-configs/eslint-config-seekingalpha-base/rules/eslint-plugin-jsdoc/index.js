@@ -102,6 +102,24 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-empty-tags
     'jsdoc/empty-tags': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-property-names
+    'jsdoc/check-property-names': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-file-overview
+    'jsdoc/require-file-overview': 'off',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-property
+    'jsdoc/require-property': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#require-property-description
+    'jsdoc/require-property-description': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#require-property-name
+    'jsdoc/require-property-name': 'error',
+
+    // https://github.com/gajus/eslint-plugin-jsdoc#require-property-type
+    'jsdoc/require-property-type': 'error',
   },
 
 };

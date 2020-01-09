@@ -1,6 +1,14 @@
 # Change Log
 
 ## 3.16.0 - 2019-12-30
+ - [deps] update `eslint-plugin-jsdoc` to version `20.0.5`
+ - [breaking] enable `jsdoc/check-property-names` rule
+ - [breaking] enable `jsdoc/require-property` rule
+ - [breaking] enable `jsdoc/require-property-description` rule
+ - [breaking] enable `jsdoc/require-property-name` rule
+ - [breaking] enable `jsdoc/require-property-type` rule
+ 
+## 3.16.0 - 2019-12-30
  - [deps] update `eslint-plugin-jsdoc` to version `18.6.2`
  - [deps] update `eslint-plugin-unicorn` to version `15.0.1`
  
