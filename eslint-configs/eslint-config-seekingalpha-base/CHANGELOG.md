@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.16.0 - 2019-12-30
+## 3.16.0 - 2020-01-09
  - [deps] update `eslint-plugin-jsdoc` to version `20.0.5`
  - [breaking] enable `jsdoc/check-property-names` rule
  - [breaking] enable `jsdoc/require-property` rule
