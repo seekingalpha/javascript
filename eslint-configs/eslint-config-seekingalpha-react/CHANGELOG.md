@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.19.0 - 2020-01-12
+ - [deps] upgrade `eslint-plugin-jest` to version `23.6.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.6.0`
+ 
 ## 3.18.0 - 2020-01-09
  - [deps] upgrade `eslint-plugin-jest` to version `23.3.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.5.3`
