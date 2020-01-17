@@ -1,10 +1,13 @@
 # Change Log
 
-## 3.17.0 - 2020-01-12
+## 3.19.0 - 2020-01-17
+ - [deps] update `eslint-plugin-jsdoc` to version `20.3.1`
+ 
+## 3.18.0 - 2020-01-12
  - [deps] update `eslint-plugin-jsdoc` to version `20.3.0`
  - [deps] update `eslint-plugin-import` to version `2.20.0`
  
-## 3.16.0 - 2020-01-09
+## 3.17.0 - 2020-01-09
  - [deps] update `eslint-plugin-jsdoc` to version `20.0.5`
  - [breaking] enable `jsdoc/check-property-names` rule
  - [breaking] enable `jsdoc/require-property` rule
