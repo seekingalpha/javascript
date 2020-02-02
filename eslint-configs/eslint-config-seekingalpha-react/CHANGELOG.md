@@ -1,6 +1,9 @@
 # Change Log
 
-## 3.20.0 - 2020-02-02
+## 3.21.1 - 2020-02-02
+ - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
+  
+## 3.21.0 - 2020-02-02
  - [deps] upgrade `eslint-plugin-react` to version `7.18.2`
  - [new] `react/jsx-no-script-url` rule error
  - [new] `react/no-adjacent-inline-elements` rule error
