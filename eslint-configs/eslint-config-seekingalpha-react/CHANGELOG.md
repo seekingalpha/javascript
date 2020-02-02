@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.21.2 - 2020-02-02
+ - [patch: loosen rules] disable `react/function-component-definition`
+ 
 ## 3.21.1 - 2020-02-02
  - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
   

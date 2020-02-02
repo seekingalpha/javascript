@@ -369,15 +369,6 @@ module.exports = {
       'error',
       'static public field',
     ],
-
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
-    'react/function-component-definition': [
-      'error',
-      {
-        namedComponents: 'function-expression',
-        unnamedComponents: 'function-expression',
-      },
-    ],
   },
 
 };
