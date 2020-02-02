@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.20.0 - 2020-02-02
+ - [deps] upgrade `eslint-plugin-react` to version `7.18.2`
+ - [new] `react/jsx-no-script-url` rule error
+ - [new] `react/no-adjacent-inline-elements` rule error
+ - [new] `react/function-component-definition` rule error
+ 
 ## 3.20.0 - 2020-01-17
  - [deps] upgrade `eslint-plugin-react` to version `7.18.0`
  
