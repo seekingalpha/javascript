@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.22.0 - 2020-02-23
+ - [deps] upgrade `eslint-plugin-react` to version `7.18.3`
+ - [deps] upgrade `eslint-plugin-jest` to version `23.8.0`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `2.4.0`
+ 
 ## 3.21.2 - 2020-02-02
  - [patch: loosen rules] disable `react/function-component-definition`
  
