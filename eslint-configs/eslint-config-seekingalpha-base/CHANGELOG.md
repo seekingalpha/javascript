@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.22.0 - 2020-02-23
+ - [deps] update `eslint-plugin-unicorn` to version `16.1.1`
+ 
 ## 3.21.0 - 2020-02-02
  - [deps] update `eslint-plugin-import` to version `2.20.1`
  - [deps] update `eslint-plugin-unicorn` to version `16.0.0`
