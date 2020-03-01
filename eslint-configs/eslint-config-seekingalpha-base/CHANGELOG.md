@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.23.0 - 2020-03-01
+ - [deps] update `eslint-plugin-array-func` to version `3.1.4`
+ 
 ## 3.22.0 - 2020-02-23
  - [deps] update `eslint-plugin-unicorn` to version `16.1.1`
  
