@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.24.1 - 2020-03-08
+ - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
+ 
 ## 3.24.0 - 2020-03-08
  - [deps] upgrade `eslint-plugin-jest` to version `23.8.2`
  - [deps] upgrade `eslint-plugin-react` to version `7.19.0`

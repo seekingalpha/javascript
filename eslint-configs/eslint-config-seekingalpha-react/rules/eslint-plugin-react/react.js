@@ -369,9 +369,6 @@ module.exports = {
       'error',
       'static public field',
     ],
-
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
-    'react/no-adjacent-inline-elements': 'error',
   },
 
 };
