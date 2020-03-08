@@ -107,8 +107,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-remove.md
-    'unicorn/prefer-node-remove': 'error',
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-remove.md
+     * IE does not support Node.remove(). Should be enabled only after IE support is dropped
+     */
+    'unicorn/prefer-node-remove': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-text-content.md
     'unicorn/prefer-text-content': 'error',
