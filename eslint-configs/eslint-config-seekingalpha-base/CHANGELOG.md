@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.25.0 - 2020-03-15
+ - [deps] update `eslint-plugin-jsdoc` to version `22.0.1`
+ - [deps] update `eslint-plugin-unicorn` to version `17.2.0`
+ 
 ## 3.24.1 - 2020-03-08
  - [patch: loosen rule] removed rule `nicorn/prefer-node-remove`
  
