@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.25.0 - 2020-03-20
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `2.5.1`
+ 
 ## 3.24.1 - 2020-03-08
  - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
  
