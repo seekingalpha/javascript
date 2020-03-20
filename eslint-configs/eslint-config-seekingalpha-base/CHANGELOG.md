@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.26.0 - 2020-03-20
+ - [deps] update `eslint-plugin-jsdoc` to version `22.1.0`
+ 
 ## 3.25.0 - 2020-03-15
  - [deps] update `eslint-plugin-jsdoc` to version `22.0.1`
  - [deps] update `eslint-plugin-unicorn` to version `17.2.0`
