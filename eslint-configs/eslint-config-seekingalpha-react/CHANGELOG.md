@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.26.0 - 2020-03-27
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `3.0.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `4.6.0`
+ 
 ## 3.25.0 - 2020-03-20
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.5.1`
  
