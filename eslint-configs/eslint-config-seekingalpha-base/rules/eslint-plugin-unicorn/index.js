@@ -161,6 +161,12 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-trim-start-end.md
     'unicorn/prefer-trim-start-end': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
+    'unicorn/prefer-number-properties': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
+    'unicorn/prefer-set-has': 'error',
   },
 
 };

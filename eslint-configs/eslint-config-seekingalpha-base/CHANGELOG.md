@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.27.0 - 2020-03-27
+ - [deps] update `eslint-plugin-unicorn` to version `18.0.1`
+ - [breaking] enable `unicorn/prefer-number-properties` rule
+ - [breaking] enable `unicorn/prefer-set-has` rule
+ 
 ## 3.26.0 - 2020-03-20
  - [deps] update `eslint-plugin-jsdoc` to version `22.1.0`
  
