@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.28.0 - 2020-03-30
+ - [deps] update `eslint-plugin-import` to version `2.20.2`
+
 ## 3.27.0 - 2020-03-27
  - [deps] update `eslint-plugin-unicorn` to version `18.0.1`
  - [breaking] enable `unicorn/prefer-number-properties` rule
