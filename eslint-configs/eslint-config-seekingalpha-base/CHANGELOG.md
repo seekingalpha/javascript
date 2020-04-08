@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.29.0 - 2020-04-08
+ - [deps] update `eslint-plugin-array-func` to version `3.1.5`
+ 
 ## 3.28.0 - 2020-03-30
  - [deps] update `eslint-plugin-import` to version `2.20.2`
 
