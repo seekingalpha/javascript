@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.30.0 - 2020-04-13
+ - [deps] update `eslint-plugin-jsdoc` to version `23.0.0`
+ - [deps] update `eslint-plugin-no-use-extend-native` to version `0.5.0`
+ 
 ## 3.29.0 - 2020-04-08
  - [deps] update `eslint-plugin-array-func` to version `3.1.5`
  
