@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.11.0 - 2020-04-13
+ - [deps] update `eslint-plugin-node` to version `11.1.0`
+ 
 ## 3.11.0 - 2019-12-30
  - [deps] update `eslint-plugin-node` to version `11.0.0`
  
