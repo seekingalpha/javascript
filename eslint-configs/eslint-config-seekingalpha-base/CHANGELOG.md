@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.33.0 - 2020-05-11
+ - [breaking] removed `eslint-plugin-jsdoc`
+ - [deps] update `eslint-find-rules` to version `3.5.0`
+ 
 ## 3.32.0 - 2020-05-04
  - [deps] update `eslint-plugin-jsdoc` to version `24.0.2`
  - [deps] update `eslint-plugin-unicorn` to version `19.0.1`

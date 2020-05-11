@@ -6,11 +6,11 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@6.8.0 eslint-plugin-array-func@3.1.5 eslint-plugin-import@2.20.2 eslint-plugin-jsdoc@24.0.2 eslint-plugin-no-use-extend-native@0.5.0 eslint-plugin-promise@4.2.1 eslint-plugin-unicorn@19.0.1 --save-dev
+    npm install eslint@6.8.0 eslint-plugin-array-func@3.1.5 eslint-plugin-import@2.20.2 eslint-plugin-no-use-extend-native@0.5.0 eslint-plugin-promise@4.2.1 eslint-plugin-unicorn@19.0.1 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev eslint@6.8.0 eslint-plugin-array-func@3.1.5 eslint-plugin-import@2.20.2 eslint-plugin-jsdoc@24.0.2 eslint-plugin-no-use-extend-native@0.5.0 eslint-plugin-promise@4.2.1 eslint-plugin-unicorn@19.0.1
+    yarn add --dev eslint@6.8.0 eslint-plugin-array-func@3.1.5 eslint-plugin-import@2.20.2 eslint-plugin-no-use-extend-native@0.5.0 eslint-plugin-promise@4.2.1 eslint-plugin-unicorn@19.0.1
 
 
 Install SeekingAlpha shareable ESLint:
@@ -27,7 +27,6 @@ This shareable config includes all ESLint rules including ECMAScript 6 features 
 
 * [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 * [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
-* [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
 * [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
 * [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 * [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)

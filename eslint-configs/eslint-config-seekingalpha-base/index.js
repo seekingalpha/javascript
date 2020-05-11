@@ -11,9 +11,6 @@ module.exports = {
     // eslint-plugin-array-func rules (https://github.com/freaktechnik/eslint-plugin-array-func)
     './rules/eslint-plugin-array-func/index.js',
 
-    // eslint-plugin-jsdoc rules (https://github.com/gajus/eslint-plugin-jsdoc)
-    './rules/eslint-plugin-jsdoc/index.js',
-
     // eslint-plugin-no-use-extend-native rules (https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
     './rules/eslint-plugin-no-use-extend-native/index.js',
 
