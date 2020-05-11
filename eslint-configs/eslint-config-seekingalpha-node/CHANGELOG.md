@@ -1,6 +1,9 @@
 # Change Log
 
-## 3.11.0 - 2020-04-13
+## 3.13.0 - 2020-05-11
+ - [deps] update `eslint-find-rules` to version `3.5.0`
+ 
+## 3.12.0 - 2020-04-13
  - [deps] update `eslint-plugin-node` to version `11.1.0`
  
 ## 3.11.0 - 2019-12-30
