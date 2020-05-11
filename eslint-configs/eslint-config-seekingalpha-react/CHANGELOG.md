@@ -1,6 +1,9 @@
 # Change Log
 
-## 3.26.0 - 2020-03-27
+## 3.27.0 - 2020-05-11
+ - [deps] upgrade `eslint-plugin-jest` to version `23.10.0`
+ 
+## 3.27.0 - 2020-03-27
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.9.0`
  - [new] `jest/no-deprecated-functions` rule error
