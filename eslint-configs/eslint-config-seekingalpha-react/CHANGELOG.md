@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.31.0 - 2020-05-17
+ - [deps] upgrade `eslint-plugin-jest` to version `23.13.0`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.2`
+ - [patch] removed deprecated `jest/no-truthy-falsy`, `jest/prefer-inline-snapshots`, `jest/no-expect-resolves`
+ - [new] `jest/no-restricted-matchers` rule error
+ 
 ## 3.30.0 - 2020-05-13
  - [deps] upgrade `eslint-plugin-react` to version `7.20.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.10.0`

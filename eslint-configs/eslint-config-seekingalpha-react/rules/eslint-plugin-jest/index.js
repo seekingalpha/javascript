@@ -32,9 +32,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-spy-on.md
     'jest/prefer-spy-on': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-truthy-falsy.md
-    'jest/no-truthy-falsy': 'error',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/consistent-test-it.md
     'jest/consistent-test-it': 'error',
 
@@ -66,9 +63,6 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-expect-assertions.md
     'jest/prefer-expect-assertions': 'off',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
-    'jest/prefer-inline-snapshots': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md
     'jest/prefer-strict-equal': 'error',
@@ -118,9 +112,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-try-expect.md
     'jest/no-try-expect': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
-    'jest/no-expect-resolves': 'error',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
     'jest/require-top-level-describe': 'error',
 
@@ -132,6 +123,17 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
     'jest/no-deprecated-functions': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-restricted-matchers.md
+    'jest/no-restricted-matchers': [
+      'error',
+      {
+        toBeFalsy: 'Use `toBe(false)` instead.',
+        toBeTruthy: 'Use `toBe(true)` instead.',
+        resolves: 'Use `expect(await promise)` instead.',
+        'not.toHaveBeenCalledWith': null,
+      },
+    ],
   },
 
 };
