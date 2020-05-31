@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.34.0 - 2020-05-31
+ - [deps] update `eslint-plugin-array-func` to version `3.1.6`
+ 
 ## 3.33.0 - 2020-05-11
  - [breaking] removed `eslint-plugin-jsdoc`
  - [deps] update `eslint-find-rules` to version `3.5.0`
