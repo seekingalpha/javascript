@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.32.0 - 2020-05-31
+ - [deps] upgrade `eslint-plugin-jest` to version `23.13.2`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.4`
+ 
 ## 3.31.1 - 2020-05-17
  - [patch: loosen rules] disable `jest/no-restricted-matchers`
 
