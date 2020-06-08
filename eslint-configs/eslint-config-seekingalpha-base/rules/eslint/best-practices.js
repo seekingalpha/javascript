@@ -45,6 +45,12 @@ module.exports = {
       },
     ],
 
+    // https://eslint.org/docs/rules/default-case-last
+    'default-case-last': 'error',
+
+    // https://eslint.org/docs/rules/default-param-last
+    'default-param-last': 'error',
+
     // https://eslint.org/docs/rules/dot-location
     'dot-location': [
       'error',
@@ -63,6 +69,11 @@ module.exports = {
     eqeqeq: [
       'error',
       'always',
+    ],
+
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': [
+      'error', 'getBeforeSet',
     ],
 
     /*
@@ -85,6 +96,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-case-declarations
     'no-case-declarations': 'error',
+
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
 
     // https://eslint.org/docs/rules/no-div-regex
     'no-div-regex': 'error',
@@ -162,6 +176,8 @@ module.exports = {
       {
         // These numbers are used in simple cases, we can exclude them
         ignore: [
+          // eslint-disable-next-line no-magic-numbers
+          -1,
           0,
           1,
         ],
@@ -309,6 +325,12 @@ module.exports = {
     // https://eslint.org/docs/rules/no-with
     'no-with': 'error',
 
+    /*
+     * https://eslint.org/docs/rules/prefer-named-capture-group
+     * supported only by ECMAScript 2018
+     */
+    'prefer-named-capture-group': 'off',
+
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': [
       'error',
@@ -317,11 +339,8 @@ module.exports = {
       },
     ],
 
-    /*
-     * https://eslint.org/docs/rules/prefer-named-capture-group
-     * supported only by  ECMAScript 2018
-     */
-    'prefer-named-capture-group': 'off',
+    // https://eslint.org/docs/rules/prefer-regex-literals
+    'prefer-regex-literals': 'error',
 
     // https://eslint.org/docs/rules/radix
     radix: 'error',
@@ -350,19 +369,6 @@ module.exports = {
     // https://eslint.org/docs/rules/yoda
     yoda: 'error',
 
-    // https://eslint.org/docs/rules/default-param-last
-    'default-param-last': 'error',
-
-    // https://eslint.org/docs/rules/prefer-regex-literals
-    'prefer-regex-literals': 'error',
-
-    // https://eslint.org/docs/rules/grouped-accessor-pairs
-    'grouped-accessor-pairs': [
-      'error', 'getBeforeSet',
-    ],
-
-    // https://eslint.org/docs/rules/no-constructor-return
-    'no-constructor-return': 'error',
   },
 
 };

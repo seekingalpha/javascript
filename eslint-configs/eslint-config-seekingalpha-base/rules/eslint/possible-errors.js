@@ -42,6 +42,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-args
     'no-dupe-args': 'error',
 
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',
 
@@ -78,6 +81,9 @@ module.exports = {
         returnAssign: false,
         ignoreJSX: 'all',
         enforceForArrowConditionals: false,
+        enforceForSequenceExpressions: false,
+        enforceForNewInMemberExpressions: false,
+        enforceForFunctionPrototypeMethods: false,
       },
     ],
 
@@ -87,6 +93,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-func-assign
     'no-func-assign': 'error',
 
+    // https://eslint.org/docs/rules/no-import-assign
+    'no-import-assign': 'error',
+
     // https://eslint.org/docs/rules/no-inner-declarations
     'no-inner-declarations': 'error',
 
@@ -95,6 +104,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-irregular-whitespace
     'no-irregular-whitespace': 'error',
+
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    'no-loss-of-precision': 'error',
 
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',
@@ -107,6 +119,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-regex-spaces
     'no-regex-spaces': 'error',
+
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
 
     /*
      * https://eslint.org/docs/rules/no-sparse-arrays
@@ -129,14 +144,14 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
 
+    // https://eslint.org/docs/rules/no-useless-backreference
+    'no-useless-backreference': 'error',
+
     // https://eslint.org/docs/rules/require-atomic-updates
     'require-atomic-updates': 'error',
 
     // https://eslint.org/docs/rules/use-isnan
     'use-isnan': 'error',
-
-    // https://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': 'error',
 
     // https://eslint.org/docs/rules/valid-typeof
     'valid-typeof': [
@@ -145,15 +160,6 @@ module.exports = {
         requireStringLiterals: true,
       },
     ],
-
-    // https://eslint.org/docs/rules/no-import-assign
-    'no-import-assign': 'error',
-
-    // https://eslint.org/docs/rules/no-dupe-else-if
-    'no-dupe-else-if': 'error',
-
-    // https://eslint.org/docs/rules/no-setter-return
-    'no-setter-return': 'error',
   },
 
 };

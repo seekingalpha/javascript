@@ -154,6 +154,12 @@ module.exports = {
       },
     ],
 
+    /*
+     * TODO Enable when fixed for arrow functions
+     * https://eslint.org/docs/rules/function-call-argument-newline
+     */
+    'function-call-argument-newline': 'off',
+
     // https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': [
       'error',
@@ -206,6 +212,7 @@ module.exports = {
         ObjectExpression: 1,
         ImportDeclaration: 1,
         flatTernaryExpressions: false,
+        offsetTernaryExpressions: false,
         ignoredNodes: [],
         ignoreComments: false,
       },
@@ -637,7 +644,49 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/padding-line-between-statements
-    'padding-line-between-statements': 'error',
+    'padding-line-between-statements': [
+      'error',
+
+      // following 2 lines are replacement for deprecated lines-around-directive https://eslint.org/docs/rules/lines-around-directive
+      {
+        blankLine: 'always',
+        prev: 'directive',
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: 'directive',
+        next: 'directive',
+      },
+
+      // following 2 lines are replacement for deprecated newline-after-var https://eslint.org/docs/rules/newline-after-var
+      {
+        blankLine: 'always',
+        prev: [
+          'const', 'let', 'var',
+        ],
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: [
+          'const', 'let', 'var',
+        ],
+        next: [
+          'const', 'let', 'var',
+        ],
+      },
+
+      // following line are replacement for deprecated newline-before-return https://eslint.org/docs/rules/newline-before-return
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return',
+      },
+    ],
+
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
 
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 'error',
@@ -660,20 +709,6 @@ module.exports = {
       {
         avoidEscape: true,
         allowTemplateLiterals: false,
-      },
-    ],
-
-    // https://eslint.org/docs/rules/require-jsdoc
-    'require-jsdoc': [
-      'off',
-      {
-        require: {
-          FunctionDeclaration: false,
-          MethodDefinition: true,
-          ClassDeclaration: true,
-          ArrowFunctionExpression: false,
-          FunctionExpression: true,
-        },
       },
     ],
 
@@ -777,16 +812,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/wrap-regex
     'wrap-regex': 'error',
-
-
-    /*
-     * TODO Enable when fixed for arrow functions
-     * https://eslint.org/docs/rules/function-call-argument-newline
-     */
-    'function-call-argument-newline': 'off',
-
-    // https://eslint.org/docs/rules/prefer-exponentiation-operator
-    'prefer-exponentiation-operator': 'error',
   },
 
 };

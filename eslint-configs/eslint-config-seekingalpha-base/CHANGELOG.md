@@ -1,5 +1,15 @@
 # Change Log
 
+## 4.0.0 - 2020-06-08
+ - [deps] update `eslint` to version `7.2.0`
+ - [deps] update `eslint-plugin-import` to version `2.21.1`
+ - [deps] update `eslint-plugin-unicorn` to version `20.1.0`
+ - [patch] removed deprecated rules nodejs and commonJS rules
+ - [breaking] enable `no-useless-backreference` rule
+ - [breaking] enable `no-loss-of-precision` rule
+ - [breaking] enable `unicorn/no-useless-undefined` rule
+ - [breaking] enable `unicorn/prefer-optional-catch-binding` rule
+ 
 ## 3.34.0 - 2020-05-31
  - [deps] update `eslint-plugin-array-func` to version `3.1.6`
  

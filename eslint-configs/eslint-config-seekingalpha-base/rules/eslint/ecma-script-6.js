@@ -60,6 +60,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 'error',
 
+    // https://eslint.org/docs/rules/no-restricted-exports
+    'no-restricted-exports': 'off',
+
     // https://eslint.org/docs/rules/no-restricted-imports
     'no-restricted-imports': ['error'],
 

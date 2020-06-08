@@ -44,6 +44,9 @@ module.exports = {
      */
     'unicorn/no-process-exit': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-reduce.md
+    'unicorn/no-reduce': 'off',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
     'unicorn/throw-new-error': 'error',
 
@@ -92,6 +95,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md
     'unicorn/no-unsafe-regex': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md
+    'unicorn/no-useless-undefined': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
     'unicorn/prefer-add-event-listener': 'error',
 
@@ -112,6 +118,9 @@ module.exports = {
      * IE does not support Node.remove(). Should be enabled only after IE support is dropped
      */
     'unicorn/prefer-node-remove': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
+    'unicorn/prefer-optional-catch-binding': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-text-content.md
     'unicorn/prefer-text-content': 'error',
