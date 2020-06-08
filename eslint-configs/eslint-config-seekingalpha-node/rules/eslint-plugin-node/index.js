@@ -75,6 +75,42 @@ module.exports = {
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-deprecated-api.md
     'node/no-deprecated-api': 'error',
 
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-callback-literal.md
+    'node/no-callback-literal': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/global-require.md
+    'node/global-require': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/handle-callback-err.md
+    'node/handle-callback-err': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-mixed-requires.md
+    'node/no-mixed-requires': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-new-require.md
+    'node/no-new-require': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-path-concat.md
+    'node/no-path-concat': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-process-env.md
+    'node/no-process-env': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-restricted-import.md
+    'node/no-restricted-import': 'off',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-restricted-require.md
+    'node/no-restricted-require': 'off',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-process-exit.md
+    'node/no-process-exit': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-sync.md
+    'node/no-sync': 'error',
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/callback-return.md
+    'node/callback-return': 'error',
+
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/shebang.md
     'node/shebang': 'off',
 

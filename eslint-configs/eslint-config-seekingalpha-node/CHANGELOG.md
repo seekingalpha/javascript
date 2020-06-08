@@ -1,5 +1,18 @@
 # Change Log
 
+## 4.0.0 - 2020-06-08
+ - [deps] update `eslint` to version `7.2.0`
+ - [breaking] enable `node/no-callback-literal` rule
+ - [breaking] enable `node/global-require` rule
+ - [breaking] enable `node/handle-callback-err` rule
+ - [breaking] enable `node/no-mixed-requires` rule
+ - [breaking] enable `node/no-new-require` rule
+ - [breaking] enable `node/no-path-concat` rule
+ - [breaking] enable `node/no-process-env` rule
+ - [breaking] enable `node/no-process-exit` rule
+ - [breaking] enable `node/no-sync` rule
+ - [breaking] enable `node/callback-return` rule
+ 
 ## 3.13.0 - 2020-05-11
  - [deps] update `eslint-find-rules` to version `3.5.0`
  
