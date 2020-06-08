@@ -1,6 +1,10 @@
 # Change Log
 
-## 2.12.0 - 2019-05-11
+## 3.0.0 - 2019-06-08
+ - [deps] update `eslint` to version `7.2.0`
+ - [deps] update `eslint-plugin-mocha` to version `7.0.1`
+ 
+## 2.13.0 - 2019-05-11
  - [deps] update `eslint-find-rules` to version `3.5.0`
  
 ## 2.12.0 - 2019-02-23
