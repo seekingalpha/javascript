@@ -114,6 +114,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-obj-calls
     'no-obj-calls': 'error',
 
+    // https://eslint.org/docs/rules/no-promise-executor-return
+    'no-promise-executor-return': 'error',
+
     // https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'error',
 
@@ -137,6 +140,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-unreachable
     'no-unreachable': 'error',
+
+    // https://eslint.org/docs/rules/no-unreachable-loop
+    'no-unreachable-loop': 'error',
 
     // https://eslint.org/docs/rules/no-unsafe-finally
     'no-unsafe-finally': 'error',

@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.1.0 - 2020-06-21
+ - [deps] update `eslint` to version `7.3.0`
+ - [deps] update `eslint-plugin-import` to version `2.21.1`
+ - [breaking] enable `no-promise-executor-return` rule
+ - [breaking] enable `no-unreachable-loop` rule
+ 
 ## 4.0.0 - 2020-06-08
  - [deps] update `eslint` to version `7.2.0`
  - [deps] update `eslint-plugin-import` to version `2.21.1`
