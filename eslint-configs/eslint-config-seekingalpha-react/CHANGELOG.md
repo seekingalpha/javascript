@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.0.0 - 2020-06-21
+ - [deps] upgrade `eslint` to version `7.3.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `5.1.3`
+ - [deps] upgrade `eslint-plugin-jest` to version `23.16.0`
+ - [deps] upgrade `eslint-plugin-flowtype` to version `6.3.1`
+ - [new] `jest/no-conditional-expect` rule error
+ - [new] `jsx-a11y/autocomplete-valid` rule error
+ 
 ## 3.32.0 - 2020-05-31
  - [deps] upgrade `eslint-plugin-jest` to version `23.13.2`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.4`
