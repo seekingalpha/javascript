@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.1.0 - 2019-06-21
+ - [deps] update `eslint` to version `7.3.0`
+ 
 ## 3.0.0 - 2019-06-08
  - [deps] update `eslint` to version `7.2.0`
  - [deps] update `eslint-plugin-mocha` to version `7.0.1`
