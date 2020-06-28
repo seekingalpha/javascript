@@ -6,11 +6,11 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
 
-    npm install eslint@7.3.0 eslint-plugin-protractor@2.1.1 eslint-plugin-mocha@7.0.1 --save-dev
+    npm install eslint@7.3.1 eslint-plugin-protractor@2.1.1 eslint-plugin-mocha@7.0.1 --save-dev
 
 or **Yarn**:
 
-    yarn add --dev eslint@7.3.0 eslint-plugin-protractor@2.1.1 eslint-plugin-mocha@7.0.1
+    yarn add --dev eslint@7.3.1 eslint-plugin-protractor@2.1.1 eslint-plugin-mocha@7.0.1
 
 
 Install SeekingAlpha shareable ESLint:
