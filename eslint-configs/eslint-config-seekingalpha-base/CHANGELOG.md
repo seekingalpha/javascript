@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.2.0 - 2020-06-29
+## 4.2.0 - 2020-06-28
  - [deps] update `eslint` to version `7.3.1`
  - [deps] update `eslint-plugin-import` to version `2.22.0`
  
