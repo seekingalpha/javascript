@@ -167,7 +167,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/id-blacklist
-    'id-blacklist': ['error'],
+    'id-denylist': 'off',
 
     // https://eslint.org/docs/rules/id-length
     'id-length': [
