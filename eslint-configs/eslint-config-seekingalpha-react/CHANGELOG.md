@@ -1,6 +1,9 @@
 # Change Log
 
-## 4.1.0 - 2020-07-01
+## 4.3.0 - 2020-07-05
+ - [deps] upgrade `eslint` to version `7.4.0`
+ 
+## 4.2.0 - 2020-07-01
  - [deps] upgrade `eslint-plugin-flowtype` to version `5.2.0`
  - [deps] upgrade `eslint-plugin-react` to version `7.20.3`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.5`
