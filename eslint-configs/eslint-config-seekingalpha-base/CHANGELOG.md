@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.4.0 - 2020-07-19
+ - [deps] update `eslint` to version `7.5.0`
+ - [deps] update `eslint-plugin-array-func` to version `3.1.7`
+ - [deps] update `eslint-plugin-unicorn` to version `21.0.0`
+ - [breaking] enable `prefer-array-find` rule
+ 
 ## 4.3.0 - 2020-07-05
  - [deps] update `eslint` to version `7.4.0`
  
