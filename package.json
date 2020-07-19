@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "eslint": "7.5.0",
-    "eslint-config-seekingalpha-base": "4.4.0",
+    "eslint-config-seekingalpha-base": "4.5.0",
     "eslint-config-seekingalpha-node": "4.4.0",
     "eslint-plugin-array-func": "3.1.7",
     "eslint-plugin-import": "2.22.0",
