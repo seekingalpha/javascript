@@ -83,7 +83,7 @@ module.exports = {
 
     // 'unicorn/no-null': 'error',
 
-    // 'unicorn/no-object-as-default-parameter': 'error',
+    'unicorn/no-object-as-default-parameter': 'error',
 
     /*
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
@@ -182,7 +182,7 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': 'off',
 
-    // 'unicorn/string-content': 'off',
+    'unicorn/string-content': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
     'unicorn/throw-new-error': 'error',

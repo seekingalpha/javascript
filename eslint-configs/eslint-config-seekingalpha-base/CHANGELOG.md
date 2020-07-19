@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.5.0 - 2020-07-19
+ - [breaking] enable `unicorn/no-object-as-default-parameter` rule
+ 
 ## 4.4.0 - 2020-07-19
  - [deps] update `eslint` to version `7.5.0`
  - [deps] update `eslint-plugin-array-func` to version `3.1.7`
