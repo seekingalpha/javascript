@@ -138,6 +138,14 @@ module.exports = {
       },
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
+    'react/forbid-foreign-prop-types': [
+      'error',
+      {
+        allowInPropTypes: true,
+      },
+    ],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': [
       'error',
@@ -149,14 +157,6 @@ module.exports = {
         ],
         checkContextTypes: true,
         checkChildContextTypes: true,
-      },
-    ],
-
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
-    'react/forbid-foreign-prop-types': [
-      'error',
-      {
-        allowInPropTypes: true,
       },
     ],
 

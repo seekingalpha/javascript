@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.9.0 - 2020-07-29
+ - [deps] upgrade `eslint-plugin-jest` to version `23.19.0`
+ - [deps] upgrade `eslint-plugin-react` to version `7.20.5`
+ - [new] `jest/no-interpolation-in-snapshots` rule error
+ 
 ## 4.8.0 - 2020-07-26
  - [deps] upgrade `eslint-plugin-jest` to version `23.18.2`
  
