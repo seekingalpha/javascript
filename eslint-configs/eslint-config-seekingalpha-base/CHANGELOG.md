@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.6.0 - 2020-08-02
+ - [deps] update `eslint` to version `7.6.0`
+ 
 ## 4.5.0 - 2020-07-19
  - [breaking] enable `unicorn/no-object-as-default-parameter` rule
  
