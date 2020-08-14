@@ -15,17 +15,23 @@ module.exports = {
       },
     ],
 
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-async-describe.md
+    'mocha/no-async-describe': 'error',
+
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exclusive-tests.md
     'mocha/no-exclusive-tests': 'error',
+
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exports.md
+    'mocha/no-exports': 'error',
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-global-tests.md
     'mocha/no-global-tests': 'error',
 
-    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks.md
-    'mocha/no-hooks': 'error',
-
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks-for-single-case.md
     'mocha/no-hooks-for-single-case': 'off',
+
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks.md
+    'mocha/no-hooks': 'error',
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-identical-title.md
     'mocha/no-identical-title': 'error',
@@ -41,6 +47,9 @@ module.exports = {
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-return-and-callback.md
     'mocha/no-return-and-callback': 'error',
+
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-return-from-async.md
+    'mocha/no-return-from-async': 'error',
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-setup-in-describe.md
     'mocha/no-setup-in-describe': 'error',
@@ -71,12 +80,6 @@ module.exports = {
       'error',
       '^[A-Z]\\d+: should',
     ],
-
-    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-async-describe.md
-    'mocha/no-async-describe': 'error',
-
-    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-return-from-async.md
-    'mocha/no-return-from-async': 'error',
   },
 
 };
