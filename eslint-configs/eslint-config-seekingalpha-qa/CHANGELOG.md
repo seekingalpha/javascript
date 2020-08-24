@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.7.0 - 2019-08-24
+ - [deps] update `eslint` to version `7.7.0`
+ 
 ## 3.6.0 - 2019-08-14
  - [deps] update `eslint-plugin-mocha` to version `8.0.0`
  - [breaking] enable `mocha/no-exports` rule
