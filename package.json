@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "scripts": {
@@ -42,9 +42,9 @@
     ]
   },
   "devDependencies": {
-    "eslint": "7.7.0",
-    "eslint-config-seekingalpha-base": "4.7.0",
-    "eslint-config-seekingalpha-node": "4.6.0",
+    "eslint": "7.8.0",
+    "eslint-config-seekingalpha-base": "4.8.0",
+    "eslint-config-seekingalpha-node": "4.7.0",
     "eslint-plugin-array-func": "3.1.7",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-no-use-extend-native": "0.5.0",
@@ -52,6 +52,6 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-unicorn": "21.0.0",
     "husky": "4.2.5",
-    "lint-staged": "10.2.11"
+    "lint-staged": "10.2.13"
   }
 }
