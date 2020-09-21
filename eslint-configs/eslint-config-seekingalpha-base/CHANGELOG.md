@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.11.0 - 2020-09-21
+ - [deps] update `eslint-plugin-unicorn` to version `22.0.0`
+ 
 ## 4.10.0 - 2020-09-13
  - [deps] update `eslint` to version `7.9.0`
  
