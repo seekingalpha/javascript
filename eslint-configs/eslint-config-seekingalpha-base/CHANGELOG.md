@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.12.0 - 2020-09-23
+ - [docs] switch to NPM
+ 
 ## 4.11.0 - 2020-09-21
  - [deps] update `eslint-plugin-unicorn` to version `22.0.0`
  
