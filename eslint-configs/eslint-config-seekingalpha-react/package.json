@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "4.16.0",
+  "version": "4.17.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "scripts": {
@@ -54,7 +54,7 @@
     "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-jest": "24.0.2",
     "eslint-plugin-jsx-a11y": "6.3.1",
-    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react": "7.21.6",
     "eslint-plugin-react-hooks": "4.1.2"
   },
   "devDependencies": {
@@ -64,7 +64,7 @@
     "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-jest": "24.0.2",
     "eslint-plugin-jsx-a11y": "6.3.1",
-    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react": "7.21.0",
     "eslint-plugin-react-hooks": "4.1.2"
   }
 }

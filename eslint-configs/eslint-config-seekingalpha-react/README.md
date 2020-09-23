@@ -4,22 +4,13 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 ## Installation
 
-Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
+Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/):
 
-    npm install babel-eslint@10.1.0 eslint@7.9.0 eslint-plugin-flowtype@5.2.0 eslint-plugin-jest@24.0.2 eslint-plugin-jsx-a11y@6.3.1 eslint-plugin-react@7.20.6 eslint-plugin-react-hooks@4.1.2 --save-dev
-
-or **Yarn**:
-
-    yarn add --dev babel-eslint@10.1.0 eslint@7.9.0 eslint-plugin-flowtype@5.2.0 eslint-plugin-jest@24.0.2 eslint-plugin-jsx-a11y@6.3.1 eslint-plugin-react@7.20.6 eslint-plugin-react-hooks@4.1.2
-
+    npm install babel-eslint@10.1.0 eslint@7.9.0 eslint-plugin-flowtype@5.2.0 eslint-plugin-jest@24.0.2 eslint-plugin-jsx-a11y@6.3.1 eslint-plugin-react@7.21.0 eslint-plugin-react-hooks@4.1.2 --save-dev
 
 Install SeekingAlpha shareable ESLint:
 
     npm install eslint-config-seekingalpha-react --save-dev
-
-For **Yarn**:
-
-    yarn add --dev eslint-config-seekingalpha-react
 
 ## Usage
 
