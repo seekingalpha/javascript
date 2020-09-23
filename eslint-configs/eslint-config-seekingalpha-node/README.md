@@ -4,22 +4,13 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 ## Installation
 
-Install ESlint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) with **NPM**:
+Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/):
 
     npm install eslint@7.9.0 eslint-plugin-node@11.1.0 --save-dev
-
-or **Yarn**:
-
-    yarn add --dev eslint@7.9.0 eslint-plugin-node@11.1.0
-
 
 Install SeekingAlpha shareable ESLint:
 
     npm install eslint-config-seekingalpha-node --save-dev
-
-For **Yarn**:
-
-    yarn add --dev eslint-config-seekingalpha-node
 
 ## Usage
 

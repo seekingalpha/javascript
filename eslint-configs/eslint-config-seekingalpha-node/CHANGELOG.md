@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.10.0 - 2020-09-23
+ - [docs] switch to NPM
+ 
 ## 4.9.0 - 2020-09-13
  - [deps] update `eslint` to version `7.9.0`
  
