@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-qa",
-  "version": "3.10.0",
+  "version": "3.11.0",
   "description": "SeekingAlpha's sharable QA ESLint config",
   "main": "index.js",
   "scripts": {
