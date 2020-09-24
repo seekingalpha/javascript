@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.18.0 - 2020-09-24
+ - [deps] upgrade `eslint-plugin-react` to version `7.21.1`
+ 
 ## 4.17.0 - 2020-09-22
  - [deps] upgrade `eslint-plugin-react` to version `7.21.0`
  - [docs] switch to NPM
