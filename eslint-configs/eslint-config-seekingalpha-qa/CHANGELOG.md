@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.12.0 - 2019-09-29
+ - [deps] update `eslint` to version `7.10.0`
+ 
 ## 3.11.0 - 2019-09-23
  - [docs] switch to NPM
  
