@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.22.0 - 2020-10-07
+ - [deps] upgrade `eslint-plugin-jest` to version `24.1.0`
+ 
 ## 4.21.0 - 2020-10-05
  - [deps] upgrade `eslint-plugin-react` to version `7.21.3`
  
