@@ -78,11 +78,8 @@ module.exports = {
     'import/dynamic-import-chunkname': [
       'error',
       {
-        importFunctions: [
-          'dynamicImport',
-          'importedComponent',
-        ],
-        webpackChunknameFormat: '[0-9a-zA-Z-_/.]+',
+        importFunctions: [],
+        webpackChunknameFormat: '[a-zA-Z\\d]+-[S|R|W](_(Pro|Pre|In|Out)+)?',
       },
     ],
 

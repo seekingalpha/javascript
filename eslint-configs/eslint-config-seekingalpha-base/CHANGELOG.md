@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.15.0 - 2020-10-15
+ - [breaking] update `import/dynamic-import-chunkname` regex
+ 
 ## 4.14.0 - 2020-10-11
  - [deps] update `eslint` to version `7.11.0`
  
