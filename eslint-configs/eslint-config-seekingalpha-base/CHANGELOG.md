@@ -1,10 +1,6 @@
 # Change Log
 
-## 4.16.0 - 2020-10-15
- - [breaking] disable `react/jsx-uses-react` rule (React 16.4 update)
- - [breaking] disable `react/react-in-jsx-scope` rule (React 16.4 update)
- 
-## 4.15.0 - 2020-10-14
+## 4.15.0 - 2020-10-15
  - [breaking] update `import/dynamic-import-chunkname` regex
  
 ## 4.14.0 - 2020-10-11
