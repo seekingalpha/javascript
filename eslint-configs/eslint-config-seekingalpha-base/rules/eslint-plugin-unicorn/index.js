@@ -116,7 +116,7 @@ module.exports = {
      * TODO Separators not supported by IE - Enable after dropping it
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
      */
-    'unicorn/numeric-separators-style': 'error',
+    'unicorn/numeric-separators-style': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
     'unicorn/prefer-add-event-listener': 'error',
