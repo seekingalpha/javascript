@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.16.2 - 2020-10-18
+ - [breaking] disable `unicorn/prefer-ternary` rule
+ 
 ## 4.16.1 - 2020-10-18
  - [breaking] disable `unicorn/numeric-separators-style` rule
  

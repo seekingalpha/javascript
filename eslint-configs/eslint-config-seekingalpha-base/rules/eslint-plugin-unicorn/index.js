@@ -187,7 +187,7 @@ module.exports = {
     'unicorn/prefer-string-slice': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
-    'unicorn/prefer-ternary': 'error',
+    'unicorn/prefer-ternary': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-text-content.md
     'unicorn/prefer-text-content': 'error',
