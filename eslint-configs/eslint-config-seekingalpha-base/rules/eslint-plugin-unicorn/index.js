@@ -112,6 +112,12 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md
     'unicorn/number-literal-case': 'error',
 
+    /*
+     * TODO Separators not supported by IE - Enable after dropping it
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
+     */
+    'unicorn/numeric-separators-style': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
     'unicorn/prefer-add-event-listener': 'error',
 
@@ -130,7 +136,17 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
 
-    // 'unicorn/prefer-modern-dom-apis': 'error',
+    /*
+     * TODO Not supported by IE - Enable after dropping it
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
+     */
+    'prefer-math-trunc': 'off',
+
+    /*
+     * TODO Not supported by IE - Enable after dropping it
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+     */
+    'unicorn/prefer-modern-dom-apis': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
     'unicorn/prefer-negative-index': 'error',
@@ -169,6 +185,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md
     'unicorn/prefer-string-slice': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
+    'unicorn/prefer-ternary': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-text-content.md
     'unicorn/prefer-text-content': 'error',

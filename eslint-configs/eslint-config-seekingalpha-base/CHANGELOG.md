@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.16.0 - 2020-10-18
+ - [deps] update `eslint-plugin-unicorn` to version `23.0.0`
+ - [breaking] enable `unicorn/prefer-ternary` rule
+ 
 ## 4.15.0 - 2020-10-15
  - [breaking] update `import/dynamic-import-chunkname` regex
  
