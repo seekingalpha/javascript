@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.25.0 - 2020-10-21
+ - [deps] upgrade `eslint-plugin-react` to version `7.21.5`
+ - [deps] upgrade `eslint-plugin-react-hooks` to version `4.2.0`
+
 ## 4.24.0 - 2020-10-15
  - [breaking] disable `react/jsx-uses-react` rule (React 16.4 update)
  - [breaking] disable `react/react-in-jsx-scope` rule (React 16.4 update)
