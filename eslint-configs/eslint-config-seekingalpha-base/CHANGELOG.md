@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.16.2 - 2020-10-25
+ - [deps] update `eslint` to version `7.12.0`
+
 ## 4.16.2 - 2020-10-18
  - [breaking] disable `unicorn/prefer-ternary` rule
  
