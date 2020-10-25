@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.14.0 - 2019-10-25
+ - [deps] update `eslint` to version `7.12.0`
+ 
 ## 3.13.0 - 2019-10-11
  - [deps] update `eslint` to version `7.11.0`
  
