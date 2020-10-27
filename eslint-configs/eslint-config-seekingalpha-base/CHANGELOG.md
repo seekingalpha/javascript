@@ -1,6 +1,9 @@
 # Change Log
 
-## 4.16.2 - 2020-10-25
+## 4.18.0 - 2020-10-27
+ - [deps] update `eslint` to version `7.12.1`
+ 
+## 4.17.0 - 2020-10-25
  - [deps] update `eslint` to version `7.12.0`
 
 ## 4.16.2 - 2020-10-18
