@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.29.0 - 2020-11-08
+ - [deps] upgrade `eslint` to version `7.13.0`
+ 
 ## 4.28.0 - 2020-10-27
  - [deps] upgrade `eslint` to version `7.12.1`
  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.4.1`
