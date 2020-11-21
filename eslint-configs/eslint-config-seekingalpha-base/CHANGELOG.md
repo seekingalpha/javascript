@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.20.0 - 2020-11-21
+ - [deps] update `eslint` to version `7.14.0`
+ - [breaking] enable `no-nonoctal-decimal-escape` rule
+ 
 ## 4.19.0 - 2020-11-08
  - [deps] update `eslint` to version `7.13.0`
  
