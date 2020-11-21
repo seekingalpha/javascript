@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.31.0 - 2020-11-21
+ - [deps] upgrade `eslint` to version `7.14.0`
+ 
 ## 4.30.0 - 2020-11-15
  - [deps] upgrade `eslint-plugin-jest` to version `24.1.3`
  
