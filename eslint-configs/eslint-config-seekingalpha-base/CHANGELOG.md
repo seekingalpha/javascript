@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.21.0 - 2020-12-06
+ - [deps] update `eslint` to version `7.15.0`
+ - [breaking] enable `no-unsafe-optional-chaining` rule
+ 
 ## 4.20.0 - 2020-11-21
  - [deps] update `eslint` to version `7.14.0`
  - [breaking] enable `no-nonoctal-decimal-escape` rule
