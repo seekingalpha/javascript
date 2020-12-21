@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.22.0 - 2020-12-21
+  - [deps] update `eslint` to version `7.16.0`
+  - [deps] update `eslint-plugin-unicorn` to version `23.0.0`
+  - [breaking] disable `unicorn/empty-brace-spaces` rule
+  - [breaking] disable `unicorn/no-lonely-if` rule
+  - [breaking] disable `unicorn/prefer-date-now` rule
+
 ## 4.21.0 - 2020-12-06
  - [deps] update `eslint` to version `7.15.0`
  - [breaking] enable `no-unsafe-optional-chaining` rule
