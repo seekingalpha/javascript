@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.24.0 - 2020-12-30
+  - [deps] update `eslint-plugin-unicorn` to version `25.0.1`
+
 ## 4.23.0 - 2020-12-29
   - [deps] update `eslint-plugin-unicorn` to version `25.0.0`
   - [breaking] enable `unicorn/prefer-array-some` rule
