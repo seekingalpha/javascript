@@ -1,71 +1,74 @@
 # Change Log
 
-## 3.19.0 - 2019-12-21
+## 3.20.0 - 2021-01-03
+  - [deps] update `eslint` to version `7.17.0`
+
+## 3.19.0 - 2020-12-21
   - [deps] update `eslint` to version `7.16.0`
 
-## 3.18.0 - 2019-12-06
+## 3.18.0 - 2020-12-06
  - [deps] update `eslint` to version `7.15.0`
  
-## 3.17.0 - 2019-11-21
+## 3.17.0 - 2020-11-21
  - [deps] update `eslint` to version `7.14.0`
  
-## 3.16.0 - 2019-11-08
+## 3.16.0 - 2020-11-08
  - [deps] update `eslint` to version `7.13.0`
  
-## 3.15.0 - 2019-10-27
+## 3.15.0 - 2020-10-27
  - [deps] update `eslint` to version `7.12.1`
  
-## 3.14.0 - 2019-10-25
+## 3.14.0 - 2020-10-25
  - [deps] update `eslint` to version `7.12.0`
  
-## 3.13.0 - 2019-10-11
+## 3.13.0 - 2020-10-11
  - [deps] update `eslint` to version `7.11.0`
  
-## 3.12.0 - 2019-09-29
+## 3.12.0 - 2020-09-29
  - [deps] update `eslint` to version `7.10.0`
  
-## 3.11.0 - 2019-09-23
+## 3.11.0 - 2020-09-23
  - [docs] switch to NPM
  
-## 3.10.0 - 2019-09-13
+## 3.10.0 - 2020-09-13
  - [deps] update `eslint` to version `7.9.0`
  
-## 3.9.0 - 2019-09-06
+## 3.9.0 - 2020-09-06
  - [deps] update `eslint` to version `7.8.1`
  
-## 3.8.0 - 2019-09-01
+## 3.8.0 - 2020-09-01
  - [deps] update `eslint` to version `7.8.0`
  
-## 3.7.0 - 2019-08-24
+## 3.7.0 - 2020-08-24
  - [deps] update `eslint` to version `7.7.0`
  
-## 3.6.0 - 2019-08-14
+## 3.6.0 - 2020-08-14
  - [deps] update `eslint-plugin-mocha` to version `8.0.0`
  - [breaking] enable `mocha/no-exports` rule
  
-## 3.5.0 - 2019-08-02
+## 3.5.0 - 2020-08-02
  - [deps] update `eslint` to version `7.6.0`
  
-## 3.4.0 - 2019-07-19
+## 3.4.0 - 2020-07-19
  - [deps] update `eslint` to version `7.5.0`
  
-## 3.3.0 - 2019-07-05
+## 3.3.0 - 2020-07-05
  - [deps] update `eslint` to version `7.4.0`
  
-## 3.2.0 - 2019-06-28
+## 3.2.0 - 2020-06-28
  - [deps] update `eslint` to version `7.3.1`
  
-## 3.1.0 - 2019-06-21
+## 3.1.0 - 2020-06-21
  - [deps] update `eslint` to version `7.3.0`
  
-## 3.0.0 - 2019-06-08
+## 3.0.0 - 2020-06-08
  - [deps] update `eslint` to version `7.2.0`
  - [deps] update `eslint-plugin-mocha` to version `7.0.1`
  
-## 2.13.0 - 2019-05-11
+## 2.13.0 - 2020-05-11
  - [deps] update `eslint-find-rules` to version `3.5.0`
  
-## 2.12.0 - 2019-02-23
+## 2.12.0 - 2020-02-23
  - [deps] update `eslint-plugin-mocha` to version `6.3.0`
  
 ## 2.11.0 - 2019-12-21
@@ -96,7 +99,7 @@
  - [deps] update `eslint` to version `6.4.0`
  - [deps] update `eslint-plugin-mocha` to version `6.1.1`
 
-## 2.3.0 - 2019-08-02
+## 2.3.0 - 2019-09-02
  - [deps] update `eslint` to version `6.3.0`
  
 ## 2.2.0 - 2018-08-25
