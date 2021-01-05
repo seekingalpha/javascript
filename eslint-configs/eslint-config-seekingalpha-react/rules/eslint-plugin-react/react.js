@@ -163,6 +163,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
     'react/no-access-state-in-setstate': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
+    'react/no-adjacent-inline-elements': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
     'react/no-array-index-key': 'error',
 

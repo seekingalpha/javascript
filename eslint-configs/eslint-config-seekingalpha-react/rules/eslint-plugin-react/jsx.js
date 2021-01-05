@@ -108,6 +108,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
+    'react/jsx-newline': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     'react/jsx-no-bind': [
       'error', {
@@ -121,6 +124,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
     'react/jsx-no-comment-textnodes': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-constructed-context-values.md
+    'react/jsx-no-constructed-context-values': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
     'react/jsx-no-duplicate-props': [
