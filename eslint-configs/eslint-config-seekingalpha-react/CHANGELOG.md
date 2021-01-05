@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.36.0 - 2021-01-05
+  - [new] `react/function-component-definition` rule error
+
 ## 4.35.0 - 2021-01-05
   - [deps] upgrade `eslint-plugin-react` to version `7.22.0`
   - [new] `react/jsx-newline` rule error
