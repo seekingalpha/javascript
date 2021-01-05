@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.35.0 - 2021-01-05
+  - [deps] upgrade `eslint-plugin-react` to version `7.22.0`
+  - [new] `react/jsx-newline` rule error
+  - [new] `react/jsx-no-constructed-context-values` rule error
+  - [new] `react/no-adjacent-inline-elements` rule error
+
 ## 4.34.0 - 2021-01-03
   - [deps] upgrade `eslint` to version `7.17.0`
 
