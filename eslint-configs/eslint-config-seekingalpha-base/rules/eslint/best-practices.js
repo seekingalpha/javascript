@@ -10,7 +10,9 @@ module.exports = {
     'accessor-pairs': [
       'error',
       {
-        getWithoutSet: true,
+        setWithoutGet: true,
+        getWithoutSet: false,
+        enforceForClassMembers: true,
       },
     ],
 
@@ -20,7 +22,7 @@ module.exports = {
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
 
-    // https://eslint.org/docs/rules/class-methods-use-this
+    // https://eslint.org/docs/rules/class-methods-use-this review
     'class-methods-use-this': 'error',
 
     // https://eslint.org/docs/rules/complexity
@@ -351,11 +353,8 @@ module.exports = {
     // https://eslint.org/docs/rules/require-await
     'require-await': 'error',
 
-    /*
-     * https://eslint.org/docs/rules/require-unicode-regexp
-     * TODO turn on?
-     */
-    'require-unicode-regexp': 'off',
+    // https://eslint.org/docs/rules/require-unicode-regexp
+    'require-unicode-regexp': 'error',
 
     // https://eslint.org/docs/rules/vars-on-top
     'vars-on-top': 'error',

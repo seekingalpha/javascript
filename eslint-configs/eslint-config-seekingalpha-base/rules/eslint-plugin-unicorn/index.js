@@ -17,6 +17,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md
+    'unicorn/consistent-destructuring': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
     'unicorn/consistent-function-scoping': 'error',
 
@@ -89,6 +92,9 @@ module.exports = {
      */
     'unicorn/no-nested-ternary': 'off',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md
+    'unicorn/no-new-array': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md
     'unicorn/no-new-buffer': 'error',
 
@@ -134,6 +140,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
     'unicorn/prefer-array-some': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
+    'unicorn/prefer-array-index-of': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
     'unicorn/prefer-date-now': 'error',
@@ -188,6 +197,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md
     'unicorn/prefer-reflect-apply': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
+    'unicorn/prefer-regexp-test': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
     'unicorn/prefer-set-has': 'error',
