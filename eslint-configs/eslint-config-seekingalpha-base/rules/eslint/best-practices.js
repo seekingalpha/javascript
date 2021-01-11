@@ -10,7 +10,9 @@ module.exports = {
     'accessor-pairs': [
       'error',
       {
-        getWithoutSet: true,
+        setWithoutGet: true,
+        getWithoutSet: false,
+        enforceForClassMembers: true,
       },
     ],
 
@@ -351,11 +353,8 @@ module.exports = {
     // https://eslint.org/docs/rules/require-await
     'require-await': 'error',
 
-    /*
-     * https://eslint.org/docs/rules/require-unicode-regexp
-     * TODO turn on?
-     */
-    'require-unicode-regexp': 'off',
+    // https://eslint.org/docs/rules/require-unicode-regexp
+    'require-unicode-regexp': 'error',
 
     // https://eslint.org/docs/rules/vars-on-top
     'vars-on-top': 'error',
