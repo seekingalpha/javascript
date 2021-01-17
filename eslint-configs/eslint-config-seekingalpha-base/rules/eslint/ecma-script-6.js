@@ -41,12 +41,7 @@ module.exports = {
     'no-class-assign': 'error',
 
     // https://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': [
-      'error',
-      {
-        allowParens: true,
-      },
-    ],
+    'no-confusing-arrow': 'error',
 
     // https://eslint.org/docs/rules/no-const-assign
     'no-const-assign': 'error',
@@ -64,7 +59,7 @@ module.exports = {
     'no-restricted-exports': 'off',
 
     // https://eslint.org/docs/rules/no-restricted-imports
-    'no-restricted-imports': ['error'],
+    'no-restricted-imports': 'error',
 
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
