@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.37.0 - 2021-01-17
+  - [deps] upgrade `eslint` to version `7.18.0`
+
 ## 4.36.0 - 2021-01-05
   - [new] `react/function-component-definition` rule error
 

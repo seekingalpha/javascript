@@ -1,7 +1,11 @@
 # Change Log
 
+## 4.27.0 - 2021-01-17
+  - [deps] update `eslint` to version `7.18.0`
+  - [deps] update `eslint-plugin-unicorn` to version `26.0.1`
+
 ## 4.26.0 - 2021-01-11
-  - [deps] update `eslint-plugin-unicorn` to version `25.0.1`
+  - [deps] update `eslint-plugin-unicorn` to version `26.0.0`
   - [breaking] enable `require-unicode-regexp` rule
   - [breaking] enable `unicorn/consistent-destructuring` rule
   - [breaking] enable `unicorn/no-new-array` rule
