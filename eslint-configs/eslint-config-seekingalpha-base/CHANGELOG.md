@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.29.0 - 2021-01-31
+  - [deps] update `eslint` to version `7.19.0`
+
 ## 4.28.0 - 2021-01-24
   - [deps] update `eslint-plugin-unicorn` to version `27.0.0`
   - [breaking] enable `unicorn/no-array-push-push` rule
