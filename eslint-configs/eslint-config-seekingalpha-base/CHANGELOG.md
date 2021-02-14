@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.32.0 - 2021-02-14
+  - [deps] update `eslint` to version `7.20.0`
+
 ## 4.31.0 - 2021-02-11
   - [deps] update `eslint-plugin-promise` to version `4.3.1`
 
