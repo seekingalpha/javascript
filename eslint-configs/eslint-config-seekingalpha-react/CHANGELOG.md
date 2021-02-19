@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.42.0 - 2021-02-19
+  - [deps] upgrade `eslint-plugin-flowtype` to version `5.2.2`
+
 ## 4.41.0 - 2021-02-18
   - [deps] upgrade `eslint-plugin-flowtype` to version `5.2.1`
 
