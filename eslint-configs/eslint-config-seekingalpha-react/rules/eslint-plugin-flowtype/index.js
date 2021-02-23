@@ -72,11 +72,11 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-weak-types
     'flowtype/no-weak-types': 'off',
 
-    // https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
-    'flowtype/object-type-curly-spacing': [
-      'error',
-      'always',
-    ],
+    /*
+     * TODO: enable after standart multiline object notation added
+     * https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
+     */
+    'flowtype/object-type-curly-spacing': 'off',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-object-type-delimiter
     'flowtype/object-type-delimiter': [
