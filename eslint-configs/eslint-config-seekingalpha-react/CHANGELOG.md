@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.44.0 - 2021-02-24
+  - [deps] upgrade `eslint-plugin-flowtype` to version `5.3.1`
+  - [new] `flowtype/object-type-curly-spacing` rule error
+
 ## 4.43.1 - 2021-02-23
   - [patch: loosen rules] disable `flowtype/object-type-curly-spacing` rule
 
