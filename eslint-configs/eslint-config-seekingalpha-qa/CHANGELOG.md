@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.25.0 - 2021-03-07
+  - [deps] update `eslint-plugin-mocha` to version `8.1.0`
+
 ## 3.24.0 - 2021-02-28
   - [deps] update `eslint` to version `7.21.0`
 
