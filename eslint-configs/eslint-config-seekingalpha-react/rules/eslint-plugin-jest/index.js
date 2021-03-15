@@ -136,6 +136,12 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
     'jest/valid-title': 'error',
+
+    /*
+     * only relevant for TypeScript
+     * https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
+     */
+    'jest/unbound-method': 'off',
   },
 
 };
