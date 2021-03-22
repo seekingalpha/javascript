@@ -117,6 +117,9 @@ module.exports = {
      */
     'unicorn/no-process-exit': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md
+    'unicorn/no-static-only-class': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
     'unicorn/no-this-assignment': 'error',
 
@@ -146,6 +149,13 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
     'unicorn/prefer-array-find': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md
+    'unicorn/prefer-array-flat': [
+      'error', {
+        functions: ['flatDeep'],
+      },
+    ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
     'unicorn/prefer-array-flat-map': 'error',
