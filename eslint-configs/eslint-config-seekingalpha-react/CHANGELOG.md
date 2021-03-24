@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.52.0 - 2021-03-24
+  - [deps] upgrade `eslint-plugin-react` to version `7.23.1`
+  - [new] `react/no-unstable-nested-components` rule error
+
 ## 4.51.0 - 2021-03-18
   - [deps] upgrade `eslint-plugin-jest` to version `24.3.2`
 
