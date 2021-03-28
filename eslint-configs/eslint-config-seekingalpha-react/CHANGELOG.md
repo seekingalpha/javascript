@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.53.0 - 2021-03-28
+  - [fix] update `react/boolean-prop-naming` rule regexp
+
 ## 4.52.0 - 2021-03-24
   - [deps] upgrade `eslint-plugin-react` to version `7.23.1`
   - [new] `react/no-unstable-nested-components` rule error
