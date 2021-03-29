@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.38.0 - 2021-03-29
+  - [deps] update `eslint` to version `7.23.0`
+
 ## 4.37.0 - 2021-03-22
   - [deps] update `eslint-plugin-unicorn` to version `29.0.0`
   - [breaking] enable `unicorn/no-static-only-class` rule
