@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.54.0 - 2021-03-29
+  - [fix] revert `react/boolean-prop-naming` rule regexp
+  - [deps] revert `eslint-plugin-react` to version `7.22.0`
+  - [deps] upgrade `eslint` to version `7.23.0`
+
 ## 4.53.0 - 2021-03-28
   - [fix] update `react/boolean-prop-naming` rule regexp
 
