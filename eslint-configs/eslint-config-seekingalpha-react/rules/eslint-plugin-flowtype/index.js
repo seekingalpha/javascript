@@ -18,6 +18,12 @@ module.exports = {
       'verbose',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-arrow-parens
+    'flowtype/arrow-parens': [
+      'error',
+      'always',
+    ],
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-boolean-style
     'flowtype/boolean-style': [
       'error',
@@ -57,6 +63,12 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
     'flowtype/no-flow-fix-me-comments': 'error',
 
+    // https://github.com/gajus/eslint-plugin-flowtype#no-internal-flow-type
+    'flowtype/no-internal-flow-type': 'error',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#no-mixed
+    'flowtype/no-mixed': 'error',
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-mutable-array
     'flowtype/no-mutable-array': 'error',
 
@@ -84,8 +96,38 @@ module.exports = {
       'comma',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#quotes
+    'flowtype/quotes': [
+      'error',
+      'single',
+    ],
+
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-compound-type-alias
+    'flowtype/require-compound-type-alias': [
+      'error',
+      'never',
+    ],
+
+    /*
+     * TODO enable?
+     * https://github.com/gajus/eslint-plugin-flowtype#require-exact-type
+     */
+    'flowtype/require-exact-type': 'off',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#require-indexer-name
+    'flowtype/require-indexer-name': [
+      'error',
+      'never',
+    ],
+
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-inexact-type
+    'flowtype/require-inexact-type': 'off',
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-parameter-type
     'flowtype/require-parameter-type': 'error',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-readonly-react-props
+    'flowtype/require-readonly-react-props': 'error',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-return-type
     'flowtype/require-return-type': 'off',
@@ -114,6 +156,9 @@ module.exports = {
       'always',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#sort-keys
+    'flowtype/sort-keys': 'off',
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-after-type-colon
     'flowtype/space-after-type-colon': [
       'error',
@@ -132,12 +177,14 @@ module.exports = {
       'never',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-spread-exact-type
+    'flowtype/spread-exact-type': 'error',
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-type-id-match
     'flowtype/type-id-match': [
       'error',
       '^([A-Z][a-z0-9]*)+T$',
     ],
-
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-type-import-style
     'flowtype/type-import-style': [
@@ -154,44 +201,8 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-use-flow-type
     'flowtype/use-flow-type': 'warn',
 
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-compound-type-alias
-    'flowtype/require-compound-type-alias': [
-      'error',
-      'never',
-    ],
-
-    /*
-     * TODO enable?
-     * https://github.com/gajus/eslint-plugin-flowtype#require-exact-type
-     */
-    'flowtype/require-exact-type': 'off',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#sort-keys
-    'flowtype/sort-keys': 'off',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#no-mixed
-    'flowtype/no-mixed': 'error',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-spread-exact-type
-    'flowtype/spread-exact-type': 'error',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-readonly-react-props
-    'flowtype/require-readonly-react-props': 'error',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-inexact-type
-    'flowtype/require-inexact-type': 'off',
-
-    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-arrow-parens
-    'flowtype/arrow-parens': [
-      'error',
-      'always',
-    ],
-
-    // https://github.com/gajus/eslint-plugin-flowtype#require-indexer-name
-    'flowtype/require-indexer-name': [
-      'error',
-      'never',
-    ],
+    // https://github.com/gajus/eslint-plugin-flowtype#use-read-only-spread
+    'flowtype/use-read-only-spread': 'error',
 
   },
 
