@@ -41,7 +41,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/explicit-length-check.md
     'unicorn/explicit-length-check': 'off',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/filename-case.md
+    /*
+     * check if can replace plugin-filenames
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/filename-case.md
+     */
     'unicorn/filename-case': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/import-index.md
@@ -84,7 +87,7 @@ module.exports = {
     'unicorn/no-keyword-prefix': [
       'error',
       {
-        blacklist: ['new'],
+        disallowedPrefixes: ['new'],
         checkProperties: true,
       },
     ],
