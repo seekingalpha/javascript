@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.40.0 - 2021-04-20
+  - [deps] update `eslint-plugin-unicorn` to version `30.0.0`
+
 ## 4.39.0 - 2021-04-11
   - [deps] update `eslint` to version `7.24.0`
   - [deps] update `eslint-plugin-promise` to version `5.1.0`
