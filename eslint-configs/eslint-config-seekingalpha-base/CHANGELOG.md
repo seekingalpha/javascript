@@ -1,6 +1,10 @@
 # Change Log
 
 ## 4.41.0 - 2021-04-25
+  - [breaking] disable `unicorn/prefer-module` rule
+  - [breaking] disable `unicorn/prefer-node-protocol` rule
+
+## 4.41.0 - 2021-04-25
   - [deps] update `eslint` to version `7.24.0`
   - [deps] update `eslint-plugin-unicorn` to version `30.0.0`
   - [breaking] enable `unicorn/prefer-module` rule
