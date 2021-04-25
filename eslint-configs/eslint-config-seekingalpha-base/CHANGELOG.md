@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.41.0 - 2021-04-25
+  - [deps] update `eslint` to version `7.24.0`
+  - [deps] update `eslint-plugin-unicorn` to version `30.0.0`
+  - [breaking] enable `unicorn/prefer-module` rule
+  - [breaking] enable `unicorn/prefer-node-protocol` rule
+  - [breaking] enable `unicorn/prefer-switch` rule
+
 ## 4.40.0 - 2021-04-20
   - [deps] update `eslint-plugin-unicorn` to version `30.0.0`
 
