@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.61.0 - 2021-05-02
+  - [deps] drop direct dependency on `babel-eslint`
+
 ## 4.60.0 - 2021-04-26
   - [deps] upgrade `eslint-plugin-jest` to version `24.3.6`
 
