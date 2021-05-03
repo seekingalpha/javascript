@@ -1,6 +1,9 @@
 # Change Log
 
-## 4.41.0 - 2021-04-25
+## 4.42.0 - 2021-05-03
+  - [patch] update `comma-dangle` rule
+
+## 4.41.1 - 2021-04-25
   - [breaking] disable `unicorn/prefer-module` rule
   - [breaking] disable `unicorn/prefer-node-protocol` rule
 
