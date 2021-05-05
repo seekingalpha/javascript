@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.43.0 - 2021-05-05
+  - [patch] update `import/dynamic-import-chunkname` regex (add `M` postfix)
+
 ## 4.42.0 - 2021-05-03
   - [patch] update `comma-dangle` rule
 
@@ -93,83 +96,83 @@
 ## 4.21.0 - 2020-12-06
  - [deps] update `eslint` to version `7.15.0`
  - [breaking] enable `no-unsafe-optional-chaining` rule
- 
+
 ## 4.20.0 - 2020-11-21
  - [deps] update `eslint` to version `7.14.0`
  - [breaking] enable `no-nonoctal-decimal-escape` rule
- 
+
 ## 4.19.0 - 2020-11-08
  - [deps] update `eslint` to version `7.13.0`
- 
+
 ## 4.18.0 - 2020-10-27
  - [deps] update `eslint` to version `7.12.1`
- 
+
 ## 4.17.0 - 2020-10-25
  - [deps] update `eslint` to version `7.12.0`
 
 ## 4.16.2 - 2020-10-18
  - [breaking] disable `unicorn/prefer-ternary` rule
- 
+
 ## 4.16.1 - 2020-10-18
  - [breaking] disable `unicorn/numeric-separators-style` rule
- 
+
 ## 4.16.0 - 2020-10-18
  - [deps] update `eslint-plugin-unicorn` to version `23.0.0`
  - [breaking] enable `unicorn/prefer-ternary` rule
- 
+
 ## 4.15.0 - 2020-10-15
  - [breaking] update `import/dynamic-import-chunkname` regex
- 
+
 ## 4.14.0 - 2020-10-11
  - [deps] update `eslint` to version `7.11.0`
- 
+
 ## 4.13.0 - 2020-09-29
  - [deps] update `eslint` to version `7.10.0`
  - [deps] update `eslint-plugin-import` to version `2.22.1`
- 
+
 ## 4.12.0 - 2020-09-23
  - [docs] switch to NPM
- 
+
 ## 4.11.0 - 2020-09-21
  - [deps] update `eslint-plugin-unicorn` to version `22.0.0`
- 
+
 ## 4.10.0 - 2020-09-13
  - [deps] update `eslint` to version `7.9.0`
- 
+
 ## 4.9.0 - 2020-09-06
  - [deps] update `eslint` to version `7.8.1`
- 
+
 ## 4.8.0 - 2020-09-01
  - [deps] update `eslint` to version `7.8.0`
- 
+
 ## 4.7.0 - 2020-08-24
  - [deps] update `eslint` to version `7.7.0`
- 
+
 ## 4.6.0 - 2020-08-02
  - [deps] update `eslint` to version `7.6.0`
- 
+
 ## 4.5.0 - 2020-07-19
  - [breaking] enable `unicorn/no-object-as-default-parameter` rule
- 
+
 ## 4.4.0 - 2020-07-19
  - [deps] update `eslint` to version `7.5.0`
  - [deps] update `eslint-plugin-array-func` to version `3.1.7`
  - [deps] update `eslint-plugin-unicorn` to version `21.0.0`
  - [breaking] enable `prefer-array-find` rule
- 
+
 ## 4.3.0 - 2020-07-05
  - [deps] update `eslint` to version `7.4.0`
- 
+
 ## 4.2.0 - 2020-06-28
  - [deps] update `eslint` to version `7.3.1`
  - [deps] update `eslint-plugin-import` to version `2.22.0`
- 
+
 ## 4.1.0 - 2020-06-21
  - [deps] update `eslint` to version `7.3.0`
  - [deps] update `eslint-plugin-import` to version `2.21.1`
  - [breaking] enable `no-promise-executor-return` rule
  - [breaking] enable `no-unreachable-loop` rule
- 
+
 ## 4.0.0 - 2020-06-08
  - [deps] update `eslint` to version `7.2.0`
  - [deps] update `eslint-plugin-import` to version `2.21.1`
@@ -179,28 +182,28 @@
  - [breaking] enable `no-loss-of-precision` rule
  - [breaking] enable `unicorn/no-useless-undefined` rule
  - [breaking] enable `unicorn/prefer-optional-catch-binding` rule
- 
+
 ## 3.34.0 - 2020-05-31
  - [deps] update `eslint-plugin-array-func` to version `3.1.6`
- 
+
 ## 3.33.0 - 2020-05-11
  - [breaking] removed `eslint-plugin-jsdoc`
  - [deps] update `eslint-find-rules` to version `3.5.0`
- 
+
 ## 3.32.0 - 2020-05-04
  - [deps] update `eslint-plugin-jsdoc` to version `24.0.2`
  - [deps] update `eslint-plugin-unicorn` to version `19.0.1`
- 
+
 ## 3.31.0 - 2020-04-21
  - [deps] update `eslint-plugin-jsdoc` to version `24.0.0`
- 
+
 ## 3.30.0 - 2020-04-13
  - [deps] update `eslint-plugin-jsdoc` to version `23.0.0`
  - [deps] update `eslint-plugin-no-use-extend-native` to version `0.5.0`
- 
+
 ## 3.29.0 - 2020-04-08
  - [deps] update `eslint-plugin-array-func` to version `3.1.5`
- 
+
 ## 3.28.0 - 2020-03-30
  - [deps] update `eslint-plugin-import` to version `2.20.2`
 
@@ -208,41 +211,41 @@
  - [deps] update `eslint-plugin-unicorn` to version `18.0.1`
  - [breaking] enable `unicorn/prefer-number-properties` rule
  - [breaking] enable `unicorn/prefer-set-has` rule
- 
+
 ## 3.26.0 - 2020-03-20
  - [deps] update `eslint-plugin-jsdoc` to version `22.1.0`
- 
+
 ## 3.25.0 - 2020-03-15
  - [deps] update `eslint-plugin-jsdoc` to version `22.0.1`
  - [deps] update `eslint-plugin-unicorn` to version `17.2.0`
- 
+
 ## 3.24.1 - 2020-03-08
  - [patch: loosen rule] removed rule `nicorn/prefer-node-remove`
- 
+
 ## 3.24.0 - 2020-03-08
  - [deps] update `eslint-plugin-jsdoc` to version `22.0.0`
  - [deps] update `eslint-plugin-unicorn` to version `17.0.1`
- 
+
 ## 3.23.0 - 2020-03-01
  - [deps] update `eslint-plugin-array-func` to version `3.1.4`
- 
+
 ## 3.22.0 - 2020-02-23
  - [deps] update `eslint-plugin-unicorn` to version `16.1.1`
- 
+
 ## 3.21.0 - 2020-02-02
  - [deps] update `eslint-plugin-import` to version `2.20.1`
  - [deps] update `eslint-plugin-unicorn` to version `16.0.0`
- 
+
 ## 3.20.0 - 2020-01-25
  - [deps] update `eslint-plugin-jsdoc` to version `21.0.0`
- 
+
 ## 3.19.0 - 2020-01-17
  - [deps] update `eslint-plugin-jsdoc` to version `20.3.1`
- 
+
 ## 3.18.0 - 2020-01-12
  - [deps] update `eslint-plugin-jsdoc` to version `20.3.0`
  - [deps] update `eslint-plugin-import` to version `2.20.0`
- 
+
 ## 3.17.0 - 2020-01-09
  - [deps] update `eslint-plugin-jsdoc` to version `20.0.5`
  - [breaking] enable `jsdoc/check-property-names` rule
@@ -250,31 +253,31 @@
  - [breaking] enable `jsdoc/require-property-description` rule
  - [breaking] enable `jsdoc/require-property-name` rule
  - [breaking] enable `jsdoc/require-property-type` rule
- 
+
 ## 3.16.0 - 2019-12-30
  - [deps] update `eslint-plugin-jsdoc` to version `18.6.2`
  - [deps] update `eslint-plugin-unicorn` to version `15.0.1`
- 
+
 ## 3.15.0 - 2019-12-21
  - [deps] update `eslint` to version `6.8.0`
- 
+
 ## 3.14.2 - 2019-12-11
  - [patch] update `import/order` groups order
- 
+
 ## 3.14.1 - 2019-12-11
  - [patch] allow omit `.jsx` extension for `import/extension` rule
- 
+
 ## 3.14.0 - 2019-12-11
  - [deps] update `eslint-plugin-import` to version `2.19.1`
  - [deps] update `eslint-plugin-jsdoc` to version `18.4.3`
- 
+
 ## 3.13.0 - 2019-12-02
  - [deps] update `eslint` to version `6.7.2`
  - [deps] update `eslint-plugin-jsdoc` to version `18.4.1`
  - [deps] update `eslint-plugin-unicorn` to version `14.0.1`
  - [breaking] enable `unicorn/prefer-negative-index` rule
  - [breaking] enable `unicorn/prefer-trim-start-end` rule
- 
+
 ## 3.12.0 - 2019-11-27
  - [deps] update `eslint` to version `6.7.1`
  - [deps] update `eslint-plugin-jsdoc` to version `18.1.5`
@@ -283,37 +286,37 @@
  - [breaking] enable `no-dupe-else-if` rule
  - [breaking] enable `no-setter-return` rule
  - [breaking] enable `prefer-exponentiation-operator` rule
- 
+
 ## 3.11.0 - 2019-11-20
  - [deps] update `eslint-plugin-jsdoc` to version `18.1.3`
  - [deps] update `eslint-plugin-unicorn` to version `13.0.0`
- 
+
 ## 3.10.0 - 2019-11-14
  - [deps] update `eslint-plugin-jsdoc` to version `18.0.1`
  - [breaking] enable `jsdoc/check-access` rule
  - [breaking] enable `jsdoc/empty-tags` rule
-  
+
 ## 3.9.0 - 2019-10-29
  - [deps] update `eslint-plugin-jsdoc` to version `15.12.2`
- 
+
 ## 3.8.0 - 2019-10-27
  - [deps] update `eslint` to version `6.6.0`
  - [deps] update `eslint-plugin-jsdoc` to version `15.12.1`
- 
+
 ## 3.7.0 - 2019-10-23
  - [deps] update `eslint-plugin-jsdoc` to version `15.12.0`
- 
+
 ## 3.6.0 - 2019-10-15
  - [deps] update `eslint` to version `6.5.1`
  - [deps] update `eslint-plugin-jsdoc` to version `15.11.1`
  - [deps] update `eslint-plugin-unicorn` to version `12.1.0`
  - [breaking] enable `unicorn/prefer-string-slice` rule
- 
+
 ## 3.5.0 - 2019-09-22
  - [deps] update `eslint-plugin-unicorn` to version `11.0.1`
  - [breaking] enable `unicorn/consistent-function-scoping` rule
  - [breaking] enable `unicorn/prefer-dataset` rule
- 
+
 ## 3.4.0 - 2019-09-15
  - [deps] update `eslint` to version `6.4.0`
  - [deps] update `eslint-plugin-jsdoc` to version `15.9.2`
@@ -324,7 +327,7 @@
 ## 3.3.0 - 2019-09-02
  - [deps] update `eslint` to version `6.3.0`
  - [deps] update `eslint-plugin-jsdoc` to version `15.9.1`
- 
+
 ## 3.2.0 - 2019-08-25
  - [deps] update `eslint` to version `6.2.2`
 
