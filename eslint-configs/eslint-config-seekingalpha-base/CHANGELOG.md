@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.43.0 - 2021-05-10
+  - [deps] update `eslint` to version `7.26.0`
+  - [deps] update `eslint-plugin-unicorn` to version `32.0.1`
+
 ## 4.42.0 - 2021-05-03
   - [patch] update `comma-dangle` rule
 
@@ -8,7 +12,7 @@
   - [breaking] disable `unicorn/prefer-node-protocol` rule
 
 ## 4.41.0 - 2021-04-25
-  - [deps] update `eslint` to version `7.24.0`
+  - [deps] update `eslint` to version `7.25.0`
   - [deps] update `eslint-plugin-unicorn` to version `30.0.0`
   - [breaking] enable `unicorn/prefer-module` rule
   - [breaking] enable `unicorn/prefer-node-protocol` rule
