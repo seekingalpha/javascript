@@ -74,6 +74,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md
     'unicorn/no-console-spaces': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md
+    'unicorn/no-document-cookie': 'off',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
     'unicorn/no-for-loop': 'error',
 
