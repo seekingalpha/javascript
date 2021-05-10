@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.62.0 - 2021-05-10
+  - [deps] upgrade `eslint` to version `7.26.0`
+
 ## 4.61.0 - 2021-05-02
   - [deps] drop direct dependency on `babel-eslint`
 
