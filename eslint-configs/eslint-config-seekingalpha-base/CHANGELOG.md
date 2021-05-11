@@ -2,6 +2,7 @@
 
 ## 4.44.0 - 2021-05-11
   - [patch] update `import/dynamic-import-chunkname` regex (add `M` postfix)
+
 ## 4.43.0 - 2021-05-10
   - [deps] update `eslint` to version `7.26.0`
   - [deps] update `eslint-plugin-unicorn` to version `32.0.1`
