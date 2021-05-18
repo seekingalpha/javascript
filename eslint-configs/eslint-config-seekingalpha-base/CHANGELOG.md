@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.46.0 - 2021-05-18
+  - [breaking] disable `import/no-import-module-exports` rule
+ 
 ## 4.45.0 - 2021-05-18
   - [deps] update `eslint-plugin-import` to version `2.23.2`
   - [breaking] enable `import/no-import-module-exports` rule

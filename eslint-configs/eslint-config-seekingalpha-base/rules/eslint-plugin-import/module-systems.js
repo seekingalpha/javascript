@@ -17,7 +17,7 @@ module.exports = {
     'import/no-nodejs-modules': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md
-    'import/no-import-module-exports': 'error',
+    'import/no-import-module-exports': 'off',
   },
 
 };
