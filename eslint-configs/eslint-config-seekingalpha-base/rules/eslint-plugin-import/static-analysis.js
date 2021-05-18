@@ -61,6 +61,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
     'import/no-relative-parent-imports': 'off',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md
+    'import/no-relative-packages': 'off',
+
     /*
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      * enable after mod.name bug fixed

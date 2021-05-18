@@ -16,6 +16,8 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
     'import/no-nodejs-modules': 'error',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md
+    'import/no-import-module-exports': 'error',
   },
 
 };
