@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.63.0 - 2021-05-30
+  - [deps] upgrade `eslint` to version `7.27.0`
+  - [deps] revert `eslint-plugin-react` to version `7.24.0`
+
 ## 4.62.0 - 2021-05-10
   - [deps] upgrade `eslint` to version `7.26.0`
 
