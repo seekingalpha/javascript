@@ -2,7 +2,7 @@
 
 ## 3.31.0 - 2021-05-30
   - [deps] update `eslint` to version `7.27.0`
-  - [deps] update `eslint-plugin-mocha` to version `8.1.0`
+  - [deps] update `eslint-plugin-mocha` to version `9.0.0`
 
 ## 3.30.0 - 2021-05-10
   - [deps] update `eslint` to version `7.26.0`
