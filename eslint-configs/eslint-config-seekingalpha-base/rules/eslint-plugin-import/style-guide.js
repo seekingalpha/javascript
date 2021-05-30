@@ -39,6 +39,7 @@ module.exports = {
           'sibling',
           'unknown',
           'index',
+          'type',
         ],
 
         'newlines-between': 'always',
