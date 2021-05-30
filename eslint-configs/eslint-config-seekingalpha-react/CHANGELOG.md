@@ -1,8 +1,5 @@
 # Change Log
 
-## 4.64.0 - 2021-05-30
-  - [deps] patch `import/order` rule
-
 ## 4.63.1 - 2021-05-30
   - [deps] revert `eslint-plugin-react` to version `7.22.0`
 
