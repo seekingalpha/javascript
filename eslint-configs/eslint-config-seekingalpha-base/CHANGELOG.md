@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.49.0 - 2021-06-06
+  - [deps] update `eslint` to version `7.28.0`
+  - [deps] update `eslint-plugin-unicorn` to version `33.0.1`
+  - [breaking] enable `unicorn/prefer-prototype-methods` rule
+  - [breaking] enable `unicorn/require-array-join-separator` rule
+  - [breaking] enable `unicorn/require-number-to-fixed-digits-argument` rule
+
 ## 4.48.0 - 2021-05-30
   - [deps] patch `import/order` rule
 
