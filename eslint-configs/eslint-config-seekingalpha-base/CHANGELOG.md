@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.50.0 - 2021-06-20
+  - [deps] update `eslint` to version `7.29.0`
+
 ## 4.49.1 - 2021-06-06
   - [breaking] disable `unicorn/prefer-prototype-methods` rule
 
