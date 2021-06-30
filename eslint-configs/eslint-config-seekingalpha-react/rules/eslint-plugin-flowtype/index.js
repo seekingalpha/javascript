@@ -37,6 +37,9 @@ module.exports = {
       'always-multiline',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#enforce-line-break
+    'flowtype/enforce-line-break': 'error',
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-generic-spacing
     'flowtype/generic-spacing': [
       'error',
