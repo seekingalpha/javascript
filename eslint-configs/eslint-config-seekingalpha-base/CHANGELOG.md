@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.51.0 - 2021-06-30
+  - [deps] update `eslint-plugin-unicorn` to version `34.0.1`
+  - [breaking] enable `unicorn/no-array-method-this-argument` rule
+  - [breaking] enable `unicorn/require-post-message-target-origin` rule
+
 ## 4.50.0 - 2021-06-20
   - [deps] update `eslint` to version `7.29.0`
 
