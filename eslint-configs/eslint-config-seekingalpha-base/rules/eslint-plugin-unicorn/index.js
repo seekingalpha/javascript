@@ -65,6 +65,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md
     'unicorn/no-array-for-each': 'off',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md
+    'unicorn/no-array-method-this-argument': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md
     'unicorn/no-array-push-push': 'error',
 
@@ -168,6 +171,12 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
     'unicorn/prefer-array-some': 'error',
+
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
+     * experimental feature
+     */
+    'unicorn/prefer-at': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
     'unicorn/prefer-array-index-of': 'error',
@@ -277,6 +286,12 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
     'unicorn/prefer-ternary': 'error',
 
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md
+     * low browser support
+     */
+    'unicorn/prefer-top-level-await': 'off',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md
     'unicorn/prefer-type-error': 'error',
 
@@ -288,6 +303,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
     'unicorn/require-number-to-fixed-digits-argument': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md
+    'unicorn/require-post-message-target-origin': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md
     'unicorn/string-content': 'off',
