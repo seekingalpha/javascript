@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.52.0 - 2021-07-04
+  - [deps] update `eslint` to version `7.30.0`
+
 ## 4.51.0 - 2021-06-30
   - [deps] update `eslint-plugin-unicorn` to version `34.0.1`
   - [breaking] enable `unicorn/no-array-method-this-argument` rule

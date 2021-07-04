@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.67.0 - 2021-07-04
+  - [deps] upgrade `eslint` to version `7.30.0`
+
 ## 4.66.0 - 2021-06-30
   - [deps] upgrade `eslint-plugin-flowtype` to version `5.8.0`
   - [breaking] enable `flowtype/enforce-line-break` rule
