@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-qa",
-  "version": "3.35.0",
+  "version": "3.36.0",
   "description": "SeekingAlpha's sharable QA ESLint config",
   "main": "index.js",
   "scripts": {
@@ -39,13 +39,11 @@
   },
   "peerDependencies": {
     "eslint": "7.31.0",
-    "eslint-plugin-mocha": "9.0.0",
-    "eslint-plugin-protractor": "2.1.1"
+    "eslint-plugin-mocha": "9.0.0"
   },
   "devDependencies": {
     "eslint": "7.31.0",
     "eslint-find-rules": "3.6.1",
-    "eslint-plugin-mocha": "9.0.0",
-    "eslint-plugin-protractor": "2.1.1"
+    "eslint-plugin-mocha": "9.0.0"
   }
 }
