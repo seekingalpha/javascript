@@ -1,6 +1,11 @@
 # Change Log
 
-## 4.69.0 - 2021-21-18
+## 4.70.0 - 2021-07-25
+  - [deps] upgrade `eslint-plugin-jest` to version `24.4.0`
+  - [deps] upgrade `eslint-plugin-flowtype` to version `5.8.1`
+  - [breaking] enable `jest/max-nested-describe` rule
+
+## 4.69.0 - 2021-07-21
   - [deps] upgrade `eslint-plugin-jest` to version `24.3.7`
 
 ## 4.68.0 - 2021-07-18

@@ -14,6 +14,14 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/lowercase-name.md
     'jest/lowercase-name': 'off',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md
+    'jest/max-nested-describe': [
+      'error',
+      {
+        max: 1,
+      },
+    ],
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-alias-methods.md
     'jest/no-alias-methods': 'error',
 
