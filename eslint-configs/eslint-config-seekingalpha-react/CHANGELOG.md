@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.72.0 - 2021-07-25
+  - [deps] disable `react/jsx-handler-names` rule
+
 ## 4.71.0 - 2021-07-25
   - [breaking] set `jest/max-nested-describe` rule to `2`
 
