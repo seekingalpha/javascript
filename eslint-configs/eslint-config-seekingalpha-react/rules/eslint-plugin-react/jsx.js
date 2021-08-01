@@ -68,13 +68,7 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-    'react/jsx-handler-names': [
-      'error',
-      {
-        eventHandlerPrefix: 'handle',
-        eventHandlerPropPrefix: 'on',
-      },
-    ],
+    'react/jsx-handler-names': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
     'react/jsx-indent': [
