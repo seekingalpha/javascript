@@ -1,5 +1,8 @@
 # Change Log
 
+## 3.37.0 - 2021-08-01
+  - [deps] update `eslint` to version `7.32.0`
+
 ## 3.36.0 - 2021-07-21
   - [deps] removed `eslint-plugin-protractor`
 
