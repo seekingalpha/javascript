@@ -245,7 +245,7 @@ module.exports = {
     'unicorn/prefer-number-properties': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
-    'unicorn/prefer-object-from-entries': 'error',
+    'unicorn/prefer-object-from-entries': 'off',
 
     /*
      * partial duplicated of ESLint rule

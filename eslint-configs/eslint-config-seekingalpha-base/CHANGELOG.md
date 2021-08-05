@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.55.1 - 2021-08-05
+  - [breaking] disable `unicorn/prefer-object-from-entries` rule
+
 ## 4.55.0 - 2021-08-05
   - [deps] update `eslint-plugin-unicorn` to version `35.0.0`
   - [breaking] enable `unicorn/no-useless-spread` rule
