@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.55.0 - 2021-08-05
+  - [deps] update `eslint-plugin-unicorn` to version `35.0.0`
+  - [breaking] enable `unicorn/no-useless-spread` rule
+  - [breaking] enable `unicorn/no-useless-length-check` rule
+  - [breaking] enable `unicorn/prefer-object-from-entries` rule
+
 ## 4.54.0 - 2021-08-01
   - [deps] update `eslint` to version `7.32.0`
 
