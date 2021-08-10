@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.56.0 - 2021-08-10
+  - [deps] update `eslint-plugin-import` to version `2.24.0`
+
 ## 4.55.1 - 2021-08-05
   - [breaking] disable `unicorn/prefer-object-from-entries` rule
 
