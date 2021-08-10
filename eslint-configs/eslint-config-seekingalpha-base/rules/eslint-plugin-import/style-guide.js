@@ -56,6 +56,7 @@ module.exports = {
     'import/max-dependencies': [
       'error',
       {
+        ignoreTypeImports: true,
         max: config.importMaxDependenciesMax,
       },
     ],
