@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.75.0 - 2021-08-29
+  - [deps] upgrade `eslint-plugin-flowtype` to version `5.9.1`
+  - [deps] upgrade `eslint-plugin-react` to version `7.25.0`
+
 ## 4.74.0 - 2021-08-05
   - [deps] upgrade `eslint-plugin-flowtype` to version `5.9.0`
 
