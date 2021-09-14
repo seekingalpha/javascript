@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.59.0 - 2021-09-14
+  - [deps] update `eslint-plugin-unicorn` to version `36.0.0`
+  - [breaking] enable `unicorn/no-invalid-remove-event-listener` rule
+  - [breaking] enable `unicorn/no-useless-fallback-in-spread` rule
+
 ## 4.58.0 - 2021-08-29
   - [deps] update `eslint-plugin-import` to version `2.24.2`
 
