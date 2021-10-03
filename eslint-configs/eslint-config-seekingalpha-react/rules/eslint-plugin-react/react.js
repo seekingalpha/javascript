@@ -27,13 +27,11 @@ module.exports = {
       },
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
-    'react/default-props-match-prop-types': [
-      'error',
-      {
-        allowRequiredDefaults: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
+     */
+    'react/default-props-match-prop-types': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
     'react/destructuring-assignment': [
@@ -138,27 +136,17 @@ module.exports = {
       },
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
-    'react/forbid-foreign-prop-types': [
-      'error',
-      {
-        allowInPropTypes: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
+     */
+    'react/forbid-foreign-prop-types': 'off',
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-    'react/forbid-prop-types': [
-      'error',
-      {
-        forbid: [
-          'any',
-          'array',
-          'object',
-        ],
-        checkContextTypes: true,
-        checkChildContextTypes: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
+     */
+    'react/forbid-prop-types': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     'react/function-component-definition': [
@@ -247,14 +235,11 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
     'react/no-unsafe': 'error',
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
-    'react/no-unused-prop-types': [
-      'error',
-      {
-        customValidators: [],
-        skipShapeProps: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
+     */
+    'react/no-unused-prop-types': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-state.md
     'react/no-unused-state': 'error',
@@ -279,15 +264,11 @@ module.exports = {
       },
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    'react/prop-types': [
-      'error',
-      {
-        ignore: [],
-        customValidators: [],
-        skipUndeclared: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+     */
+    'react/prop-types': 'off',
 
     /*
      * off after update to 16.4
@@ -362,16 +343,11 @@ module.exports = {
       },
     ],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-    'react/sort-prop-types': [
-      'error',
-      {
-        ignoreCase: true,
-        callbacksLast: true,
-        requiredFirst: true,
-        sortShapeProp: true,
-      },
-    ],
+    /*
+     * no prop types usage
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
+     */
+    'react/sort-prop-types': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
     'react/style-prop-object': 'error',

@@ -1,8 +1,5 @@
 module.exports = {
 
-  extends: [
-    './best-practices.js',
-    './nodejs-and-commonjs.js',
-  ],
+  extends: ['./best-practices.js'],
 
 };
