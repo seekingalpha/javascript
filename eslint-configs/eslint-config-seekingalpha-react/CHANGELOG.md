@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.79.0 - 2021-10-03
+  - [deps] upgrade `eslint-plugin-react` to version `7.26.1`
+  - [deps] upgrade `eslint-plugin-flowtype` to version `6.1.0`
+  - [deps] upgrade `eslint-plugin-jest` to version `24.5.0`
+  - [breaking] enable `react/no-namespace` rule
+  - [breaking] enable `jest/prefer-expect-resolves` rule
+  - [breaking] enable `jest/prefer-to-be` rule
+
 ## 4.78.0 - 2021-09-19
   - [deps] upgrade `eslint-plugin-react` to version `7.25.2`
   - [deps] upgrade `eslint-plugin-flowtype` to version `6.0.1`
