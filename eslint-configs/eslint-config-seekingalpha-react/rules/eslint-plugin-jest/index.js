@@ -81,7 +81,6 @@ module.exports = {
       {
         toBeFalsy: 'Use `toBe(false)` instead.',
         toBeTruthy: 'Use `toBe(true)` instead.',
-        resolves: 'Use `expect(await promise)` instead.',
       },
     ],
 

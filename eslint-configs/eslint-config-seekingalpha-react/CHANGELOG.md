@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.80.0 - 2021-10-03
+  - [patch] fixed `jest/no-restricted-matchers` rule according to `jest/prefer-expect-resolves`
+
 ## 4.79.0 - 2021-10-03
   - [deps] upgrade `eslint-plugin-react` to version `7.26.1`
   - [deps] upgrade `eslint-plugin-flowtype` to version `6.1.0`
