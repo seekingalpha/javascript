@@ -103,6 +103,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-expect-assertions.md
     'jest/prefer-expect-assertions': 'off',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-resolves.md
+    'jest/prefer-expect-resolves': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
     'jest/prefer-hooks-on-top': 'error',
 
@@ -111,6 +114,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md
     'jest/prefer-strict-equal': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-be.md
+    'jest/prefer-to-be': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be-null.md
     'jest/prefer-to-be-null': 'error',

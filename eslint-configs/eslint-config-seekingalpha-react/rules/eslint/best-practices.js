@@ -10,9 +10,6 @@ module.exports = {
       {
         exceptMethods: [
           'render',
-          'getInitialState',
-          'getDefaultProps',
-          'getChildContext',
           'componentWillMount',
           'UNSAFE_componentWillMount',
           'componentDidMount',
