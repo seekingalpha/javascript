@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.81.0 - 2021-10-03
+  - [deps] upgrade `eslint-plugin-jest` to version `24.5.2`
+
 ## 4.80.0 - 2021-10-03
   - [patch] fixed `jest/no-restricted-matchers` rule according to `jest/prefer-expect-resolves`
 
