@@ -81,8 +81,6 @@ module.exports = {
       {
         toBeFalsy: 'Use `toBe(false)` instead.',
         toBeTruthy: 'Use `toBe(true)` instead.',
-        toBeNull: 'Use `toBe(null)` instead.',
-        toBeUndefined: 'Use `toBe(undefined)` instead.',
       },
     ],
 
