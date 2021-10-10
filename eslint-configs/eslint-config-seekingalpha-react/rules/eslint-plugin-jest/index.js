@@ -11,8 +11,8 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md
     'jest/expect-expect': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/lowercase-name.md
-    'jest/lowercase-name': 'off',
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md
+    'jest/prefer-lowercase-title': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md
     'jest/max-nested-describe': [
@@ -132,8 +132,8 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
     'jest/require-top-level-describe': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-describe.md
-    'jest/valid-describe': 'error',
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-describe-callback.md
+    'jest/valid-describe-callback': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-expect.md
     'jest/valid-expect': 'error',
