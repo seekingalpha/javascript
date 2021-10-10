@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.82.0 - 2021-10-10
+  - [deps] upgrade `eslint-plugin-jest` to version `24.6.0`
+
 ## 4.81.0 - 2021-10-03
   - [deps] upgrade `eslint-plugin-jest` to version `24.5.2`
 
