@@ -81,6 +81,8 @@ module.exports = {
       {
         toBeFalsy: 'Use `toBe(false)` instead.',
         toBeTruthy: 'Use `toBe(true)` instead.',
+        toBeNull: 'Use `toBe(null)` instead.',
+        toBeUndefined: 'Use `toBe(undefined)` instead.',
       },
     ],
 
@@ -116,12 +118,6 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-be.md
     'jest/prefer-to-be': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be-null.md
-    'jest/prefer-to-be-null': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be-undefined.md
-    'jest/prefer-to-be-undefined': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-to-contain.md
     'jest/prefer-to-contain': 'error',
