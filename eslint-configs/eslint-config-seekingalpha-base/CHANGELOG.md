@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.60.0 - 2021-10-13
+  - [deps] update `eslint-plugin-import` to version `2.25.2`
+
 ## 4.60.0 - 2021-10-12
   - [deps] update `eslint-plugin-unicorn` to version `37.0.1`
   - [deps] update `eslint-plugin-import` to version `2.25.1`
