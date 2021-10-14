@@ -91,7 +91,6 @@ module.exports = {
           'frame',
           'frameborder',
           'hspace',
-          'id',
           'longdesc',
           'marginheight',
           'marginwidth',
