@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.86.0 - 2021-10-10
+  - [deps] upgrade `eslint-plugin-jest` to version `25.0.6`
+  - [patch: loosen rules] drop `id` from `react/forbid-dom-props` rule
+
 ## 4.85.0 - 2021-10-10
   - [deps] upgrade `eslint-plugin-jest` to version `25.0.5`
 

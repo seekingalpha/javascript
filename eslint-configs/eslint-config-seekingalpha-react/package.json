@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "4.85.0",
+  "version": "4.86.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "scripts": {
@@ -51,7 +51,7 @@
   "peerDependencies": {
     "eslint": "7.32.0",
     "eslint-plugin-flowtype": "6.1.0",
-    "eslint-plugin-jest": "25.0.5",
+    "eslint-plugin-jest": "25.0.6",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.0"
@@ -60,7 +60,7 @@
     "eslint": "7.32.0",
     "eslint-find-rules": "3.6.1",
     "eslint-plugin-flowtype": "6.1.0",
-    "eslint-plugin-jest": "25.0.5",
+    "eslint-plugin-jest": "25.0.6",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.0"
