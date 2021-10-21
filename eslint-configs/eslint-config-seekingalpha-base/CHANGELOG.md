@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.61.0 - 2021-10-21
+## 4.62.0 - 2021-10-21
   - [deps] update `eslint-plugin-promise` to version `5.1.1`
 
 ## 4.61.0 - 2021-10-13
