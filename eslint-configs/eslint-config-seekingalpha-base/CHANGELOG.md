@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.63.0 - 2021-11-07
+  - [deps] update `eslint-plugin-unicorn` to version `38.0.0`
+  - [breaking] enable `unicorn/no-empty-file` rule
+  - [breaking] enable `unicorn/prefer-export-from` rule
+
 ## 4.62.0 - 2021-10-21
   - [deps] update `eslint-plugin-promise` to version `5.1.1`
 
