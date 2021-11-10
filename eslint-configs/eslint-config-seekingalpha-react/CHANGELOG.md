@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.90.0 - 2021-11-10
+  - [deps] upgrade `eslint-plugin-jest` to version `25.2.4`
+  - [deps] upgrade `eslint-plugin-react` to version `7.27.0`
+  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.3.0`
+
 ## 4.89.0 - 2021-11-07
   - [deps] upgrade `eslint-plugin-jest` to version `25.2.3`
 
