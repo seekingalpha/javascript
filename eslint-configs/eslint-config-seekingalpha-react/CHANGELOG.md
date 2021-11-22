@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.92.0 - 2021-11-22
+  - [deps] upgrade `eslint-plugin-react` to version `7.27.1`
+
 ## 4.91.0 - 2021-11-11
   - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.5.1`
   - [breaking] removed deprecated `jsx-a11y/accessible-emoji` rule
