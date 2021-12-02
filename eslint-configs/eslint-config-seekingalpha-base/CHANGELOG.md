@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.66.0 - 2021-12-02
+  - [deps] update `eslint-plugin-promise` to version `5.2.0`
+
 ## 4.65.0 - 2021-11-22
   - [deps] update `eslint-plugin-unicorn` to version `39.0.0`
   - [breaking] enable `unicorn/no-await-expression-member` rule
