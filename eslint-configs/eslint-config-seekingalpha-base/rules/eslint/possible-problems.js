@@ -1,8 +1,13 @@
-// https://eslint.org/docs/rules/#possible-errors
-
 module.exports = {
 
+  // https://eslint.org/docs/rules/#possible-problems
+
   rules: {
+    // https://eslint.org/docs/rules/array-callback-return
+    'array-callback-return': 'error',
+
+    // https://eslint.org/docs/rules/constructor-super
+    'constructor-super': 'error',
 
     // https://eslint.org/docs/rules/for-direction
     'for-direction': 'error',
@@ -21,17 +26,23 @@ module.exports = {
     // https://eslint.org/docs/rules/no-await-in-loop
     'no-await-in-loop': 'error',
 
+    // https://eslint.org/docs/rules/no-class-assign
+    'no-class-assign': 'error',
+
     // https://eslint.org/docs/rules/no-compare-neg-zero
     'no-compare-neg-zero': 'error',
 
     // https://eslint.org/docs/rules/no-cond-assign
     'no-cond-assign': 'error',
 
-    // https://eslint.org/docs/rules/no-console
-    'no-console': 'error',
+    // https://eslint.org/docs/rules/no-const-assign
+    'no-const-assign': 'error',
 
     // https://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': 'error',
+
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
 
     // https://eslint.org/docs/rules/no-control-regex
     'no-control-regex': 'error',
@@ -42,6 +53,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-args
     'no-dupe-args': 'error',
 
+    // https://eslint.org/docs/rules/no-dupe-class-members
+    'no-dupe-class-members': 'error',
+
     // https://eslint.org/docs/rules/no-dupe-else-if
     'no-dupe-else-if': 'error',
 
@@ -51,16 +65,14 @@ module.exports = {
     // https://eslint.org/docs/rules/no-duplicate-case
     'no-duplicate-case': 'error',
 
-    // https://eslint.org/docs/rules/no-empty
-    'no-empty': [
-      'error',
-      {
-        allowEmptyCatch: true,
-      },
-    ],
+    // https://eslint.org/docs/rules/no-duplicate-imports
+    'no-duplicate-imports': 'off',
 
     // https://eslint.org/docs/rules/no-empty-character-class
     'no-empty-character-class': 'error',
+
+    // https://eslint.org/docs/rules/no-empty-pattern
+    'no-empty-pattern': 'error',
 
     /*
      * https://eslint.org/docs/rules/no-ex-assign
@@ -68,27 +80,8 @@ module.exports = {
      */
     'no-ex-assign': 'error',
 
-    // https://eslint.org/docs/rules/no-extra-boolean-cast
-    'no-extra-boolean-cast': 'error',
-
-    // https://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': [
-      'error',
-      'all',
-      {
-        conditionalAssign: false,
-        nestedBinaryExpressions: false,
-        returnAssign: false,
-        ignoreJSX: 'all',
-        enforceForArrowConditionals: false,
-        enforceForSequenceExpressions: false,
-        enforceForNewInMemberExpressions: false,
-        enforceForFunctionPrototypeMethods: false,
-      },
-    ],
-
-    // https://eslint.org/docs/rules/no-extra-semi
-    'no-extra-semi': 'error',
+    // https://eslint.org/docs/rules/no-fallthrough
+    'no-fallthrough': 'error',
 
     // https://eslint.org/docs/rules/no-func-assign
     'no-func-assign': 'error',
@@ -111,6 +104,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',
 
+    // https://eslint.org/docs/rules/no-new-symbol
+    'no-new-symbol': 'error',
+
     // https://eslint.org/docs/rules/no-obj-calls
     'no-obj-calls': 'error',
 
@@ -120,8 +116,16 @@ module.exports = {
     // https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'error',
 
-    // https://eslint.org/docs/rules/no-regex-spaces
-    'no-regex-spaces': 'error',
+    // https://eslint.org/docs/rules/no-self-assign
+    'no-self-assign': [
+      'error',
+      {
+        props: false,
+      },
+    ],
+
+    // https://eslint.org/docs/rules/no-self-compare
+    'no-self-compare': 'error',
 
     // https://eslint.org/docs/rules/no-setter-return
     'no-setter-return': 'error',
@@ -135,8 +139,17 @@ module.exports = {
     // https://eslint.org/docs/rules/no-template-curly-in-string
     'no-template-curly-in-string': 'error',
 
+    // https://eslint.org/docs/rules/no-this-before-super
+    'no-this-before-super': 'error',
+
+    // https://eslint.org/docs/rules/no-undef
+    'no-undef': 'error',
+
     // https://eslint.org/docs/rules/no-unexpected-multiline
     'no-unexpected-multiline': 'error',
+
+    // https://eslint.org/docs/rules/no-unmodified-loop-condition
+    'no-unmodified-loop-condition': 'error',
 
     // https://eslint.org/docs/rules/no-unreachable
     'no-unreachable': 'error',
@@ -158,6 +171,33 @@ module.exports = {
       },
     ],
 
+    // https://eslint.org/docs/rules/no-unused-private-class-members
+    'no-unused-private-class-members': 'error',
+
+    // https://eslint.org/docs/rules/no-unused-vars
+    'no-unused-vars': [
+      'error',
+      {
+        args: 'after-used',
+        argsIgnorePattern: '[iI]gnored',
+        caughtErrors: 'all',
+        caughtErrorsIgnorePattern: '[iI]gnored',
+        ignoreRestSiblings: false,
+        vars: 'all',
+        varsIgnorePattern: '[iI]gnored',
+      },
+    ],
+
+    // https://eslint.org/docs/rules/no-use-before-define
+    'no-use-before-define': [
+      'error',
+      {
+        functions: true,
+        classes: true,
+        variables: true,
+      },
+    ],
+
     // https://eslint.org/docs/rules/no-useless-backreference
     'no-useless-backreference': 'error',
 
@@ -175,5 +215,4 @@ module.exports = {
       },
     ],
   },
-
 };
