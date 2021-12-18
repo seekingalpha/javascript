@@ -743,7 +743,7 @@ module.exports = {
     'prefer-numeric-literals': 'error',
 
     // https://eslint.org/docs/rules/prefer-object-has-own
-    'prefer-object-has-own': 'error',
+    'prefer-object-has-own': 'off',
 
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 'error',

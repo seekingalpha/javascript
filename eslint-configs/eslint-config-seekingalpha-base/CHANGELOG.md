@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.0.1 - 2021-12-18
+  - [patch] disable `prefer-object-has-own` rule
+
 ## 5.0.0 - 2021-12-18
   - [deps] update `eslint` to version `8.5.0`
   - [deps] update `eslint-plugin-promise` to version `6.0.0`
