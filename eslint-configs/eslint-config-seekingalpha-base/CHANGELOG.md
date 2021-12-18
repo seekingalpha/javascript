@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.0.0 - 2021-12-18
+  - [deps] update `eslint` to version `8.5.0`
+  - [deps] update `eslint-plugin-promise` to version `6.0.0`
+  - [breaking] enable `prefer-object-has-own` rule
+  - [breaking] enable `no-unused-private-class-members` rule
+
 ## 4.66.0 - 2021-12-02
   - [deps] update `eslint-plugin-promise` to version `5.2.0`
 

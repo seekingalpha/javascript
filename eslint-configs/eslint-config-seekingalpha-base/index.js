@@ -23,7 +23,7 @@ module.exports = {
   ],
 
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 12,
     sourceType: 'module',
     ecmaFeatures: {
       impliedStrict: true,

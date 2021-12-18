@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.0.0 - 2021-12-18
+  - [deps] update `eslint` to version `8.5.0`
+  - [deps] update `eslint-plugin-mocha` to version `10.0.3`
+  - [breaking] enable `mocha/no-empty-description` rule
+
 ## 3.37.0 - 2021-08-01
   - [deps] update `eslint` to version `7.32.0`
 

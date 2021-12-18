@@ -18,6 +18,9 @@ module.exports = {
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-async-describe.md
     'mocha/no-async-describe': 'error',
 
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-empty-description.md
+    'mocha/no-empty-description': 'error',
+
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exclusive-tests.md
     'mocha/no-exclusive-tests': 'error',
 
