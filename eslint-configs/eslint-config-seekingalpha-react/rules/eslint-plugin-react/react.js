@@ -165,6 +165,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
     'react/no-array-index-key': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-arrow-function-lifecycle.md
+    'react/no-arrow-function-lifecycle': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
     'react/no-children-prop': 'error',
 
@@ -185,6 +188,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node.md
     'react/no-find-dom-node': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-invalid-html-attribute.md
+    'react/no-invalid-html-attribute': 'error',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
@@ -233,6 +239,12 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
     'react/no-unsafe': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
+    'react/no-unstable-nested-components': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-class-component-methods.md
+    'react/no-unused-class-component-methods': 'error',
 
     /*
      * no prop types usage

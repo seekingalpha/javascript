@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.1.0 - 2021-01-01
+  - [deps] update `eslint` to version `8.6.0`
+  - [deps] update `eslint-plugin-unicorn` to version `40.0.0`
+  - [breaking] enable `unicorn/no-thenable` rule
+  - [breaking] enable `unicorn/no-useless-promise-resolve-reject` rule
+  - [breaking] enable `unicorn/prefer-json-parse-buffer` rule
+  - [breaking] enable `unicorn/relative-url-style` rule
+
 ## 5.0.1 - 2021-12-18
   - [patch] disable `prefer-object-has-own` rule
 

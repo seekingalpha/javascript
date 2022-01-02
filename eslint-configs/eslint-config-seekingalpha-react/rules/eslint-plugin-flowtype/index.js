@@ -46,6 +46,12 @@ module.exports = {
       'never',
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-interface-id-match
+    'flowtype/interface-id-match': [
+      'error',
+      '^I([A-Z][a-z0-9]*)+',
+    ],
+
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-newline-after-flow-annotation
     'flowtype/newline-after-flow-annotation': [
       'error',
@@ -54,6 +60,9 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-dupe-keys
     'flowtype/no-dupe-keys': 'error',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#no-duplicate-type-union-intersection-members
+    'flowtype/no-duplicate-type-union-intersection-members': 'error',
 
     /*
      * https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-existential-type
@@ -159,6 +168,9 @@ module.exports = {
 
     // https://github.com/gajus/eslint-plugin-flowtype#sort-keys
     'flowtype/sort-keys': 'off',
+
+    // https://github.com/gajus/eslint-plugin-flowtype#sort-type-union-intersection-members
+    'flowtype/sort-type-union-intersection-members': 'off',
 
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-after-type-colon
     'flowtype/space-after-type-colon': [
