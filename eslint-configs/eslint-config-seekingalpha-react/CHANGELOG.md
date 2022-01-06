@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.3.0 - 2021-01-06
+  - [deps] update `eslint-find-rules` to version `4.1.0`
+
 ## 5.2.0 - 2021-01-01
   - [deps] upgrade `eslint` to version `8.6.0`
   - [deps] upgrade `eslint-plugin-jest` to version `25.3.4`

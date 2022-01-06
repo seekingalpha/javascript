@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "scripts": {
@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "eslint": "8.6.0",
-    "eslint-find-rules": "4.0.0",
+    "eslint-find-rules": "4.1.0",
     "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-jest": "25.3.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
