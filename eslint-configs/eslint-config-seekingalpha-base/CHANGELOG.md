@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.2.2 - 2021-01-09
+  - [deps] update `eslint-plugin-import` to version `2.25.4`
+
 ## 5.2.1 - 2021-01-09
   - [deps] revert `eslint-plugin-import` to version `2.25.3`
 
