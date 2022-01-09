@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.2.1 - 2021-01-09
+  - [deps] revert `eslint-plugin-import` to version `2.25.3`
+
 ## 5.2.0 - 2021-01-06
   - [deps] update `eslint-plugin-import` to version `2.25.4`
   - [deps] update `eslint-find-rules` to version `4.1.0`
