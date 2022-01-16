@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.3.0 - 2021-01-16
+  - [deps] update `eslint` to version `8.7.0`
+
 ## 4.2.0 - 2021-01-06
   - [deps] update `eslint-find-rules` to version `4.1.0`
 
