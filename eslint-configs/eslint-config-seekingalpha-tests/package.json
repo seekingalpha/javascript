@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-seekingalpha-react",
-  "version": "5.5.0",
-  "description": "SeekingAlpha's sharable React.js ESLint config",
+  "name": "eslint-config-seekingalpha-tests",
+  "version": "0.1.0",
+  "description": "SeekingAlpha's sharable testing ESLint config",
   "main": "index.js",
   "scripts": {
     "eslint-find-rules": "eslint-find-rules -u ./index.js",
@@ -26,18 +26,13 @@
     "rules",
     "style",
     "guide",
-    "reactjs",
-    "react"
+    "jest"
   ],
   "author": "Aleksey Kovalevsky",
   "contributors": [
     {
       "name": "Artem Prokhatskyi",
       "url": "https://github.com/prokhatskiy"
-    },
-    {
-      "name": "Dima Portyanka",
-      "url": "https://github.com/dimaPortyanka"
     }
   ],
   "license": "MIT",
@@ -50,17 +45,11 @@
   },
   "peerDependencies": {
     "eslint": "8.7.0",
-    "eslint-plugin-flowtype": "8.0.3",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0"
+    "eslint-plugin-jest": "25.7.0"
   },
   "devDependencies": {
     "eslint": "8.7.0",
     "eslint-find-rules": "4.1.0",
-    "eslint-plugin-flowtype": "8.0.3",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0"
+    "eslint-plugin-jest": "25.7.0"
   }
 }
