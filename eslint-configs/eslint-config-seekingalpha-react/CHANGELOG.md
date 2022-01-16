@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.4.0 - 2021-01-16
+  - [deps] upgrade `eslint` to version `8.6.0`
+  - [deps] upgrade `eslint-plugin-jest` to version `25.3.4`
+  - [breaking] enable `jest/prefer-comparison-matcher` rule
+  - [breaking] enable `jest/prefer-equality-matcher` rule
+
 ## 5.3.0 - 2021-01-06
   - [deps] update `eslint-find-rules` to version `4.1.0`
 
