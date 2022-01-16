@@ -14,9 +14,6 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype
     './rules/eslint-plugin-flowtype/index.js',
 
-    // https://github.com/jest-community/eslint-plugin-jest
-    './rules/eslint-plugin-jest/index.js',
-
     // https://reactjs.org/docs/hooks-rules.html
     './rules/eslint-plugin-react-hooks/index.js',
 
