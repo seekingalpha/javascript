@@ -1,0 +1,55 @@
+{
+  "name": "eslint-config-seekingalpha-tests",
+  "version": "0.1.0",
+  "description": "SeekingAlpha's sharable testing ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-rules": "eslint-find-rules -u ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekingalpha/javascript"
+  },
+  "keywords": [
+    "code",
+    "codelinter",
+    "policy",
+    "quality",
+    "eslint",
+    "eslintconfig",
+    "ECMAScript6",
+    "sa",
+    "seekingalpha",
+    "javascript",
+    "ES6",
+    "rules",
+    "style",
+    "guide",
+    "jest"
+  ],
+  "author": "Aleksey Kovalevsky",
+  "contributors": [
+    {
+      "name": "Artem Prokhatskyi",
+      "url": "https://github.com/prokhatskiy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seekingalpha/javascript/issues"
+  },
+  "homepage": "https://github.com/seekingalpha/javascript#readme",
+  "engines": {
+    "node": ">= 14"
+  },
+  "peerDependencies": {
+    "eslint": "8.7.0",
+    "eslint-plugin-jest": "25.7.0"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-find-rules": "4.1.0",
+    "eslint-plugin-jest": "25.7.0"
+  }
+}
