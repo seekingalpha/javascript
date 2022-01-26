@@ -94,7 +94,7 @@ module.exports = {
     'jest/no-test-prefixes': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
-    'jest/no-test-return-statement': 'off',
+    'jest/no-test-return-statement': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
     'jest/prefer-called-with': 'error',
