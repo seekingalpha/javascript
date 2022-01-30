@@ -45,7 +45,7 @@ module.exports = {
     'testing-library/no-wait-for-multiple-assertions': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-side-effects.md
-    'testing-library/no-wait-for-side-effects': 'off',
+    'testing-library/no-wait-for-side-effects': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-snapshot.md
     'testing-library/no-wait-for-snapshot': 'error',
