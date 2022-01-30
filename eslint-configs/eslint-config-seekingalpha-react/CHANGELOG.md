@@ -1,10 +1,13 @@
 # Change Log
 
+## 5.6.0 - 2021-01-30
+  - [deps] upgrade `eslint` to version `8.8.0`
+
 ## 5.5.0 - 2021-01-16
   - [breaking] separate `eslint-plugin-jest` plugin to `eslint-config-seekingalpha-tests` sharable config
 
 ## 5.4.0 - 2021-01-16
-  - [deps] upgrade `eslint` to version `8.6.0`
+  - [deps] upgrade `eslint` to version `8.7.0`
   - [deps] upgrade `eslint-plugin-jest` to version `25.3.4`
   - [breaking] enable `jest/prefer-comparison-matcher` rule
   - [breaking] enable `jest/prefer-equality-matcher` rule
