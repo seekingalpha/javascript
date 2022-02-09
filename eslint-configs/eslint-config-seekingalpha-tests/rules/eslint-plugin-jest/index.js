@@ -14,6 +14,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md
     'jest/prefer-lowercase-title': 'off',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-snapshot-hint.md
+    'jest/prefer-snapshot-hint': 'off',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md
     'jest/max-nested-describe': [
       'error',
@@ -30,6 +33,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-conditional-expect.md
     'jest/no-conditional-expect': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-conditional-in-test.md
+    'jest/no-conditional-in-test': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
     'jest/no-deprecated-functions': 'error',
@@ -51,9 +57,6 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-identical-title.md
     'jest/no-identical-title': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-if.md
-    'jest/no-if': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-interpolation-in-snapshots.md
     'jest/no-interpolation-in-snapshots': 'error',
