@@ -11,6 +11,15 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-async-utils.md
     'testing-library/await-async-utils': 'error',
 
+    /*
+     * ONLY relevant for Vue
+     * https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-fire-event.md
+     */
+    'testing-library/await-fire-event': 'off',
+
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/consistent-data-testid.md
+    'testing-library/consistent-data-testid': 'off',
+
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-events.md
     'testing-library/no-await-sync-events': 'error',
 
@@ -28,6 +37,9 @@ module.exports = {
       'error',
       'react',
     ],
+
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-manual-cleanup.md
+    'testing-library/no-manual-cleanup': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md
     'testing-library/no-node-access': 'off',
@@ -53,6 +65,9 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-snapshot.md
     'testing-library/no-wait-for-snapshot': 'error',
 
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-explicit-assert.md
+    'testing-library/prefer-explicit-assert': 'error',
+
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-find-by.md
     'testing-library/prefer-find-by': 'error',
 
@@ -64,6 +79,9 @@ module.exports = {
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-screen-queries.md
     'testing-library/prefer-screen-queries': 'error',
+
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-wait-for.md
+    'testing-library/prefer-wait-for': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/render-result-naming-convention.md
     'testing-library/render-result-naming-convention': 'error',
