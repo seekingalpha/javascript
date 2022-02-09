@@ -11,6 +11,9 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-async-utils.md
     'testing-library/await-async-utils': 'error',
 
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-events.md
+    'testing-library/no-await-sync-events': 'error',
+
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-query.md
     'testing-library/no-await-sync-query': 'error',
 
