@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.6.0 - 2021-02-20
+  - [deps] update `eslint-plugin-unicorn` to version `41.0.0`
+  - [breaking] enable `unicorn/text-encoding-identifier-case` rule
+
 ## 5.5.0 - 2021-02-16
   - [deps] update `eslint` to version `8.9.0`
 
