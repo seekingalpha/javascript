@@ -83,7 +83,14 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
-    'react/jsx-key': 'error',
+    'react/jsx-key': [
+      'error',
+      {
+        checkFragmentShorthand: true,
+        checkKeyMustBeforeSpread: true,
+        warnOnDuplicates: true,
+      },
+    ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md
     'react/jsx-max-depth': [

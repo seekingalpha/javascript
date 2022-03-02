@@ -156,6 +156,12 @@ module.exports = {
       },
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md
+    'react/hook-use-state': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/iframe-missing-sandbox.md
+    'react/iframe-missing-sandbox': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
     'react/no-access-state-in-setstate': 'error',
 
@@ -178,10 +184,10 @@ module.exports = {
     'react/no-deprecated': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-    'react/no-did-mount-set-state': 'error',
+    'react/no-did-mount-set-state': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
-    'react/no-did-update-set-state': 'error',
+    'react/no-did-update-set-state': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
     'react/no-direct-mutation-state': 'error',
