@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.8.0 - 2021-03-02
+  - [deps] upgrade `eslint` to version `8.10.0`
+  - [deps] upgrade `eslint-plugin-react` to version `7.29.2`
+  - [breaking] enable `react/hook-use-state` rule
+  - [breaking] enable `react/iframe-missing-sandbox` rule
+
 ## 5.7.0 - 2021-02-16
   - [deps] upgrade `eslint` to version `8.9.0`
 
