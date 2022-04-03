@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.11.0 - 2021-04-03
+  - [deps] update `eslint-plugin-unicorn` to version `42.0.0`
+  - [breaking] enable `unicorn/no-unreadable-iife` rule
+  - [breaking] enable `unicorn/no-useless-switch-case` rule
+  - [breaking] enable `unicorn/prefer-modern-math-apis` rule
+  - [breaking] enable `unicorn/prefer-native-coercion-functions` rule
+
 ## 5.10.0 - 2021-03-27
   - [deps] update `eslint` to version `8.12.0`
 
