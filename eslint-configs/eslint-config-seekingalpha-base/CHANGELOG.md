@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.12.0 - 2021-04-06
+  - [deps] update `eslint-plugin-import` to version `2.26.0`
+
 ## 5.11.0 - 2021-04-03
   - [deps] update `eslint-plugin-unicorn` to version `42.0.0`
   - [breaking] enable `unicorn/no-unreadable-iife` rule
