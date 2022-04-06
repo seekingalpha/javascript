@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.10.0 - 2022-04-06
+  - [deps] upgrade `eslint-plugin-testing-library` to version `5.2.1`
+
 ## 1.9.0 - 2022-04-03
   - [deps] upgrade `eslint-plugin-testing-library` to version `5.2.0`
   - [breaking] enable `testing-library/no-global-regexp-flag-in-query` rule
