@@ -1,30 +1,33 @@
 # Change Log
 
-## 4.9.0 - 2021-04-10
+## 4.10.0 - 2022-04-13
+  - [deps] update `eslint-plugin-mocha` to version `10.0.3`
+
+## 4.9.0 - 2022-04-10
   - [deps] update `eslint` to version `8.13.0`
 
-## 4.8.0 - 2021-03-27
+## 4.8.0 - 2022-03-27
   - [deps] update `eslint` to version `8.12.0`
 
-## 4.7.0 - 2021-03-13
+## 4.7.0 - 2022-03-13
   - [deps] update `eslint` to version `8.11.0`
 
-## 4.6.0 - 2021-03-01
+## 4.6.0 - 2022-03-01
   - [deps] update `eslint` to version `8.10.0`
 
-## 4.5.0 - 2021-02-16
+## 4.5.0 - 2022-02-16
   - [deps] update `eslint` to version `8.9.0`
 
-## 4.4.0 - 2021-01-30
+## 4.4.0 - 2022-01-30
   - [deps] update `eslint` to version `8.8.0`
 
-## 4.3.0 - 2021-01-16
+## 4.3.0 - 2022-01-16
   - [deps] update `eslint` to version `8.7.0`
 
-## 4.2.0 - 2021-01-06
+## 4.2.0 - 2022-01-06
   - [deps] update `eslint-find-rules` to version `4.1.0`
 
-## 4.1.0 - 2021-01-01
+## 4.1.0 - 2022-01-01
   - [deps] update `eslint` to version `8.6.0`
 
 ## 4.0.0 - 2021-12-18
