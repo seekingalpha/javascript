@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.14.0 - 2021-04-26
+  - [deps] update `eslint` to version `8.14.0`
+  - [breaking] enable `no-constant-binary-expression` rule
+
 ## 5.13.0 - 2021-04-10
   - [deps] update `eslint` to version `8.13.0`
 

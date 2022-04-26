@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.15.0 - 2021-04-26
+  - [deps] upgrade `eslint` to version `8.14.0`
+
 ## 5.14.0 - 2021-04-10
   - [deps] upgrade `eslint` to version `8.13.0`
 
