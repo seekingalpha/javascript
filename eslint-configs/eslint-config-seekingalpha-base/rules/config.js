@@ -1,7 +1,6 @@
 module.exports = {
   complexity: 5,
   maxClassesPerFile: 1,
-  arrayBracketNewlineMinItems: 2,
   arrayElementNewlineMinItems: 5,
   idLengthMax: 50,
   indent: 2,

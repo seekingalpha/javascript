@@ -9,10 +9,7 @@ module.exports = {
     // https://eslint.org/docs/rules/array-bracket-newline
     'array-bracket-newline': [
       'error',
-      {
-        multiline: true,
-        minItems: config.arrayBracketNewlineMinItems,
-      },
+      'consistent',
     ],
 
     // https://eslint.org/docs/rules/array-bracket-spacing
