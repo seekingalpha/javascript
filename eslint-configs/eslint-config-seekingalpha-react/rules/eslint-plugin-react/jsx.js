@@ -137,6 +137,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-leaked-render.md
+    'react/jsx-no-leaked-render': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': [
       'off',
