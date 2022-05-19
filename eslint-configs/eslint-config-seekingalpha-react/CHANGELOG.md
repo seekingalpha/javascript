@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.18.0 - 2021-05-19
+  - [deps] upgrade `eslint-plugin-react` to version `7.30.0`
+  - [breaking] enable `react/jsx-no-leaked-render` rule
+
 ## 5.17.0 - 2021-05-08
   - [deps] upgrade `eslint` to version `8.15.0`
 
