@@ -114,6 +114,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-resolves.md
     'jest/prefer-expect-resolves': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-hooks-in-order.md
+    'jest/prefer-hooks-in-order': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
     'jest/prefer-hooks-on-top': 'error',
 
