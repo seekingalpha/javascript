@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.19.0 - 2022-05-30
+  - [deps] upgrade `eslint-plugin-jest` to version `26.4.5`
+
 ## 1.18.0 - 2022-05-29
   - [deps] upgrade `eslint-plugin-jest` to version `26.4.2`
   - [breaking] enable `jest/prefer-hooks-in-order` rule
