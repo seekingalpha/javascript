@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-tests",
-  "version": "1.20.0",
+  "version": "1.21.0",
   "description": "SeekingAlpha's sharable testing ESLint config",
   "main": "index.js",
   "scripts": {
@@ -29,12 +29,6 @@
     "jest"
   ],
   "author": "Aleksey Kovalevsky",
-  "contributors": [
-    {
-      "name": "Artem Prokhatskyi",
-      "url": "https://github.com/prokhatskiy"
-    }
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seekingalpha/javascript/issues"
@@ -44,14 +38,14 @@
     "node": ">= 16"
   },
   "peerDependencies": {
-    "eslint": "8.16.0",
-    "eslint-plugin-jest": "26.4.6",
+    "eslint": "8.17.0",
+    "eslint-plugin-jest": "26.5.3",
     "eslint-plugin-testing-library": "5.5.1"
   },
   "devDependencies": {
-    "eslint": "8.16.0",
+    "eslint": "8.17.0",
     "eslint-find-rules": "4.1.0",
-    "eslint-plugin-jest": "26.4.6",
+    "eslint-plugin-jest": "26.5.3",
     "eslint-plugin-testing-library": "5.5.1"
   }
 }
