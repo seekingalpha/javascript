@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.21.0 - 2021-06-15
+  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.6.0`
+
 ## 5.20.0 - 2021-06-06
   - [deps] upgrade `eslint` to version `8.17.0`
 
