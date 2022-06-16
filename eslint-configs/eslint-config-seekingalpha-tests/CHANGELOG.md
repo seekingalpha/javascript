@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.22.0 - 2022-06-16
+  - [breaking] update `testing-library/no-await-sync-events` rule
+
 ## 1.21.0 - 2022-06-06
   - [deps] upgrade `eslint` to version `8.17.0`
   - [deps] upgrade `eslint-plugin-jest` to version `26.5.3`

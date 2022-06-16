@@ -21,7 +21,12 @@ module.exports = {
     'testing-library/consistent-data-testid': 'off',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-events.md
-    'testing-library/no-await-sync-events': 'error',
+    'testing-library/no-await-sync-events': [
+      'error',
+      {
+        eventModules: ['fire-event'],
+      },
+    ],
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-query.md
     'testing-library/no-await-sync-query': 'error',
