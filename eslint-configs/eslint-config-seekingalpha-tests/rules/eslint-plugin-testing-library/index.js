@@ -59,7 +59,7 @@ module.exports = {
     'testing-library/no-render-in-setup': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-unnecessary-act.md
-    'testing-library/no-unnecessary-act': 'off',
+    'testing-library/no-unnecessary-act': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-empty-callback.md
     'testing-library/no-wait-for-empty-callback': 'error',
