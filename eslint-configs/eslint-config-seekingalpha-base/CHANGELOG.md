@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.18.0 - 2021-06-19
+  - [deps] update `eslint` to version `8.18.0`
+
 ## 5.17.0 - 2021-06-06
   - [deps] update `eslint` to version `8.17.0`
 
