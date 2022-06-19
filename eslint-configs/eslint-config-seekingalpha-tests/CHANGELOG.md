@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.23.0 - 2022-06-19
+  - [deps] upgrade `eslint` to version `8.18.0`
+  - [breaking] enable `testing-library/no-unnecessary-act` rule
+
 ## 1.22.0 - 2022-06-16
   - [breaking] update `testing-library/no-await-sync-events` rule
 
