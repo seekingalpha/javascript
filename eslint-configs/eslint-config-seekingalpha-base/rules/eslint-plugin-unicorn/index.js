@@ -220,23 +220,20 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
     'unicorn/prefer-default-parameters': 'error',
 
-    /*
-     * Android Browser 50 and Edge 16 does not support it, enable after support for those dropped
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-append.md
-     */
-    'unicorn/prefer-dom-node-append': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-append.md
+    'unicorn/prefer-dom-node-append': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-dataset.md
     'unicorn/prefer-dom-node-dataset': 'error',
 
-    /*
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md
-     * Android 50 does not support Node.remove(). Should be enabled only after IE support is dropped
-     */
-    'unicorn/prefer-dom-node-remove': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md
+    'unicorn/prefer-dom-node-remove': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-text-content.md
     'unicorn/prefer-dom-node-text-content': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md
+    'unicorn/prefer-event-target': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
     'unicorn/prefer-export-from': 'error',
@@ -250,14 +247,14 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md
     'unicorn/prefer-keyboard-event-key': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-logical-operator-over-ternary.md
+    'unicorn/prefer-logical-operator-over-ternary': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
     'unicorn/prefer-math-trunc': 'error',
 
-    /*
-     * TODO Not supported by Edge 16 and Android Browsers till 80 - Enable after dropping it
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
-     */
-    'unicorn/prefer-modern-dom-apis': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+    'unicorn/prefer-modern-dom-apis': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-math-apis.md
     'unicorn/prefer-modern-math-apis': 'error',
@@ -283,17 +280,17 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
     'unicorn/prefer-number-properties': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
+    /*
+     * proposal, enable when get into standard
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
+     */
     'unicorn/prefer-object-from-entries': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
 
-    /*
-     * false positives
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md
-     */
-    'unicorn/prefer-prototype-methods': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md
+    'unicorn/prefer-prototype-methods': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'error',
@@ -310,7 +307,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'off',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md
+    /*
+     * proposal, enable when get into standard
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md
+     */
     'unicorn/prefer-string-replace-all': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md

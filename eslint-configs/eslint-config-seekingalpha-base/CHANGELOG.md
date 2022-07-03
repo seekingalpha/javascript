@@ -1,5 +1,15 @@
 # Change Log
 
+## 5.19.0 - 2021-07-03
+  - [deps] update `eslint` to version `8.18.0`
+  - [deps] update `eslint-plugin-unicorn` to version `43.0.0`
+  - [breaking] enable `unicorn/prefer-dom-node-append` rule
+  - [breaking] enable `unicorn/prefer-dom-node-remove` rule
+  - [breaking] enable `unicorn/prefer-event-target` rule
+  - [breaking] enable `unicorn/prefer-logical-operator-over-ternary` rule
+  - [breaking] enable `unicorn/prefer-modern-dom-apis` rule
+  - [breaking] enable `unicorn/prefer-prototype-methods` rule
+
 ## 5.18.0 - 2021-06-19
   - [deps] update `eslint` to version `8.18.0`
 
