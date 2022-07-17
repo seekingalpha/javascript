@@ -11,6 +11,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md
     'jest/expect-expect': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-expects.md
+    'jest/max-expects': 'off',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md
     'jest/prefer-lowercase-title': 'off',
 
