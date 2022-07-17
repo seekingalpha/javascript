@@ -1,7 +1,7 @@
 # Change Log
 
 ## 5.21.0 - 2021-07-17
-  - [deps] update `eslint` to version `8.21.0`
+  - [deps] update `eslint` to version `8.20.0`
 
 ## 5.20.0 - 2021-07-10
   - [deps] update `eslint-plugin-unicorn` to version `43.0.1`
