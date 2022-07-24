@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.26.0 - 2021-07-24
+  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.6.1`
+
 ## 5.25.0 - 2021-07-17
   - [deps] upgrade `eslint` to version `8.20.0`
 
