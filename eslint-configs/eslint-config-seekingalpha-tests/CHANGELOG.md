@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.26.0 - 2022-07-31
+  - [deps] upgrade `eslint-plugin-jest` to version `26.7.0`
+  - [deps] upgrade `eslint-plugin-testing-library` to version `5.6.0`
+  - [breaking] enable `jest/prefer-mock-promise-shorthand` rule
+
 ## 1.25.0 - 2022-07-17
   - [deps] upgrade `eslint` to version `8.20.0`
 

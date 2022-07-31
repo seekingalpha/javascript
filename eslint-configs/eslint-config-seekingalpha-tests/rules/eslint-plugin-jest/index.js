@@ -17,6 +17,8 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md
     'jest/prefer-lowercase-title': 'off',
 
+    'jest/prefer-mock-promise-shorthand': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-snapshot-hint.md
     'jest/prefer-snapshot-hint': 'off',
 
