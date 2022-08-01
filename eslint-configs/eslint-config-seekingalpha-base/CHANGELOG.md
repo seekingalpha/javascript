@@ -1,15 +1,18 @@
 # Change Log
 
-## 5.22.0 - 2021-07-20
+## 5.23.0 - 2022-08-01
+  - [deps] update `eslint` to version `8.21.0`
+
+## 5.22.0 - 2022-07-20
   - [deps] update `eslint-plugin-unicorn` to version `43.0.2`
 
-## 5.21.0 - 2021-07-17
+## 5.21.0 - 2022-07-17
   - [deps] update `eslint` to version `8.20.0`
 
-## 5.20.0 - 2021-07-10
+## 5.20.0 - 2022-07-10
   - [deps] update `eslint-plugin-unicorn` to version `43.0.1`
 
-## 5.19.0 - 2021-07-03
+## 5.19.0 - 2022-07-03
   - [deps] update `eslint` to version `8.19.0`
   - [deps] update `eslint-plugin-unicorn` to version `43.0.0`
   - [breaking] enable `unicorn/prefer-dom-node-append` rule
@@ -19,72 +22,72 @@
   - [breaking] enable `unicorn/prefer-modern-dom-apis` rule
   - [breaking] enable `unicorn/prefer-prototype-methods` rule
 
-## 5.18.0 - 2021-06-19
+## 5.18.0 - 2022-06-19
   - [deps] update `eslint` to version `8.18.0`
 
-## 5.17.0 - 2021-06-06
+## 5.17.0 - 2022-06-06
   - [deps] update `eslint` to version `8.17.0`
 
-## 5.16.0 - 2021-05-22
+## 5.16.0 - 2022-05-22
   - [deps] update `eslint` to version `8.16.0`
 
-## 5.15.0 - 2021-05-08
+## 5.15.0 - 2022-05-08
   - [deps] update `eslint` to version `8.15.0`
 
-## 5.14.0 - 2021-04-26
+## 5.14.0 - 2022-04-26
   - [deps] update `eslint` to version `8.14.0`
   - [breaking] enable `no-constant-binary-expression` rule
 
-## 5.13.0 - 2021-04-10
+## 5.13.0 - 2022-04-10
   - [deps] update `eslint` to version `8.13.0`
 
-## 5.12.0 - 2021-04-06
+## 5.12.0 - 2022-04-06
   - [deps] update `eslint-plugin-import` to version `2.26.0`
 
-## 5.11.0 - 2021-04-03
+## 5.11.0 - 2022-04-03
   - [deps] update `eslint-plugin-unicorn` to version `42.0.0`
   - [breaking] enable `unicorn/no-unreadable-iife` rule
   - [breaking] enable `unicorn/no-useless-switch-case` rule
   - [breaking] enable `unicorn/prefer-modern-math-apis` rule
   - [breaking] enable `unicorn/prefer-native-coercion-functions` rule
 
-## 5.10.0 - 2021-03-27
+## 5.10.0 - 2022-03-27
   - [deps] update `eslint` to version `8.12.0`
 
-## 5.9.0 - 2021-03-20
+## 5.9.0 - 2022-03-20
   - [deps] update `eslint-plugin-unicorn` to version `41.0.1`
 
-## 5.8.0 - 2021-03-13
+## 5.8.0 - 2022-03-13
   - [deps] update `eslint` to version `8.11.0`
 
-## 5.7.0 - 2021-03-01
+## 5.7.0 - 2022-03-01
   - [deps] update `eslint` to version `8.10.0`
 
-## 5.6.0 - 2021-02-20
+## 5.6.0 - 2022-02-20
   - [deps] update `eslint-plugin-unicorn` to version `41.0.0`
   - [breaking] enable `unicorn/text-encoding-identifier-case` rule
 
-## 5.5.0 - 2021-02-16
+## 5.5.0 - 2022-02-16
   - [deps] update `eslint` to version `8.9.0`
 
-## 5.4.0 - 2021-01-30
+## 5.4.0 - 2022-01-30
   - [deps] update `eslint` to version `8.8.0`
 
-## 5.3.0 - 2021-01-16
+## 5.3.0 - 2022-01-16
   - [deps] update `eslint` to version `8.7.0`
   - [deps] update `eslint-plugin-unicorn` to version `40.1.0`
 
-## 5.2.2 - 2021-01-09
+## 5.2.2 - 2022-01-09
   - [deps] update `eslint-plugin-import` to version `2.25.4`
 
-## 5.2.1 - 2021-01-09
+## 5.2.1 - 2022-01-09
   - [deps] revert `eslint-plugin-import` to version `2.25.3`
 
-## 5.2.0 - 2021-01-06
+## 5.2.0 - 2022-01-06
   - [deps] update `eslint-plugin-import` to version `2.25.4`
   - [deps] update `eslint-find-rules` to version `4.1.0`
 
-## 5.1.0 - 2021-01-01
+## 5.1.0 - 2022-01-01
   - [deps] update `eslint` to version `8.6.0`
   - [deps] update `eslint-plugin-unicorn` to version `40.0.0`
   - [breaking] enable `unicorn/no-thenable` rule
