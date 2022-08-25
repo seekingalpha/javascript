@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.25.0 - 2022-08-25
+  - [deps] update `eslint-plugin-promise` to version `6.0.1`
+
 ## 5.24.0 - 2022-08-14
   - [deps] update `eslint` to version `8.22.0`
 
