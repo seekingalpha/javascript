@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.30.0 - 2022-08-27
+  - [deps] upgrade `eslint` to version `8.23.0`
+  - [deps] upgrade `eslint-plugin-react` to version `7.31.1`
+
 ## 5.29.0 - 2022-08-25
   - [deps] upgrade `eslint-plugin-react` to version `7.31.0`
 
