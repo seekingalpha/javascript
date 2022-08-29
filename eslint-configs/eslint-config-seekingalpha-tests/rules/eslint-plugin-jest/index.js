@@ -14,6 +14,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-expects.md
     'jest/max-expects': 'off',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-each.md
+    'jest/prefer-each': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md
     'jest/prefer-lowercase-title': 'off',
 
@@ -68,9 +71,6 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-jasmine-globals.md
     'jest/no-jasmine-globals': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-jest-import.md
-    'jest/no-jest-import': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-large-snapshots.md
     'jest/no-large-snapshots': [
