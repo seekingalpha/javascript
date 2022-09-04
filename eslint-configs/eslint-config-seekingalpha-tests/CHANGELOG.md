@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.37.0 - 2022-09-04
+  - [deps] upgrade `eslint-plugin-testing-library` to version `5.6.1`
+
 ## 1.36.0 - 2022-08-29
   - [deps] upgrade `eslint-plugin-jest` to version `27.0.1`
   - [breaking] enable `jest/no-jest-import` rule
