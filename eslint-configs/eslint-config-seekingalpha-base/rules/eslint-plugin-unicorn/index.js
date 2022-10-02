@@ -81,7 +81,7 @@ module.exports = {
     'unicorn/no-console-spaces': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md
-    'unicorn/no-document-cookie': 'off',
+    'unicorn/no-document-cookie': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md
     'unicorn/no-empty-file': 'error',
@@ -143,6 +143,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
     'unicorn/no-this-assignment': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
+    'unicorn/no-unnecessary-await': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md
     'unicorn/no-unreadable-array-destructuring': 'error',
@@ -355,6 +358,12 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md
     'unicorn/string-content': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
+    'unicorn/switch-case-braces': [
+      'error',
+      'always',
+    ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md
     'unicorn/template-indent': 'off',

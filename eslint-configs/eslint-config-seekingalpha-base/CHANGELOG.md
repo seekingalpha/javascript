@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.28.0 - 2022-10-02
+  - [deps] update `eslint` to version `8.24.0`
+  - [deps] update `eslint-plugin-unicorn` to version `44.0.0`
+  - [breaking] enable `unicorn/no-document-cookie` rule
+  - [breaking] enable `unicorn/no-unnecessary-await` rule
+  - [breaking] enable `unicorn/switch-case-braces` rule
+
 ## 5.27.0 - 2022-09-19
   - [deps] update `eslint` to version `8.23.1`
 
