@@ -71,16 +71,7 @@ module.exports = {
     'import/no-default-export': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
-    'import/no-anonymous-default-export': ['error', {
-      allowArray: false,
-      allowArrowFunction: false,
-      allowAnonymousClass: false,
-      allowAnonymousFunction: false,
-      allowCallExpression: false,
-      allowNew: false,
-      allowLiteral: false,
-      allowObject: false,
-    }],
+    'import/no-anonymous-default-export': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
     'import/group-exports': 'off',
