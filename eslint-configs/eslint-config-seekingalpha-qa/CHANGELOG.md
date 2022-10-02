@@ -1,5 +1,8 @@
 # Change Log
 
+## 4.24.0 - 2022-10-02
+  - [deps] update `eslint` to version `18.24.0`
+
 ## 4.23.0 - 2022-09-19
   - [deps] update `eslint` to version `18.23.1`
 
