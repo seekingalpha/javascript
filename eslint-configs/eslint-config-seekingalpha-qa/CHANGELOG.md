@@ -1,19 +1,19 @@
 # Change Log
 
 ## 4.24.0 - 2022-10-02
-  - [deps] update `eslint` to version `18.24.0`
+  - [deps] update `eslint` to version `8.24.0`
 
 ## 4.23.0 - 2022-09-19
-  - [deps] update `eslint` to version `18.23.1`
+  - [deps] update `eslint` to version `8.23.1`
 
 ## 4.22.0 - 2022-08-27
-  - [deps] update `eslint` to version `18.23.0`
+  - [deps] update `eslint` to version `8.23.0`
 
 ## 4.21.0 - 2022-08-14
-  - [deps] update `eslint` to version `18.22.0`
+  - [deps] update `eslint` to version `8.22.0`
 
 ## 4.20.0 - 2022-08-01
-  - [deps] update `eslint` to version `18.21.0`
+  - [deps] update `eslint` to version `8.21.0`
 
 ## 4.19.0 - 2022-07-20
   - [deps] update `eslint-plugin-mocha` to version `10.1.0`
