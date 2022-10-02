@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.29.0 - 2022-10-02
+  - [breaking] enable `import/no-default-export` rule
+  - [breaking] enable `import/no-anonymous-default-export` rule
+
 ## 5.28.0 - 2022-10-02
   - [deps] update `eslint` to version `8.24.0`
   - [deps] update `eslint-plugin-unicorn` to version `44.0.0`
