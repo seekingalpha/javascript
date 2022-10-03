@@ -17,7 +17,7 @@ module.exports = {
     'import/named': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-    'import/default': 'off',
+    'import/default': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
     'import/namespace': [
@@ -62,13 +62,13 @@ module.exports = {
     'import/no-relative-parent-imports': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md
-    'import/no-relative-packages': 'off',
+    'import/no-relative-packages': 'error',
 
     /*
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      * enable after mod.name bug fixed
      */
-    'import/no-unused-modules': 'off',
+    'import/no-unused-modules': 'error',
   },
 
 };

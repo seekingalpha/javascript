@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.30.0 - 2022-10-03
+  - [breaking] enable `import/default` rule
+  - [breaking] enable `iimport/no-relative-packages` rule
+  - [breaking] enable `import/no-unused-modules` rule
+
 ## 5.29.0 - 2022-10-02
   - [breaking] enable `import/no-default-export` rule
   - [breaking] enable `import/no-anonymous-default-export` rule
