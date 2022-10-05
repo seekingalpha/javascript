@@ -98,6 +98,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-test-callback.md
     'jest/no-done-callback': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-restricted-jest-methods.md
+    'jest/no-restricted-jest-methods': 'off',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-prefixes.md
     'jest/no-test-prefixes': 'error',
 

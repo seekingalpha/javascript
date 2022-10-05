@@ -15,7 +15,7 @@ module.exports = {
     'import/no-duplicates': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
-    'import/no-namespace': 'off',
+    'import/no-namespace': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': [
