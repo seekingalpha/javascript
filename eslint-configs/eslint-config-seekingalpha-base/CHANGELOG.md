@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.32.0 - 2022-10-11
+  - [deps] update `eslint` to version `8.25.0`
+  - [deps] update `eslint-plugin-unicorn` to version `44.0.2`
+
 ## 5.31.0 - 2022-10-05
   - [deps] update `eslint-plugin-unicorn` to version `44.0.1`
   - [breaking] enable `import/no-namespace` rule
