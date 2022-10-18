@@ -23,6 +23,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-multiple-resolved.md
+    'promise/no-multiple-resolved': 'error',
+
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md
     'promise/no-native': 'off',
 
