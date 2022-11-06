@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-base",
-  "version": "5.35.0",
+  "version": "5.36.0",
   "description": "SeekingAlpha's sharable base ESLint config",
   "main": "index.js",
   "scripts": {
@@ -48,7 +48,7 @@
     "node": ">= 16"
   },
   "peerDependencies": {
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-plugin-array-func": "3.1.7",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-no-use-extend-native": "0.5.0",
@@ -56,7 +56,7 @@
     "eslint-plugin-unicorn": "44.0.2"
   },
   "devDependencies": {
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-find-rules": "4.1.0",
     "eslint-plugin-array-func": "3.1.7",
     "eslint-plugin-import": "2.26.0",

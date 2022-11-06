@@ -107,6 +107,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',
 
+    // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
+    'no-new-native-nonconstructor': 'error',
+
     // https://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 'error',
 
