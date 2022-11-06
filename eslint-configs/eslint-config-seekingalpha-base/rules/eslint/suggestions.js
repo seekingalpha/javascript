@@ -285,6 +285,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-eq-null
     'no-eq-null': 'error',
 
+    // https://eslint.org/docs/latest/rules/no-empty-static-block
+    'no-empty-static-block': 'error',
+
     // https://eslint.org/docs/rules/no-eval
     'no-eval': 'error',
 

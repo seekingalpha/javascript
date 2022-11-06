@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.36.0 - 2022-11-06
+  - [deps] update `eslint` to version `8.27.0`
+  - [breaking] enable `no-new-native-nonconstructor` rule
+  - [breaking] enable `no-empty-static-block` rule
+
 ## 5.35.0 - 2022-10-23
   - [deps] update `eslint` to version `8.26.0`
 
