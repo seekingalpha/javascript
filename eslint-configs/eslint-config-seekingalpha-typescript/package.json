@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-seekingalpha-typescript",
+  "version": "1.0.0",
+  "description": "SeekingAlpha's sharable typescript ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-rules": "eslint-find-rules -u ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekingalpha/javascript"
+  },
+  "keywords": [
+    "code",
+    "codelinter",
+    "policy",
+    "quality",
+    "eslint",
+    "eslintconfig",
+    "ECMAScript6",
+    "sa",
+    "seekingalpha",
+    "javascript",
+    "ES6",
+    "rules",
+    "style",
+    "guide",
+    "typescript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seekingalpha/javascript/issues"
+  },
+  "homepage": "https://github.com/seekingalpha/javascript#readme",
+  "engines": {
+    "node": ">= 18"
+  },
+  "peerDependencies": {
+    "eslint": "8.27.0",
+    "eslint-plugin-node": "11.1.0",
+    "@typescript-eslint/eslint-plugin": "5.42.0"
+  },
+  "devDependencies": {
+    "eslint": "8.27.0",
+    "eslint-find-rules": "4.1.0",
+    "eslint-plugin-node": "11.1.0",
+    "@typescript-eslint/eslint-plugin": "5.42.0"
+  }
+}
