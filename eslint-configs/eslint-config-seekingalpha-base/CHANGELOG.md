@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.37.0 - 2022-11-08
+  - [breaking] remove `Flow` support
+  - [breaking] introduce `TypeScript`
+
 ## 5.36.0 - 2022-11-06
   - [deps] update `eslint` to version `8.27.0`
   - [breaking] enable `no-new-native-nonconstructor` rule
@@ -240,7 +244,7 @@
 
 ## 4.46.0 - 2021-05-18
   - [breaking] disable `import/no-import-module-exports` rule
- 
+
 ## 4.45.0 - 2021-05-18
   - [deps] update `eslint-plugin-import` to version `2.23.2`
   - [breaking] enable `import/no-import-module-exports` rule

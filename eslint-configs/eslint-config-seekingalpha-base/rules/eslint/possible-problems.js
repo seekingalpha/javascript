@@ -180,19 +180,11 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unused-private-class-members
     'no-unused-private-class-members': 'error',
 
-    // https://eslint.org/docs/rules/no-unused-vars
-    'no-unused-vars': [
-      'error',
-      {
-        args: 'after-used',
-        argsIgnorePattern: '[iI]gnored',
-        caughtErrors: 'all',
-        caughtErrorsIgnorePattern: '[iI]gnored',
-        ignoreRestSiblings: false,
-        vars: 'all',
-        varsIgnorePattern: '[iI]gnored',
-      },
-    ],
+    /*
+     * doesn't work for TypeScript
+     * https://eslint.org/docs/rules/no-unused-vars
+     */
+    'no-unused-vars': 'off',
 
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [

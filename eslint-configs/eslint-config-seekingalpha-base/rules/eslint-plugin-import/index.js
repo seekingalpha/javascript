@@ -17,7 +17,8 @@ module.exports = {
       node: {
         extensions: [
           '.js',
-          '.jsx',
+          '.ts',
+          '.tsx',
           '.json',
         ],
       },
@@ -25,7 +26,8 @@ module.exports = {
 
     'import/extensions': [
       '.js',
-      '.jsx',
+      '.ts',
+      '.tsx',
     ],
 
     'import/core-modules': [],
