@@ -23,8 +23,7 @@ module.exports = {
       'ignorePackages',
       {
         js: 'never',
-        ts: 'never',
-        tsx: 'never',
+        jsx: 'never',
       },
     ],
 

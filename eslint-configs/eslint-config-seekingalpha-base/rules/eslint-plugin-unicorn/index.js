@@ -141,11 +141,8 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md
     'unicorn/no-thenable': 'error',
 
-    /*
-     * doesn't work for TypeScript
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
-     */
-    'unicorn/no-this-assignment': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
+    'unicorn/no-this-assignment': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
     'unicorn/no-unnecessary-await': 'error',

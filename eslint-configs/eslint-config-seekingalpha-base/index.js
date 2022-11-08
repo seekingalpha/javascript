@@ -1,5 +1,7 @@
 module.exports = {
 
+  plugins: [''],
+
   extends: [
 
     // ESLint rules (https://eslint.org/docs/rules/)

@@ -567,11 +567,17 @@ module.exports = {
     'no-sequences': 'error',
 
     /*
-     * doesn't work for TypeScript
      * https://eslint.org/docs/rules/no-shadow
      * https://en.wikipedia.org/wiki/Variable_shadowing
      */
-    'no-shadow': 'off',
+    'no-shadow': [
+      'error',
+      {
+        builtinGlobals: true,
+        hoist: 'all',
+        allow: [],
+      },
+    ],
 
     // https://eslint.org/docs/rules/no-shadow-restricted-names
     'no-shadow-restricted-names': 'error',
