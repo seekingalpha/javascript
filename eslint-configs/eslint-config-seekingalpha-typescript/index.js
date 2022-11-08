@@ -21,24 +21,11 @@ module.exports = {
 
     'import/resolver': {
       node: {
-        extensions: [
-          '.js',
-          '.ts',
-          '.tsx',
-          '.cts',
-          '.mts',
-          '.json',
-        ],
+        extensions: ['.js', '.ts', '.tsx', '.cts', '.mts', '.json'],
       },
     },
 
-    'import/extensions': [
-      '.js',
-      '.ts',
-      '.tsx',
-      '.cts',
-      '.mts',
-    ],
+    'import/extensions': ['.js','.ts','.tsx','.cts','.mts'],
   },
 
 };

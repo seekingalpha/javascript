@@ -18,12 +18,12 @@ This shareable config includes all rules from following plugins:
 
 * [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-typescript` rules:
+Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `eslint-config-seekingalpha-typescript` rules:
 
 ```javascript
 {
   extends: [
-    'seekingalpha-typescript'
+    'eslint-config-seekingalpha-typescript'
   ]
 }
 ```
