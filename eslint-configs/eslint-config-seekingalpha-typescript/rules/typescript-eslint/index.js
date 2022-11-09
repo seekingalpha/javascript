@@ -13,7 +13,13 @@ module.exports = {
 
     '@typescript-eslint/ban-types': 'error',
 
-    '@typescript-eslint/brace-style': 'error',
+    '@typescript-eslint/brace-style': [
+      'error',
+      '1tbs',
+      {
+        allowSingleLine: false,
+      },
+    ],
 
     '@typescript-eslint/class-literal-property-style': 'error',
 
@@ -27,7 +33,13 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/comma-spacing': 'error',
+    '@typescript-eslint/comma-spacing': [
+      'error',
+      {
+        before: false,
+        after: true,
+      },
+    ],
 
     '@typescript-eslint/consistent-generic-constructors': 'error',
 
@@ -43,9 +55,17 @@ module.exports = {
 
     '@typescript-eslint/default-param-last': 'error',
 
-    '@typescript-eslint/dot-notation': 'error',
+    '@typescript-eslint/dot-notation': [
+      'error',
+      {
+        allowKeywords: true,
+      },
+    ],
 
-    '@typescript-eslint/func-call-spacing': 'error',
+    '@typescript-eslint/func-call-spacing': [
+      'error',
+      'never',
+    ],
 
     '@typescript-eslint/indent': [
       'error',
@@ -81,9 +101,32 @@ module.exports = {
       'always',
     ],
 
-    '@typescript-eslint/keyword-spacing': 'error',
+    '@typescript-eslint/keyword-spacing': [
+      'error',
+      {
+        before: true,
+        after: true,
+        overrides: {
+          return: {
+            after: true,
+          },
+          throw: {
+            after: true,
+          },
+          case: {
+            after: true,
+          },
+        },
+      },
+    ],
 
-    '@typescript-eslint/lines-between-class-members': 'error',
+    '@typescript-eslint/lines-between-class-members': [
+      'error',
+      'always',
+      {
+        exceptAfterSingleLine: false,
+      },
+    ],
 
     '@typescript-eslint/member-delimiter-style': 'error',
 
@@ -165,7 +208,14 @@ module.exports = {
 
     '@typescript-eslint/no-restricted-imports': 'error',
 
-    '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-shadow': [
+      'error',
+      {
+        builtinGlobals: true,
+        hoist: 'all',
+        allow: [],
+      },
+    ],
 
     '@typescript-eslint/no-this-alias': 'error',
 
@@ -205,7 +255,14 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/no-use-before-define': 'error',
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      {
+        functions: true,
+        classes: true,
+        variables: true,
+      },
+    ],
 
     '@typescript-eslint/no-useless-constructor': 'error',
 
@@ -224,7 +281,46 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/padding-line-between-statements': 'error',
+    '@typescript-eslint/padding-line-between-statements': [
+      'error',
+
+      // following 2 lines are replacement for deprecated lines-around-directive https://eslint.org/docs/rules/lines-around-directive
+      {
+        blankLine: 'always',
+        prev: 'directive',
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: 'directive',
+        next: 'directive',
+      },
+
+      // following 2 lines are replacement for deprecated newline-after-var https://eslint.org/docs/rules/newline-after-var
+      {
+        blankLine: 'always',
+        prev: [
+          'const', 'let', 'var',
+        ],
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: [
+          'const', 'let', 'var',
+        ],
+        next: [
+          'const', 'let', 'var',
+        ],
+      },
+
+      // following line are replacement for deprecated newline-before-return https://eslint.org/docs/rules/newline-before-return
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return',
+      },
+    ],
 
     '@typescript-eslint/prefer-as-const': 'error',
 
@@ -267,13 +363,23 @@ module.exports = {
 
     '@typescript-eslint/return-await': 'error',
 
-    '@typescript-eslint/semi': 'error',
+    '@typescript-eslint/semi': [
+      'error',
+      'always',
+    ],
 
     '@typescript-eslint/sort-type-constituents': 'error',
 
     '@typescript-eslint/space-before-blocks': 'error',
 
-    '@typescript-eslint/space-before-function-paren': 'error',
+    '@typescript-eslint/space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
 
     '@typescript-eslint/space-infix-ops': 'error',
 
@@ -287,7 +393,20 @@ module.exports = {
 
     '@typescript-eslint/unified-signatures': 'error',
 
-    '@typescript-eslint/no-extra-parens': 'error',
+    '@typescript-eslint/no-extra-parens': [
+      'error',
+      'all',
+      {
+        conditionalAssign: false,
+        nestedBinaryExpressions: false,
+        returnAssign: false,
+        ignoreJSX: 'all',
+        enforceForArrowConditionals: false,
+        enforceForSequenceExpressions: false,
+        enforceForNewInMemberExpressions: false,
+        enforceForFunctionPrototypeMethods: false,
+      },
+    ],
 
     '@typescript-eslint/no-invalid-this': 'error',
 
