@@ -3,7 +3,7 @@ module.exports = {
 
     /*
      * the rule doesn't work for TypeScript
-     * replacement: @typescript-eslint/class-literal-property-style
+     * replacement: @typescript-eslint/brace-style
      */
     'brace-style': 'off',
 
