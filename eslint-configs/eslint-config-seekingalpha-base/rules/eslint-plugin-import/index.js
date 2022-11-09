@@ -18,6 +18,10 @@ module.exports = {
         extensions: [
           '.js',
           '.jsx',
+          '.ts',
+          '.tsx',
+          '.mts',
+          '.cts',
           '.json',
         ],
       },
@@ -26,6 +30,10 @@ module.exports = {
     'import/extensions': [
       '.js',
       '.jsx',
+      '.ts',
+      '.tsx',
+      '.mts',
+      '.cts',
     ],
 
     'import/core-modules': [],

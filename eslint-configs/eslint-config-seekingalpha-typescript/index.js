@@ -2,6 +2,8 @@ module.exports = {
 
   extends: [
 
+    './rules/disable-recommended-eslint-rules',
+
     // https://github.com/typescript-eslint/typescript-eslint
     './rules/typescript-eslint/index.js',
 
@@ -14,18 +16,6 @@ module.exports = {
       impliedStrict: true,
       globalReturn: false,
     },
-  },
-
-  settings: {
-    polyfills: ['Promise'],
-
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.ts', '.tsx', '.cts', '.mts', '.json'],
-      },
-    },
-
-    'import/extensions': ['.js','.ts','.tsx','.cts','.mts'],
   },
 
 };
