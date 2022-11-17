@@ -11,9 +11,6 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y
     './rules/eslint-plugin-jsx-a11y/index.js',
 
-    // https://github.com/gajus/eslint-plugin-flowtype
-    './rules/eslint-plugin-flowtype/index.js',
-
     // https://reactjs.org/docs/hooks-rules.html
     './rules/eslint-plugin-react-hooks/index.js',
 
