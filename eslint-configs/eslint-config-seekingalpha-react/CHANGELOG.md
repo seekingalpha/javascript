@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.0.0 - 2022-11-17
+  - [deps] remove `eslint-plugin-flowtype`
+  - [breaking] drop `Flow` rules
+
 ## 5.36.0 - 2022-11-06
   - [deps] upgrade `eslint` to version `8.27.0`
 
@@ -166,7 +170,7 @@
 
 ## 4.82.0 - 2021-10-10
   - [deps] upgrade `eslint-plugin-jest` to version `24.6.0`
-  
+
 ## 4.81.0 - 2021-10-03
   - [deps] upgrade `eslint-plugin-jest` to version `24.5.2`
 
@@ -208,10 +212,10 @@
 ## 4.73.0 - 2021-08-01
   - [deps] upgrade `eslint` to version `7.32.0`
   - [deps] upgrade `eslint-plugin-flowtype` to version `5.8.2`
-  
+
 ## 4.72.0 - 2021-07-25
   - [deps] disable `react/jsx-handler-names` rule
-  
+
 ## 4.71.0 - 2021-07-25
   - [breaking] set `jest/max-nested-describe` rule to `2`
 
@@ -358,26 +362,26 @@
 
 ## 4.32.0 - 2020-12-06
  - [deps] upgrade `eslint` to version `7.15.0`
- 
+
 ## 4.31.0 - 2020-11-21
  - [deps] upgrade `eslint` to version `7.14.0`
- 
+
 ## 4.30.0 - 2020-11-15
  - [deps] upgrade `eslint-plugin-jest` to version `24.1.3`
- 
+
 ## 4.29.0 - 2020-11-08
  - [deps] upgrade `eslint` to version `7.13.0`
- 
+
 ## 4.28.0 - 2020-10-27
  - [deps] upgrade `eslint` to version `7.12.1`
  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.4.1`
- 
+
 ## 4.27.0 - 2020-10-26
  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.4.0`
- 
+
 ## 4.26.0 - 2020-10-25
  - [deps] upgrade `eslint` to version `7.12.0`
- 
+
 ## 4.25.0 - 2020-10-21
  - [deps] upgrade `eslint-plugin-react` to version `7.21.5`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.2.0`
@@ -389,85 +393,85 @@
 ## 4.23.0 - 2020-10-11
  - [deps] upgrade `eslint` to version `7.11.0`
  - [deps] upgrade `eslint-plugin-react` to version `7.21.4`
- 
+
 ## 4.22.0 - 2020-10-07
  - [deps] upgrade `eslint-plugin-jest` to version `24.1.0`
- 
+
 ## 4.21.0 - 2020-10-05
  - [deps] upgrade `eslint-plugin-react` to version `7.21.3`
- 
+
 ## 4.20.0 - 2020-09-29
  - [deps] upgrade `eslint` to version `7.10.0`
- 
+
 ## 4.19.0 - 2020-09-25
  - [deps] upgrade `eslint-plugin-react` to version `7.21.2`
- 
+
 ## 4.18.0 - 2020-09-24
  - [deps] upgrade `eslint-plugin-react` to version `7.21.1`
- 
+
 ## 4.17.0 - 2020-09-22
  - [deps] upgrade `eslint-plugin-react` to version `7.21.0`
  - [docs] switch to NPM
- 
+
 ## 4.16.0 - 2020-09-21
  - [deps] upgrade `eslint-plugin-jest` to version `24.0.2`
- 
+
 ## 4.15.0 - 2020-09-13
  - [deps] upgrade `eslint` to version `7.9.0`
  - [deps] upgrade `eslint-plugin-jest` to version `24.0.1`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.1.2`
- 
+
 ## 4.14.0 - 2020-09-06
  - [deps] upgrade `eslint` to version `7.8.1`
  - [deps] upgrade `eslint-plugin-jest` to version `24.0.0`
- 
+
 ## 4.13.0 - 2020-09-01
  - [deps] upgrade `eslint` to version `7.8.0`
- 
+
 ## 4.12.0 - 2020-08-24
  - [deps] upgrade `eslint` to version `7.7.0`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.1.0`
- 
+
 ## 4.11.0 - 2020-08-14
  - [deps] upgrade `eslint-plugin-react` to version `7.20.6`
- 
+
 ## 4.10.0 - 2020-08-02
  - [deps] upgrade `eslint` to version `7.6.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.20.0`
- 
+
 ## 4.9.0 - 2020-07-29
  - [deps] upgrade `eslint-plugin-jest` to version `23.19.0`
  - [deps] upgrade `eslint-plugin-react` to version `7.20.5`
  - [new] `jest/no-interpolation-in-snapshots` rule error
- 
+
 ## 4.8.0 - 2020-07-26
  - [deps] upgrade `eslint-plugin-jest` to version `23.18.2`
- 
+
 ## 4.7.0 - 2020-07-19
  - [deps] upgrade `eslint` to version `7.5.0`
- 
+
 ## 4.6.0 - 2020-07-15
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.8`
- 
+
 ## 4.5.0 - 2020-07-12
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.7`
- 
+
 ## 4.4.0 - 2020-07-08
  - [deps] upgrade `eslint-plugin-jest` to version `23.18.0`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.6`
- 
+
 ## 4.3.0 - 2020-07-05
  - [deps] upgrade `eslint` to version `7.4.0`
- 
+
 ## 4.2.0 - 2020-07-01
  - [deps] upgrade `eslint-plugin-flowtype` to version `5.2.0`
  - [deps] upgrade `eslint-plugin-react` to version `7.20.3`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.5`
- 
+
 ## 4.1.0 - 2020-06-28
  - [deps] upgrade `eslint` to version `7.3.1`
  - [deps] upgrade `eslint-plugin-jest` to version `23.17.1`
- 
+
 ## 4.0.0 - 2020-06-21
  - [deps] upgrade `eslint` to version `7.3.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `5.1.3`
@@ -475,11 +479,11 @@
  - [deps] upgrade `eslint-plugin-flowtype` to version `6.3.1`
  - [new] `jest/no-conditional-expect` rule error
  - [new] `jsx-a11y/autocomplete-valid` rule error
- 
+
 ## 3.32.0 - 2020-05-31
  - [deps] upgrade `eslint-plugin-jest` to version `23.13.2`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.4`
- 
+
 ## 3.31.1 - 2020-05-17
  - [patch: loosen rules] disable `jest/no-restricted-matchers`
 
@@ -488,76 +492,76 @@
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.2`
  - [patch] removed deprecated `jest/no-truthy-falsy`, `jest/prefer-inline-snapshots`, `jest/no-expect-resolves`
  - [new] `jest/no-restricted-matchers` rule error
- 
+
 ## 3.30.0 - 2020-05-13
  - [deps] upgrade `eslint-plugin-react` to version `7.20.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.10.0`
- 
+
 ## 3.29.0 - 2020-05-12
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.1`
- 
+
 ## 3.28.0 - 2020-05-11
  - [deps] upgrade `eslint-plugin-jest` to version `23.10.0`
- 
+
 ## 3.27.0 - 2020-03-27
  - [deps] upgrade `eslint-plugin-react-hooks` to version `4.0.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.9.0`
  - [new] `jest/no-deprecated-functions` rule error
- 
+
 ## 3.26.0 - 2020-03-27
  - [deps] upgrade `eslint-plugin-react-hooks` to version `3.0.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.6.0`
- 
+
 ## 3.25.0 - 2020-03-20
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.5.1`
- 
+
 ## 3.24.1 - 2020-03-08
  - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
- 
+
 ## 3.24.0 - 2020-03-08
  - [deps] upgrade `eslint-plugin-jest` to version `23.8.2`
  - [deps] upgrade `eslint-plugin-react` to version `7.19.0`
  - [new] `react/no-adjacent-inline-elements` rule error
- 
+
 ## 3.23.0 - 2020-03-01
  - [deps] update `babel-eslint` to version `10.1.0`
  - [deps] upgrade `eslint-plugin-jest` to version `23.8.1`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.5.0`
- 
+
 ## 3.22.0 - 2020-02-23
  - [deps] upgrade `eslint-plugin-react` to version `7.18.3`
  - [deps] upgrade `eslint-plugin-jest` to version `23.8.0`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.4.0`
- 
+
 ## 3.21.2 - 2020-02-02
  - [patch: loosen rules] disable `react/function-component-definition`
- 
+
 ## 3.21.1 - 2020-02-02
  - [patch: loosen rules] disable `react/no-adjacent-inline-elements`
-  
+
 ## 3.21.0 - 2020-02-02
  - [deps] upgrade `eslint-plugin-react` to version `7.18.2`
  - [new] `react/jsx-no-script-url` rule error
  - [new] `react/no-adjacent-inline-elements` rule error
  - [new] `react/function-component-definition` rule error
- 
+
 ## 3.20.0 - 2020-01-17
  - [deps] upgrade `eslint-plugin-react` to version `7.18.0`
- 
+
 ## 3.19.0 - 2020-01-12
  - [deps] upgrade `eslint-plugin-jest` to version `23.6.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.6.0`
- 
+
 ## 3.18.0 - 2020-01-09
  - [deps] upgrade `eslint-plugin-jest` to version `23.3.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.5.3`
- 
+
 ## 3.17.0 - 2019-12-31
  - [deps] upgrade `eslint-plugin-jest` to version `23.2.0`
- 
+
 ## 3.16.0 - 2019-12-21
  - [deps] upgrade `eslint` to version `6.8.0`
- 
+
 ## 3.15.1 - 2019-12-06
  - [patch: loosen rules] disable `react/require-default-props`
 
@@ -565,36 +569,36 @@
  - [deps] upgrade `eslint` to version `6.7.2`
  - [deps] upgrade `eslint-plugin-jest` to version `23.1.1`
  - [deps] upgrade `eslint-plugin-react` to version `7.17.0`
- 
+
 ## 3.14.0 - 2019-11-27
  - [deps] upgrade `eslint` to version `6.7.1`
  - [deps] upgrade `eslint-plugin-jest` to version `23.0.5`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.5.2`
- 
+
 ## 3.13.0 - 2019-11-20
  - [deps] upgrade `eslint-plugin-jest` to version `23.0.4`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.3.0`
- 
+
 ## 3.12.0 - 2019-11-14
  - [deps] upgrade `eslint-plugin-jest` to version `23.0.3`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.4.1`
- 
+
 ## 3.11.1 - 2019-10-29
  - [patch] remove `jest/no-empty-title` rule which was replaced with `jest/valid-title` rule
- 
+
 ## 3.11.0 - 2019-10-29
  - [deps] upgrade `eslint-plugin-jest` to version `23.0.2`
- 
+
 ## 3.10.0 - 2019-10-27
  - [deps] upgrade `eslint` to version `6.6.0`
  - [deps] upgrade `eslint-plugin-jest` to version `22.21.0`
- 
+
 ## 3.9.0 - 2019-10-23
  - [deps] upgrade `eslint-plugin-jest` to version `22.20.0`
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.2.0`
  - [new] `jest/valid-title` rule error
  - [patch] `react/sort-comp` updated order
- 
+
 ## 3.8.0 - 2019-10-16
  - [deps] upgrade `eslint` to version `6.5.1`
  - [deps] upgrade `eslint-plugin-jest` to version `22.19.0`
@@ -602,14 +606,14 @@
  - [deps] upgrade `eslint-plugin-react-hooks` to version `2.1.2`
  - [new] `jest/prefer-hooks-on-top` rule error
  - [new] `react/jsx-no-useless-fragment` rule error
- 
+
 ## 3.7.0 - 2019-09-15
  - [deps] upgrade `eslint` to version `6.4.0`
- 
+
 ## 3.6.0 - 2019-09-10
  - [deps] upgrade `eslint-plugin-jest` to version `22.17.0`
  - [deps] upgrade `eslint-plugin-flowtype` to version `4.3.0`
-  
+
 ## 3.5.0 - 2019-09-02
  - [deps] upgrade `eslint` to version `6.3.0`
  - [deps] upgrade `eslint-plugin-jest` to version `22.16.0`
@@ -620,7 +624,7 @@
 
 ## 3.3.0 - 2019-08-25
  - [deps] upgrade `eslint` to version `6.2.2`
- 
+
 ## 3.2.0 - 2019-08-22
  - [deps] upgrade `eslint` to version `6.2.1`
  - [deps] upgrade `eslint-plugin-jest` to version `22.15.2`
@@ -629,7 +633,7 @@
 ## 3.1.0 - 2019-15-10
  - [deps] upgrade `eslint-plugin-jest` to version `22.15.1`
  - [patch: loosen rules] `react/jsx-no-bind` enable `ignoreDOMComponents` option
- 
+
 ## 3.0.1 - 2019-08-10
  - [patch: loosen rules] `flowtype/require-indexer-name` switched to `never` option
 
