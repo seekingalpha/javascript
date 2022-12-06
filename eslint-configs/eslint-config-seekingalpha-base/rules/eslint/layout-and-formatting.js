@@ -242,7 +242,7 @@ module.exports = {
         allowClassStart: true,
         allowClassEnd: false,
         applyDefaultIgnorePatterns: true,
-        ignorePattern: 'ignore-comment',
+        ignorePattern: '@ts-expect-error',
       },
     ],
 

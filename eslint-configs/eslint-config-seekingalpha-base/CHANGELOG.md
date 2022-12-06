@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.38.0 - 2022-12-06
+  - [breaking] `lines-around-comment` rule - ignore `@ts-expect-error` comments
+
+## 5.37.0 - 2022-12-06
+  - skipped
+
 ## 5.36.0 - 2022-11-06
   - [deps] update `eslint` to version `8.27.0`
   - [breaking] enable `no-new-native-nonconstructor` rule
