@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.0.2 - 2022-12-08
+## 1.0.3 - 2022-12-08
   - [breaking] relax `@typescript-eslint/no-magic-numbers` rule for types
 
 ## 1.0.2 - 2022-12-08
