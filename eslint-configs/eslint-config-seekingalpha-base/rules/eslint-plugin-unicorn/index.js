@@ -111,6 +111,12 @@ module.exports = {
     'unicorn/no-lonely-if': 'error',
 
     /*
+     * Disabled in favour of native ESLint no-negated-condition rule
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negated-condition.md
+     */
+    'unicorn/no-negated-condition': 'off',
+
+    /*
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
      * Disabled in favour of ESLint's rule
      * https://eslint.org/docs/rules/no-nested-ternary
@@ -143,6 +149,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
     'unicorn/no-this-assignment': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md
+    'unicorn/no-typeof-undefined': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
     'unicorn/no-unnecessary-await': 'error',
@@ -306,6 +315,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
     'unicorn/prefer-set-has': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-size.md
+    'unicorn/prefer-set-size': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'off',

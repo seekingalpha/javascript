@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.39.0 - 2022-12-08
+  - [deps] update `eslint` to version `8.29.0`
+  - [deps] update `eslint-plugin-unicorn` to version `45.0.1`
+  - [breaking] enable `unicorn/no-typeof-undefined` rule
+  - [breaking] enable `unicorn/prefer-set-size` rule
+
 ## 5.38.0 - 2022-12-06
   - [breaking] `lines-around-comment` rule - ignore `@ts-expect-error` comments
 
