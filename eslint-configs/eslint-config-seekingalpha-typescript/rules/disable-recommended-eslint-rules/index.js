@@ -2,6 +2,12 @@ module.exports = {
   rules: {
 
     /*
+     * Disabled as per TS recommendation
+     * https://typescript-eslint.io/linting/troubleshooting#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+     */
+    'no-undef': 'off',
+
+    /*
      * the rule doesn't work for TypeScript
      * replacement: @typescript-eslint/brace-style
      */
@@ -41,7 +47,7 @@ module.exports = {
      * the rule doesn't work for TypeScript
      * replacement: @typescript-eslint/indent
      */
-    'indent': 'off',
+    indent: 'off',
 
     /*
      * the rule doesn't work for TypeScript
@@ -185,7 +191,7 @@ module.exports = {
      * the rule doesn't work for TypeScript
      * replacement: @typescript-eslint/quotes
      */
-    'quotes': 'off',
+    quotes: 'off',
 
     /*
      * the rule doesn't work for TypeScript
@@ -203,7 +209,7 @@ module.exports = {
      * the rule doesn't work for TypeScript
      * replacement: @typescript-eslint/semi
      */
-    'semi': 'off',
+    semi: 'off',
 
     /*
      * the rule doesn't work for TypeScript
