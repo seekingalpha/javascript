@@ -1,3 +1,5 @@
+const config = require('../config');
+
 module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
 
@@ -69,7 +71,7 @@ module.exports = {
 
     '@typescript-eslint/indent': [
       'error',
-      2,
+      config.indent,
       {
         SwitchCase: 1,
         VariableDeclarator: 1,
@@ -175,7 +177,6 @@ module.exports = {
       {
         // These numbers are used in simple cases, we can exclude them
         ignore: [
-          // eslint-disable-next-line @typescript-eslint/no-magic-numbers
           -1,
           0,
           1,
@@ -183,6 +184,10 @@ module.exports = {
         ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: false,
+        ignoreEnums: true,
+        ignoreNumericLiteralTypes: true,
+        ignoreReadonlyClassProperties: false,
+        ignoreTypeIndexes: true,
       },
     ],
 
