@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.0.3 - 2022-12-08
+## 1.0.4 - 2022-12-08
   - [breaking] disable `no-undef` rule
 
 ## 1.0.3 - 2022-12-08
