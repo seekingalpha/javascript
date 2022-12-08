@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.2 - 2022-12-08
+  - [breaking] relax `@typescript-eslint/no-magic-numbers` rule for types
+
 ## 1.0.1 - 2022-11-09
  - [breaking] update `@typescript-eslint/space-before-function-paren` rule preferences
  - [breaking] update `@typescript-eslint/brace-style` rule preferences
