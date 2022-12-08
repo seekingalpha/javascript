@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.0 - 2022-12-08
+  - [deps] upgrade `eslint` to version `8.29.0`
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.46.0`
+
 ## 1.0.4 - 2022-12-08
   - [breaking] disable `no-undef` rule
 
