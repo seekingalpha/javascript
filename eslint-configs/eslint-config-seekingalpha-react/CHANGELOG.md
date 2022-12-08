@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.1.0 - 2022-12-08
+  - [deps] [deps] upgrade `eslint` to version `8.29.0`
+  - [deps] upgrade `eslint-plugin-react` to version `7.31.11`
+
 ## 6.0.0 - 2022-11-17
   - [deps] remove `eslint-plugin-flowtype`
   - [breaking] drop `Flow` rules
