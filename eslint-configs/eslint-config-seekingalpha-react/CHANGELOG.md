@@ -1,7 +1,10 @@
 # Change Log
 
+## 6.1.1 - 2022-12-10
+  - [breaking] `react/jsx-filename-extension` - `.tsx` support 
+
 ## 6.1.0 - 2022-12-08
-  - [deps] [deps] upgrade `eslint` to version `8.29.0`
+  - [deps] upgrade `eslint` to version `8.29.0`
   - [deps] upgrade `eslint-plugin-react` to version `7.31.11`
 
 ## 6.0.0 - 2022-11-17
