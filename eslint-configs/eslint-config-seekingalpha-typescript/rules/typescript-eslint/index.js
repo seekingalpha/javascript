@@ -57,12 +57,17 @@ module.exports = {
 
     '@typescript-eslint/default-param-last': 'error',
 
-    '@typescript-eslint/dot-notation': [
-      'error',
-      {
-        allowKeywords: true,
-      },
-    ],
+    /*
+     *  Requires TS
+     * '@typescript-eslint/dot-notation': [
+     *   'error',
+     *   {
+     *     allowKeywords: true,
+     *   },
+     * ],
+     */
+
+    '@typescript-eslint/dot-notation': 'off',
 
     '@typescript-eslint/func-call-spacing': [
       'error',
@@ -162,7 +167,12 @@ module.exports = {
 
     '@typescript-eslint/no-for-in-array': 'error',
 
-    '@typescript-eslint/no-implied-eval': 'error',
+    /*
+     * Requires TS
+     * '@typescript-eslint/no-implied-eval': 'error',
+     */
+
+    '@typescript-eslint/no-implied-eval': 'off',
 
     '@typescript-eslint/no-inferrable-types': 'error',
 
@@ -224,7 +234,12 @@ module.exports = {
 
     '@typescript-eslint/no-this-alias': 'error',
 
-    '@typescript-eslint/no-throw-literal': 'error',
+    /*
+     * Requires TS
+     * '@typescript-eslint/no-throw-literal': 'error',
+     */
+
+    '@typescript-eslint/no-throw-literal': 'off',
 
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 
@@ -364,9 +379,19 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/require-await': 'error',
+    /*
+     * Requires TS
+     * '@typescript-eslint/require-await': 'error',
+     */
 
-    '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/require-await': 'off',
+
+    /*
+     * Requires TS
+     * '@typescript-eslint/return-await': 'error',
+     */
+
+    '@typescript-eslint/return-await': 'off',
 
     '@typescript-eslint/semi': [
       'error',
