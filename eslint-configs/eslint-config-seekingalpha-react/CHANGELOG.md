@@ -1,7 +1,10 @@
 # Change Log
 
+## 6.1.2 - 2022-12-13
+  - [breaking] `react/jsx-no-useless-fragment` - allow fragment expressions
+
 ## 6.1.1 - 2022-12-10
-  - [breaking] `react/jsx-filename-extension` - `.tsx` support 
+  - [breaking] `react/jsx-filename-extension` - `.tsx` support
 
 ## 6.1.0 - 2022-12-08
   - [deps] upgrade `eslint` to version `8.29.0`
