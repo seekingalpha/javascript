@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.3.0 - 2022-12-14
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.46.0`
+  - [breaking] disable `@typescript-eslint/eslint-plugin` rules which require TS
+
 ## 1.2.0 - 2022-12-12
   - [breaking] disable override rules which require TS
 
