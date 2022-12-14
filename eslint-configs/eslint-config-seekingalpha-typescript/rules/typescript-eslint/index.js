@@ -7,7 +7,8 @@ module.exports = {
 
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
-    '@typescript-eslint/await-thenable': 'error',
+    // Require TS
+    '@typescript-eslint/await-thenable': 'off',
 
     '@typescript-eslint/ban-ts-comment': 'error',
 
@@ -23,7 +24,9 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/class-literal-property-style': 'error',
+    '@typescript-eslint/class-literal-property-style': [
+      'error', 'fields',
+    ],
 
     '@typescript-eslint/comma-dangle': [
       'error', {
@@ -43,15 +46,24 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/consistent-generic-constructors': 'error',
+    '@typescript-eslint/consistent-generic-constructors': [
+      'error', 'constructor',
+    ],
 
     '@typescript-eslint/consistent-indexed-object-style': 'error',
 
-    '@typescript-eslint/consistent-type-assertions': 'error',
+    '@typescript-eslint/consistent-type-assertions': ['error', {
+      assertionStyle: 'as',
+      objectLiteralTypeAssertions: 'allow',
+    }],
 
     '@typescript-eslint/consistent-type-definitions': 'error',
 
-    '@typescript-eslint/consistent-type-exports': 'error',
+    // Require TS
+    '@typescript-eslint/consistent-type-exports': 'off',
+
+    // Require TS
+    '@typescript-eslint/naming-convention': 'off',
 
     '@typescript-eslint/consistent-type-imports': 'error',
 
@@ -143,7 +155,8 @@ module.exports = {
 
     '@typescript-eslint/no-array-constructor': 'error',
 
-    '@typescript-eslint/no-base-to-string': 'error',
+    // Require TS
+    '@typescript-eslint/no-base-to-string': 'off',
 
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
 
@@ -165,7 +178,8 @@ module.exports = {
 
     '@typescript-eslint/no-extraneous-class': 'error',
 
-    '@typescript-eslint/no-for-in-array': 'error',
+    // Requires TS
+    '@typescript-eslint/no-for-in-array': 'off',
 
     /*
      * Requires TS
@@ -201,11 +215,13 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/no-meaningless-void-operator': 'error',
+    // Requires TS
+    '@typescript-eslint/no-meaningless-void-operator': 'off',
 
     '@typescript-eslint/no-misused-new': 'error',
 
-    '@typescript-eslint/no-misused-promises': 'error',
+    // Requires TS
+    '@typescript-eslint/no-misused-promises': 'off',
 
     '@typescript-eslint/no-namespace': 'error',
 
@@ -241,13 +257,17 @@ module.exports = {
 
     '@typescript-eslint/no-throw-literal': 'off',
 
-    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+    // Requires TS
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
 
-    '@typescript-eslint/no-unnecessary-qualifier': 'error',
+    // Requires TS
+    '@typescript-eslint/no-unnecessary-qualifier': 'off',
 
-    '@typescript-eslint/no-unnecessary-type-arguments': 'error',
+    // Requires TS
+    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
 
-    '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    // Requires TS
+    '@typescript-eslint/no-unnecessary-type-assertion': 'off',
 
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 
@@ -290,7 +310,8 @@ module.exports = {
 
     '@typescript-eslint/no-var-requires': 'error',
 
-    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+    // Requires TS
+    '@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
     '@typescript-eslint/object-curly-spacing': [
       'error',
@@ -350,25 +371,32 @@ module.exports = {
 
     '@typescript-eslint/prefer-function-type': 'error',
 
-    '@typescript-eslint/prefer-includes': 'error',
+    // Requires TS
+    '@typescript-eslint/prefer-includes': 'off',
 
     '@typescript-eslint/prefer-literal-enum-member': 'error',
 
     '@typescript-eslint/prefer-namespace-keyword': 'error',
 
-    '@typescript-eslint/prefer-readonly': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-readonly': 'off',
 
-    '@typescript-eslint/prefer-reduce-type-parameter': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-reduce-type-parameter': 'off',
 
-    '@typescript-eslint/prefer-regexp-exec': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-regexp-exec': 'off',
 
-    '@typescript-eslint/prefer-return-this-type': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-return-this-type': 'off',
 
-    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-string-starts-ends-with': 'off',
 
     '@typescript-eslint/prefer-ts-expect-error': 'error',
 
-    '@typescript-eslint/promise-function-async': 'error',
+    // Require TS
+    '@typescript-eslint/promise-function-async': 'off',
 
     '@typescript-eslint/quotes': [
       'error',
@@ -413,7 +441,8 @@ module.exports = {
 
     '@typescript-eslint/space-infix-ops': 'error',
 
-    '@typescript-eslint/switch-exhaustiveness-check': 'error',
+    // Requires TS
+    '@typescript-eslint/switch-exhaustiveness-check': 'off',
 
     '@typescript-eslint/triple-slash-reference': 'error',
 
@@ -440,9 +469,11 @@ module.exports = {
 
     '@typescript-eslint/no-invalid-this': 'error',
 
-    '@typescript-eslint/unbound-method': 'error',
+    // Require TS
+    '@typescript-eslint/unbound-method': 'off',
 
-    '@typescript-eslint/strict-boolean-expressions': 'error',
+    // Require TS
+    '@typescript-eslint/strict-boolean-expressions': 'off',
 
     '@typescript-eslint/array-type': 'error',
 
@@ -452,37 +483,51 @@ module.exports = {
 
     '@typescript-eslint/explicit-module-boundary-types': 'error',
 
-    '@typescript-eslint/no-confusing-void-expression': 'error',
+    // Require TS
+    '@typescript-eslint/no-confusing-void-expression': 'off',
 
-    '@typescript-eslint/no-floating-promises': 'error',
+    // Require TS
+    '@typescript-eslint/no-floating-promises': 'off',
 
-    '@typescript-eslint/no-redundant-type-constituents': 'error',
+    // Require TS
+    '@typescript-eslint/no-redundant-type-constituents': 'off',
 
     '@typescript-eslint/no-type-alias': 'error',
 
-    '@typescript-eslint/no-unnecessary-condition': 'error',
+    // Require TS
+    '@typescript-eslint/no-unnecessary-condition': 'off',
 
-    '@typescript-eslint/no-unsafe-argument': 'error',
+    // Require TS
+    '@typescript-eslint/no-unsafe-argument': 'off',
 
-    '@typescript-eslint/no-unsafe-assignment': 'error',
+    // Require TS
+    '@typescript-eslint/no-unsafe-assignment': 'off',
 
-    '@typescript-eslint/no-unsafe-call': 'error',
+    // Require TS
+    '@typescript-eslint/no-unsafe-call': 'off',
 
-    '@typescript-eslint/restrict-plus-operands': 'error',
+    // Require TS
+    '@typescript-eslint/restrict-plus-operands': 'off',
 
-    '@typescript-eslint/no-unsafe-member-access': 'error',
+    // Require TS
+    '@typescript-eslint/no-unsafe-member-access': 'off',
 
-    '@typescript-eslint/no-unsafe-return': 'error',
+    // Require TS
+    '@typescript-eslint/no-unsafe-return': 'off',
 
-    '@typescript-eslint/prefer-nullish-coalescing': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
 
     '@typescript-eslint/prefer-optional-chain': 'error',
 
-    '@typescript-eslint/prefer-readonly-parameter-types': 'error',
+    // Require TS
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
 
-    '@typescript-eslint/require-array-sort-compare': 'error',
+    // Require TS
+    '@typescript-eslint/require-array-sort-compare': 'off',
 
-    '@typescript-eslint/restrict-template-expressions': 'error',
+    // Require TS
+    '@typescript-eslint/restrict-template-expressions': 'off',
 
   },
 };
