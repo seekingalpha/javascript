@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.2.0 - 2022-12-18
+  - [deps] upgrade `eslint` to version `8.30.0`
+
 ## 6.1.2 - 2022-12-13
   - [breaking] `react/jsx-no-useless-fragment` - allow fragment expressions
 
