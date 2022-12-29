@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.6.0 - 2022-12-29
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.47.1`
+  - [deps] adjust enabled ts rules
+  - [deps] disable `@typescript-eslint/explicit-module-boundary-types`
+  - [deps] disable `@typescript-eslint/explicit-function-return-type`
+  - [deps] disable `@typescript-eslint/no-explicit-any`
+
 ## 1.5.0 - 2022-12-25
   - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.47.0`
 
