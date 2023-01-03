@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.27.0 - 2023-01-03
+  - [deps] update `eslint` to version `8.31.0`
+
 ## 5.26.0 - 2022-12-18
   - [deps] update `eslint` to version `8.30.0`
 
@@ -134,55 +137,55 @@
 
 ## 4.17.0 - 2020-12-06
  - [deps] update `eslint` to version `7.15.0`
- 
+
 ## 4.16.0 - 2020-11-21
  - [deps] update `eslint` to version `7.14.0`
- 
+
 ## 4.15.0 - 2020-11-08
  - [deps] update `eslint` to version `7.13.0`
- 
+
 ## 4.14.0 - 2020-10-27
  - [deps] update `eslint` to version `7.12.1`
- 
+
 ## 4.13.0 - 2020-10-23
  - [deps] update `eslint` to version `7.12.0`
- 
+
 ## 4.12.0 - 2020-10-11
  - [deps] update `eslint` to version `7.11.0`
- 
+
 ## 4.11.0 - 2020-09-29
  - [deps] update `eslint` to version `7.10.0`
- 
+
 ## 4.10.0 - 2020-09-23
  - [docs] switch to NPM
- 
+
 ## 4.9.0 - 2020-09-13
  - [deps] update `eslint` to version `7.9.0`
- 
+
 ## 4.8.0 - 2020-09-06
  - [deps] update `eslint` to version `7.8.1`
- 
+
 ## 4.7.0 - 2020-09-01
  - [deps] update `eslint` to version `7.8.0`
- 
+
 ## 4.6.0 - 2020-08-24
  - [deps] update `eslint` to version `7.7.0`
- 
+
 ## 4.5.0 - 2020-08-02
  - [deps] update `eslint` to version `7.6.0`
- 
+
 ## 4.4.0 - 2020-07-19
  - [deps] update `eslint` to version `7.5.0`
- 
+
 ## 4.3.0 - 2020-07-05
  - [deps] update `eslint` to version `7.4.0`
- 
+
 ## 4.2.0 - 2020-06-28
  - [deps] update `eslint` to version `7.3.1`
- 
+
 ## 4.1.0 - 2020-06-21
  - [deps] update `eslint` to version `7.3.0`
- 
+
 ## 4.0.0 - 2020-06-08
  - [deps] update `eslint` to version `7.2.0`
  - [breaking] enable `node/no-callback-literal` rule
@@ -195,45 +198,45 @@
  - [breaking] enable `node/no-process-exit` rule
  - [breaking] enable `node/no-sync` rule
  - [breaking] enable `node/callback-return` rule
- 
+
 ## 3.13.0 - 2020-05-11
  - [deps] update `eslint-find-rules` to version `3.5.0`
- 
+
 ## 3.12.0 - 2020-04-13
  - [deps] update `eslint-plugin-node` to version `11.1.0`
- 
+
 ## 3.11.0 - 2019-12-30
  - [deps] update `eslint-plugin-node` to version `11.0.0`
- 
+
 ## 3.10.0 - 2019-12-21
  - [deps] update `eslint` to version `6.8.0`
- 
+
 ## 3.9.0 - 2019-12-02
  - [deps] update `eslint` to version `6.7.2`
- 
+
 ## 3.8.0 - 2019-11-22
  - [deps] update `eslint` to version `6.7.1`
- 
+
 ## 3.7.0 - 2019-10-27
  - [deps] update `eslint` to version `6.6.0`
- 
+
 ## 3.6.0 - 2019-10-16
  - [deps] update `eslint` to version `6.5.1`
- 
+
 ## 3.5.0 - 2019-09-15
  - [deps] update `eslint` to version `6.4.0`
- 
+
 ## 3.4.0 - 2019-09-10
  - [deps] update `eslint-plugin-node` to version `10.0.0`
  - [breaking] enable `node/no-exports-assign` rule
- 
+
 ## 3.3.0 - 2019-09-02
  - [deps] update `eslint` to version `6.3.0`
  - [deps] update `eslint-plugin-node` to version `9.2.0`
- 
+
 ## 3.2.0 - 2019-08-25
  - [deps] update `eslint` to version `6.2.2`
- 
+
 ## 3.1.0 - 2019-08-22
  - [deps] update `eslint` to version `6.2.1`
 

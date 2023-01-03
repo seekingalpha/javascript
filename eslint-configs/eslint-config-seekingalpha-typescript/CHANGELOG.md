@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.7.0 - 2023-01-03
+  - [deps] upgrade `eslint` to version `8.31.0`
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.48.0`
+
 ## 1.6.0 - 2022-12-29
   - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.47.1`
   - [deps] adjust enabled ts rules
