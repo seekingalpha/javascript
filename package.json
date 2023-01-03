@@ -35,7 +35,7 @@
     "*.js": "eslint --ext .js"
   },
   "devDependencies": {
-    "eslint": "8.30.0",
+    "eslint": "8.31.0",
     "eslint-config-seekingalpha-base": "5.41.0",
     "eslint-config-seekingalpha-node": "5.26.0",
     "eslint-plugin-array-func": "3.1.7",
