@@ -3,6 +3,7 @@
 ## 6.4.0 - 2023-01-11
   - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.7.0`
   - [deps] upgrade `eslint-plugin-react` to version `7.32.0`
+  - [breaking] update `react/hook-use-state` rule
   - [breaking] introduce `jsx-a11y/prefer-tag-over-role` rule
   - [breaking] introduce `react/no-object-type-as-default-prop` rule
   - [breaking] `react/jsx-sort-default-props` deprecated, replace with `react/sort-default-props`

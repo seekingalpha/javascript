@@ -157,7 +157,12 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md
-    'react/hook-use-state': 'error',
+    'react/hook-use-state': [
+      'error',
+      {
+        allowDestructuredState: true,
+      },
+    ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/iframe-missing-sandbox.md
     'react/iframe-missing-sandbox': 'error',
