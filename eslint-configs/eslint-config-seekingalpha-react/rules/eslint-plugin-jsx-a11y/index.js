@@ -295,6 +295,8 @@ module.exports = {
 
     'jsx-a11y/control-has-associated-label': 'error',
 
+    'jsx-a11y/prefer-tag-over-role': 'error',
+
   },
 
 };

@@ -188,13 +188,8 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
     'react/jsx-props-no-multi-spaces': 'error',
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md
-    'react/jsx-sort-default-props': [
-      'off',
-      {
-        ignoreCase: true,
-      },
-    ],
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-default-props.md
+    'react/sort-default-props': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     'react/jsx-sort-props': [
@@ -271,6 +266,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
     'react/jsx-no-script-url': 'error',
+
+    'react/no-object-type-as-default-prop': 'error',
+
   },
 
 };
