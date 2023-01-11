@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.43.0 - 2023-01-11
+## 5.43.0 - 2023-01-08
   - [deps] update `eslint-plugin-array-func` to version `3.1.8`
 
 ## 5.42.0 - 2023-01-03
