@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.4.0 - 2023-01-11
+  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.7.0`
+  - [deps] upgrade `eslint-plugin-react` to version `7.32.0`
+
 ## 6.3.0 - 2023-01-03
   - [deps] upgrade `eslint` to version `8.31.0`
 
