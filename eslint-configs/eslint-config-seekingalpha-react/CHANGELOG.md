@@ -1,6 +1,11 @@
 # Change Log
 
 ## 6.4.0 - 2023-01-11
+  - [deps] upgrade `eslint` to version `8.32.0`
+  - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.7.1`
+  - [deps] upgrade `eslint-plugin-react` to version `7.32.1`
+
+## 6.4.0 - 2023-01-11
   - [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.7.0`
   - [deps] upgrade `eslint-plugin-react` to version `7.32.0`
   - [breaking] update `react/hook-use-state` rule
