@@ -5,6 +5,12 @@ module.exports = {
 
   rules: {
 
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
+    'import/consistent-type-specifier-style': [
+      'error',
+      'prefer-top-level',
+    ],
+
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
     'import/first': 'error',
 
