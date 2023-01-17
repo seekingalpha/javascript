@@ -19,6 +19,9 @@ module.exports = {
      */
     'import/no-deprecated': 'error',
 
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-empty-named-blocks.md
+    'import/no-empty-named-blocks': 'error',
+
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [
       'error',

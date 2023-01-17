@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.44.0 - 2023-01-17
+  - [deps] update `eslint` to version `8.32.0`
+  - [deps] update `eslint-plugin-import` to version `2.27.5`
+  - [breaking] enable `import/no-empty-named-blocks` rule
+  - [breaking] enable `import/consistent-type-specifier-style` rule
+
 ## 5.43.0 - 2023-01-08
   - [deps] update `eslint-plugin-array-func` to version `3.1.8`
 
