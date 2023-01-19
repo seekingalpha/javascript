@@ -287,7 +287,7 @@ module.exports = {
      * Enable after migration to nodejs 16 with esm
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md
      */
-    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-node-protocol': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
     'unicorn/prefer-number-properties': 'error',

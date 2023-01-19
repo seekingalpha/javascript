@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.29.0 - 2023-01-19
+  - [breaking] disable `import/no-nodejs-modules` rule
+
 ## 5.28.0 - 2023-01-17
   - [deps] update `eslint` to version `8.32.0`
 
