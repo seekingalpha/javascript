@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.45.0 - 2023-01-19
+  - [breaking] enable `unicorn/prefer-node-protocol` rule
+
 ## 5.44.0 - 2023-01-17
   - [deps] update `eslint` to version `8.32.0`
   - [deps] update `eslint-plugin-import` to version `2.27.5`
