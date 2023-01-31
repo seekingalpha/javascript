@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.12.0 - 2023-01-31
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.50.0`
+  - [breaking] enable `@typescript-eslint/key-spacing` rule
+
 ## 1.11.0 - 2023-01-29
   - [deps] upgrade `eslint` to version `8.33.0`
 
