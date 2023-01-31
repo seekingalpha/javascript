@@ -198,6 +198,15 @@ module.exports = {
       'always',
     ],
 
+    '@typescript-eslint/key-spacing': [
+      'error',
+      {
+        beforeColon: false,
+        afterColon: true,
+        mode: 'strict',
+      },
+    ],
+
     '@typescript-eslint/keyword-spacing': [
       'error',
       {

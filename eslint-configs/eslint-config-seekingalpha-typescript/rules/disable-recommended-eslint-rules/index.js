@@ -98,5 +98,7 @@ module.exports = {
 
     'no-invalid-this': 'off',
 
+    'key-spacing': 'off',
+
   },
 };
