@@ -23,6 +23,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-misused-promises': 'off',
 
+  '@typescript-eslint/no-mixed-enums': 'off',
+
   '@typescript-eslint/no-meaningless-void-operator': 'off',
 
   '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
