@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.18.0 - 2023-02-28
+  - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.54.0`
+
 ## 1.17.0 - 2023-02-27
   - [deps] upgrade `eslint` to version `8.35.0`
 
