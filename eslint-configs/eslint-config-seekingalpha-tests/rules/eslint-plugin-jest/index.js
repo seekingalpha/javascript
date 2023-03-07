@@ -81,7 +81,7 @@ module.exports = {
     ],
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
-    'jest/no-mocks-import': 'error',
+    'jest/no-mocks-import': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-restricted-matchers.md
     'jest/no-restricted-matchers': [
