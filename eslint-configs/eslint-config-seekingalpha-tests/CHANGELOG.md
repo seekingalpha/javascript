@@ -1,8 +1,11 @@
 # Change Log
 
-## 1.56.0 - 2023-03-07
-  - [breaking] turn off `eslint-plugin-jest/no-mocks-import` rule
- 
+## 1.57.0 - 2023-03-07
+- [breaking] turn off `eslint-plugin-jest/no-mocks-import` rule
+
+## 1.56.0 - 2023-02-27
+  - [deps] upgrade `eslint` to version `8.35.0`
+
 ## 1.55.0 - 2023-02-19
   - [deps] upgrade `eslint-plugin-testing-library` to version `5.10.2`
 
