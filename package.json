@@ -1,12 +1,16 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "4.10.0",
+  "version": "4.11.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js .",
-    "prepare": "husky install"
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "prettier:check": "prettier --no-editorconfig --check ."
   },
   "repository": {
     "type": "git",
@@ -32,9 +36,11 @@
   },
   "homepage": "https://github.com/seekingalpha/javascript#readme",
   "lint-staged": {
+    "*": "prettier --ignore-unknown --write",
     "*.js": "eslint --ext .js"
   },
   "devDependencies": {
+    "@seekingalpha/prettier-config-samw": "1.0.0",
     "eslint": "8.36.0",
     "eslint-config-seekingalpha-base": "5.50.0",
     "eslint-config-seekingalpha-node": "5.33.0",
@@ -45,6 +51,7 @@
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-unicorn": "46.0.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.0"
+    "lint-staged": "13.2.0",
+    "prettier": "2.8.4"
   }
 }

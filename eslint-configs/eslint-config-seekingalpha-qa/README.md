@@ -16,8 +16,8 @@ Install SeekingAlpha shareable ESLint:
 
 This shareable config includes all rules from following plugins:
 
-* [eslint-plugin-protractor](https://github.com/alecxe/eslint-plugin-protractor)
-* [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha)
+- [eslint-plugin-protractor](https://github.com/alecxe/eslint-plugin-protractor)
+- [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha)
 
 Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-qa` rules:
 
@@ -32,4 +32,3 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
 ## License
 
 MIT © [SeekingAlpha](https://seekingalpha.com/)
-
