@@ -16,8 +16,8 @@ Install SeekingAlpha shareable ESLint:
 
 This configuration extended with following plugins:
 
-* [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
-* [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
+- [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+- [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
 
 Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-tests` rules:
 
@@ -32,4 +32,3 @@ Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configu
 ## License
 
 MIT © [SeekingAlpha](https://seekingalpha.com/)
-
