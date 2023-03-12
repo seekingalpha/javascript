@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js .",
-    "prepare": "husky install"
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "prettier:check": "prettier --no-editorconfig --check .",
+    "prettier:write": "prettier --no-editorconfig --write ."
   },
   "repository": {
     "type": "git",
