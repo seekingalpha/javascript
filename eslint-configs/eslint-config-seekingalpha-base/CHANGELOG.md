@@ -2,7 +2,7 @@
 
 ## 5.50.0 - 2023-03-12
 
-    - [deps] update `eslint` to version `8.36.0`
+- [deps] update `eslint` to version `8.36.0`
 
 ## 5.49.0 - 2023-03-06
 
