@@ -3,6 +3,9 @@
   "version": "4.10.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js .",
@@ -35,6 +38,7 @@
     "*.js": "eslint --ext .js"
   },
   "devDependencies": {
+    "@seekingalpha/prettier-config-samw": "1.0.0",
     "eslint": "8.36.0",
     "eslint-config-seekingalpha-base": "5.50.0",
     "eslint-config-seekingalpha-node": "5.33.0",
