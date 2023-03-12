@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.50.0 - 2023-03-12
+  - [deps] update `eslint` to version `8.36.0`
+
 ## 5.49.0 - 2023-03-06
   - [deps] update `eslint-plugin-unicorn` to version `46.0.0`
 
