@@ -99,6 +99,11 @@ module.exports = {
 
     '@typescript-eslint/ban-tslint-comment': 'error',
 
+    '@typescript-eslint/block-spacing': [
+      'error',
+      'always',
+    ],
+
     '@typescript-eslint/ban-types': 'error',
 
     '@typescript-eslint/brace-style': [
@@ -276,6 +281,8 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': 'error',
 
     '@typescript-eslint/no-extraneous-class': 'error',
+
+    '@typescript-eslint/no-import-type-side-effects': 'error',
 
     '@typescript-eslint/no-inferrable-types': 'error',
 

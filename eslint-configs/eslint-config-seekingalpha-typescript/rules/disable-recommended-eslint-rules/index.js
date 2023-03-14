@@ -7,6 +7,8 @@ module.exports = {
      */
     'no-undef': 'off',
 
+    'block-spacing': 'off',
+
     'brace-style': 'off',
 
     'comma-dangle': 'off',

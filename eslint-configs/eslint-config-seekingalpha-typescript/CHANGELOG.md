@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.21.0 - 2023-03-14
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.55.0`
+- [breaking] enable `@typescript-eslint/block-spacing` rule
+- [breaking] enable `@typescript-eslint/no-import-type-side-effects` rule
+
 ## 1.20.0 - 2023-03-12
 
 - [deps] upgrade `eslint` to version `8.36.0`
