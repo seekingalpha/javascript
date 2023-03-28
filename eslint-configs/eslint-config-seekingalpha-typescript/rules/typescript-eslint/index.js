@@ -19,6 +19,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-base-to-string': 'off',
 
+  '@typescript-eslint/no-duplicate-type-constituents': 'off',
+
   '@typescript-eslint/no-for-in-array': 'off',
 
   '@typescript-eslint/no-misused-promises': 'off',
@@ -513,8 +515,6 @@ module.exports = {
     '@typescript-eslint/typedef': 'error',
 
     '@typescript-eslint/unified-signatures': 'error',
-
-    '@typescript-eslint/no-duplicate-type-constituents': 'error',
 
     '@typescript-eslint/no-extra-parens': [
       'error',

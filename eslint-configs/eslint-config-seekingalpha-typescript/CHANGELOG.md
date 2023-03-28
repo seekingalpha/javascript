@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.23.1 - 2023-03-28
+
+- [breaking] disable `@typescript-eslint/no-duplicate-type-constituents` rule
+
 ## 1.23.0 - 2023-03-28
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.57.0`
