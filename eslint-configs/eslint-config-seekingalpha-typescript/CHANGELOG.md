@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.23.0 - 2023-03-28
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.57.0`
+- [breaking] enable `@typescript-eslint/no-duplicate-type-constituents` rule
+- [breaking] enable `@typescript-eslint/lines-around-comment` rule
+
 ## 1.22.0 - 2023-03-23
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.56.0`
