@@ -30,6 +30,8 @@ module.exports = {
 
     'keyword-spacing': 'off',
 
+    'lines-around-comment': 'off',
+
     'lines-between-class-members': 'off',
 
     'no-array-constructor': 'off',

@@ -233,6 +233,36 @@ module.exports = {
       },
     ],
 
+    '@typescript-eslint/lines-around-comment': [
+      'error',
+      {
+        beforeBlockComment: true,
+        afterBlockComment: false,
+        beforeLineComment: true,
+        afterLineComment: false,
+        allowBlockStart: true,
+        allowBlockEnd: false,
+        allowObjectStart: true,
+        allowObjectEnd: false,
+        allowArrayStart: false,
+        allowArrayEnd: false,
+        allowClassStart: true,
+        allowClassEnd: false,
+        applyDefaultIgnorePatterns: true,
+        ignorePattern: '@ts-expect-error',
+
+        // typescript extension
+        allowEnumEnd: true,
+        allowEnumStart: true,
+        allowInterfaceEnd: true,
+        allowInterfaceStart: true,
+        allowModuleEnd: true,
+        allowModuleStart: true,
+        allowTypeEnd: true,
+        allowTypeStart: true,
+      },
+    ],
+
     '@typescript-eslint/lines-between-class-members': [
       'error',
       'always',
@@ -483,6 +513,8 @@ module.exports = {
     '@typescript-eslint/typedef': 'error',
 
     '@typescript-eslint/unified-signatures': 'error',
+
+    '@typescript-eslint/no-duplicate-type-constituents': 'error',
 
     '@typescript-eslint/no-extra-parens': [
       'error',
