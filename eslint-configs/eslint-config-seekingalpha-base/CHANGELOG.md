@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.0.0 - 2023-03-28
+
+- introduce `eslint-config-seekingalpha-base/prettier` config
+
 ## 5.50.0 - 2023-03-12
 
 - [deps] update `eslint` to version `8.36.0`
