@@ -64,6 +64,11 @@ module.exports = {
     'wrap-regex': 'off',
     'yield-star-spacing': 'off',
 
+    // Might be enabled
+    'lines-around-comment': 'off',
+    'no-mixed-operators': 'off',
+
+    // Unicorn
     'unicorn/empty-brace-spaces': 'off',
     'unicorn/no-nested-ternary': 'off',
     'unicorn/number-literal-case': 'off',
