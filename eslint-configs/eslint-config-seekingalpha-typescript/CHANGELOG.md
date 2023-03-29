@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.0.0 - 2023-03-29
+
+- introduce `eslint-config-seekingalpha-typescript/prettier` config
+- [deps] upgrade `eslint` to version `8.37.0`
+
 ## 1.23.1 - 2023-03-28
 
 - [breaking] disable `@typescript-eslint/no-duplicate-type-constituents` rule
