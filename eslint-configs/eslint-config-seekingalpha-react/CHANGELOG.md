@@ -1,5 +1,10 @@
 # Change Log
 
+## 7.0.0 - 2023-03-29
+
+- introduce `eslint-config-seekingalpha-react/prettier` config
+- [deps] upgrade `eslint` to version `8.37.0`
+
 ## 6.9.0 - 2023-03-12
 
 - [deps] upgrade `eslint` to version `8.36.0`
