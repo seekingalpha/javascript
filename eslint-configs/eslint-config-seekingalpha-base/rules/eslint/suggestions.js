@@ -249,7 +249,13 @@ module.exports = {
     'no-case-declarations': 'error',
 
     // https://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': 'error',
+    'no-confusing-arrow': [
+      'error',
+      {
+        allowParens: false,
+        onlyOneSimpleParam: false,
+      },
+    ],
 
     // https://eslint.org/docs/rules/no-console
     'no-console': 'error',
