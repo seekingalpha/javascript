@@ -3,9 +3,7 @@ const config = require('../config');
 // https://github.com/yannickcr/eslint-plugin-react#jsx-specific-rules
 
 module.exports = {
-
   rules: {
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': [
       'error',
@@ -43,10 +41,7 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-    'react/jsx-equals-spacing': [
-      'error',
-      'never',
-    ],
+    'react/jsx-equals-spacing': ['error', 'never'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': [
@@ -57,30 +52,19 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
-    'react/jsx-first-prop-new-line': [
-      'error',
-      'multiline-multiprop',
-    ],
+    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
-    'react/jsx-fragments': [
-      'error', 'syntax',
-    ],
+    'react/jsx-fragments': ['error', 'syntax'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-    'react/jsx-indent': [
-      'error',
-      config.jsxIndent,
-    ],
+    'react/jsx-indent': ['error', config.jsxIndent],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': [
-      'error',
-      config.jsxIndentProps,
-    ],
+    'react/jsx-indent-props': ['error', config.jsxIndentProps],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': [
@@ -114,7 +98,8 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     'react/jsx-no-bind': [
-      'error', {
+      'error',
+      {
         ignoreDOMComponents: true,
         ignoreRefs: false,
         allowArrowFunctions: false,
@@ -268,7 +253,5 @@ module.exports = {
     'react/jsx-no-script-url': 'error',
 
     'react/no-object-type-as-default-prop': 'error',
-
   },
-
 };

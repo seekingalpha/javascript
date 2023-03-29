@@ -1,9 +1,7 @@
 // https://github.com/benmosher/eslint-plugin-import#static-analysis
 
 module.exports = {
-
   rules: {
-
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     'import/no-unresolved': [
       'error',
@@ -70,5 +68,4 @@ module.exports = {
      */
     'import/no-unused-modules': 'error',
   },
-
 };

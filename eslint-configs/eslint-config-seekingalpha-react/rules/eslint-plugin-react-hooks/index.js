@@ -1,5 +1,4 @@
 module.exports = {
-
   plugins: ['react-hooks'],
 
   rules: {
@@ -10,7 +9,5 @@ module.exports = {
 
     // https://reactjs.org/docs/hooks-rules.html
     'react-hooks/exhaustive-deps': 'error',
-
   },
-
 };

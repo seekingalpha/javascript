@@ -1,17 +1,12 @@
 // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
 
 module.exports = {
-
   rules: {
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
     'react/boolean-prop-naming': [
       'error',
       {
-        propTypeNames: [
-          'bool',
-          'mutuallyExclusiveTrueProps',
-        ],
+        propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
         rule: '^(is|has|should)[A-Z]([A-Za-z0-9]?)+',
         message: 'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})',
       },
@@ -34,10 +29,7 @@ module.exports = {
     'react/default-props-match-prop-types': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
-    'react/destructuring-assignment': [
-      'error',
-      'always',
-    ],
+    'react/destructuring-assignment': ['error', 'always'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/display-name': [
@@ -58,11 +50,7 @@ module.exports = {
           'style',
           {
             propName: 'className',
-            allowedFor: [
-              'Button',
-              'Icon',
-              'Link',
-            ],
+            allowedFor: ['Button', 'Icon', 'Link'],
           },
         ],
       },
@@ -270,10 +258,7 @@ module.exports = {
     'react/no-will-update-set-state': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-    'react/prefer-es6-class': [
-      'error',
-      'always',
-    ],
+    'react/prefer-es6-class': ['error', 'always'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-exact-props.md
     'react/prefer-exact-props': 'off',
@@ -317,17 +302,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [
-      'error', {
-        order: [
-          'static-methods',
-          'lifecycle',
-          '/^on.+$/',
-          'getters',
-          'setters',
-          'instance-methods',
-          'everything-else',
-          'rendering',
-        ],
+      'error',
+      {
+        order: ['static-methods', 'lifecycle', '/^on.+$/', 'getters', 'setters', 'instance-methods', 'everything-else', 'rendering'],
         groups: {
           lifecycle: [
             'displayName',
@@ -357,10 +334,7 @@ module.exports = {
             'componentDidCatch',
             'componentWillUnmount',
           ],
-          rendering: [
-            '/^render.+$/',
-            'render',
-          ],
+          rendering: ['/^render.+$/', 'render'],
         },
       },
     ],
@@ -378,16 +352,9 @@ module.exports = {
     'react/void-dom-elements-no-children': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
-    'react/state-in-constructor': [
-      'error',
-      'always',
-    ],
+    'react/state-in-constructor': ['error', 'always'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
-    'react/static-property-placement': [
-      'error',
-      'static public field',
-    ],
+    'react/static-property-placement': ['error', 'static public field'],
   },
-
 };

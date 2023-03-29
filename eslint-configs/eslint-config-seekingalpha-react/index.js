@@ -1,7 +1,5 @@
 module.exports = {
-
   extends: [
-
     // https://github.com/yannickcr/eslint-plugin-react
     './rules/eslint/index.js',
 
@@ -13,7 +11,6 @@ module.exports = {
 
     // https://reactjs.org/docs/hooks-rules.html
     './rules/eslint-plugin-react-hooks/index.js',
-
   ],
 
   parserOptions: {
@@ -25,5 +22,4 @@ module.exports = {
       jsx: true,
     },
   },
-
 };

@@ -1,7 +1,5 @@
 module.exports = {
-
   extends: [
-
     // https://github.com/jest-community/eslint-plugin-jest
     './rules/eslint-plugin-jest/index.js',
 
@@ -17,5 +15,4 @@ module.exports = {
       globalReturn: false,
     },
   },
-
 };

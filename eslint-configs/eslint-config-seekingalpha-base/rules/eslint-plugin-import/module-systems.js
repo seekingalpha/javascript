@@ -1,9 +1,7 @@
 // https://github.com/benmosher/eslint-plugin-import#module-systems
 
 module.exports = {
-
   rules: {
-
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md
     'import/unambiguous': 'off',
 
@@ -19,5 +17,4 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md
     'import/no-import-module-exports': 'error',
   },
-
 };

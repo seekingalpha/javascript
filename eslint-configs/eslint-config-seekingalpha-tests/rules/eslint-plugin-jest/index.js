@@ -1,5 +1,4 @@
 module.exports = {
-
   plugins: ['jest'],
 
   rules: {
@@ -170,5 +169,4 @@ module.exports = {
      */
     'jest/unbound-method': 'off',
   },
-
 };

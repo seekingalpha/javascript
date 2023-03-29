@@ -1,5 +1,4 @@
 module.exports = {
-
   plugins: ['testing-library'],
 
   rules: {
@@ -38,10 +37,7 @@ module.exports = {
     'testing-library/no-debugging-utils': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-dom-import.md
-    'testing-library/no-dom-import': [
-      'error',
-      'react',
-    ],
+    'testing-library/no-dom-import': ['error', 'react'],
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-global-regexp-flag-in-query.md
     'testing-library/no-global-regexp-flag-in-query': 'error',
@@ -94,5 +90,4 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/render-result-naming-convention.md
     'testing-library/render-result-naming-convention': 'error',
   },
-
 };

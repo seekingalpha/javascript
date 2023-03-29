@@ -1,11 +1,9 @@
 // https://github.com/xjamundx/eslint-plugin-promise
 
 module.exports = {
-
   plugins: ['promise'],
 
   rules: {
-
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
     'promise/always-return': 'error',
 
@@ -56,5 +54,4 @@ module.exports = {
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md
     'promise/prefer-await-to-then': 'off',
   },
-
 };

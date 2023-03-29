@@ -1,11 +1,9 @@
 // https://github.com/sindresorhus/eslint-plugin-unicorn
 
 module.exports = {
-
   plugins: ['unicorn'],
 
   rules: {
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md
     'unicorn/better-regex': 'error',
 
@@ -203,7 +201,8 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md
     'unicorn/prefer-array-flat': [
-      'error', {
+      'error',
+      {
         functions: ['flatDeep'],
       },
     ],
@@ -355,9 +354,7 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': 'off',
 
-    'unicorn/relative-url-style': [
-      'error', 'never',
-    ],
+    'unicorn/relative-url-style': ['error', 'never'],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
     'unicorn/require-array-join-separator': 'error',
@@ -372,10 +369,7 @@ module.exports = {
     'unicorn/string-content': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
-    'unicorn/switch-case-braces': [
-      'error',
-      'always',
-    ],
+    'unicorn/switch-case-braces': ['error', 'always'],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md
     'unicorn/template-indent': 'off',
@@ -386,5 +380,4 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
     'unicorn/throw-new-error': 'error',
   },
-
 };

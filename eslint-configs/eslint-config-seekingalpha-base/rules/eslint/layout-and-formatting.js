@@ -1,31 +1,20 @@
 const config = require('../config');
 
 module.exports = {
-
   // https://eslint.org/docs/rules/#layout-formatting
 
   rules: {
-
     // https://eslint.org/docs/rules/array-bracket-newline
-    'array-bracket-newline': [
-      'error',
-      'consistent',
-    ],
+    'array-bracket-newline': ['error', 'consistent'],
 
     // https://eslint.org/docs/rules/array-bracket-spacing
-    'array-bracket-spacing': [
-      'error',
-      'never',
-    ],
+    'array-bracket-spacing': ['error', 'never'],
 
     // https://eslint.org/docs/rules/array-element-newline
     'array-element-newline': 'off',
 
     // https://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': [
-      'error',
-      'always',
-    ],
+    'arrow-parens': ['error', 'always'],
 
     // https://eslint.org/docs/rules/arrow-spacing
     'arrow-spacing': [
@@ -37,10 +26,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/block-spacing
-    'block-spacing': [
-      'error',
-      'always',
-    ],
+    'block-spacing': ['error', 'always'],
 
     // https://eslint.org/docs/rules/brace-style
     'brace-style': [
@@ -53,7 +39,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
-      'error', {
+      'error',
+      {
         arrays: 'always-multiline',
         objects: 'always-multiline',
         imports: 'always-multiline',
@@ -93,28 +80,16 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/computed-property-spacing
-    'computed-property-spacing': [
-      'error',
-      'never',
-    ],
+    'computed-property-spacing': ['error', 'never'],
 
     // https://eslint.org/docs/rules/dot-location
-    'dot-location': [
-      'error',
-      'property',
-    ],
+    'dot-location': ['error', 'property'],
 
     // https://eslint.org/docs/rules/eol-last
-    'eol-last': [
-      'error',
-      'always',
-    ],
+    'eol-last': ['error', 'always'],
 
     // https://eslint.org/docs/rules/func-call-spacing
-    'func-call-spacing': [
-      'error',
-      'never',
-    ],
+    'func-call-spacing': ['error', 'never'],
 
     /*
      * TODO Enable when fixed for arrow functions
@@ -123,10 +98,7 @@ module.exports = {
     'function-call-argument-newline': 'off',
 
     // https://eslint.org/docs/rules/function-paren-newline
-    'function-paren-newline': [
-      'error',
-      'consistent',
-    ],
+    'function-paren-newline': ['error', 'consistent'],
 
     // https://eslint.org/docs/rules/generator-star-spacing
     'generator-star-spacing': [
@@ -138,10 +110,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/implicit-arrow-linebreak
-    'implicit-arrow-linebreak': [
-      'error',
-      'beside',
-    ],
+    'implicit-arrow-linebreak': ['error', 'beside'],
 
     // https://eslint.org/docs/rules/indent
     indent: [
@@ -174,10 +143,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': [
-      'error',
-      'prefer-double',
-    ],
+    'jsx-quotes': ['error', 'prefer-double'],
 
     // https://eslint.org/docs/rules/key-spacing
     'key-spacing': [
@@ -220,10 +186,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
+    'linebreak-style': ['error', 'unix'],
 
     // https://eslint.org/docs/rules/lines-around-comment
     'lines-around-comment': [
@@ -281,10 +244,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': [
-      'error',
-      'never',
-    ],
+    'multiline-ternary': ['error', 'never'],
 
     // https://eslint.org/docs/rules/new-parens
     'new-parens': 'error',
@@ -399,10 +359,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/operator-linebreak
-    'operator-linebreak': [
-      'error',
-      'none',
-    ],
+    'operator-linebreak': ['error', 'none'],
 
     // https://eslint.org/docs/rules/padded-blocks
     'padded-blocks': [
@@ -433,19 +390,13 @@ module.exports = {
       // following 2 lines are replacement for deprecated newline-after-var https://eslint.org/docs/rules/newline-after-var
       {
         blankLine: 'always',
-        prev: [
-          'const', 'let', 'var',
-        ],
+        prev: ['const', 'let', 'var'],
         next: '*',
       },
       {
         blankLine: 'any',
-        prev: [
-          'const', 'let', 'var',
-        ],
-        next: [
-          'const', 'let', 'var',
-        ],
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
       },
 
       // following line are replacement for deprecated newline-before-return https://eslint.org/docs/rules/newline-before-return
@@ -467,16 +418,10 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/rest-spread-spacing
-    'rest-spread-spacing': [
-      'error',
-      'never',
-    ],
+    'rest-spread-spacing': ['error', 'never'],
 
     // https://eslint.org/docs/rules/semi
-    semi: [
-      'error',
-      'always',
-    ],
+    semi: ['error', 'always'],
 
     // https://eslint.org/docs/rules/semi-spacing
     'semi-spacing': [
@@ -488,10 +433,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/semi-style
-    'semi-style': [
-      'error',
-      'last',
-    ],
+    'semi-style': ['error', 'last'],
 
     // https://eslint.org/docs/rules/space-before-blocks
     'space-before-blocks': 'error',
@@ -507,10 +449,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/space-in-parens
-    'space-in-parens': [
-      'error',
-      'never',
-    ],
+    'space-in-parens': ['error', 'never'],
 
     // https://eslint.org/docs/rules/space-infix-ops
     'space-infix-ops': 'error',
@@ -538,16 +477,10 @@ module.exports = {
     'template-curly-spacing': 'error',
 
     // https://eslint.org/docs/rules/template-tag-spacing
-    'template-tag-spacing': [
-      'error',
-      'never',
-    ],
+    'template-tag-spacing': ['error', 'never'],
 
     // https://eslint.org/docs/rules/unicode-bom
-    'unicode-bom': [
-      'error',
-      'never',
-    ],
+    'unicode-bom': ['error', 'never'],
 
     // https://eslint.org/docs/rules/wrap-iife.html
     'wrap-iife': [
@@ -562,10 +495,6 @@ module.exports = {
     'wrap-regex': 'error',
 
     // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/es6.js
-    'yield-star-spacing': [
-      'error',
-      'after',
-    ],
-
+    'yield-star-spacing': ['error', 'after'],
   },
 };

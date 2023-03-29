@@ -1,7 +1,5 @@
 module.exports = {
-
   extends: [
-
     // ESLint rules (https://eslint.org/docs/rules/)
     './rules/eslint/index.js',
 
@@ -19,7 +17,6 @@ module.exports = {
 
     // eslint-plugin-unicorn rules (https://github.com/sindresorhus/eslint-plugin-unicorn)
     './rules/eslint-plugin-unicorn/index.js',
-
   ],
 
   parserOptions: {
@@ -30,5 +27,4 @@ module.exports = {
       globalReturn: false,
     },
   },
-
 };

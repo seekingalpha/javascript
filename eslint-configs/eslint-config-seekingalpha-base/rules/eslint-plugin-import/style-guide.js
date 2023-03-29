@@ -2,14 +2,9 @@ const config = require('../config');
 
 // https://github.com/benmosher/eslint-plugin-import#style-guide
 module.exports = {
-
   rules: {
-
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
-    'import/consistent-type-specifier-style': [
-      'error',
-      'prefer-top-level',
-    ],
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
     'import/first': 'error',
@@ -39,16 +34,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'unknown',
-          'index',
-          'type',
-        ],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'unknown', 'index', 'type'],
 
         'newlines-between': 'always',
       },
@@ -95,7 +81,5 @@ module.exports = {
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-export.md
     'import/no-named-export': 'off',
-
   },
-
 };

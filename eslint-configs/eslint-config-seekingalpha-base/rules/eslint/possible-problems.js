@@ -1,5 +1,4 @@
 module.exports = {
-
   // https://eslint.org/docs/rules/#possible-problems
 
   rules: {

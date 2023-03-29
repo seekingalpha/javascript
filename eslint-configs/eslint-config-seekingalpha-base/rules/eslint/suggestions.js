@@ -1,11 +1,9 @@
 const config = require('../config');
 
 module.exports = {
-
   // https://eslint.org/docs/rules/#suggestions
 
   rules: {
-
     // https://eslint.org/docs/rules/accessor-pairs
     'accessor-pairs': [
       'error',
@@ -17,10 +15,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': [
-      'error',
-      'always',
-    ],
+    'arrow-body-style': ['error', 'always'],
 
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
@@ -67,10 +62,7 @@ module.exports = {
     'consistent-return': 'error',
 
     // https://eslint.org/docs/rules/consistent-this
-    'consistent-this': [
-      'error',
-      'that',
-    ],
+    'consistent-this': ['error', 'that'],
 
     // https://eslint.org/docs/rules/curly
     curly: 'error',
@@ -98,10 +90,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/eqeqeq
-    eqeqeq: [
-      'error',
-      'always',
-    ],
+    eqeqeq: ['error', 'always'],
 
     // https://eslint.org/docs/rules/func-name-matching
     'func-name-matching': [
@@ -117,10 +106,7 @@ module.exports = {
      * https://eslint.org/docs/rules/func-names
      * TODO enable when needed?
      */
-    'func-names': [
-      'off',
-      'always',
-    ],
+    'func-names': ['off', 'always'],
 
     // https://eslint.org/docs/rules/func-style
     'func-style': [
@@ -132,9 +118,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/grouped-accessor-pairs
-    'grouped-accessor-pairs': [
-      'error', 'getBeforeSet',
-    ],
+    'grouped-accessor-pairs': ['error', 'getBeforeSet'],
 
     /*
      * https://eslint.org/docs/rules/guard-for-in
@@ -159,22 +143,13 @@ module.exports = {
     'id-match': 'off',
 
     // https://eslint.org/docs/rules/init-declarations
-    'init-declarations': [
-      'off',
-      'always',
-    ],
+    'init-declarations': ['off', 'always'],
 
     // https://eslint.org/docs/rules/max-classes-per-file
-    'max-classes-per-file': [
-      'error',
-      config.maxClassesPerFile,
-    ],
+    'max-classes-per-file': ['error', config.maxClassesPerFile],
 
     // https://eslint.org/docs/rules/max-depth
-    'max-depth': [
-      'error',
-      config.maxDepth,
-    ],
+    'max-depth': ['error', config.maxDepth],
 
     // https://eslint.org/docs/rules/max-lines
     'max-lines': [
@@ -198,28 +173,16 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/max-nested-callbacks
-    'max-nested-callbacks': [
-      'error',
-      config.maxNestedCallbacks,
-    ],
+    'max-nested-callbacks': ['error', config.maxNestedCallbacks],
 
     // https://eslint.org/docs/rules/max-params
-    'max-params': [
-      'error',
-      config.maxParams,
-    ],
+    'max-params': ['error', config.maxParams],
 
     // https://eslint.org/docs/rules/max-statements
-    'max-statements': [
-      'error',
-      config.maxStatements,
-    ],
+    'max-statements': ['error', config.maxStatements],
 
     // https://eslint.org/docs/rules/multiline-comment-style
-    'multiline-comment-style': [
-      'error',
-      'starred-block',
-    ],
+    'multiline-comment-style': ['error', 'starred-block'],
 
     // https://eslint.org/docs/rules/new-cap
     'new-cap': [
@@ -363,9 +326,7 @@ module.exports = {
         // These numbers are used in simple cases, we can exclude them
         ignore: [
           // eslint-disable-next-line no-magic-numbers
-          -1,
-          0,
-          1,
+          -1, 0, 1,
         ],
         ignoreArrayIndexes: true,
         enforceConst: true,
@@ -378,41 +339,11 @@ module.exports = {
       'error',
       {
         groups: [
-          [
-            '+',
-            '-',
-            '*',
-            '/',
-            '%',
-            '**',
-          ],
-          [
-            '&',
-            '|',
-            '^',
-            '~',
-            '<<',
-            '>>',
-            '>>>',
-          ],
-          [
-            '==',
-            '!=',
-            '===',
-            '!==',
-            '>',
-            '>=',
-            '<',
-            '<=',
-          ],
-          [
-            '&&',
-            '||',
-          ],
-          [
-            'in',
-            'instanceof',
-          ],
+          ['+', '-', '*', '/', '%', '**'],
+          ['&', '|', '^', '~', '<<', '>>', '>>>'],
+          ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+          ['&&', '||'],
+          ['in', 'instanceof'],
         ],
         allowSamePrecedence: true,
       },
@@ -686,22 +617,13 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/one-var
-    'one-var': [
-      'error',
-      'never',
-    ],
+    'one-var': ['error', 'never'],
 
     // https://eslint.org/docs/rules/one-var-declaration-per-line
-    'one-var-declaration-per-line': [
-      'error',
-      'initializations',
-    ],
+    'one-var-declaration-per-line': ['error', 'initializations'],
 
     // https://eslint.org/docs/rules/operator-assignment
-    'operator-assignment': [
-      'error',
-      'never',
-    ],
+    'operator-assignment': ['error', 'never'],
 
     // https://eslint.org/docs/rules/prefer-arrow-callback
     'prefer-arrow-callback': [
@@ -822,16 +744,10 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/spaced-comment
-    'spaced-comment': [
-      'error',
-      'always',
-    ],
+    'spaced-comment': ['error', 'always'],
 
     // https://eslint.org/docs/rules/strict
-    strict: [
-      'error',
-      'never',
-    ],
+    strict: ['error', 'never'],
 
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'error',
@@ -841,7 +757,5 @@ module.exports = {
 
     // https://eslint.org/docs/rules/yoda
     yoda: 'error',
-
   },
-
 };

@@ -1,21 +1,14 @@
 //
 
 module.exports = {
-
   plugins: ['jsx-a11y'],
 
   rules: {
-
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
     'jsx-a11y/alt-text': [
       'error',
       {
-        elements: [
-          'img',
-          'object',
-          'area',
-          "input[type='image']",
-        ],
+        elements: ['img', 'object', 'area', "input[type='image']"],
         img: [],
         object: [],
         area: [],
@@ -27,10 +20,7 @@ module.exports = {
     'jsx-a11y/anchor-has-content': [
       'error',
       {
-        components: [
-          'Anchor',
-          'Link',
-        ],
+        components: ['Anchor', 'Link'],
       },
     ],
 
@@ -38,16 +28,9 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
-        components: [
-          'Anchor',
-          'Link',
-        ],
+        components: ['Anchor', 'Link'],
         specialLink: ['to'],
-        aspects: [
-          'noHref',
-          'invalidHref',
-          'preferButton',
-        ],
+        aspects: ['noHref', 'invalidHref', 'preferButton'],
       },
     ],
 
@@ -167,10 +150,7 @@ module.exports = {
     'jsx-a11y/no-distracting-elements': [
       'error',
       {
-        elements: [
-          'marquee',
-          'blink',
-        ],
+        elements: ['marquee', 'blink'],
       },
     ],
 
@@ -178,10 +158,7 @@ module.exports = {
     'jsx-a11y/no-interactive-element-to-noninteractive-role': [
       'error',
       {
-        tr: [
-          'none',
-          'presentation',
-        ],
+        tr: ['none', 'presentation'],
       },
     ],
 
@@ -189,14 +166,7 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-interactions': [
       'error',
       {
-        handlers: [
-          'onClick',
-          'onMouseDown',
-          'onMouseUp',
-          'onKeyPress',
-          'onKeyDown',
-          'onKeyUp',
-        ],
+        handlers: ['onClick', 'onMouseDown', 'onMouseUp', 'onKeyPress', 'onKeyDown', 'onKeyUp'],
       },
     ],
 
@@ -204,31 +174,9 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-to-interactive-role': [
       'error',
       {
-        ul: [
-          'listbox',
-          'menu',
-          'menubar',
-          'radiogroup',
-          'tablist',
-          'tree',
-          'treegrid',
-        ],
-        ol: [
-          'listbox',
-          'menu',
-          'menubar',
-          'radiogroup',
-          'tablist',
-          'tree',
-          'treegrid',
-        ],
-        li: [
-          'menuitem',
-          'option',
-          'row',
-          'tab',
-          'treeitem',
-        ],
+        ul: ['listbox', 'menu', 'menubar', 'radiogroup', 'tablist', 'tree', 'treegrid'],
+        ol: ['listbox', 'menu', 'menubar', 'radiogroup', 'tablist', 'tree', 'treegrid'],
+        li: ['menuitem', 'option', 'row', 'tab', 'treeitem'],
         table: ['grid'],
         td: ['gridcell'],
       },
@@ -258,14 +206,7 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': [
       'error',
       {
-        handlers: [
-          'onClick',
-          'onMouseDown',
-          'onMouseUp',
-          'onKeyPress',
-          'onKeyDown',
-          'onKeyUp',
-        ],
+        handlers: ['onClick', 'onMouseDown', 'onMouseUp', 'onKeyPress', 'onKeyDown', 'onKeyUp'],
       },
     ],
 
@@ -296,7 +237,5 @@ module.exports = {
     'jsx-a11y/control-has-associated-label': 'error',
 
     'jsx-a11y/prefer-tag-over-role': 'error',
-
   },
-
 };

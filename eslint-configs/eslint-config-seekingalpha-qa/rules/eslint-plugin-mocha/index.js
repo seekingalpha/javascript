@@ -1,9 +1,7 @@
 module.exports = {
-
   plugins: ['mocha'],
 
   rules: {
-
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/handle-done-callback.md
     'mocha/handle-done-callback': 'error',
 
@@ -73,16 +71,9 @@ module.exports = {
     'mocha/prefer-arrow-callback': 'off',
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-suite-description.md
-    'mocha/valid-suite-description': [
-      'error',
-      '^[A-Z]',
-    ],
+    'mocha/valid-suite-description': ['error', '^[A-Z]'],
 
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/valid-test-description.md
-    'mocha/valid-test-description': [
-      'error',
-      '^[A-Z]\\d+: should',
-    ],
+    'mocha/valid-test-description': ['error', '^[A-Z]\\d+: should'],
   },
-
 };

@@ -1,7 +1,5 @@
 module.exports = {
-
   extends: [
-
     // https://github.com/mysticatea/eslint-plugin-node
     './rules/eslint-plugin-node/index.js',
   ],
@@ -14,5 +12,4 @@ module.exports = {
       globalReturn: false,
     },
   },
-
 };

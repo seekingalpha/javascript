@@ -1,9 +1,7 @@
 // https://eslint.org/docs/rules/#best-practices
 
 module.exports = {
-
   rules: {
-
     // https://eslint.org/docs/rules/class-methods-use-this
     'class-methods-use-this': [
       'error',
@@ -26,5 +24,4 @@ module.exports = {
       },
     ],
   },
-
 };

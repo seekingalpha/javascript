@@ -1,8 +1,5 @@
 module.exports = {
-
-  extends: [
-    './index.js',
-  ],
+  extends: ['./index.js'],
 
   rules: {
     'array-bracket-newline': 'off',

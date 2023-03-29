@@ -1,10 +1,5 @@
 module.exports = {
-
   plugins: ['react'],
 
-  extends: [
-    './react.js',
-    './jsx.js',
-  ],
-
+  extends: ['./react.js', './jsx.js'],
 };

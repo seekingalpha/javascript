@@ -92,7 +92,6 @@ module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
 
   rules: {
-
     ...rulesRunTs,
 
     '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -101,10 +100,7 @@ module.exports = {
 
     '@typescript-eslint/ban-tslint-comment': 'error',
 
-    '@typescript-eslint/block-spacing': [
-      'error',
-      'always',
-    ],
+    '@typescript-eslint/block-spacing': ['error', 'always'],
 
     '@typescript-eslint/ban-types': 'error',
 
@@ -116,12 +112,11 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/class-literal-property-style': [
-      'error', 'fields',
-    ],
+    '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
     '@typescript-eslint/comma-dangle': [
-      'error', {
+      'error',
+      {
         arrays: 'always-multiline',
         objects: 'always-multiline',
         imports: 'always-multiline',
@@ -138,25 +133,19 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/consistent-generic-constructors': [
+    '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
+
+    '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
+
+    '@typescript-eslint/consistent-type-assertions': [
       'error',
-      'constructor',
+      {
+        assertionStyle: 'as',
+        objectLiteralTypeAssertions: 'allow',
+      },
     ],
 
-    '@typescript-eslint/consistent-indexed-object-style': [
-      'error',
-      'record',
-    ],
-
-    '@typescript-eslint/consistent-type-assertions': ['error', {
-      assertionStyle: 'as',
-      objectLiteralTypeAssertions: 'allow',
-    }],
-
-    '@typescript-eslint/consistent-type-definitions': [
-      'error',
-      'type',
-    ],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
 
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -168,10 +157,7 @@ module.exports = {
 
     '@typescript-eslint/default-param-last': 'error',
 
-    '@typescript-eslint/func-call-spacing': [
-      'error',
-      'never',
-    ],
+    '@typescript-eslint/func-call-spacing': ['error', 'never'],
 
     '@typescript-eslint/indent': [
       'error',
@@ -202,10 +188,7 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/init-declarations': [
-      'off',
-      'always',
-    ],
+    '@typescript-eslint/init-declarations': ['off', 'always'],
 
     '@typescript-eslint/key-spacing': [
       'error',
@@ -328,11 +311,7 @@ module.exports = {
       'error',
       {
         // These numbers are used in simple cases, we can exclude them
-        ignore: [
-          -1,
-          0,
-          1,
-        ],
+        ignore: [-1, 0, 1],
         ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: false,
@@ -442,19 +421,13 @@ module.exports = {
       // following 2 lines are replacement for deprecated newline-after-var https://eslint.org/docs/rules/newline-after-var
       {
         blankLine: 'always',
-        prev: [
-          'const', 'let', 'var',
-        ],
+        prev: ['const', 'let', 'var'],
         next: '*',
       },
       {
         blankLine: 'any',
-        prev: [
-          'const', 'let', 'var',
-        ],
-        next: [
-          'const', 'let', 'var',
-        ],
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
       },
 
       // following line are replacement for deprecated newline-before-return https://eslint.org/docs/rules/newline-before-return
@@ -488,10 +461,7 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/semi': [
-      'error',
-      'always',
-    ],
+    '@typescript-eslint/semi': ['error', 'always'],
 
     '@typescript-eslint/sort-type-constituents': 'error',
 
@@ -569,6 +539,5 @@ module.exports = {
     ],
 
     '@typescript-eslint/prefer-optional-chain': 'error',
-
   },
 };

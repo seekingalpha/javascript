@@ -1,9 +1,7 @@
 // https://github.com/benmosher/eslint-plugin-import#helpful-warnings
 
 module.exports = {
-
   rules: {
-
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
     'import/export': 'error',
 
@@ -34,7 +32,5 @@ module.exports = {
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
     'import/no-mutable-exports': 'error',
-
   },
-
 };
