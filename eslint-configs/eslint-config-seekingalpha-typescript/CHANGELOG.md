@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0 - 2023-04-09
+
+- [deps] upgrade `eslint` to version `8.38.0`
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `5.57.1`
+-
+
 ## 2.0.0 - 2023-03-29
 
 - introduce `eslint-config-seekingalpha-typescript/prettier` config
