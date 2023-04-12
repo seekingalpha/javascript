@@ -485,10 +485,6 @@ module.exports = {
         selector: 'WithStatement',
         message: 'Do not use with DOT',
       },
-      {
-        selector: 'BinaryExpression[operator="in"]',
-        message: 'use prototype.hasOwnProperty() instead',
-      },
     ],
 
     // https://eslint.org/docs/rules/no-return-assign
