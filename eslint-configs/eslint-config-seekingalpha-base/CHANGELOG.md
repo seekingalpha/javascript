@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.4.0 - 2023-04-23
+
+- [deps] update `eslint` to version `8.39.0`
+
 ## 6.3.0 - 2023-04-11
 
 - allow `in` binary operator
