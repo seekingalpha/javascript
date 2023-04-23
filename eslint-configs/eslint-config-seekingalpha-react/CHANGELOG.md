@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.2.0 - 2023-04-023
+
+- [deps] upgrade `eslint` to version `8.39.0`
+
 ## 7.1.0 - 2023-04-09
 
 - [deps] upgrade `eslint` to version `8.38.0`
