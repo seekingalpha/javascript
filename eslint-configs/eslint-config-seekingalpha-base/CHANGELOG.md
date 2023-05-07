@@ -1,5 +1,11 @@
 # Change Log
 
+## 6.5.0 - 2023-05-07
+
+- [deps] update `eslint` to version `8.40.0`
+- [deps] update `eslint-plugin-unicorn` to version `47.0.0`
+- [breaking] enable `unicorn/prefer-blob-reading-methods` rule
+
 ## 6.4.0 - 2023-04-23
 
 - [deps] update `eslint` to version `8.39.0`
