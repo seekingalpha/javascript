@@ -1,10 +1,12 @@
 # Change Log
 
+## 6.6.1 - 2023-05-10
+
+- [breaking] enable `unicorn/prefer-string-replace-all` rule
+
 ## 6.6.0 - 2023-05-10
 
 - [breaking] enable `unicorn/prefer-at` rule
-- [breaking] enable `unicorn/prefer-string-replace-all` rule
--
 
 ## 6.5.0 - 2023-05-07
 

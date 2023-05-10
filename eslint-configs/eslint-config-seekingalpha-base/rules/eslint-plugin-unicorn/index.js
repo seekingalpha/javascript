@@ -322,7 +322,7 @@ module.exports = {
     'unicorn/prefer-spread': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md
-    'unicorn/prefer-string-replace-all': 'off',
+    'unicorn/prefer-string-replace-all': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md
     'unicorn/prefer-string-slice': 'error',
