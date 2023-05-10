@@ -295,7 +295,7 @@ module.exports = {
      * proposal, enable when get into standard
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
      */
-    'unicorn/prefer-object-from-entries': 'off',
+    'unicorn/prefer-object-from-entries': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
