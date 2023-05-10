@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.6.2 - 2023-05-10
+
+- [breaking] enable `unicorn/prefer-object-from-entries` rule
+
 ## 6.6.1 - 2023-05-10
 
 - [breaking] enable `unicorn/prefer-string-replace-all` rule
