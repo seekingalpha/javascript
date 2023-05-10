@@ -1,5 +1,11 @@
 # Change Log
 
+## 6.6.0 - 2023-05-10
+
+- [breaking] enable `unicorn/prefer-at` rule
+- [breaking] enable `unicorn/prefer-string-replace-all` rule
+-
+
 ## 6.5.0 - 2023-05-07
 
 - [deps] update `eslint` to version `8.40.0`
