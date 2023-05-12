@@ -217,7 +217,7 @@ module.exports = {
     'unicorn/prefer-blob-reading-methods': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
-    'unicorn/prefer-at': 'error',
+    'unicorn/prefer-at': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md
     'unicorn/prefer-code-point': 'error',
