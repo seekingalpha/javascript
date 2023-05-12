@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.6.3 - 2023-05-11
+
+- [breaking] disable `unicorn/prefer-at` rule
+
 ## 6.6.2 - 2023-05-10
 
 - [breaking] enable `unicorn/prefer-object-from-entries` rule
