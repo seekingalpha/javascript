@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.7.0 - 2023-05-21
+
+- [deps] update `eslint` to version `8.41.0`
+
 ## 6.6.3 - 2023-05-11
 
 - [breaking] disable `unicorn/prefer-at` rule

@@ -62,10 +62,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md
     'import/no-relative-packages': 'error',
 
-    /*
-     * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-     * enable after mod.name bug fixed
-     */
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
     'import/no-unused-modules': 'error',
   },
 };
