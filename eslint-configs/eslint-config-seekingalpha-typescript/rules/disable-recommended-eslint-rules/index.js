@@ -37,8 +37,6 @@ module.exports = {
 
     'no-dupe-class-members': 'off',
 
-    'no-duplicate-imports': 'off',
-
     'no-empty-function': 'off',
 
     'no-extra-semi': 'off',
