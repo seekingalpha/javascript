@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.1.0 - 2023-07-13
+
+- [breaking] disable `@typescript-eslint/prefer-optional-chain` rule
+
 ## 3.0.0 - 2023-07-11
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.0.0`
