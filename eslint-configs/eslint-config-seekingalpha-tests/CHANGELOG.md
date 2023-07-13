@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.70.0 - 2023-07-13
+
+- [deps] upgrade `eslint-plugin-jest` to version `27.2.3`
+
 ## 1.69.0 - 2023-07-02
 
 - [deps] upgrade `eslint` to version `8.44.0`
