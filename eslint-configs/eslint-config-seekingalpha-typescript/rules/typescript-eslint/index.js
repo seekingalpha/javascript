@@ -41,6 +41,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/prefer-includes': 'off',
 
+  '@typescript-eslint/prefer-optional-chain': 'off',
+
   '@typescript-eslint/prefer-readonly': 'off',
 
   '@typescript-eslint/prefer-reduce-type-parameter': 'off',
@@ -539,7 +541,5 @@ module.exports = {
         allowGenerics: 'always',
       },
     ],
-
-    '@typescript-eslint/prefer-optional-chain': 'error',
   },
 };
