@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.2.0 - 2023-07-17
+
+- [deps] upgrade `eslint` to version `8.45.0`
+
 ## 3.1.0 - 2023-07-13
 
 - [breaking] disable `@typescript-eslint/prefer-optional-chain` rule
