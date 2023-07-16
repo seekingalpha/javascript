@@ -160,9 +160,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
     'unicorn/no-unreadable-iife': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md
-    'unicorn/no-unsafe-regex': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
 
