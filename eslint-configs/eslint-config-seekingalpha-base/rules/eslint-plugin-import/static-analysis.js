@@ -50,8 +50,11 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
     'import/no-self-import': 'error',
 
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
-    'import/no-cycle': 'error',
+    /*
+     * very slow
+     * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+     */
+    'import/no-cycle': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
     'import/no-useless-path-segments': 'error',

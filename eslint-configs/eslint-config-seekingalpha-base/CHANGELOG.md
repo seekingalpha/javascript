@@ -1,10 +1,13 @@
 # Change Log
 
+## 6.12.0 - 2023-07-18
+
+- [breaking] disable `import/no-cycle` rule
+
 ## 6.11.0 - 2023-07-18
 
 - [deps] update `eslint` to version `8.45.0`
 - [deps] update `eslint-plugin-unicorn` to version `48.0.0`
--
 
 ## 6.10.0 - 2023-07-02
 
