@@ -116,6 +116,8 @@ module.exports = {
       },
     ],
 
+    '@typescript-eslint/class-methods-use-this': 'error',
+
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
     '@typescript-eslint/comma-dangle': [
