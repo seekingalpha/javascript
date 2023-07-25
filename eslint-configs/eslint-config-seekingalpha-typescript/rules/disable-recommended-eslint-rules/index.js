@@ -14,6 +14,8 @@ module.exports = {
 
     'comma-spacing': 'off',
 
+    'class-methods-use-this': 'off',
+
     'default-param-last': 'off',
 
     /*

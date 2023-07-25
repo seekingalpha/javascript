@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.10.0 - 2023-07-25
+
+- [breaking] drop `class-methods-use-this` extension rule
+
 ## 7.9.0 - 2023-07-20
 
 - [deps] upgrade `eslint-plugin-react` to version `7.33.0`
