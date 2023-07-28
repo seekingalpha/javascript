@@ -490,9 +490,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-return-assign
     'no-return-assign': 'error',
 
-    // https://eslint.org/docs/rules/no-return-await
-    'no-return-await': 'error',
-
     // https://eslint.org/docs/rules/no-script-url
     'no-script-url': 'error',
 
