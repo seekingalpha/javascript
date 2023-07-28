@@ -84,11 +84,6 @@ module.exports = {
      * 'require-await': 'off',
      */
 
-    /*
-     * Requires TS
-     * 'no-return-await': 'off',
-     */
-
     semi: 'off',
 
     'space-before-blocks': 'off',

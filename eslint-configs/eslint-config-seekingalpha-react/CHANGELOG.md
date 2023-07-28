@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.11.0 - 2023-07-28
+
+- [deps] upgrade `eslint` to version `8.46.0`
+
 ## 7.10.0 - 2023-07-25
 
 - [breaking] drop `class-methods-use-this` extension rule
