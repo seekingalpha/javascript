@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.13.0 - 2023-08-04
+
+- [patch] delete `style` and `name` from forbidden dom props
+
 ## 7.12.0 - 2023-07-30
 
 - [deps] upgrade `eslint-plugin-react` to version `7.33.1`
