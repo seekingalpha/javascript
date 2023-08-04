@@ -1,5 +1,3 @@
-const config = require('../config');
-
 // https://github.com/benmosher/eslint-plugin-import#style-guide
 module.exports = {
   rules: {
