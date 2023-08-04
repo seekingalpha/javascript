@@ -1,5 +1,5 @@
 module.exports = {
-  complexity: 5,
+  complexity: 10,
   maxClassesPerFile: 1,
   arrayElementNewlineMinItems: 5,
   idLengthMax: 50,
@@ -10,7 +10,7 @@ module.exports = {
   maxLinesPerFunctionMax: 100,
   maxNestedCallbacks: 3,
   maxParams: 4,
-  maxStatements: 10,
+  maxStatements: 20,
   maxStatementsPerLine: 1,
   noMultipleEmptyLinesMax: 2,
   noMultipleEmptyLinesEOF: 0,
@@ -19,5 +19,4 @@ module.exports = {
   newlineObjectPatternMin: 4,
   newlineImportDeclarationMin: 4,
   newlineExportDeclarationMin: 4,
-  importMaxDependenciesMax: 15,
 };

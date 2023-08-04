@@ -1,5 +1,13 @@
 # Change Log
 
+## 6.16.0 - 2023-08-04
+
+- [patch] disable the `multiline-ternary` rule
+- [patch] disable the `operator-linebreak` rule
+- [patch] disable the `import/max-dependencies` rule
+- [patch] change the max `complexity` to 10
+- [patch] change the `max-statements` config to 20
+
 ## 6.15.0 - 2023-07-28
 
 - [deps] update `eslint` to version `8.46.0`

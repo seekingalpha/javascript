@@ -1,5 +1,3 @@
-const config = require('../config');
-
 // https://github.com/benmosher/eslint-plugin-import#style-guide
 module.exports = {
   rules: {
@@ -47,13 +45,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
-    'import/max-dependencies': [
-      'error',
-      {
-        ignoreTypeImports: true,
-        max: config.importMaxDependenciesMax,
-      },
-    ],
+    'import/max-dependencies': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
     'import/no-unassigned-import': 'error',

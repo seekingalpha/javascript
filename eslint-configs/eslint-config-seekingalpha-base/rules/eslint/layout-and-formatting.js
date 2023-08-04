@@ -244,7 +244,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': ['error', 'never'],
+    'multiline-ternary': 'off',
 
     // https://eslint.org/docs/rules/new-parens
     'new-parens': 'error',
@@ -359,7 +359,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/operator-linebreak
-    'operator-linebreak': ['error', 'none'],
+    'operator-linebreak': 'off',
 
     // https://eslint.org/docs/rules/padded-blocks
     'padded-blocks': [
