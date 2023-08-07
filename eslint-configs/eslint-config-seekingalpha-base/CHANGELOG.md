@@ -1,5 +1,10 @@
 # Change Log
 
+## 6.17.0 - 2023-08-07
+
+- [patch] enable the `operator-linebreak` rule with new config
+- [patch] allow template literals in the `quotes` rule
+
 ## 6.16.0 - 2023-08-04
 
 - [patch] disable the `multiline-ternary` rule

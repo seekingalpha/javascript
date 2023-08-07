@@ -359,7 +359,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/operator-linebreak
-    'operator-linebreak': 'off',
+    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
 
     // https://eslint.org/docs/rules/padded-blocks
     'padded-blocks': [
@@ -413,7 +413,7 @@ module.exports = {
       'single',
       {
         avoidEscape: true,
-        allowTemplateLiterals: false,
+        allowTemplateLiterals: true,
       },
     ],
 
