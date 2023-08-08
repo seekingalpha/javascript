@@ -324,10 +324,7 @@ module.exports = {
       'error',
       {
         // These numbers are used in simple cases, we can exclude them
-        ignore: [
-          // eslint-disable-next-line no-magic-numbers
-          -1, 0, 1,
-        ],
+        ignore: [-1, 0, 1],
         ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: false,
