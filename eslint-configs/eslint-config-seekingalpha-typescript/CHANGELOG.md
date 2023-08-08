@@ -1,8 +1,12 @@
 # Change Log
 
-## 3.7.0 - 2023-08-08
+## 3.8.0 - 2023-08-08
 
 - [patch] allow template literals in the `quotes` rule
+
+## 3.7.0 - 2023-08-08
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.3.0`
 
 ## 3.6.0 - 2023-08-01
 
