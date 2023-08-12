@@ -4,17 +4,14 @@ module.exports = {
   rules: {
     // Testing Library Plugin https://github.com/testing-library/eslint-plugin-testing-library
 
-    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-async-query.md
-    'testing-library/await-async-query': 'error',
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-async-queries.md
+    'testing-library/await-async-queries': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-async-utils.md
     'testing-library/await-async-utils': 'error',
 
-    /*
-     * ONLY relevant for Vue
-     * https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-fire-event.md
-     */
-    'testing-library/await-fire-event': 'off',
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/await-fire-event.md
+    'testing-library/await-async-events': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/consistent-data-testid.md
     'testing-library/consistent-data-testid': 'off',
@@ -27,8 +24,8 @@ module.exports = {
       },
     ],
 
-    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-query.md
-    'testing-library/no-await-sync-query': 'error',
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-await-sync-queries.md
+    'testing-library/no-await-sync-queries': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-container.md
     'testing-library/no-container': 'error',
@@ -51,8 +48,8 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-promise-in-fire-event.md
     'testing-library/no-promise-in-fire-event': 'error',
 
-    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-render-in-setup.md
-    'testing-library/no-render-in-setup': 'error',
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-render-in-lifecycle.md
+    'testing-library/no-render-in-lifecycle': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-unnecessary-act.md
     'testing-library/no-unnecessary-act': 'error',
@@ -83,9 +80,6 @@ module.exports = {
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-screen-queries.md
     'testing-library/prefer-screen-queries': 'error',
-
-    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-wait-for.md
-    'testing-library/prefer-wait-for': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/render-result-naming-convention.md
     'testing-library/render-result-naming-convention': 'error',

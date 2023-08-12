@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.74.0 - 2023-08-12
+
+- [deps] upgrade `eslint` to version `8.47.0`
+- [deps] upgrade `eslint-plugin-testing-library` to version `6.0.0`
+
 ## 1.73.0 - 2023-08-06
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `5.11.1`
