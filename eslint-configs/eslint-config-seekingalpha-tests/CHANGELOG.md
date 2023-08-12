@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.74.1 - 2023-08-12
+
+- [breaking] removed deprecated `testing-library/no-wait-for-empty-callback` rule
+
 ## 1.74.0 - 2023-08-12
 
 - [deps] upgrade `eslint` to version `8.47.0`

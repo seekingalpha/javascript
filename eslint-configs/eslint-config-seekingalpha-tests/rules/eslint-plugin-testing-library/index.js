@@ -54,9 +54,6 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-unnecessary-act.md
     'testing-library/no-unnecessary-act': 'error',
 
-    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-empty-callback.md
-    'testing-library/no-wait-for-empty-callback': 'error',
-
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-wait-for-multiple-assertions.md
     'testing-library/no-wait-for-multiple-assertions': 'error',
 
