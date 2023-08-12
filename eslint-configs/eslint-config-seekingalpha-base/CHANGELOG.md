@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.18.0 - 2023-08-12
+
+- [deps] update `eslint` to version `8.47.0`
+
 ## 6.17.0 - 2023-08-07
 
 - [patch] enable the `operator-linebreak` rule with new config

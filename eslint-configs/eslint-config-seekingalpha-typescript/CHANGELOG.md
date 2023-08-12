@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.9.0 - 2023-08-12
+
+- [deps] upgrade `eslint` to version `8.47.0`
+
 ## 3.8.0 - 2023-08-08
 
 - [patch] allow template literals in the `quotes` rule
@@ -14,7 +18,7 @@
 
 ## 3.5.0 - 2023-07-28
 
-- [deps] upgrade `eslint` to version `8.45.0`
+- [deps] upgrade `eslint` to version `8.46.0`
 
 ## 3.4.0 - 2023-07-25
 
