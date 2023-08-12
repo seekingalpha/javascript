@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.14.0 - 2023-08-12
+
+- [deps] upgrade `eslint` to version `8.47.0`
+
 ## 7.13.0 - 2023-08-04
 
 - [patch] delete `style` and `name` from forbidden dom props
