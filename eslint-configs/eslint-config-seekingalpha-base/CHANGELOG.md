@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.20.0 - 2023-08-27
+
+- [deps] update `eslint` to version `8.48.0`
+
 ## 6.19.0 - 2023-08-20
 
 - [deps] update `eslint-plugin-import` to version `2.28.1`
