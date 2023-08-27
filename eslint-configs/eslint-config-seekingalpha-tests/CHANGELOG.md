@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.75.0 - 2023-08-27
+
+- [deps] upgrade `eslint` to version `8.48.0`
+- [deps] upgrade `eslint-plugin-testing-library` to version `6.0.1`
+
 ## 1.74.1 - 2023-08-12
 
 - [breaking] removed deprecated `testing-library/no-wait-for-empty-callback` rule
