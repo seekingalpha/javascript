@@ -44,6 +44,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-conditional-in-test.md
     'jest/no-conditional-in-test': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-confusing-set-timeout.md
+    'jest/no-confusing-set-timeout': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
     'jest/no-deprecated-functions': 'error',
 

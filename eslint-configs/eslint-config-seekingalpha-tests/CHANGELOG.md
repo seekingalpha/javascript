@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.77.0 - 2023-09-18
+
+- [deps] upgrade `eslint-plugin-jest` to version `27.4.0`
+- [breaking] enable `jest/no-confusing-set-timeout` rule
+
 ## 1.76.0 - 2023-09-11
 
 - [deps] upgrade `eslint` to version `8.49.0`
