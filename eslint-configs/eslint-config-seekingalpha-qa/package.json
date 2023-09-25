@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "eslint": "8.50.0",
-    "eslint-find-rules": "4..0",
+    "eslint-find-rules": "4.1.0",
     "eslint-plugin-mocha": "10.2.0"
   }
 }
