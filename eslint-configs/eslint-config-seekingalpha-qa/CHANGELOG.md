@@ -2,7 +2,7 @@
 
 ## 4.49.0 - 2023-09-25
 
-- [deps] update `eslint` to version `8.49.0`
+- [deps] update `eslint` to version `8.50.0`
 - [deps] update `eslint-plugin-mocha` to version `10.2.0`
 
 ## 4.48.0 - 2023-09-11
