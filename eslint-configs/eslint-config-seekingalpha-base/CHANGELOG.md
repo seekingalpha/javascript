@@ -1,5 +1,11 @@
 # Change Log
 
+## 6.23.0 - 2023-09-25
+
+- [deps] update `eslint` to version `8.50.0`
+- [patch] remove deprecated `no-new-object` rule
+- [breaking] enable `no-object-constructor` rule
+
 ## 6.22.0 - 2023-09-13
 
 - [deps] update `eslint-plugin-array-func` to version `4.0.8`

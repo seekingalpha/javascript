@@ -364,14 +364,14 @@ module.exports = {
     // https://eslint.org/docs/rules/no-new-func
     'no-new-func': 'error',
 
-    // https://eslint.org/docs/rules/no-new-object
-    'no-new-object': 'error',
-
     // https://eslint.org/docs/rules/no-new-wrappers
     'no-new-wrappers': 'error',
 
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 'error',
+
+    // https://eslint.org/docs/latest/rules/no-object-constructor
+    'no-object-constructor': 'error',
 
     // https://eslint.org/docs/rules/no-octal
     'no-octal': 'error',
