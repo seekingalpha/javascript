@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.18.1 - 2023-10-08
+
+- [deps] fixed peerDependencies
+
 ## 3.18.0 - 2023-10-08
 
 - [deps] upgrade `eslint` to version `8.51.0`
