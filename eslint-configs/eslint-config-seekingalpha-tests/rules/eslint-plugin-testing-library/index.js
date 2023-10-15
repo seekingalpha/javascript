@@ -69,6 +69,9 @@ module.exports = {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-find-by.md
     'testing-library/prefer-find-by': 'error',
 
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-implicit-assert.md
+    'testing-library/prefer-implicit-assert': 'off',
+
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-presence-queries.md
     'testing-library/prefer-presence-queries': 'error',
 
