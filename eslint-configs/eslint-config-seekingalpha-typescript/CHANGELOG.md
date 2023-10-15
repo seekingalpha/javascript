@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.19.1 - 2023-10-15
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.7.5`
+
 ## 3.18.1 - 2023-10-08
 
 - [deps] fixed peerDependencies
