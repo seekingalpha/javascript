@@ -77,6 +77,11 @@ module.exports = {
 
     'padding-line-between-statements': 'off',
 
+    /*
+     * Requires TS
+     * 'prefer-destructuring': 'off',
+     */
+
     quotes: 'off',
 
     /*
