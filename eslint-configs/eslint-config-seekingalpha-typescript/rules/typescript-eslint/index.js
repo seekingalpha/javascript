@@ -85,6 +85,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/prefer-nullish-coalescing': 'off',
 
+  '@typescript-eslint/prefer-destructuring': 'off',
+
   '@typescript-eslint/prefer-readonly-parameter-types': 'off',
 
   '@typescript-eslint/require-array-sort-compare': 'off',
