@@ -2,7 +2,7 @@
 
 ## 3.21.0 - 2023-10-22
 
-- [deps] upgrade `eslint` to version `8.51.0`
+- [deps] upgrade `eslint` to version `8.52.0`
 
 ## 3.20.0 - 2023-10-19
 
