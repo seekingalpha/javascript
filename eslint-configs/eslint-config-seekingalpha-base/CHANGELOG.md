@@ -2,6 +2,10 @@
 
 ## 6.25.0 - 2023-10-22
 
+- [deps] update `eslint-plugin-import` to version `2.29.0`
+
+## 6.25.0 - 2023-10-22
+
 - [deps] update `eslint` to version `8.52.0`
 
 ## 6.24.0 - 2023-10-08
