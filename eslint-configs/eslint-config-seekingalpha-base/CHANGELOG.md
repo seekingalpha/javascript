@@ -1,6 +1,6 @@
 # Change Log
 
-## 6.25.0 - 2023-10-22
+## 6.26.0 - 2023-10-23
 
 - [deps] update `eslint-plugin-import` to version `2.29.0`
 
