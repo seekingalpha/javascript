@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-base",
-  "version": "6.26.0",
+  "version": "6.27.0",
   "description": "SeekingAlpha's sharable base ESLint config",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/seekingalpha/javascript#readme",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20"
   },
   "peerDependencies": {
     "eslint": "8.52.0",
