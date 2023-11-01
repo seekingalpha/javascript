@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.28.0 - 2023-11-01
+
+- [deps] update `eslint-plugin-unicorn` to version `49.0.0`
+
 ## 6.26.0 - 2023-10-23
 
 - [deps] update `eslint-plugin-import` to version `2.29.0`
