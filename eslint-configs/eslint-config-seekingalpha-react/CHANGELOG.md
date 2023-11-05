@@ -1,5 +1,10 @@
 # Change Log
 
+## 7.21.0 - 2023-11-05
+
+- [deps] upgrade `eslint` to version `8.53.0`
+- [deps] upgrade `eslint-plugin-jsx-a11y` to version `6.8.0`
+
 ## 7.20.0 - 2023-10-22
 
 - [deps] upgrade `eslint` to version `8.52.0`

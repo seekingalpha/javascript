@@ -211,15 +211,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-case-declarations
     'no-case-declarations': 'error',
 
-    // https://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': [
-      'error',
-      {
-        allowParens: false,
-        onlyOneSimpleParam: false,
-      },
-    ],
-
     // https://eslint.org/docs/rules/no-console
     'no-console': 'error',
 
@@ -272,12 +263,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-extra-label
     'no-extra-label': 'error',
 
-    // https://eslint.org/docs/rules/no-extra-semi
-    'no-extra-semi': 'error',
-
-    // https://eslint.org/docs/rules/no-floating-decimal
-    'no-floating-decimal': 'error',
-
     // https://eslint.org/docs/rules/no-global-assign
     'no-global-assign': [
       'error',
@@ -328,21 +313,6 @@ module.exports = {
         ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: false,
-      },
-    ],
-
-    // https://eslint.org/docs/rules/no-mixed-operators
-    'no-mixed-operators': [
-      'error',
-      {
-        groups: [
-          ['+', '-', '*', '/', '%', '**'],
-          ['&', '|', '^', '~', '<<', '>>', '>>>'],
-          ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
-          ['&&', '||'],
-          ['in', 'instanceof'],
-        ],
-        allowSamePrecedence: true,
       },
     ],
 
@@ -609,9 +579,6 @@ module.exports = {
     // https://eslint.org/docs/rules/one-var
     'one-var': ['error', 'never'],
 
-    // https://eslint.org/docs/rules/one-var-declaration-per-line
-    'one-var-declaration-per-line': ['error', 'initializations'],
-
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': ['error', 'never'],
 
@@ -689,17 +656,6 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
 
-    // https://eslint.org/docs/rules/quote-props.html
-    'quote-props': [
-      'error',
-      'as-needed',
-      {
-        keywords: false,
-        unnecessary: true,
-        numbers: false,
-      },
-    ],
-
     // https://eslint.org/docs/rules/radix
     radix: 'error',
 
@@ -732,9 +688,6 @@ module.exports = {
         ignoreCase: true,
       },
     ],
-
-    // https://eslint.org/docs/rules/spaced-comment
-    'spaced-comment': ['error', 'always'],
 
     // https://eslint.org/docs/rules/strict
     strict: ['error', 'never'],

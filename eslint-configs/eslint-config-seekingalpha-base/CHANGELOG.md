@@ -1,5 +1,10 @@
 # Change Log
 
+## 7.0.0 - 2023-11-05
+
+- [deps] update `eslint` to version `8.53.0`
+- [breaking] migrate to `@stylistic/eslint-plugin-js`
+
 ## 6.28.0 - 2023-11-01
 
 - [deps] update `eslint-plugin-unicorn` to version `49.0.0`

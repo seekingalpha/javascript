@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-tests",
-  "version": "1.83.0",
+  "version": "1.84.0",
   "description": "SeekingAlpha's sharable testing ESLint config",
   "main": "index.js",
   "scripts": {
@@ -38,12 +38,12 @@
     "node": ">= 18"
   },
   "peerDependencies": {
-    "eslint": "8.52.0",
+    "eslint": "8.53.0",
     "eslint-plugin-jest": "27.6.0",
     "eslint-plugin-testing-library": "6.1.0"
   },
   "devDependencies": {
-    "eslint": "8.52.0",
+    "eslint": "8.53.0",
     "eslint-find-rules": "4.1.0",
     "eslint-plugin-jest": "27.6.0",
     "eslint-plugin-testing-library": "6.1.0"

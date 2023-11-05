@@ -6,13 +6,13 @@ module.exports = {
      */
     'no-undef': 'off',
 
-    'block-spacing': 'off',
+    '@stylistic/js/block-spacing': 'off',
 
-    'brace-style': 'off',
+    '@stylistic/js/brace-style': 'off',
 
-    'comma-dangle': 'off',
+    '@stylistic/js/comma-dangle': 'off',
 
-    'comma-spacing': 'off',
+    '@stylistic/js/comma-spacing': 'off',
 
     'class-methods-use-this': 'off',
 
@@ -23,17 +23,17 @@ module.exports = {
      * 'dot-notation': 'off',
      */
 
-    'func-call-spacing': 'off',
+    '@stylistic/js/func-call-spacing': 'off',
 
-    indent: 'off',
+    '@stylistic/js/indent': 'off',
 
     'init-declarations': 'off',
 
-    'keyword-spacing': 'off',
+    '@stylistic/js/keyword-spacing': 'off',
 
-    'lines-around-comment': 'off',
+    '@stylistic/js/lines-around-comment': 'off',
 
-    'lines-between-class-members': 'off',
+    '@stylistic/js/lines-between-class-members': 'off',
 
     'no-array-constructor': 'off',
 
@@ -41,7 +41,7 @@ module.exports = {
 
     'no-empty-function': 'off',
 
-    'no-extra-semi': 'off',
+    '@stylistic/js/no-extra-semi': 'off',
 
     /*
      * Requires TS
@@ -73,34 +73,34 @@ module.exports = {
 
     'no-useless-constructor': 'off',
 
-    'object-curly-spacing': 'off',
+    '@stylistic/js/object-curly-spacing': 'off',
 
-    'padding-line-between-statements': 'off',
+    '@stylistic/js/padding-line-between-statements': 'off',
 
     /*
      * Requires TS
      * 'prefer-destructuring': 'off',
      */
 
-    quotes: 'off',
+    '@stylistic/js/quotes': 'off',
 
     /*
      * Requires TS
      * 'require-await': 'off',
      */
 
-    semi: 'off',
+    '@stylistic/js/semi': 'off',
 
-    'space-before-blocks': 'off',
+    '@stylistic/js/space-before-blocks': 'off',
 
-    'space-before-function-paren': 'off',
+    '@stylistic/js/space-before-function-paren': 'off',
 
-    'space-infix-ops': 'off',
+    '@stylistic/js/space-infix-ops': 'off',
 
-    'no-extra-parens': 'off',
+    '@stylistic/js/no-extra-parens': 'off',
 
     'no-invalid-this': 'off',
 
-    'key-spacing': 'off',
+    '@stylistic/js/key-spacing': 'off',
   },
 };

@@ -19,6 +19,5 @@ module.exports = {
     '@typescript-eslint/space-before-function-paren': 'off',
     '@typescript-eslint/space-infix-ops': 'off',
     '@typescript-eslint/type-annotation-spacing': 'off',
-    'babel/object-curly-spacing': 'off',
   },
 };
