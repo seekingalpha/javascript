@@ -56,10 +56,10 @@ module.exports = {
     '@stylistic/js/switch-colon-spacing': 'off',
     '@stylistic/js/template-curly-spacing': 'off',
     '@stylistic/js/template-tag-spacing': 'off',
-    'unicode-bom': 'off',
     '@stylistic/js/wrap-iife': 'off',
     '@stylistic/js/wrap-regex': 'off',
     '@stylistic/js/yield-star-spacing': 'off',
+    'unicode-bom': 'off',
 
     // Might be enabled
     '@stylistic/js/lines-around-comment': 'off',
