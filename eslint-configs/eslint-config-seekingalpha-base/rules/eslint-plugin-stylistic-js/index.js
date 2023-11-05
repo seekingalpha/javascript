@@ -281,7 +281,7 @@ module.exports = {
     '@stylistic/js/no-floating-decimal': 'error',
 
     // https://eslint.style/rules/js/no-mixed-operators
-    '@stylistic/no-mixed-operators': [
+    '@stylistic/js/no-mixed-operators': [
       'error',
       {
         groups: [
