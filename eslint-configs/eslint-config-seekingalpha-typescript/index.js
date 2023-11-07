@@ -4,6 +4,9 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint
     './rules/typescript-eslint/index.js',
+
+    // https://eslint.style/packages/ts
+    './rules/eslint-plugin-stylistic-ts/index.js',
   ],
 
   parserOptions: {
