@@ -6,7 +6,7 @@ module.exports = {
     '@stylistic/ts/brace-style': 'off',
     '@stylistic/ts/comma-dangle': 'off',
     '@stylistic/ts/comma-spacing': 'off',
-    '@stylistic/ts/func-call-spacing': 'off',
+    '@stylistic/ts/function-call-spacing': 'off',
     '@stylistic/ts/indent': 'off',
     '@stylistic/ts/key-spacing': 'off',
     '@stylistic/ts/keyword-spacing': 'off',

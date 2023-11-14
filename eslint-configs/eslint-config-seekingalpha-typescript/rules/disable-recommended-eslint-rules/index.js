@@ -23,7 +23,7 @@ module.exports = {
      * 'dot-notation': 'off',
      */
 
-    '@stylistic/js/func-call-spacing': 'off',
+    '@stylistic/js/function-call-spacing': 'off',
 
     '@stylistic/js/indent': 'off',
 

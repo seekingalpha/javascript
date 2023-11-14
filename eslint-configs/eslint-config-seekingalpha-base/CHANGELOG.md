@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.2.0 - 2023-11-14
+
+- [deps] update `@stylistic/eslint-plugin-js` to version `1.2.0`
+
 ## 7.1.0 - 2023-11-12
 
 - [deps] update `@stylistic/eslint-plugin-js` to version `1.1.0`

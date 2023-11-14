@@ -35,6 +35,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-unnecessary-type-assertion': 'off',
 
+  '@typescript-eslint/no-unsafe-unary-minus': 'off',
+
   '@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
   '@typescript-eslint/prefer-includes': 'off',
