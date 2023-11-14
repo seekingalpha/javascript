@@ -15,7 +15,7 @@ module.exports = {
     '@stylistic/js/computed-property-spacing': 'off',
     '@stylistic/js/dot-location': 'off',
     '@stylistic/js/eol-last': 'off',
-    '@stylistic/js/func-call-spacing': 'off',
+    '@stylistic/js/function-call-spacing': 'off',
     '@stylistic/js/function-call-argument-newline': 'off',
     '@stylistic/js/function-paren-newline': 'off',
     '@stylistic/js/generator-star-spacing': 'off',

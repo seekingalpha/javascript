@@ -90,8 +90,8 @@ module.exports = {
     // https://eslint.style/rules/js/eol-last
     '@stylistic/js/eol-last': ['error', 'always'],
 
-    // https://eslint.style/rules/js/func-call-spacing
-    '@stylistic/js/func-call-spacing': ['error', 'never'],
+    // https://eslint.style/rules/js/function-call-spacing
+    '@stylistic/js/function-call-spacing': ['error', 'never'],
 
     /*
      * TODO Enable when fixed for arrow functions

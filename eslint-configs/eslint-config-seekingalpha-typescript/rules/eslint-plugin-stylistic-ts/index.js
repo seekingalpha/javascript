@@ -39,8 +39,8 @@ module.exports = {
       },
     ],
 
-    // https://eslint.style/rules/ts/func-call-spacing
-    '@stylistic/ts/func-call-spacing': ['error', 'never'],
+    // https://eslint.style/rules/ts/function-call-spacing
+    '@stylistic/ts/function-call-spacing': ['error', 'never'],
 
     // https://eslint.style/rules/ts/indent
     '@stylistic/ts/indent': [
