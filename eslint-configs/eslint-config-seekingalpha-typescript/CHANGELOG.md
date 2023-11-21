@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.5.0 - 2023-11-21
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.12.0`
+
 ## 4.4.0 - 2023-11-19
 
 - [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.4.0`
