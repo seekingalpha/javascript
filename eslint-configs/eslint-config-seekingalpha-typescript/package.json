@@ -39,11 +39,13 @@
   "peerDependencies": {
     "@stylistic/eslint-plugin-ts": "1.4.1",
     "@typescript-eslint/eslint-plugin": "6.13.0",
+    "@typescript-eslint/parser": "6.13.0",
     "eslint": "8.54.0"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin-ts": "1.4.1",
     "@typescript-eslint/eslint-plugin": "6.13.0",
+    "@typescript-eslint/parser": "6.13.0",
     "eslint": "8.54.0",
     "eslint-find-rules": "4.1.0"
   }
