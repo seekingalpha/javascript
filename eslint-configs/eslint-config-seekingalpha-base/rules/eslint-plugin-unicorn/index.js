@@ -154,6 +154,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
     'unicorn/no-unnecessary-await': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
+    'unicorn/no-unnecessary-polyfills': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md
     'unicorn/no-unreadable-array-destructuring': 'error',
 
