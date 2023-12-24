@@ -4,7 +4,6 @@
 
 - [deps] update `eslint-plugin-unicorn` to version `50.0.1`
 - [breaking] enable `unicorn/no-unnecessary-polyfills` rule
--
 
 ## 7.9.0 - 2023-12-16
 
