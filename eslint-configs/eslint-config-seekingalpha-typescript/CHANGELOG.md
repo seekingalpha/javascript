@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.15.0 - 2024-01-04
+
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.5.3`
+-
+
 ## 4.14.0 - 2024-01-02
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.17.0`
@@ -21,13 +26,13 @@
 
 ## 4.10.0 - 2023-12-12
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.5.1`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.5.1`
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.14.0`
 - [deps] upgrade `@typescript-eslint/parser` to version `6.14.0`
 
 ## 4.9.0 - 2023-12-07
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.5.0`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.5.0`
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.13.2`
 - [deps] upgrade `@typescript-eslint/parser` to version `6.13.2`
 
@@ -43,7 +48,7 @@
 
 ## 4.6.0 - 2023-11-26
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.4.1`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.4.1`
 
 ## 4.5.0 - 2023-11-21
 
@@ -51,26 +56,26 @@
 
 ## 4.4.0 - 2023-11-19
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.4.0`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.4.0`
 
 ## 4.3.0 - 2023-11-18
 
 - [deps] upgrade `eslint` to version `8.54.0`
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.3.3`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.3.3`
 
 ## 4.2.0 - 2023-11-14
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.2.0`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.2.0`
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.11.0`
 
 ## 4.1.0 - 2023-11-12
 
-- [deps] upgrade `@stylistic/eslint-plugin-js` to version `1.1.0`
+- [deps] upgrade `@stylistic/eslint-plugin-ts` to version `1.1.0`
 
 ## 4.0.0 - 2023-11-07
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.10.0`
-- [breaking] migrate to `@stylistic/eslint-plugin-js`
+- [breaking] migrate to `@stylistic/eslint-plugin-ts`
 
 ## 3.24.0 - 2023-11-05
 
