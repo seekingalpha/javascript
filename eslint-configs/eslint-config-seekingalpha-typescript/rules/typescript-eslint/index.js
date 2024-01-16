@@ -15,6 +15,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/naming-convention': 'off',
 
+  '@typescript-eslint/no-array-delete': 'off',
+
   '@typescript-eslint/no-base-to-string': 'off',
 
   '@typescript-eslint/no-duplicate-type-constituents': 'off',
@@ -44,6 +46,8 @@ const rulesRunTs = {
   '@typescript-eslint/prefer-includes': 'off',
 
   '@typescript-eslint/prefer-optional-chain': 'off',
+
+  '@typescript-eslint/prefer-promise-reject-errors': 'off',
 
   '@typescript-eslint/prefer-readonly': 'off',
 
