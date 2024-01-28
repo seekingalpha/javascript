@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.12.0 - 2024-01-28
+
+- [deps] update `@stylistic/eslint-plugin-js` to version `1.5.4`
+
 ## 7.11.0 - 2024-01-04
 
 - [deps] update `@stylistic/eslint-plugin-js` to version `1.5.3`
