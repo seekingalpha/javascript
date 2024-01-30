@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.20.0 - 2024-01-30
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.20.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `6.20.0`
+
 ## 4.19.0 - 2024-01-28
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `6.19.1`

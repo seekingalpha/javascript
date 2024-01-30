@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "5.37.9",
+  "version": "5.37.10",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "type": "module",
@@ -10,8 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js .",
-    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
-    "prettier:check": "prettier --no-editorconfig --check ."
+    "prepare": "node .husky/install.js",
+    "prettier:check": "prettier --no-editorconfig --check .",
+    "prettier:write": "prettier --no-editorconfig --write ."
   },
   "repository": {
     "type": "git",
@@ -45,9 +46,9 @@
   },
   "devDependencies": {
     "@seekingalpha/prettier-config-samw": "1.2.0",
-    "@stylistic/eslint-plugin-js": "1.5.3",
+    "@stylistic/eslint-plugin-js": "1.5.4",
     "eslint": "8.56.0",
-    "eslint-config-seekingalpha-base": "7.11.0",
+    "eslint-config-seekingalpha-base": "7.12.0",
     "eslint-config-seekingalpha-node": "5.53.0",
     "eslint-plugin-array-func": "4.0.0",
     "eslint-plugin-import": "2.29.1",
@@ -55,8 +56,8 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-unicorn": "50.0.1",
-    "husky": "8.0.3",
+    "husky": "9.0.7",
     "lint-staged": "15.2.0",
-    "prettier": "3.2.2"
+    "prettier": "3.2.4"
   }
 }
