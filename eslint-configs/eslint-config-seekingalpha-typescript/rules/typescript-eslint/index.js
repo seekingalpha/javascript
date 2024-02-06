@@ -43,6 +43,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
+  '@typescript-eslint/prefer-find': 'off',
+
   '@typescript-eslint/prefer-includes': 'off',
 
   '@typescript-eslint/prefer-optional-chain': 'off',
