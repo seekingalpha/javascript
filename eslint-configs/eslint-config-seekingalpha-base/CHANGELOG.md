@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.13.1 - 2024-02-06
+
+- [deps] update `eslint-plugin-unicorn` to version `51.0.0`
+
 ## 7.13.0 - 2024-02-06
 
 - [deps] update `@stylistic/eslint-plugin-js` to version `1.5.4`
