@@ -2,6 +2,9 @@ module.exports = {
   plugins: ['mocha'],
 
   rules: {
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/main/docs/rules/consistent-spacing-between-blocks.md
+    'mocha/consistent-spacing-between-blocks': 'error',
+
     // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/handle-done-callback.md
     'mocha/handle-done-callback': 'error',
 

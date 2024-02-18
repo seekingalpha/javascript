@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.56.0 - 2024-02-18
+
+- [deps] update `eslint-plugin-mocha` to version `10.3.0`
+- [breaking] enable `mocha/consistent-spacing-between-blocks` rule
+
 ## 4.55.0 - 2023-12-16
 
 - [deps] update `eslint` to version `8.56.0`
