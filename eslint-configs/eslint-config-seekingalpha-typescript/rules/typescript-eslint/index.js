@@ -11,6 +11,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/await-thenable': 'off',
 
+  '@typescript-eslint/consistent-return': 'off',
+
   '@typescript-eslint/consistent-type-exports': 'off',
 
   '@typescript-eslint/naming-convention': 'off',
