@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "7.25.0",
+  "version": "7.26.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "scripts": {
@@ -51,14 +51,14 @@
   "peerDependencies": {
     "eslint": "8.57.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react": "7.34.0",
     "eslint-plugin-react-hooks": "4.6.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-find-rules": "4.1.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react": "7.34.0",
     "eslint-plugin-react-hooks": "4.6.0"
   }
 }
