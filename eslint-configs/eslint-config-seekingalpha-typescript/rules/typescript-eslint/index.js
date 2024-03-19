@@ -102,6 +102,8 @@ const rulesRunTs = {
   '@typescript-eslint/require-array-sort-compare': 'off',
 
   '@typescript-eslint/restrict-template-expressions': 'off',
+
+  '@typescript-eslint/use-unknown-in-catch-callback-variable': 'off',
 };
 
 module.exports = {
