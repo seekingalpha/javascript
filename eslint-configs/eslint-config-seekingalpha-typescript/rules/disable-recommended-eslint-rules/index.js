@@ -60,11 +60,6 @@ module.exports = {
 
     'no-shadow': 'off',
 
-    /*
-     * Requires TS
-     * 'no-throw-literal': 'off',
-     */
-
     'no-unused-expressions': 'off',
 
     'no-unused-vars': 'off',

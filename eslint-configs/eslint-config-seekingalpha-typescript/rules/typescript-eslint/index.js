@@ -7,8 +7,6 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-implied-eval': 'off',
 
-  '@typescript-eslint/no-throw-literal': 'off',
-
   '@typescript-eslint/await-thenable': 'off',
 
   '@typescript-eslint/consistent-return': 'off',
@@ -44,6 +42,8 @@ const rulesRunTs = {
   '@typescript-eslint/no-unsafe-unary-minus': 'off',
 
   '@typescript-eslint/non-nullable-type-assertion-style': 'off',
+
+  '@typescript-eslint/only-throw-error': 'off',
 
   '@typescript-eslint/prefer-find': 'off',
 
