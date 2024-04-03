@@ -57,6 +57,12 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     'unicorn/no-abusive-eslint-disable': 'error',
 
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-anonymous-default-export.md
+     * Duplicates import/no-anonymous-default-export
+     */
+    'unicorn/no-anonymous-default-export': 'off',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-callback-reference.md
     'unicorn/no-array-callback-reference': 'error',
 
@@ -74,6 +80,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
     'unicorn/no-await-expression-member': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-in-promise-methods.md
+    'unicorn/no-await-in-promise-methods': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md
     'unicorn/no-console-spaces': 'error',
@@ -137,7 +146,10 @@ module.exports = {
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
      * Already validated by EsLint node rule
      */
-    'unicorn/no-process-exit': 'error',
+    'unicorn/no-process-exit': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-single-promise-in-promise-methods.md
+    'unicorn/no-single-promise-in-promise-methods': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md
     'unicorn/no-static-only-class': 'error',
