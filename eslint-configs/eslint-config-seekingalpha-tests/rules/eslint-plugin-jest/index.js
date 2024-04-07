@@ -109,6 +109,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
     'jest/no-test-return-statement': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-untyped-mock-factory.md
+    'jest/no-untyped-mock-factory': 'off',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
     'jest/prefer-called-with': 'error',
 
@@ -129,6 +132,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
     'jest/prefer-hooks-on-top': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md
+    'jest/prefer-importing-jest-globals': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-spy-on.md
     'jest/prefer-spy-on': 'error',
