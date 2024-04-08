@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.0.0 - 2024-04-08
+
+- [breaking] remove `@stylistic/eslint-plugin-ts`
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.6.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `7.6.0`
+-
+
 ## 4.35.0 - 2024-04-08
 
 - [breaking] disable `@stylistic/ts/lines-around-comment` for prettier config

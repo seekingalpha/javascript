@@ -6,14 +6,6 @@ module.exports = {
      */
     'no-undef': 'off',
 
-    '@stylistic/js/block-spacing': 'off',
-
-    '@stylistic/js/brace-style': 'off',
-
-    '@stylistic/js/comma-dangle': 'off',
-
-    '@stylistic/js/comma-spacing': 'off',
-
     'class-methods-use-this': 'off',
 
     'default-param-last': 'off',
@@ -23,25 +15,13 @@ module.exports = {
      * 'dot-notation': 'off',
      */
 
-    '@stylistic/js/function-call-spacing': 'off',
-
-    '@stylistic/js/indent': 'off',
-
     'init-declarations': 'off',
-
-    '@stylistic/js/keyword-spacing': 'off',
-
-    '@stylistic/js/lines-around-comment': 'off',
-
-    '@stylistic/js/lines-between-class-members': 'off',
 
     'no-array-constructor': 'off',
 
     'no-dupe-class-members': 'off',
 
     'no-empty-function': 'off',
-
-    '@stylistic/js/no-extra-semi': 'off',
 
     /*
      * Requires TS
@@ -68,34 +48,16 @@ module.exports = {
 
     'no-useless-constructor': 'off',
 
-    '@stylistic/js/object-curly-spacing': 'off',
-
-    '@stylistic/js/padding-line-between-statements': 'off',
-
     /*
      * Requires TS
      * 'prefer-destructuring': 'off',
      */
-
-    '@stylistic/js/quotes': 'off',
 
     /*
      * Requires TS
      * 'require-await': 'off',
      */
 
-    '@stylistic/js/semi': 'off',
-
-    '@stylistic/js/space-before-blocks': 'off',
-
-    '@stylistic/js/space-before-function-paren': 'off',
-
-    '@stylistic/js/space-infix-ops': 'off',
-
-    '@stylistic/js/no-extra-parens': 'off',
-
     'no-invalid-this': 'off',
-
-    '@stylistic/js/key-spacing': 'off',
   },
 };
