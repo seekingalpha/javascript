@@ -1,11 +1,14 @@
 # Change Log
 
+## 8.0.0 - 2024-04-00
+
+- [breaking] removed `@stylistic/eslint-plugin-js`
+
 ## 7.19.0 - 2024-04-03
 
 - [deps] update `eslint-plugin-unicorn` to version `52.0.0`
 - [breaking] enable `unicorn/no-await-in-promise-methods` rule
 - [breaking] enable `unicorn/no-single-promise-in-promise-methods` rule
--
 
 ## 7.18.0 - 2024-03-17
 
