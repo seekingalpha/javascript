@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-typescript",
-  "version": "4.35.0",
+  "version": "5.0.0",
   "description": "SeekingAlpha's sharable typescript ESLint config",
   "main": "index.js",
   "scripts": {
@@ -37,15 +37,13 @@
     "node": ">= 20"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin-ts": "1.7.0",
-    "@typescript-eslint/eslint-plugin": "7.5.0",
-    "@typescript-eslint/parser": "7.5.0",
+    "@typescript-eslint/eslint-plugin": "7.6.0",
+    "@typescript-eslint/parser": "7.6.0",
     "eslint": "8.57.0"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin-ts": "1.7.0",
-    "@typescript-eslint/eslint-plugin": "7.5.0",
-    "@typescript-eslint/parser": "7.5.0",
+    "@typescript-eslint/eslint-plugin": "7.6.0",
+    "@typescript-eslint/parser": "7.6.0",
     "eslint": "8.57.0",
     "eslint-find-rules": "4.1.0"
   }

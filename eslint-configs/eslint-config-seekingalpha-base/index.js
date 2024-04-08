@@ -3,9 +3,6 @@ module.exports = {
     // ESLint rules (https://eslint.org/docs/rules/)
     './rules/eslint/index.js',
 
-    // ESLint Stylistic Stylistic Formatting https://eslint.style/packages/js
-    './rules/eslint-plugin-stylistic-js/index.js',
-
     // eslint-plugin-import rules (https://github.com/benmosher/eslint-plugin-import)
     './rules/eslint-plugin-import/index.js',
 
