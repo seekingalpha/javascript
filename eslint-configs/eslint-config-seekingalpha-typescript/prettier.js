@@ -8,6 +8,7 @@ module.exports = {
     '@stylistic/ts/comma-spacing': 'off',
     '@stylistic/ts/function-call-spacing': 'off',
     '@stylistic/ts/indent': 'off',
+    '@stylistic/ts/lines-around-comment': 'off',
     '@stylistic/ts/key-spacing': 'off',
     '@stylistic/ts/keyword-spacing': 'off',
     '@stylistic/ts/member-delimiter-style': 'off',
