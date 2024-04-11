@@ -8,7 +8,8 @@ module.exports = {
       {
         propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
         rule: '^(is|has|should)[A-Z]([A-Za-z0-9]?)+',
-        message: 'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})',
+        message:
+          'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})',
       },
     ],
 
@@ -302,7 +303,16 @@ module.exports = {
     'react/sort-comp': [
       'error',
       {
-        order: ['static-methods', 'lifecycle', '/^on.+$/', 'getters', 'setters', 'instance-methods', 'everything-else', 'rendering'],
+        order: [
+          'static-methods',
+          'lifecycle',
+          '/^on.+$/',
+          'getters',
+          'setters',
+          'instance-methods',
+          'everything-else',
+          'rendering',
+        ],
         groups: {
           lifecycle: [
             'displayName',
