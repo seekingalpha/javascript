@@ -437,7 +437,8 @@ module.exports = {
     'no-restricted-syntax': [
       'error',
       {
-        selector: 'CallExpression[callee.name="setTimeout"][arguments.length!=2]',
+        selector:
+          'CallExpression[callee.name="setTimeout"][arguments.length!=2]',
         message: 'setTimeout must always be invoked with two arguments.',
       },
       {
@@ -446,7 +447,8 @@ module.exports = {
       },
       {
         selector: 'LabeledStatement',
-        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
       },
       {
         selector: 'WithStatement',

@@ -1,7 +1,12 @@
 // eslint-plugin-import rules (https://github.com/benmosher/eslint-plugin-import)
 
 module.exports = {
-  extends: ['./helpful-warnings.js', './module-systems.js', './static-analysis.js', './style-guide.js'],
+  extends: [
+    './helpful-warnings.js',
+    './module-systems.js',
+    './static-analysis.js',
+    './style-guide.js',
+  ],
 
   plugins: ['import'],
 

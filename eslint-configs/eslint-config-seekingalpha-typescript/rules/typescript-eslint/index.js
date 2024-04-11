@@ -124,7 +124,10 @@ module.exports = {
 
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
-    '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
+    '@typescript-eslint/consistent-generic-constructors': [
+      'error',
+      'constructor',
+    ],
 
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
 
