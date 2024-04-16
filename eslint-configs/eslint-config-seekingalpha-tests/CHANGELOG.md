@@ -2,7 +2,7 @@
 
 ## 1.96.0 - 2024-04-16
 
-- [deps] upgrade `eslint-plugin-jest` to version `28.2.2`
+- [deps] upgrade `eslint-plugin-testing-library` to version `6.2.2`
 
 ## 1.95.0 - 2024-04-07
 
