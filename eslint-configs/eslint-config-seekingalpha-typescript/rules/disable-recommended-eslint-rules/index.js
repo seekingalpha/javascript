@@ -17,6 +17,8 @@ module.exports = {
 
     'init-declarations': 'off',
 
+    'max-params': 'off',
+
     'no-array-constructor': 'off',
 
     'no-dupe-class-members': 'off',

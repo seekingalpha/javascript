@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.1.0 - 2024-04-16
+
+- [breaking] enable `@typescript-eslint/max-params` rule
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.7.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `7.7.0`
+
 ## 5.0.0 - 2024-04-08
 
 - [breaking] remove `@stylistic/eslint-plugin-ts`
