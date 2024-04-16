@@ -1,3 +1,5 @@
+const config = require('../config');
+
 const rulesRunTs = {
   '@typescript-eslint/require-await': 'off',
 
@@ -152,6 +154,8 @@ module.exports = {
     '@typescript-eslint/default-param-last': 'error',
 
     '@typescript-eslint/init-declarations': ['off', 'always'],
+
+    '@typescript-eslint/max-params': ['error', { max: config.maxParams }],
 
     '@typescript-eslint/member-ordering': 'error',
 
