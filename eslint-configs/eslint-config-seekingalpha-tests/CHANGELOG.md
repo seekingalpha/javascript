@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.97.0 - 2024-04-17
+
+- [deps] upgrade `eslint-plugin-jest` to version `28.3.0`
+- [breaking] enable `jest/prefer-importing-jest-globals` rule
+
 ## 1.96.0 - 2024-04-16
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `6.2.2`

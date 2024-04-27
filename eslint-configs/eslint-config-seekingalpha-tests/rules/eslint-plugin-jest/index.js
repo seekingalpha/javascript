@@ -134,7 +134,7 @@ module.exports = {
     'jest/prefer-hooks-on-top': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md
-    'jest/prefer-importing-jest-globals': 'off',
+    'jest/prefer-importing-jest-globals': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-spy-on.md
     'jest/prefer-spy-on': 'error',
