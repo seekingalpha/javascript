@@ -1,6 +1,15 @@
 # Change Log
 
-## 8.0.0 - 2024-04-00
+## 8.1.0 - 2024-05-12
+
+- [deps] update `eslint-plugin-unicorn` to version `53.0.0`
+- [breaking] enable `unicorn/consistent-empty-array-spread` rule
+- [breaking] enable `unicorn/no-invalid-fetch-options` rule
+- [breaking] enable `unicorn/no-magic-array-flat-depth` rule
+- [breaking] enable `unicorn/prefer-string-raw` rule
+- [breaking] enable `unicorn/prefer-structured-clone` rule
+
+## 8.0.0 - 2024-04-08
 
 - [breaking] removed `@stylistic/eslint-plugin-js`
 
