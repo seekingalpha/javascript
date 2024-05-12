@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.2.0 - 2024-05-12
+
+- [breaking] enable `logical-assignment-operators` rule
+
 ## 8.1.0 - 2024-05-12
 
 - [deps] update `eslint-plugin-unicorn` to version `53.0.0`
