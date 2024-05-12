@@ -145,6 +145,9 @@ module.exports = {
     // https://eslint.org/docs/rules/init-declarations
     'init-declarations': ['off', 'always'],
 
+    // https://eslint.org/docs/latest/rules/logical-assignment-operators
+    'logical-assignment-operators': ['error', 'always'],
+
     // https://eslint.org/docs/rules/max-classes-per-file
     'max-classes-per-file': ['error', config.maxClassesPerFile],
 
