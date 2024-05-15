@@ -9,9 +9,6 @@ module.exports = {
     // eslint-plugin-array-func rules (https://github.com/freaktechnik/eslint-plugin-array-func)
     './rules/eslint-plugin-array-func/index.js',
 
-    // eslint-plugin-no-use-extend-native rules (https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
-    './rules/eslint-plugin-no-use-extend-native/index.js',
-
     // eslint-plugin-promise rules (https://github.com/xjamundx/eslint-plugin-promise)
     './rules/eslint-plugin-promise/index.js',
 
