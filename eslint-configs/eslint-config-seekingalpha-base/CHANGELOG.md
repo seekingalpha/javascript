@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.3.0 - 2024-05-15
+
+- [deps] removed `eslint-plugin-no-use-extend-native`
+
 ## 8.2.0 - 2024-05-12
 
 - [breaking] enable `logical-assignment-operators` rule
