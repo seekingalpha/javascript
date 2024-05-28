@@ -290,8 +290,6 @@ module.exports = {
 
     '@typescript-eslint/prefer-namespace-keyword': 'error',
 
-    '@typescript-eslint/prefer-ts-expect-error': 'error',
-
     '@typescript-eslint/sort-type-constituents': 'error',
 
     '@typescript-eslint/triple-slash-reference': 'error',
