@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.4.0 - 2024-05-28
+
+- [deps] update `eslint-plugin-promise` to version `6.2.0`
+
 ## 8.3.1 - 2024-05-15
 
 - [deps] removed `eslint-plugin-no-use-extend-native`
