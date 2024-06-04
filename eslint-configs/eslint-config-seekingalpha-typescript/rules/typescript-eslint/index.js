@@ -31,7 +31,7 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-meaningless-void-operator': 'off',
 
-  '@typescript-eslint/no-useless-template-literals': 'off',
+  '@typescript-eslint/no-unnecessary-template-expression': 'off',
 
   '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
 

@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "5.38.24",
+  "version": "5.38.25",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "type": "module",

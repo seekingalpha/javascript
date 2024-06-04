@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.7.0 - 2024-06-04
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.12.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `7.12.0`
+
 ## 5.6.0 - 2024-05-28
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.11.0`
