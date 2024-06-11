@@ -136,6 +136,9 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md
     'jest/prefer-importing-jest-globals': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-jest-mocked.md
+    'jest/prefer-jest-mocked': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-spy-on.md
     'jest/prefer-spy-on': 'error',
 
@@ -153,6 +156,9 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-todo.md
     'jest/prefer-todo': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-hook.md
+    'jest/require-hook': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/require-tothrow-message.md
     'jest/require-to-throw-message': 'error',
