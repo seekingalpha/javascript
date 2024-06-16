@@ -1,5 +1,10 @@
 # Change Log
 
+## 8.5.0 - 2024-06-16
+
+- [deps] update `eslint-plugin-unicorn` to version `53.0.0`
+- [breaking] enable `unicorn/no-negation-in-equality-check` rule
+
 ## 8.4.0 - 2024-05-28
 
 - [deps] update `eslint-plugin-promise` to version `6.2.0`
