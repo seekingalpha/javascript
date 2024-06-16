@@ -126,6 +126,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-array-flat-depth.md
     'unicorn/no-magic-array-flat-depth': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negation-in-equality-check.md
+    'unicorn/no-negation-in-equality-check': 'error',
+
     /*
      * Disabled in favour of native ESLint no-negated-condition rule
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negated-condition.md
