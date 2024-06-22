@@ -76,7 +76,7 @@ module.exports = {
       'error',
       {
         importFunctions: [],
-        webpackChunknameFormat: '[a-zA-Z\\d]+-[S|R|W|M](_(Pro|Pre|In|Out)+)?',
+        webpackChunknameFormat: String.raw`[a-zA-Z\d]+-[S|R|W|M](_(Pro|Pre|In|Out)+)?`,
       },
     ],
 

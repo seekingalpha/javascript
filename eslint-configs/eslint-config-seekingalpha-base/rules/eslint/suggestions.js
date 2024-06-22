@@ -71,7 +71,7 @@ module.exports = {
     'default-case': [
       'error',
       {
-        commentPattern: '^skip\\sdefault',
+        commentPattern: String.raw`^skip\sdefault`,
       },
     ],
 

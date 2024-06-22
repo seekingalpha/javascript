@@ -20,6 +20,9 @@ module.exports = {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx', '.mts', '.cts'],
 
     'import/core-modules': [],
-    'import/ignore': ['node_modules', '\\.(scss|css|less|hbs|svg|json)$'],
+    'import/ignore': [
+      'node_modules',
+      String.raw`\.(scss|css|less|hbs|svg|json)$`,
+    ],
   },
 };
