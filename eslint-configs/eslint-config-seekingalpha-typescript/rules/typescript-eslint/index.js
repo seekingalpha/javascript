@@ -106,6 +106,8 @@ const rulesRunTs = {
   '@typescript-eslint/restrict-template-expressions': 'off',
 
   '@typescript-eslint/use-unknown-in-catch-callback-variable': 'off',
+
+  '@typescript-eslint/no-unnecessary-type-parameters': 'off',
 };
 
 module.exports = {
@@ -175,6 +177,8 @@ module.exports = {
 
     '@typescript-eslint/no-empty-interface': 'error',
 
+    '@typescript-eslint/no-empty-object-type': 'error',
+
     '@typescript-eslint/no-explicit-any': 'off',
 
     '@typescript-eslint/no-extra-non-null-assertion': 'error',
@@ -234,6 +238,8 @@ module.exports = {
     ],
 
     '@typescript-eslint/no-this-alias': 'error',
+
+    '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
 
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 

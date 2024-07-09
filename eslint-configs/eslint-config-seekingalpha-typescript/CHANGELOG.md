@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.12.0 - 2024-07-09
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.16.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `7.16.0`
+- [breaking] enable `@typescript-eslint/no-empty-object-type` rule
+- [breaking] enable `@typescript-eslint/no-unnecessary-parameter-property-assignment` rule
+
 ## 5.11.0 - 2024-07-02
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.15.0`
