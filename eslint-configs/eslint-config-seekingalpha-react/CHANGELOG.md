@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.34.0 - 2024-07-20
+
+- [deps] upgrade `eslint-plugin-react` to version `7.35.0`
+- [breaking] introduce `react/jsx-props-no-spread-multi` rule
+-
+
 ## 7.33.0 - 2024-07-14
 
 - [deps] upgrade `eslint-plugin-react` to version `7.34.4`
