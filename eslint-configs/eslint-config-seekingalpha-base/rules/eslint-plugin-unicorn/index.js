@@ -163,6 +163,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-single-promise-in-promise-methods.md
     'unicorn/no-single-promise-in-promise-methods': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-length-as-slice-end.md
+    'unicorn/no-length-as-slice-end': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md
     'unicorn/no-static-only-class': 'error',
 
