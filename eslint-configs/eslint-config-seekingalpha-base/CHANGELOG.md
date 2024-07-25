@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.9.0 - 2024-07-25
+
+- [deps] update `eslint-plugin-promise` to version `7.0.0`
+- [deps] update `eslint-plugin-unicorn` to version `55.0.0`
+- [breaking] enable `unicorn/no-length-as-slice-end` rule
+
 ## 8.8.0 - 2024-07-23
 
 - [deps] update `eslint-plugin-promise` to version `6.6.0`
@@ -14,7 +20,7 @@
 
 ## 8.5.0 - 2024-06-16
 
-- [deps] update `eslint-plugin-unicorn` to version `53.0.0`
+- [deps] update `eslint-plugin-unicorn` to version `54.0.0`
 - [breaking] enable `unicorn/no-negation-in-equality-check` rule
 
 ## 8.4.0 - 2024-05-28
