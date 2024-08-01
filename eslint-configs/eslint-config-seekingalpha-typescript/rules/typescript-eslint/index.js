@@ -118,6 +118,8 @@ module.exports = {
 
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
+    '@typescript-eslint/no-restricted-types': 'off',
+
     '@typescript-eslint/ban-ts-comment': 'error',
 
     '@typescript-eslint/ban-tslint-comment': 'error',
@@ -193,8 +195,6 @@ module.exports = {
 
     '@typescript-eslint/no-loop-func': 'error',
 
-    '@typescript-eslint/no-loss-of-precision': 'error',
-
     '@typescript-eslint/no-magic-numbers': [
       'error',
       {
@@ -245,6 +245,8 @@ module.exports = {
 
     '@typescript-eslint/no-unsafe-declaration-merging': 'error',
 
+    '@typescript-eslint/no-unsafe-function-type': 'error',
+
     '@typescript-eslint/no-unused-expressions': [
       'error',
       {
@@ -283,6 +285,8 @@ module.exports = {
     '@typescript-eslint/no-useless-empty-export': 'error',
 
     '@typescript-eslint/no-var-requires': 'error',
+
+    '@typescript-eslint/no-wrapper-object-types': 'error',
 
     '@typescript-eslint/prefer-as-const': 'error',
 

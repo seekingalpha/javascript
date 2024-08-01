@@ -32,8 +32,6 @@ module.exports = {
 
     'no-loop-func': 'off',
 
-    'no-loss-of-precision': 'off',
-
     'no-magic-numbers': 'off',
 
     'no-redeclare': 'off',

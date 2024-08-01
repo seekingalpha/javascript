@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.16.0 - 2024-08-01
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `8.0.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `8.0.0`
+- [breaking] enable `@typescript-eslint/no-unsafe-function-type` rule
+- [breaking] enable `@typescript-eslint/no-wrapper-object-types` rule
+-
+
 ## 5.15.0 - 2024-07-30
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `7.18.0`
