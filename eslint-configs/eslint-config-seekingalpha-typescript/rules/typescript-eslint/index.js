@@ -124,8 +124,6 @@ module.exports = {
 
     '@typescript-eslint/ban-tslint-comment': 'error',
 
-    '@typescript-eslint/ban-types': 'error',
-
     '@typescript-eslint/class-methods-use-this': 'error',
 
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
