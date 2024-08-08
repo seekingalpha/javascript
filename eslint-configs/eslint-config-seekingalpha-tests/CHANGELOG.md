@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.101.0 - 2024-08-08
+
+- [deps] upgrade `eslint-plugin-jest` to version `28.8.0`
+
 ## 1.100.0 - 2024-08-04
 
 - [deps] upgrade `eslint-plugin-jest` to version `28.7.0`
