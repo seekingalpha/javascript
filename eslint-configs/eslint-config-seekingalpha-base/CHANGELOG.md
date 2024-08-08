@@ -1,5 +1,10 @@
 # Change Log
 
+## 8.10.0 - 2024-08-08
+
+- [deps] update `eslint-plugin-promise` to version `7.1.0`
+- [breaking] enable `promise/spec-only` rule
+
 ## 8.9.0 - 2024-07-25
 
 - [deps] update `eslint-plugin-promise` to version `7.0.0`
