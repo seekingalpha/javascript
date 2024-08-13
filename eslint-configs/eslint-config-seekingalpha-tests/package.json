@@ -40,7 +40,7 @@
   "peerDependencies": {
     "eslint": "8.57.0",
     "eslint-plugin-jest": "28.8.0",
-    "eslint-plugin-testing-library": "6.3.2"
+    "eslint-plugin-testing-library": "6.3.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
