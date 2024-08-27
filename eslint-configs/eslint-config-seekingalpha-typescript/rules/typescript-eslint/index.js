@@ -21,6 +21,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-base-to-string': 'off',
 
+  '@typescript-eslint/no-deprecated': 'off',
+
   '@typescript-eslint/no-duplicate-type-constituents': 'off',
 
   '@typescript-eslint/no-for-in-array': 'off',
