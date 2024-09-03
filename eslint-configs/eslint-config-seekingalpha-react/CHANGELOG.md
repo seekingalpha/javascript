@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.35.0 - 2024-09-03
+
+- [deps] upgrade `eslint-plugin-react` to version `7.35.1`
+
 ## 7.34.0 - 2024-07-20
 
 - [deps] upgrade `eslint-plugin-react` to version `7.35.0`
