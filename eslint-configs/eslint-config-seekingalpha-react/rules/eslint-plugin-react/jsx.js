@@ -97,16 +97,7 @@ module.exports = {
     'react/jsx-newline': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': [
-      'error',
-      {
-        ignoreDOMComponents: true,
-        ignoreRefs: false,
-        allowArrowFunctions: false,
-        allowFunctions: false,
-        allowBind: false,
-      },
-    ],
+    'react/jsx-no-bind': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
     'react/jsx-no-comment-textnodes': 'error',

@@ -23,6 +23,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/checked-requires-onchange-or-readonly.md
+    'react/checked-requires-onchange-or-readonly': 'error',
+
     /*
      * no prop types usage
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
@@ -134,6 +137,8 @@ module.exports = {
      */
     'react/forbid-prop-types': 'off',
 
+    'react/forward-ref-uses-ref': 'error',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     'react/function-component-definition': [
       'error',
@@ -197,12 +202,7 @@ module.exports = {
     'react/no-is-mounted': 'error',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': [
-      'error',
-      {
-        ignoreStateless: false,
-      },
-    ],
+    'react/no-multi-comp': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-namespace.md
     'react/no-namespace': 'error',
