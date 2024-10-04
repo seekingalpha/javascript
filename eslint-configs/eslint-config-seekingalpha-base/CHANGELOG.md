@@ -1,5 +1,12 @@
 # Change Log
 
+## 8.12.0 - 2024-10-04
+
+- [deps] update `eslint-plugin-import` to version `2.31.0`
+- [deps] update `eslint-plugin-unicorn` to version `56.0.0`
+- [breaking] enable `unicorn/consistent-existence-index-check` rule
+- [breaking] enable `unicorn/prefer-math-min-max` rule
+
 ## 8.11.0 - 2024-09-03
 
 - [deps] update `eslint-plugin-import` to version `2.30.0`
