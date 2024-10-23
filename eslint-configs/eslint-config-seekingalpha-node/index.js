@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    // https://github.com/mysticatea/eslint-plugin-node
-    './rules/eslint-plugin-node/index.js',
+    // https://github.com/eslint-community/eslint-plugin-n
+    './rules/eslint-plugin-n/index.js',
   ],
 
   parserOptions: {
