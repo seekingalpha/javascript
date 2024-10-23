@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.0.0 - 2024-10-23
+
+- [deps] migrate to `eslint-plugin-n`
+
 ## 5.54.0 - 2024-02-25
 
 - [deps] update `eslint` to version `8.57.0`
