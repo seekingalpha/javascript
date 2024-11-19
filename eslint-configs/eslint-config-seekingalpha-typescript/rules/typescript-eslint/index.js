@@ -69,6 +69,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/promise-function-async': 'off',
 
+  '@typescript-eslint/related-getter-setter-pairs': 'off',
+
   '@typescript-eslint/switch-exhaustiveness-check': 'off',
 
   '@typescript-eslint/unbound-method': 'off',
@@ -88,6 +90,8 @@ const rulesRunTs = {
   '@typescript-eslint/no-unsafe-assignment': 'off',
 
   '@typescript-eslint/no-unsafe-call': 'off',
+
+  '@typescript-eslint/no-unsafe-type-assertion': 'off',
 
   '@typescript-eslint/restrict-plus-operands': 'off',
 
