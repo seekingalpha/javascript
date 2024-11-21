@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.108.0 - 2024-11-21
+
+- [deps] upgrade `eslint-plugin-testing-library` to version `6.5.0`
+
 ## 1.107.0 - 2024-11-07
 
 - [deps] upgrade `eslint-plugin-jest` to version `28.9.0`
