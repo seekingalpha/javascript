@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.15.0 - 2024-10-27
+
+- [deps] update `eslint-plugin-promise` to version `7.2.1`
+
 ## 8.14.0 - 2024-10-25
 
 - [deps] update `eslint-plugin-promise` to version `7.2.0`
