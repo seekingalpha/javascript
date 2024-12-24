@@ -1,5 +1,9 @@
 # Change Log
 
+## 7.46.0 - 2024-12-24
+
+- [deps] upgrade `eslint-plugin-react` to version `7.37.3`
+
 ## 7.45.0 - 2024-12-08
 
 - [deps] upgrade `eslint-plugin-react-hooks` to version `5.1.0`
