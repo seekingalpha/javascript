@@ -31,6 +31,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-mixed-enums': 'off',
 
+  '@typescript-eslint/no-misused-spread': 'off',
+
   '@typescript-eslint/no-meaningless-void-operator': 'off',
 
   '@typescript-eslint/no-unnecessary-template-expression': 'off',
