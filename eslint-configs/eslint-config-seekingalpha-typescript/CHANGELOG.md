@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.48.0 - 2025-02-25
+
+- [deps] upgrade `@typescript-eslint/eslint-plugin` to version `8.25.0`
+- [deps] upgrade `@typescript-eslint/parser` to version `8.25.0`
+
 ## 5.47.0 - 2025-02-18
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `8.24.1`
