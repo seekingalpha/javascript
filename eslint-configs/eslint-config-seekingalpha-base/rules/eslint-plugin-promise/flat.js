@@ -6,7 +6,5 @@ export default {
   plugins: {
     promise: promisePlugin,
   },
-  rules: {
-    ...config.rules,
-  },
+  rules: config.rules,
 };
