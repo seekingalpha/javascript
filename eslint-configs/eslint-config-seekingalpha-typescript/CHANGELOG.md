@@ -1,5 +1,9 @@
 # Change Log
 
+## 6.0.0 - 2025-03-04
+
+- [new] introduce flat config
+
 ## 5.49.0 - 2025-03-04
 
 - [deps] upgrade `@typescript-eslint/eslint-plugin` to version `8.26.0`

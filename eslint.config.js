@@ -24,7 +24,5 @@ export default {
     'import/extensions': 'off',
     'n/file-extension-in-import': 'off',
   },
-  settings: {
-    ...baseConfig.settings,
-  },
+  settings: baseConfig.settings,
 };
