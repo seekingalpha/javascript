@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.0.0 - 2025-03-06
+
+- [new] expose sharable flat config
+
 ## 8.17.1 - 2025-03-06
 
 - [breaking] removed separate prettier config
