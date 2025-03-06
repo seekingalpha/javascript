@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.0.0 - 2025-03-07
+
+- [new] expose flat config
+
 ## 7.49.0 - 2025-03-01
 
 - [deps] upgrade `eslint-plugin-react-hooks` to version `5.2.0`
