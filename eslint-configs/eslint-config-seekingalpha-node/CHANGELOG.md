@@ -1,5 +1,10 @@
 # Change Log
 
+## 7.0.0 - 2025-03-06
+
+- [deps] update `eslint-plugin-n` to version `17.16.2`
+- [new] flat config
+
 ## 6.9.0 - 2025-03-03
 
 - [deps] update `eslint-plugin-n` to version `17.16.1`
