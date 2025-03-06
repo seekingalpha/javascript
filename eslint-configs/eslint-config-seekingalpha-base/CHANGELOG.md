@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.17.0 - 2025-03-06
+
+- [breaking] removed separate prettier config
+
 ## 8.16.0 - 2025-01-23
 
 - [deps] update `eslint` to version `8.57.1`
