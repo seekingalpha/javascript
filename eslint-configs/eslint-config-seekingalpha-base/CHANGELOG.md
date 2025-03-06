@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.1.0 - 2025-03-06
+
+- [deps] update `eslint-plugin-array-func` to version `5.0.2`
+
 ## 9.0.0 - 2025-03-06
 
 - [new] expose sharable flat config
