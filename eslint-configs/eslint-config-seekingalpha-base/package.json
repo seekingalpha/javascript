@@ -49,7 +49,7 @@
   },
   "peerDependencies": {
     "eslint": "8.57.1",
-    "eslint-plugin-array-func": "4.0.2",
+    "eslint-plugin-array-func": "5.0.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-unicorn": "56.0.1"
