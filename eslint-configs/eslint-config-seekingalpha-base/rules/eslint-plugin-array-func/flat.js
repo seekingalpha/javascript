@@ -1,12 +1,10 @@
-import arrayFunc from 'eslint-plugin-array-func';
+import pluginArrayFunc from 'eslint-plugin-array-func';
 
-// eslint-disable-next-line n/file-extension-in-import, import/extensions
 import config from './index.js';
 
-// eslint-disable-next-line import/no-default-export, import/no-anonymous-default-export
 export default {
   plugins: {
-    'array-func': arrayFunc,
+    'array-func': pluginArrayFunc,
   },
   rules: config.rules,
 };
