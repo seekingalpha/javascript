@@ -1,6 +1,6 @@
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 
-import config from './index';
+import config from './index.js';
 
 export default {
   plugins: {
