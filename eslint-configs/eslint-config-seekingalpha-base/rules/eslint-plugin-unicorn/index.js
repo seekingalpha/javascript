@@ -30,8 +30,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md
     'unicorn/custom-error-definition': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md
-    'unicorn/empty-brace-spaces': 'error',
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md
+     * Disabled to work with prettier
+     */
+    'unicorn/empty-brace-spaces': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/error-message.md
     'unicorn/error-message': 'error',
@@ -140,7 +143,7 @@ module.exports = {
 
     /*
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
-     * Disabled in favour of ESLint's rule
+     * Disabled in favour of ESLint's rule and it does not work with Prettier
      * https://eslint.org/docs/rules/no-nested-ternary
      */
     'unicorn/no-nested-ternary': 'off',
@@ -217,8 +220,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
     'unicorn/no-zero-fractions': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md
-    'unicorn/number-literal-case': 'error',
+    /*
+     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md
+     * Disabled to work with Prettier
+     */
+    'unicorn/number-literal-case': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
     'unicorn/numeric-separators-style': 'off',

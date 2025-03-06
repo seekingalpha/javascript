@@ -12,7 +12,10 @@ module.exports = {
       },
     ],
 
-    // https://eslint.org/docs/rules/unicode-bom
-    'unicode-bom': ['error', 'never'],
+    /*
+     * https://eslint.org/docs/rules/unicode-bom
+     * disabled to work with prettier
+     */
+    'unicode-bom': 'off',
   },
 };
