@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.0 - 2025-03-06
+
+- [new] expose flat config
+
 ## 1.114.0 - 2025-01-23
 
 - [deps] upgrade `eslint` to version `8.57.1`
