@@ -12,5 +12,5 @@ module.exports = {
     'import/no-default-export': 'off',
     'import/extensions': 'off',
     'n/file-extension-in-import': 'off',
-  }
+  },
 };
