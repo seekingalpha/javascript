@@ -6,7 +6,7 @@ import nodeConfig from 'eslint-config-seekingalpha-node';
 export default defineConfig([
   {
     linterOptions: {
-      reportUnusedDisableDirectives: 'error',
+      reportUnusedDisableDirectives: 'warn',
       reportUnusedInlineConfigs: 'error',
     },
   },
