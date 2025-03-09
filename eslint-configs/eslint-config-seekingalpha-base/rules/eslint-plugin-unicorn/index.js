@@ -16,6 +16,12 @@ export default {
       },
     ],
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md
+    'unicorn/consistent-assert': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md
+    'unicorn/consistent-date-clone': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md
     'unicorn/consistent-destructuring': 'error',
 
@@ -55,9 +61,6 @@ export default {
      */
     'unicorn/filename-case': 'off',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/import-index.md
-    'unicorn/import-index': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md
     'unicorn/import-style': 'off',
 
@@ -66,6 +69,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     'unicorn/no-abusive-eslint-disable': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
+    'unicorn/no-accessor-recursion': 'error',
 
     /*
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-anonymous-default-export.md
@@ -112,6 +118,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
     'unicorn/no-instanceof-array': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
+    'unicorn/no-instanceof-builtins': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-fetch-options.md
     'unicorn/no-invalid-fetch-options': 'error',
 
@@ -132,6 +141,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-array-flat-depth.md
     'unicorn/no-magic-array-flat-depth': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-named-default.md
+    'unicorn/no-named-default': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negation-in-equality-check.md
     'unicorn/no-negation-in-equality-check': 'error',
