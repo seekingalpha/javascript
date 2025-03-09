@@ -1,17 +1,18 @@
-module.exports = {
-  extends: [
-    './rules/disable-recommended-eslint-rules',
+// eslint-disable-next-line import/no-unresolved
+import typescriptEslint from 'typescript-eslint';
 
-    // https://github.com/typescript-eslint/typescript-eslint
-    './rules/typescript-eslint/index.js',
-  ],
+import disableConfig from './rules/disable-recommended-eslint-rules/index.js';
+import config from './rules/typescript-eslint/index.js';
 
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true,
-      globalReturn: false,
-    },
+export default {
+  plugins: {
+    '@typescript-eslint': typescriptEslint.plugin,
+  },
+  rules: {
+    ...disableConfig,
+    ...config,
+  },
+  languageOptions: {
+    parser: typescriptEslint.parser,
   },
 };

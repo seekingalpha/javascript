@@ -1,63 +1,61 @@
-module.exports = {
-  rules: {
-    /*
-     * Disabled as per TS recommendation
-     * https://typescript-eslint.io/linting/troubleshooting#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-     */
-    'no-undef': 'off',
+export default {
+  /*
+   * Disabled as per TS recommendation
+   * https://typescript-eslint.io/linting/troubleshooting#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+   */
+  'no-undef': 'off',
 
-    'class-methods-use-this': 'off',
+  'class-methods-use-this': 'off',
 
-    'default-param-last': 'off',
+  'default-param-last': 'off',
 
-    /*
-     * Requires TS
-     * 'dot-notation': 'off',
-     */
+  /*
+   * Requires TS
+   * 'dot-notation': 'off',
+   */
 
-    'init-declarations': 'off',
+  'init-declarations': 'off',
 
-    'max-params': 'off',
+  'max-params': 'off',
 
-    'no-array-constructor': 'off',
+  'no-array-constructor': 'off',
 
-    'no-dupe-class-members': 'off',
+  'no-dupe-class-members': 'off',
 
-    'no-empty-function': 'off',
+  'no-empty-function': 'off',
 
-    /*
-     * Requires TS
-     * 'no-implied-eval': 'off',
-     */
+  /*
+   * Requires TS
+   * 'no-implied-eval': 'off',
+   */
 
-    'no-loop-func': 'off',
+  'no-loop-func': 'off',
 
-    'no-magic-numbers': 'off',
+  'no-magic-numbers': 'off',
 
-    'no-redeclare': 'off',
+  'no-redeclare': 'off',
 
-    'no-restricted-imports': 'off',
+  'no-restricted-imports': 'off',
 
-    'no-shadow': 'off',
+  'no-shadow': 'off',
 
-    'no-unused-expressions': 'off',
+  'no-unused-expressions': 'off',
 
-    'no-unused-vars': 'off',
+  'no-unused-vars': 'off',
 
-    'no-use-before-define': 'off',
+  'no-use-before-define': 'off',
 
-    'no-useless-constructor': 'off',
+  'no-useless-constructor': 'off',
 
-    /*
-     * Requires TS
-     * 'prefer-destructuring': 'off',
-     */
+  /*
+   * Requires TS
+   * 'prefer-destructuring': 'off',
+   */
 
-    /*
-     * Requires TS
-     * 'require-await': 'off',
-     */
+  /*
+   * Requires TS
+   * 'require-await': 'off',
+   */
 
-    'no-invalid-this': 'off',
-  },
+  'no-invalid-this': 'off',
 };
