@@ -8,7 +8,7 @@ export default {
     react: reactPlugin,
   },
   rules: {
-    ...jsxConfig.rules,
-    ...reactConfig.rules,
+    ...jsxConfig,
+    ...reactConfig,
   },
 };
