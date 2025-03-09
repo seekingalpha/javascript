@@ -1,4 +1,4 @@
-import config from '../config';
+import config from '../config.js';
 
 // https://github.com/yannickcr/eslint-plugin-react#jsx-specific-rules
 export default {
