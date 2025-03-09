@@ -1,7 +1,11 @@
-module.exports = {
-  extends: [
-    './possible-problems.js',
-    './suggestions.js',
-    './layout-and-formatting.js',
-  ],
+import layout from './layout-and-formatting.js';
+import problems from './possible-problems.js';
+import suggestions from './suggestions.js';
+
+export default {
+  rules: {
+    ...layout,
+    ...problems,
+    ...suggestions,
+  },
 };

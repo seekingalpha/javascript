@@ -1,8 +1,9 @@
-// https://github.com/xjamundx/eslint-plugin-promise
+import promisePlugin from 'eslint-plugin-promise';
 
-module.exports = {
-  plugins: ['promise'],
-
+export default {
+  plugins: {
+    promise: promisePlugin,
+  },
   rules: {
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
     'promise/always-return': 'error',

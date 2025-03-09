@@ -10,32 +10,35 @@ Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-d
 
 Install SeekingAlpha shareable ESLint:
 
-    npm install eslint-config-seekingalpha-base --save-dev
+    npm install eslint-config-seekingalpha-base@latest --save-dev
 
 ## Usage
 
-This shareable config includes all ESLint rules including ECMAScript 6 features and set of [legacy rules](https://eslint.org/docs/rules/#deprecated). We also extend our configuration with following plugins:
+This shareable config includes all ESLint rules. We also extend our configuration with following plugins:
 
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
-We expose three configurations:
-
-- `seekingalpha-base` - exports all avaliable ESLint [rules](https://eslint.org/docs/rules/) and all rules of plugins above.
-- `seekingalpha-base/browser` - exports only browser related rules for ESLint and mentioned plugins. It also sets `browser` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments).
-- `seekingalpha-base/node` - exports only Node.js related rules for ESLint and mentioned plugins. It also sets `node` as [default environment](https://eslint.org/docs/user-guide/configuring#specifying-environments).
-
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the .eslintrc.js in your project with relevant configuration:
+Simply [use](https://eslint.org/docs/latest/extend/shareable-configs) the eslint.config.js in your project with the configuration:
 
 ```javascript
-// for seekingalpha-base
-{
-  extends: [
-    'seekingalpha-base'
-  ]
-}
+import baseConfig from 'eslint-config-seekingalpha-base';
+
+export default [
+  {
+    plugins: {
+      ...baseConfig.plugins,
+    },
+    rules: {
+      ...baseConfig.rules,
+    },
+    settings: {
+      ...baseConfig.settings,
+    },
+  },
+];
 ```
 
 ## License

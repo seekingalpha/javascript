@@ -1,8 +1,9 @@
-// https://github.com/sindresorhus/eslint-plugin-unicorn
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 
-module.exports = {
-  plugins: ['unicorn'],
-
+export default {
+  plugins: {
+    unicorn: eslintPluginUnicorn,
+  },
   rules: {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md
     'unicorn/better-regex': 'error',

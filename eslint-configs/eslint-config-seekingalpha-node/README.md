@@ -10,7 +10,7 @@ Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-d
 
 Install SeekingAlpha shareable ESLint:
 
-    npm install eslint-config-seekingalpha-node --save-dev
+    npm install eslint-config-seekingalpha-node@latest --save-dev
 
 ## Usage
 
@@ -18,14 +18,21 @@ This shareable config includes all rules from following plugins:
 
 - [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)
 
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-node` rules:
+Simply [use](https://eslint.org/docs/latest/extend/shareable-configs) the eslint.config.js in your project with the configuration:
 
 ```javascript
-{
-  extends: [
-    'seekingalpha-node'
-  ]
-}
+import nodeConfig from 'eslint-config-seekingalpha-node';
+
+export default [
+  {
+    plugins: {
+      ...nodeConfig.plugins,
+    },
+    rules: {
+      ...nodeConfig.rules,
+    },
+  },
+];
 ```
 
 ## License

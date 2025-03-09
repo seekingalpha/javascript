@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   complexity: 10,
   maxClassesPerFile: 1,
   arrayElementNewlineMinItems: 5,
