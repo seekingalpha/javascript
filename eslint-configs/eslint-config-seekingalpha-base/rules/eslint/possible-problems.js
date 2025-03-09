@@ -201,6 +201,9 @@ export default {
     },
   ],
 
+  // https://eslint.org/docs/latest/rules/no-useless-assignment
+  'no-useless-assignment': 'error',
+
   // https://eslint.org/docs/rules/no-useless-backreference
   'no-useless-backreference': 'error',
 

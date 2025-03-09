@@ -182,9 +182,6 @@ export default {
   // https://eslint.org/docs/rules/max-statements
   'max-statements': ['error', config.maxStatements],
 
-  // https://eslint.org/docs/rules/multiline-comment-style
-  'multiline-comment-style': ['error', 'starred-block'],
-
   // https://eslint.org/docs/rules/new-cap
   'new-cap': [
     'error',
