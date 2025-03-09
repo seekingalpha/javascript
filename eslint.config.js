@@ -1,28 +1,27 @@
-import globals from 'globals';
+// eslint-disable-next-line import/no-unresolved
+import { defineConfig } from 'eslint/config';
 import baseConfig from 'eslint-config-seekingalpha-base';
 import nodeConfig from 'eslint-config-seekingalpha-node';
 
-export default {
-  languageOptions: {
-    sourceType: 'module',
-    globals: {
-      ...globals.node,
+export default defineConfig([
+  {
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+      reportUnusedInlineConfigs: 'error',
     },
   },
-  linterOptions: {
-    reportUnusedDisableDirectives: true,
+  {
+    plugins: {
+      ...baseConfig.plugins,
+      ...nodeConfig.plugins,
+    },
+    rules: {
+      ...baseConfig.rules,
+      ...nodeConfig.rules,
+      'import/no-anonymous-default-export': 'off',
+      'import/no-default-export': 'off',
+      'import/extensions': 'off',
+      'n/file-extension-in-import': 'off',
+    },
   },
-  plugins: {
-    ...baseConfig.plugins,
-    ...nodeConfig.plugins,
-  },
-  rules: {
-    ...baseConfig.rules,
-    ...nodeConfig.rules,
-    'import/no-anonymous-default-export': 'off',
-    'import/no-default-export': 'off',
-    'import/extensions': 'off',
-    'n/file-extension-in-import': 'off',
-  },
-  settings: baseConfig.settings,
-};
+]);
