@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.0.0 - 2025-03-09
+
+- [breaking] migrate to ESM and make flat config default
+
 ## 7.0.0 - 2025-03-06
 
 - [deps] update `eslint-plugin-n` to version `17.16.2`

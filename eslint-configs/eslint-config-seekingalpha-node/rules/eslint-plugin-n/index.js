@@ -1,6 +1,10 @@
-module.exports = {
-  plugins: ['n'],
+import nodePlugin from 'eslint-plugin-n';
 
+export default {
+  plugins: {
+    // eslint-disable-next-line id-length
+    n: nodePlugin,
+  },
   rules: {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-extraneous-require.md
     'n/no-extraneous-require': 'error',
