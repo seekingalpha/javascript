@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.0.0 - 2025-03-09
+
+- [deps] upgrade `eslint` to version `9.22.0`
+
 ## 7.0.1 - 2025-03-09
 
 - [breaking] migrate to ESM and make flat config default

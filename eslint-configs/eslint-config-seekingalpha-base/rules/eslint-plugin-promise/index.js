@@ -55,6 +55,9 @@ export default {
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md
     'promise/prefer-await-to-then': 'off',
 
+    // https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-catch.md
+    'promise/prefer-catch': 'error',
+
     // https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/spec-only.md
     'promise/spec-only': 'error',
   },

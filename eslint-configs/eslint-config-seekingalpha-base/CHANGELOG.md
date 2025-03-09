@@ -1,5 +1,11 @@
 # Change Log
 
+## 11.0.0 - 2025-03-09
+
+- [deps] update `eslint` to version `9.22.0`
+- [breaking] enable `unicorn/prefer-math-min-max` rule
+- [breaking] enable `no-useless-assignment` rule
+
 ## 10.0.0 - 2025-03-09
 
 - [breaking] migrate to ESM and make flat config default
