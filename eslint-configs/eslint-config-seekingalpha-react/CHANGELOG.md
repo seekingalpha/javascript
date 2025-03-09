@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.0.0 - 2025-03-09
+
+- [breaking] migrate to ESM and make flat config default
+
 ## 8.0.0 - 2025-03-07
 
 - [new] expose flat config
