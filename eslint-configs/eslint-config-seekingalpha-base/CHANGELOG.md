@@ -1,5 +1,14 @@
 # Change Log
 
+## 11.1.0 - 2025-03-09
+
+- [deps] update `eslint-plugin-unicorn` to version `57.0.0`
+- [breaking] enable `unicorn/consistent-assert` rule
+- [breaking] enable `unicorn/consistent-date-clone` rule
+- [breaking] enable `unicorn/no-accessor-recursion` rule
+- [breaking] enable `unicorn/no-instanceof-builtins` rule
+- [breaking] enable `unicorn/no-named-default` rule
+
 ## 11.0.0 - 2025-03-09
 
 - [deps] update `eslint` to version `9.22.0`

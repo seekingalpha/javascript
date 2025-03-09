@@ -186,8 +186,10 @@ export default {
   'new-cap': [
     'error',
     {
-      newIsCap: true, // eslint-disable-line unicorn/no-keyword-prefix
-      newIsCapExceptions: [], // eslint-disable-line unicorn/no-keyword-prefix
+      // eslint-disable-next-line unicorn/no-keyword-prefix
+      newIsCap: true,
+      // eslint-disable-next-line unicorn/no-keyword-prefix
+      newIsCapExceptions: [],
       capIsNew: false,
       capIsNewExceptions: [],
       properties: true,
