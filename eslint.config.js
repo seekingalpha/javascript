@@ -23,5 +23,6 @@ export default defineConfig([
       'import/extensions': 'off',
       'n/file-extension-in-import': 'off',
     },
+    settings: baseConfig.settings,
   },
 ]);
