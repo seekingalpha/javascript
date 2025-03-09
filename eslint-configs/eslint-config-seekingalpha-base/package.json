@@ -3,9 +3,9 @@
   "version": "10.0.0",
   "description": "SeekingAlpha's sharable base ESLint config",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "eslint-find-rules": "eslint-find-rules -u ./index.js",
-    "lint": "eslint --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
