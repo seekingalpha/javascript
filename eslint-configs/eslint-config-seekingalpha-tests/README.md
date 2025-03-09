@@ -10,7 +10,7 @@ Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-d
 
 Install SeekingAlpha shareable ESLint:
 
-    npm install eslint-config-seekingalpha-tests --save-dev
+    npm install eslint-config-seekingalpha-tests@latest --save-dev
 
 ## Usage
 
@@ -19,14 +19,21 @@ This configuration extended with following plugins:
 - [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 - [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
 
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `seekingalpha-tests` rules:
+Simply [use](https://eslint.org/docs/latest/extend/shareable-configs) the eslint.config.js in your project with the configuration:
 
 ```javascript
-{
-  extends: [
-    'seekingalpha-tests'
-  ]
-}
+import testsConfig from 'eslint-config-seekingalpha-tests';
+
+export default [
+  {
+    plugins: {
+      ...testsConfig.plugins,
+    },
+    rules: {
+      ...testsConfig.rules,
+    },
+  },
+];
 ```
 
 ## License

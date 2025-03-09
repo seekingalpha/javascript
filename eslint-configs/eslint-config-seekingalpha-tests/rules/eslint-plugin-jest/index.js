@@ -1,5 +1,9 @@
-module.exports = {
-  plugins: ['jest'],
+import pluginJest from 'eslint-plugin-jest';
+
+export default {
+  plugins: {
+    jest: pluginJest,
+  },
 
   rules: {
     // Jest Plugin https://github.com/jest-community/eslint-plugin-jest

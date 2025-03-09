@@ -1,5 +1,9 @@
-module.exports = {
-  plugins: ['testing-library'],
+import pluginTestingLibrary from 'eslint-plugin-testing-library';
+
+export default {
+  plugins: {
+    'testing-library': pluginTestingLibrary,
+  },
 
   rules: {
     // Testing Library Plugin https://github.com/testing-library/eslint-plugin-testing-library
