@@ -1,6 +1,6 @@
 import globals from 'globals';
-import baseConfig from 'eslint-config-seekingalpha-base/flat.js';
-import nodeConfig from 'eslint-config-seekingalpha-node/flat.js';
+import baseConfig from 'eslint-config-seekingalpha-base';
+import nodeConfig from 'eslint-config-seekingalpha-node';
 
 export default {
   languageOptions: {

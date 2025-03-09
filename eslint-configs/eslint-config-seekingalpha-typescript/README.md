@@ -10,7 +10,7 @@ Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-d
 
 Install SeekingAlpha shareable ESLint:
 
-    npm install eslint-config-seekingalpha-typescript --save-dev
+    npm install eslint-config-seekingalpha-typescript@latest --save-dev
 
 ## Usage
 
@@ -18,14 +18,24 @@ This shareable config includes all rules from following plugins:
 
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-Simply [extend](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) the relevant .eslintrc.js configuration in your project with `eslint-config-seekingalpha-typescript` rules:
+Simply [use](https://eslint.org/docs/latest/extend/shareable-configs) the eslint.config.js in your project with the configuration:
 
 ```javascript
-{
-  extends: [
-    'eslint-config-seekingalpha-typescript'
-  ]
-}
+import tsConfig from 'eslint-config-seekingalpha-typescript';
+
+export default [
+  {
+    plugins: {
+      ...tsConfig.plugins,
+    },
+    rules: {
+      ...tsConfig.rules,
+    },
+    settings: {
+      ...tsConfig.settings,
+    },
+  },
+];
 ```
 
 ## License

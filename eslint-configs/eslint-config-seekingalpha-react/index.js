@@ -1,22 +1,16 @@
-module.exports = {
-  extends: [
-    // https://github.com/yannickcr/eslint-plugin-react
-    './rules/eslint-plugin-react/index.js',
+import jsxA11yConfig from './rules/eslint-plugin-jsx-a11y/index.js';
+import reactConfig from './rules/eslint-plugin-react/index.js';
+import reactHooksConfig from './rules/eslint-plugin-react-hooks/index.js';
 
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y
-    './rules/eslint-plugin-jsx-a11y/index.js',
-
-    // https://reactjs.org/docs/hooks-rules.html
-    './rules/eslint-plugin-react-hooks/index.js',
-  ],
-
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true,
-      globalReturn: false,
-      jsx: true,
-    },
+export default {
+  plugins: {
+    ...jsxA11yConfig.plugins,
+    ...reactConfig.plugins,
+    ...reactHooksConfig.plugins,
+  },
+  rules: {
+    ...jsxA11yConfig.rules,
+    ...reactConfig.rules,
+    ...reactHooksConfig.rules,
   },
 };

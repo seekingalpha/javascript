@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   indent: 2,
   maxParams: 4,
 };

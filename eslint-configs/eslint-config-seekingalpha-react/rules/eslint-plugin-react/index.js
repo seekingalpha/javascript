@@ -1,5 +1,14 @@
-module.exports = {
-  plugins: ['react'],
+import reactPlugin from 'eslint-plugin-react';
 
-  extends: ['./react.js', './jsx.js'],
+import jsxConfig from './jsx.js';
+import reactConfig from './react.js';
+
+export default {
+  plugins: {
+    react: reactPlugin,
+  },
+  rules: {
+    ...jsxConfig.rules,
+    ...reactConfig.rules,
+  },
 };

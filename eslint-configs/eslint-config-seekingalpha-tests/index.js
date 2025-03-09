@@ -1,18 +1,13 @@
-module.exports = {
-  extends: [
-    // https://github.com/jest-community/eslint-plugin-jest
-    './rules/eslint-plugin-jest/index.js',
+import esLintPluginJestConfig from './rules/eslint-plugin-jest/index.js';
+import esLintPluginTestingLibraryConfig from './rules/eslint-plugin-testing-library/index.js';
 
-    // https://github.com/jest-community/eslint-plugin-jest
-    './rules/eslint-plugin-testing-library/index.js',
-  ],
-
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true,
-      globalReturn: false,
-    },
+export default {
+  plugins: {
+    ...esLintPluginJestConfig.plugins,
+    ...esLintPluginTestingLibraryConfig.plugins,
+  },
+  rules: {
+    ...esLintPluginJestConfig.rules,
+    ...esLintPluginTestingLibraryConfig.rules,
   },
 };

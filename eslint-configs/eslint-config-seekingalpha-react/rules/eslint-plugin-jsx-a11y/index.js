@@ -1,8 +1,9 @@
-//
+import jsxA11y from 'eslint-plugin-jsx-a11y';
 
-module.exports = {
-  plugins: ['jsx-a11y'],
-
+export default {
+  plugins: {
+    'jsx-a11y': jsxA11y,
+  },
   rules: {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
     'jsx-a11y/alt-text': [
