@@ -1,15 +1,20 @@
-// eslint-plugin-import rules (https://github.com/benmosher/eslint-plugin-import)
+import importPlugin from 'eslint-plugin-import';
 
-module.exports = {
-  extends: [
-    './helpful-warnings.js',
-    './module-systems.js',
-    './static-analysis.js',
-    './style-guide.js',
-  ],
+import helpfulWarnings from './helpful-warnings.js';
+import moduleSystem from './module-systems.js';
+import staticAnalysis from './static-analysis.js';
+import styleGuide from './style-guide.js';
 
-  plugins: ['import'],
-
+export default {
+  plugins: {
+    import: importPlugin,
+  },
+  rules: {
+    ...helpfulWarnings,
+    ...moduleSystem,
+    ...staticAnalysis,
+    ...styleGuide,
+  },
   settings: {
     'import/resolver': {
       node: {

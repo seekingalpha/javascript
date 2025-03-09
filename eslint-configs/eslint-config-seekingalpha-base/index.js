@@ -1,27 +1,24 @@
-module.exports = {
-  extends: [
-    // ESLint rules (https://eslint.org/docs/rules/)
-    './rules/eslint/index.js',
+import esLintConfig from './rules/eslint/index.js';
+import esLintPluginArrayFuncConfig from './rules/eslint-plugin-array-func/index.js';
+import esLintPluginImport from './rules/eslint-plugin-import/index.js';
+import esLintPluginPromise from './rules/eslint-plugin-promise/index.js';
+import esLintPluginUnicorn from './rules/eslint-plugin-unicorn/index.js';
 
-    // eslint-plugin-import rules (https://github.com/benmosher/eslint-plugin-import)
-    './rules/eslint-plugin-import/index.js',
-
-    // eslint-plugin-array-func rules (https://github.com/freaktechnik/eslint-plugin-array-func)
-    './rules/eslint-plugin-array-func/index.js',
-
-    // eslint-plugin-promise rules (https://github.com/xjamundx/eslint-plugin-promise)
-    './rules/eslint-plugin-promise/index.js',
-
-    // eslint-plugin-unicorn rules (https://github.com/sindresorhus/eslint-plugin-unicorn)
-    './rules/eslint-plugin-unicorn/index.js',
-  ],
-
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true,
-      globalReturn: false,
-    },
+export default {
+  plugins: {
+    ...esLintPluginArrayFuncConfig.plugins,
+    ...esLintPluginImport.plugins,
+    ...esLintPluginPromise.plugins,
+    ...esLintPluginUnicorn.plugins,
+  },
+  rules: {
+    ...esLintConfig.rules,
+    ...esLintPluginArrayFuncConfig.rules,
+    ...esLintPluginImport.rules,
+    ...esLintPluginPromise.rules,
+    ...esLintPluginUnicorn.rules,
+  },
+  settings: {
+    ...esLintPluginImport.settings,
   },
 };

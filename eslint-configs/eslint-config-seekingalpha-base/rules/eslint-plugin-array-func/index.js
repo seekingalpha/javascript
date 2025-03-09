@@ -1,8 +1,9 @@
-// https://github.com/freaktechnik/eslint-plugin-array-func
+import pluginArrayFunc from 'eslint-plugin-array-func';
 
-module.exports = {
-  plugins: ['array-func'],
-
+export default {
+  plugins: {
+    'array-func': pluginArrayFunc,
+  },
   rules: {
     'array-func/from-map': 'error',
 

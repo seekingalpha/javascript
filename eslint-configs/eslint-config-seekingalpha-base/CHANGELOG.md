@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.0.0 - 2025-03-09
+
+- [breaking] migrate to ESM and make flat config default
+
 ## 9.1.0 - 2025-03-06
 
 - [deps] update `eslint-plugin-array-func` to version `5.0.2`
