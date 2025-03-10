@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.1.0 - 2025-03-10
+
+- [deps] replace `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser` with `typescript-eslin`
+- [deps] upgrade `typescript-eslin` to version `8.26.1`
+-
+
 ## 8.0.0 - 2025-03-09
 
 - [deps] upgrade `eslint` to version `9.22.0`
