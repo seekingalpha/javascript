@@ -198,20 +198,7 @@ export default {
 
   '@typescript-eslint/no-loop-func': 'error',
 
-  '@typescript-eslint/no-magic-numbers': [
-    'error',
-    {
-      // These numbers are used in simple cases, we can exclude them
-      ignore: [-1, 0, 1],
-      ignoreArrayIndexes: true,
-      enforceConst: true,
-      detectObjects: false,
-      ignoreEnums: true,
-      ignoreNumericLiteralTypes: true,
-      ignoreReadonlyClassProperties: true,
-      ignoreTypeIndexes: true,
-    },
-  ],
+  '@typescript-eslint/no-magic-numbers': 'off',
 
   '@typescript-eslint/no-misused-new': 'error',
 
@@ -302,8 +289,6 @@ export default {
   '@typescript-eslint/prefer-literal-enum-member': 'error',
 
   '@typescript-eslint/prefer-namespace-keyword': 'error',
-
-  '@typescript-eslint/sort-type-constituents': 'error',
 
   '@typescript-eslint/triple-slash-reference': 'error',
 
