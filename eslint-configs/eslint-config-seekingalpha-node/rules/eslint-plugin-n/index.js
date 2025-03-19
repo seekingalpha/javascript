@@ -7,16 +7,19 @@ export default {
   },
   rules: {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-extraneous-require.md
-    'n/no-extraneous-require': 'error',
+    // migrated to ESM
+    'n/no-extraneous-require': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-missing-require.md
-    'n/no-missing-require': 'error',
+    // migrated to ESM
+    'n/no-missing-require': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-unsupported-features/es-syntax.md
     'n/no-unsupported-features/es-syntax': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/exports-style.md
-    'n/exports-style': ['error', 'module.exports'],
+    // migrated to ESM
+    'n/exports-style': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/buffer.md
     'n/prefer-global/buffer': ['error', 'always'],
@@ -34,7 +37,8 @@ export default {
     'n/prefer-global/url': ['error', 'always'],
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-extraneous-import.md
-    'n/no-extraneous-import': 'error',
+    // disabled in favour of import/no-extraneous-dependencies
+    'n/no-extraneous-import': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/process-exit-as-throw.md
     'n/process-exit-as-throw': 'error',
@@ -49,7 +53,8 @@ export default {
     'n/no-unpublished-bin': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-missing-import.md
-    'n/no-missing-import': 'error',
+    // disabled in favor of import/no-unresolved
+    'n/no-missing-import': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-unpublished-import.md
     'n/no-unpublished-import': 'off',
@@ -61,19 +66,22 @@ export default {
     'n/no-deprecated-api': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-callback-literal.md
-    'n/no-callback-literal': 'error',
+    'n/no-callback-literal': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/global-require.md
-    'n/global-require': 'error',
+    // migrated to ESM
+    'n/global-require': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/handle-callback-err.md
-    'n/handle-callback-err': 'error',
+    'n/handle-callback-err': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-mixed-requires.md
-    'n/no-mixed-requires': 'error',
+    // migrated to ESM
+    'n/no-mixed-requires': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-new-require.md
-    'n/no-new-require': 'error',
+    // migrated to ESM
+    'n/no-new-require': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-path-concat.md
     'n/no-path-concat': 'error',
@@ -94,7 +102,7 @@ export default {
     'n/no-sync': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/callback-return.md
-    'n/callback-return': 'error',
+    'n/callback-return': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/shebang.md
     'n/shebang': 'off',
@@ -106,14 +114,8 @@ export default {
     'n/prefer-global/text-encoder': ['error', 'always'],
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/file-extension-in-import.md
-    'n/file-extension-in-import': [
-      'error',
-      'always',
-      {
-        '.js': 'never',
-        '.jsx': 'never',
-      },
-    ],
+    // disabled in favour of import/extensions
+    'n/file-extension-in-import': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-promises/dns.md
     'n/prefer-promises/dns': 'error',
@@ -122,7 +124,8 @@ export default {
     'n/prefer-promises/fs': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-exports-assign.md
-    'n/no-exports-assign': 'error',
+    // migrated to ESM
+    'n/no-exports-assign': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/hashbang.md
     'n/hashbang': 'off',
