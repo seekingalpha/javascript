@@ -2,7 +2,7 @@
 
 ## 11.2.0 - 2025-03-19
 
-- [breaking] disabled rules `n/no-extraneous-require`, `n/no-missing-require`, `n/exports-style`, `n/no-extraneous-import`, `n/no-missing-import`, `n/no-callback-literal`, `n/global-require`, `n/handle-callback-err`, `n/no-mixed-requires`, `n/no-new-require`, `n/callback-return`, `n/file-extension-in-import`, `n/file-extension-in-import`, `n/no-exports-assign` after migration to ESM
+- [doc] update README.md
 
 ## 11.1.0 - 2025-03-09
 
