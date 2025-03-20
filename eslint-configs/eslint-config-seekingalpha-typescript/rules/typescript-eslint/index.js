@@ -125,7 +125,7 @@ export default {
 
   '@typescript-eslint/no-restricted-types': 'off',
 
-  '@typescript-eslint/ban-ts-comment': 'error',
+  '@typescript-eslint/ban-ts-comment': 'off',
 
   '@typescript-eslint/ban-tslint-comment': 'error',
 
@@ -192,7 +192,13 @@ export default {
 
   '@typescript-eslint/no-import-type-side-effects': 'error',
 
-  '@typescript-eslint/no-inferrable-types': 'error',
+  '@typescript-eslint/no-inferrable-types': [
+    'error',
+    {
+      ignoreParameters: true,
+      ignoreProperties: true,
+    },
+  ],
 
   '@typescript-eslint/no-invalid-void-type': 'error',
 
@@ -210,7 +216,10 @@ export default {
 
   '@typescript-eslint/no-non-null-assertion': 'error',
 
-  '@typescript-eslint/parameter-properties': 'error',
+  '@typescript-eslint/parameter-properties': [
+    'error',
+    { allow: ['private', 'protected'] },
+  ],
 
   '@typescript-eslint/no-redeclare': 'error',
 
@@ -292,7 +301,7 @@ export default {
 
   '@typescript-eslint/triple-slash-reference': 'error',
 
-  '@typescript-eslint/typedef': 'error',
+  '@typescript-eslint/typedef': 'off',
 
   '@typescript-eslint/unified-signatures': 'error',
 
@@ -319,17 +328,5 @@ export default {
 
   '@typescript-eslint/explicit-module-boundary-types': 'off',
 
-  '@typescript-eslint/no-type-alias': [
-    'error',
-    {
-      allowAliases: 'in-unions-and-intersections',
-      allowCallbacks: 'always',
-      allowConditionalTypes: 'always',
-      allowConstructors: 'never',
-      allowLiterals: 'always',
-      allowMappedTypes: 'always',
-      allowTupleTypes: 'always',
-      allowGenerics: 'always',
-    },
-  ],
+  '@typescript-eslint/no-type-alias': 'off',
 };

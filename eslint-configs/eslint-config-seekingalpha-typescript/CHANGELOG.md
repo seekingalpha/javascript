@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.3.0 - 2025-03-20
+
+- [deps] upgrade `typescript-eslin` to version `8.27.0`
+
 ## 8.2.0 - 2025-03-19
 
 - [breaking] disabled `@typescript-eslint/no-magic-numbers` and `@typescript-eslint/sort-type-constituents`
