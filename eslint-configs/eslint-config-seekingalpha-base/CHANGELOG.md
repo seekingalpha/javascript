@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.3.0 - 2025-03-22
+
+- [deps] update `eslint` to version `9.23.0`
+
 ## 11.2.0 - 2025-03-19
 
 - [doc] update README.md

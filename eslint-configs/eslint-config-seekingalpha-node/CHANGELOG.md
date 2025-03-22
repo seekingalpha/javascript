@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.2.0 - 2025-03-22
+
+- [deps] update `eslint` to version `9.23.0`
+
 ## 9.1.0 - 2025-03-19
 
 - [breaking] disabled rules `n/no-extraneous-require`, `n/no-missing-require`, `n/exports-style`, `n/no-extraneous-import`, `n/no-missing-import`, `n/no-callback-literal`, `n/global-require`, `n/handle-callback-err`, `n/no-mixed-requires`, `n/no-new-require`, `n/callback-return`, `n/file-extension-in-import`, `n/file-extension-in-import`, `n/no-exports-assign` after migration to ESM
