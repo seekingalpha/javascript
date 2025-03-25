@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.5.0 - 2025-03-25
+
+- [deps] upgrade `typescript-eslin` to version `8.28.0`
+
 ## 8.4.0 - 2025-03-22
 
 - [deps] upgrade `eslint` to version `9.23.0`
