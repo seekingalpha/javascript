@@ -1,5 +1,10 @@
 # Change Log
 
+## 10.2.0 - 2025-04-06
+
+- [deps] upgrade `eslint` to version `9.24.0`
+- [deps] upgrade `eslint-plugin-react` to version `7.37.5`
+
 ## 10.1.0 - 2025-03-22
 
 - [deps] upgrade `eslint` to version `9.23.0`
