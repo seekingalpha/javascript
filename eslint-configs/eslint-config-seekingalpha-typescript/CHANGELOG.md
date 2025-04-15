@@ -1,8 +1,12 @@
 # Change Log
 
+## 8.9.0 - 2025-04-15
+
+- [deps] upgrade `typescript-eslint` to version `8.30.1`
+
 ## 8.8.0 - 2025-04-08
 
-- [deps] upgrade `typescript-eslin` to version `8.29.1`
+- [deps] upgrade `typescript-eslint` to version `8.29.1`
 
 ## 8.7.0 - 2025-04-06
 
@@ -10,11 +14,11 @@
 
 ## 8.6.0 - 2025-04-01
 
-- [deps] upgrade `typescript-eslin` to version `8.29.0`
+- [deps] upgrade `typescript-eslint` to version `8.29.0`
 
 ## 8.5.0 - 2025-03-25
 
-- [deps] upgrade `typescript-eslin` to version `8.28.0`
+- [deps] upgrade `typescript-eslint` to version `8.28.0`
 
 ## 8.4.0 - 2025-03-22
 
@@ -22,7 +26,7 @@
 
 ## 8.3.0 - 2025-03-20
 
-- [deps] upgrade `typescript-eslin` to version `8.27.0`
+- [deps] upgrade `typescript-eslint` to version `8.27.0`
 
 ## 8.2.0 - 2025-03-19
 
@@ -31,7 +35,7 @@
 ## 8.1.0 - 2025-03-10
 
 - [deps] replace `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser` with `typescript-eslin`
-- [deps] upgrade `typescript-eslin` to version `8.26.1`
+- [deps] upgrade `typescript-eslint` to version `8.26.1`
 
 ## 8.0.0 - 2025-03-09
 
