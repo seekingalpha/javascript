@@ -1,5 +1,12 @@
 # Change Log
 
+## 11.8.0 - 2025-04-28
+
+- [deps] update `eslint-plugin-unicorn` to version `59.0.0`
+- [breaking] enable `unicorn/no-unnecessary-array-flat-depth` rule
+- [breaking] enable `unicorn/no-unnecessary-array-splice-count` rule
+- [breaking] enable `unicorn/prefer-import-meta-properties` rule
+
 ## 11.7.0 - 2025-04-22
 
 - [deps] update `eslint` to version `9.25.1`
