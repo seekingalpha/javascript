@@ -87,6 +87,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-unnecessary-condition': 'off',
 
+  '@typescript-eslint/no-unnecessary-type-conversion': 'off',
+
   '@typescript-eslint/no-unsafe-argument': 'off',
 
   '@typescript-eslint/no-unsafe-assignment': 'off',
