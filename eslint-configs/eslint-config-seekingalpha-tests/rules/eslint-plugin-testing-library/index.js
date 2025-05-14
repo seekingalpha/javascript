@@ -55,6 +55,9 @@ export default {
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-render-in-lifecycle.md
     'testing-library/no-render-in-lifecycle': 'error',
 
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-test-id-queries.md
+    'testing-library/no-test-id-queries': 'off',
+
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-unnecessary-act.md
     'testing-library/no-unnecessary-act': 'error',
 
