@@ -46,9 +46,9 @@
   },
   "devDependencies": {
     "@seekingalpha/prettier-config-samw": "2.0.0",
-    "eslint": "9.26.0",
-    "eslint-config-seekingalpha-base": "11.10.0",
-    "eslint-config-seekingalpha-node": "9.8.0",
+    "eslint": "9.27.0",
+    "eslint-config-seekingalpha-base": "11.11.0",
+    "eslint-config-seekingalpha-node": "9.9.0",
     "eslint-plugin-array-func": "5.0.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-n": "17.18.0",
