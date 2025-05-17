@@ -1,5 +1,10 @@
 # Change Log
 
+## 11.11.0 - 2025-05-17
+
+- [deps] update `eslint` to version `9.27.0`
+- [breaking] enable `no-unassigned-vars` rule
+
 ## 11.10.0 - 2025-05-09
 
 - [deps] update `eslint-plugin-unicorn` to version `59.0.1`
