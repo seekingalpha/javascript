@@ -148,6 +148,9 @@ export default {
   // https://eslint.org/docs/rules/no-undef
   'no-undef': 'error',
 
+  // https://eslint.org/docs/latest/rules/no-unassigned-vars
+  'no-unassigned-vars': 'error',
+
   // https://eslint.org/docs/rules/no-unexpected-multiline
   'no-unexpected-multiline': 'error',
 
