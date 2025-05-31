@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.12.0 - 2025-05-31
+
+- [deps] update `eslint` to version `9.28.0`
+
 ## 11.11.0 - 2025-05-17
 
 - [deps] update `eslint` to version `9.27.0`
