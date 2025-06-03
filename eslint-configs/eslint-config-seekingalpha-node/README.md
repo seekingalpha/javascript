@@ -6,7 +6,7 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/):
 
-    npm install eslint@9.28.0 eslint-plugin-n@17.18.0 --save-dev
+    npm install eslint@9.28.0 eslint-plugin-n@17.19.0 --save-dev
 
 Install SeekingAlpha shareable ESLint:
 

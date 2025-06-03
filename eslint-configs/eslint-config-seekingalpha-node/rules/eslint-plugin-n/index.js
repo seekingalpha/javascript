@@ -43,6 +43,9 @@ export default {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/process-exit-as-throw.md
     'n/process-exit-as-throw': 'error',
 
+    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-top-level-await.md
+    'n/no-top-level-await': 'off',
+
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-unsupported-features/es-builtins.md
     'n/no-unsupported-features/es-builtins': 'error',
 
