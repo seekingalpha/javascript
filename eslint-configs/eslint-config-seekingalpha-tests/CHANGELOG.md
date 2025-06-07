@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.11.1 - 2025-06-07
+
+- [breaking] disable `jest/prefer-ending-with-an-expect` rule
+
 ## 4.11.0 - 2025-06-07
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `7.4.0`

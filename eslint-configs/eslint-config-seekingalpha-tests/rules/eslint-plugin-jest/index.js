@@ -123,7 +123,7 @@ export default {
     'jest/prefer-comparison-matcher': 'error',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-ending-with-an-expect.md
-    'jest/prefer-ending-with-an-expect': 'error',
+    'jest/prefer-ending-with-an-expect': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-equality-matcher.md
     'jest/prefer-equality-matcher': 'error',
