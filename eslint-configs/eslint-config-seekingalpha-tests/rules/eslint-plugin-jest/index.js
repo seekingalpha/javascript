@@ -122,6 +122,9 @@ export default {
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-comparison-matcher.md
     'jest/prefer-comparison-matcher': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-ending-with-an-expect.md
+    'jest/prefer-ending-with-an-expect': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-equality-matcher.md
     'jest/prefer-equality-matcher': 'error',
 
