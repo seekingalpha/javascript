@@ -47,7 +47,10 @@ export default {
     'testing-library/no-manual-cleanup': 'error',
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md
-    'testing-library/no-node-access': 'off',
+    'testing-library/no-node-access': [
+      'error',
+      { allowContainerFirstChild: true },
+    ],
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-promise-in-fire-event.md
     'testing-library/no-promise-in-fire-event': 'error',

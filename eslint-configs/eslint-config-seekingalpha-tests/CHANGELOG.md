@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.12.0 - 2025-06-10
+
+- [deps] upgrade `eslint-plugin-testing-library` to version `7.5.1`
+- [breaking] enable `testing-library/no-node-access` rule
+
 ## 4.11.1 - 2025-06-07
 
 - [breaking] disable `jest/prefer-ending-with-an-expect` rule
