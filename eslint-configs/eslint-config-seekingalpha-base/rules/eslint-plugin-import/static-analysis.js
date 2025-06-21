@@ -10,6 +10,10 @@ export default {
     },
   ],
 
+  // Prefer eslint-plugin-n
+  // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/enforce-node-protocol-usage.md
+  'import/enforce-node-protocol-usage': 'off',
+
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
   'import/named': 'error',
 
