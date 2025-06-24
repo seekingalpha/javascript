@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "9.29.0",
+  "version": "9.30.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "type": "module",
@@ -56,6 +56,6 @@
     "eslint-plugin-unicorn": "59.0.1",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",
-    "prettier": "3.5.3"
+    "prettier": "3.6.0"
   }
 }
