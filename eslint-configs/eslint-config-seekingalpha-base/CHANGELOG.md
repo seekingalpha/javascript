@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.15.0 - 2025-06-28
+
+- [deps] update `eslint` to version `9.30.0`
+
 ## 11.14.0 - 2025-06-21
 
 - [deps] update `eslint-plugin-import` to version `2.32.0`
