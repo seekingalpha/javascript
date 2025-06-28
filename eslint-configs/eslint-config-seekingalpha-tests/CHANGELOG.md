@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.15.0 - 2025-06-28
+
+- [deps] upgrade `eslint` to version `9.30.0`
+
 ## 4.14.0 - 2025-06-19
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.0.1`
