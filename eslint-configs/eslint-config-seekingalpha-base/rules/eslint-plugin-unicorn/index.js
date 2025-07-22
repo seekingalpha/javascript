@@ -94,6 +94,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-reduce.md
     'unicorn/no-array-reduce': 'off',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md
+    'unicorn/no-array-reverse': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
     'unicorn/no-await-expression-member': 'error',
 
@@ -224,6 +227,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-switch-case.md
     'unicorn/no-useless-switch-case': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-error-capture-stack-trace.md
+    'unicorn/no-useless-error-capture-stack-trace': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md
     'unicorn/no-useless-fallback-in-spread': 'error',
 
@@ -279,6 +285,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
     'unicorn/prefer-array-index-of': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-class-fields.md
+    'unicorn/prefer-class-fields': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
     'unicorn/prefer-date-now': 'error',
@@ -419,6 +428,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
     'unicorn/require-array-join-separator': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-specifiers.md
+    'unicorn/require-module-specifiers': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
     'unicorn/require-number-to-fixed-digits-argument': 'error',
