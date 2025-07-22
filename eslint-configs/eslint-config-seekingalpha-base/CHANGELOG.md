@@ -1,5 +1,13 @@
 # Change Log
 
+## 11.18.0 - 2025-07-22
+
+- [deps] update `eslint-plugin-unicorn` to version `60.0.0`
+- [breaking] enable `unicorn/no-array-reverse` rule
+- [breaking] enable `unicorn/no-useless-error-capture-stack-trace` rule
+- [breaking] enable `unicorn/prefer-class-fields` rule
+- [breaking] enable `unicorn/require-module-specifiers` rule
+
 ## 11.17.0 - 2025-07-13
 
 - [deps] update `eslint` to version `9.31.0`
