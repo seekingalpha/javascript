@@ -102,7 +102,8 @@ export default {
     'n/no-process-exit': 'error',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md
-    'n/no-sync': 'error',
+    // requires type checking
+    'n/no-sync': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/callback-return.md
     'n/callback-return': 'off',
