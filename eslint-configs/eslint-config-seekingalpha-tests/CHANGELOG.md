@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.20.0 - 2025-07-29
+
+- [deps] upgrade `eslint-plugin-testing-library` to version `7.6.3`
+
 ## 4.19.0 - 2025-07-26
 
 - [deps] upgrade `eslint` to version `9.32.0`
