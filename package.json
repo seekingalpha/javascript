@@ -46,16 +46,16 @@
   },
   "devDependencies": {
     "@seekingalpha/prettier-config-samw": "2.0.0",
-    "eslint": "9.32.0",
-    "eslint-config-seekingalpha-base": "11.19.0",
-    "eslint-config-seekingalpha-node": "9.19.0",
+    "eslint": "9.33.0",
+    "eslint-config-seekingalpha-base": "11.20.0",
+    "eslint-config-seekingalpha-node": "9.20.0",
     "eslint-plugin-array-func": "5.0.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "17.21.3",
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-unicorn": "60.0.0",
     "husky": "9.1.7",
-    "lint-staged": "16.1.4",
+    "lint-staged": "16.1.5",
     "prettier": "3.6.2"
   }
 }
