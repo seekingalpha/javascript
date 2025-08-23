@@ -1,6 +1,6 @@
 {
   "name": "seekingalpha-javascript-style",
-  "version": "9.43.0",
+  "version": "9.44.0",
   "description": "Set of linting rules, guides and best practices for best Javascript code",
   "main": "index.js",
   "type": "module",
@@ -46,9 +46,9 @@
   },
   "devDependencies": {
     "@seekingalpha/prettier-config-samw": "2.0.0",
-    "eslint": "9.33.0",
-    "eslint-config-seekingalpha-base": "11.20.0",
-    "eslint-config-seekingalpha-node": "9.20.0",
+    "eslint": "9.34.0",
+    "eslint-config-seekingalpha-base": "11.21.0",
+    "eslint-config-seekingalpha-node": "9.21.0",
     "eslint-plugin-array-func": "5.0.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "17.21.3",
