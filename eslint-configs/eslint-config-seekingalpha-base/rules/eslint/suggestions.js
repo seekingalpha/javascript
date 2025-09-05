@@ -658,7 +658,7 @@ export default {
   'prefer-template': 'error',
 
   // https://eslint.org/docs/latest/rules/preserve-caught-error
-  'preserve-caught-error': 'error',
+  'preserve-caught-error': ['error', { requireCatchParameter: true }],
 
   // https://eslint.org/docs/rules/radix
   radix: 'error',
