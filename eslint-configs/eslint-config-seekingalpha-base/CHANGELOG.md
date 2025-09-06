@@ -1,5 +1,13 @@
 # Change Log
 
+## 11.23.0 - 2025-09-06
+
+- [deps] update `eslint-plugin-unicorn` to version `61.0.1`
+- [breaking] enable `unicorn/no-array-sort` rule
+- [breaking] enable `unicorn/prefer-bigint-literals` rule
+- [breaking] enable `unicorn/prefer-classlist-toggle` rule
+- [breaking] enable `unicorn/require-module-attributes` rule
+
 ## 11.22.0 - 2025-09-05
 
 - [deps] update `eslint` to version `9.35.0`
