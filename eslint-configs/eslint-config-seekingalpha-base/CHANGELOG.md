@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.24.0 - 2025-09-09
+
+- [deps] update `eslint-plugin-unicorn` to version `61.0.2`
+
 ## 11.23.0 - 2025-09-06
 
 - [deps] update `eslint-plugin-unicorn` to version `61.0.1`
