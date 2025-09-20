@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-typescript",
-  "version": "8.39.0",
+  "version": "8.40.0",
   "description": "SeekingAlpha's sharable typescript ESLint config",
   "main": "index.js",
   "type": "module",
@@ -38,11 +38,11 @@
     "node": ">= 22"
   },
   "peerDependencies": {
-    "eslint": "9.35.0",
+    "eslint": "9.36.0",
     "typescript-eslint": "8.44.0"
   },
   "devDependencies": {
-    "eslint": "9.35.0",
+    "eslint": "9.36.0",
     "eslint-find-rules": "5.0.0",
     "typescript-eslint": "8.44.0"
   }
