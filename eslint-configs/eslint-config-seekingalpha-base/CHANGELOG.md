@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.26.0 - 2025-09-28
+
+- [deps] update `eslint-plugin-array-func` to version `5.1.0`
+
 ## 11.25.0 - 2025-09-20
 
 - [deps] update `eslint` to version `9.36.0`
