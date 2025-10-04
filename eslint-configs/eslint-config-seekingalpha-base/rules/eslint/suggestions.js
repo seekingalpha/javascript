@@ -141,7 +141,7 @@ export default {
   'id-match': 'off',
 
   // https://eslint.org/docs/rules/init-declarations
-  'init-declarations': ['off', 'always'],
+  'init-declarations': 'off',
 
   // https://eslint.org/docs/latest/rules/logical-assignment-operators
   'logical-assignment-operators': ['error', 'always'],
@@ -284,7 +284,7 @@ export default {
   'no-inline-comments': 'off',
 
   // https://eslint.org/docs/rules/no-invalid-this
-  'no-invalid-this': 'off',
+  'no-invalid-this': 'error',
 
   // https://eslint.org/docs/rules/no-iterator
   'no-iterator': 'error',
@@ -305,16 +305,7 @@ export default {
   'no-loop-func': 'error',
 
   // https://eslint.org/docs/rules/no-magic-numbers
-  'no-magic-numbers': [
-    'error',
-    {
-      // These numbers are used in simple cases, we can exclude them
-      ignore: [-1, 0, 1],
-      ignoreArrayIndexes: true,
-      enforceConst: true,
-      detectObjects: false,
-    },
-  ],
+  'no-magic-numbers': 'off',
 
   // https://eslint.org/docs/rules/no-multi-assign
   'no-multi-assign': 'error',

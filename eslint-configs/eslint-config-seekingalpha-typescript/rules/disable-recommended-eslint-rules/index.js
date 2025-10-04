@@ -5,57 +5,6 @@ export default {
    */
   'no-undef': 'off',
 
-  'class-methods-use-this': 'off',
-
-  'default-param-last': 'off',
-
-  /*
-   * Requires TS
-   * 'dot-notation': 'off',
-   */
-
-  'init-declarations': 'off',
-
-  'max-params': 'off',
-
-  'no-array-constructor': 'off',
-
-  'no-dupe-class-members': 'off',
-
-  'no-empty-function': 'off',
-
-  /*
-   * Requires TS
-   * 'no-implied-eval': 'off',
-   */
-
-  'no-loop-func': 'off',
-
-  'no-magic-numbers': 'off',
-
-  'no-redeclare': 'off',
-
-  'no-restricted-imports': 'off',
-
-  'no-shadow': 'off',
-
-  'no-unused-expressions': 'off',
-
+  // still does not have TS support
   'no-unused-vars': 'off',
-
-  'no-use-before-define': 'off',
-
-  'no-useless-constructor': 'off',
-
-  /*
-   * Requires TS
-   * 'prefer-destructuring': 'off',
-   */
-
-  /*
-   * Requires TS
-   * 'require-await': 'off',
-   */
-
-  'no-invalid-this': 'off',
 };

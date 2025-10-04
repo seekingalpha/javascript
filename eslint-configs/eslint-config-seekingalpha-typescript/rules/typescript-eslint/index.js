@@ -1,5 +1,3 @@
-import config from '../config.js';
-
 const rulesRunTs = {
   '@typescript-eslint/require-await': 'off',
 
@@ -120,8 +118,44 @@ const rulesRunTs = {
   '@typescript-eslint/no-unnecessary-type-parameters': 'off',
 };
 
+const RULES_DUPLICATE_ESLINT = {
+  '@typescript-eslint/class-methods-use-this': 'off',
+
+  '@typescript-eslint/default-param-last': 'off',
+
+  '@typescript-eslint/init-declarations': 'off',
+
+  '@typescript-eslint/max-params': 'off',
+
+  '@typescript-eslint/no-array-constructor': 'off',
+
+  '@typescript-eslint/no-dupe-class-members': 'off',
+
+  '@typescript-eslint/no-empty-function': 'off',
+
+  '@typescript-eslint/no-magic-numbers': 'off',
+
+  '@typescript-eslint/no-loop-func': 'off',
+
+  '@typescript-eslint/no-redeclare': 'off',
+
+  '@typescript-eslint/no-restricted-imports': 'off',
+
+  '@typescript-eslint/no-shadow': 'off',
+
+  '@typescript-eslint/no-unused-expressions': 'off',
+
+  '@typescript-eslint/no-use-before-define': 'off',
+
+  '@typescript-eslint/no-useless-constructor': 'off',
+
+  '@typescript-eslint/no-invalid-this': 'off',
+};
+
 export default {
   ...rulesRunTs,
+
+  ...RULES_DUPLICATE_ESLINT,
 
   '@typescript-eslint/adjacent-overload-signatures': 'error',
 
@@ -130,8 +164,6 @@ export default {
   '@typescript-eslint/ban-ts-comment': 'off',
 
   '@typescript-eslint/ban-tslint-comment': 'error',
-
-  '@typescript-eslint/class-methods-use-this': 'error',
 
   '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
@@ -160,27 +192,15 @@ export default {
     },
   ],
 
-  '@typescript-eslint/default-param-last': 'error',
-
-  '@typescript-eslint/init-declarations': ['off', 'always'],
-
-  '@typescript-eslint/max-params': ['error', { max: config.maxParams }],
-
   '@typescript-eslint/member-ordering': 'error',
 
   '@typescript-eslint/method-signature-style': 'error',
 
-  '@typescript-eslint/no-array-constructor': 'error',
-
   '@typescript-eslint/no-confusing-non-null-assertion': 'error',
-
-  '@typescript-eslint/no-dupe-class-members': 'error',
 
   '@typescript-eslint/no-duplicate-enum-values': 'error',
 
   '@typescript-eslint/no-dynamic-delete': 'error',
-
-  '@typescript-eslint/no-empty-function': 'error',
 
   '@typescript-eslint/no-empty-interface': 'error',
 
@@ -204,10 +224,6 @@ export default {
 
   '@typescript-eslint/no-invalid-void-type': 'error',
 
-  '@typescript-eslint/no-loop-func': 'error',
-
-  '@typescript-eslint/no-magic-numbers': 'off',
-
   '@typescript-eslint/no-misused-new': 'error',
 
   '@typescript-eslint/no-namespace': 'error',
@@ -223,20 +239,7 @@ export default {
     { allow: ['private', 'protected'] },
   ],
 
-  '@typescript-eslint/no-redeclare': 'error',
-
   '@typescript-eslint/no-require-imports': 'error',
-
-  '@typescript-eslint/no-restricted-imports': 'error',
-
-  '@typescript-eslint/no-shadow': [
-    'error',
-    {
-      builtinGlobals: true,
-      hoist: 'all',
-      allow: [],
-    },
-  ],
 
   '@typescript-eslint/no-this-alias': 'error',
 
@@ -247,15 +250,6 @@ export default {
   '@typescript-eslint/no-unsafe-declaration-merging': 'error',
 
   '@typescript-eslint/no-unsafe-function-type': 'error',
-
-  '@typescript-eslint/no-unused-expressions': [
-    'error',
-    {
-      allowShortCircuit: false,
-      allowTernary: false,
-      allowTaggedTemplates: false,
-    },
-  ],
 
   '@typescript-eslint/no-unused-vars': [
     'error',
@@ -269,19 +263,6 @@ export default {
       varsIgnorePattern: '[iI]gnored',
     },
   ],
-
-  '@typescript-eslint/no-use-before-define': [
-    'error',
-    {
-      functions: true,
-      classes: true,
-      variables: true,
-      enums: true,
-      typedefs: true,
-    },
-  ],
-
-  '@typescript-eslint/no-useless-constructor': 'error',
 
   '@typescript-eslint/no-useless-empty-export': 'error',
 
@@ -306,8 +287,6 @@ export default {
   '@typescript-eslint/typedef': 'off',
 
   '@typescript-eslint/unified-signatures': 'error',
-
-  '@typescript-eslint/no-invalid-this': 'error',
 
   '@typescript-eslint/array-type': [
     'error',
