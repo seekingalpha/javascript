@@ -1,5 +1,10 @@
 # Change Log
 
+## 10.20.0 - 2025-10-18
+
+- [deps] upgrade `eslint` to version `9.38.0`
+- [deps] upgrade `eslint-plugin-react-hooks` to version `7.0.0`
+
 ## 10.19.0 - 2025-10-06
 
 - [deps] upgrade `eslint-plugin-react-hooks` to version `6.1.1`
