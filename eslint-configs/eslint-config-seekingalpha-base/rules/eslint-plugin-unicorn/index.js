@@ -121,6 +121,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md
     'unicorn/no-hex-escape': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md
+    'unicorn/no-immediate-mutation': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
     'unicorn/no-instanceof-array': 'error',
 
@@ -220,6 +223,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
     'unicorn/no-unreadable-iife': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md
+    'unicorn/no-useless-collection-argument': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
@@ -387,6 +393,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
     'unicorn/prefer-regexp-test': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md
+    'unicorn/prefer-response-static-json': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
     'unicorn/prefer-set-has': 'error',
