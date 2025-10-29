@@ -1,5 +1,12 @@
 # Change Log
 
+## 11.29.0 - 2025-10-29
+
+- [deps] update `eslint-plugin-unicorn` to version `62.0.0`
+- [breaking] enable `unicorn/no-immediate-mutation` rule
+- [breaking] enable `unicorn/no-useless-collection-argument` rule
+- [breaking] enable `unicorn/prefer-response-static-json` rule
+
 ## 11.28.0 - 2025-10-18
 
 - [deps] update `eslint` to version `9.37.0`
