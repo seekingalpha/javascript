@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/seekingalpha/javascript#readme",
   "engines": {
-    "node": ">= 22"
+    "node": ">= 24"
   },
   "peerDependencies": {
     "eslint": "9.39.1",
