@@ -26,8 +26,8 @@ export default {
     'react-hooks/set-state-in-effect': 'error',
     'react-hooks/set-state-in-render': 'error',
     'react-hooks/static-components': 'error',
-    'react-hooks/unsupported-syntax': 'warn',
+    'react-hooks/unsupported-syntax': 'error',
     'react-hooks/use-memo': 'error',
-    'react-hooks/incompatible-library': 'warn',
+    'react-hooks/incompatible-library': 'error',
   },
 };
