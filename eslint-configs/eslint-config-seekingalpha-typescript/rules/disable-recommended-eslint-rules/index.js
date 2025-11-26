@@ -7,4 +7,6 @@ export default {
 
   // still does not have TS support
   'no-unused-vars': 'off',
+
+  'no-unused-private-class-members': 'off',
 };
