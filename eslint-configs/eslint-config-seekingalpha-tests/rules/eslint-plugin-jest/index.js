@@ -182,8 +182,9 @@ export default {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-expect-in-promise.md
     'jest/valid-expect-in-promise': 'error',
 
+    // does not work with aliases
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-mock-module-path.md
-    'jest/valid-mock-module-path': 'error',
+    'jest/valid-mock-module-path': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
     'jest/valid-title': 'error',

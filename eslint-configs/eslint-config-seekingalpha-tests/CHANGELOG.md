@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.37.1 - 2025-11-26
+
+- [breaking] disable `jest/valid-mock-module-path` rule
+
 ## 4.37.0 - 2025-11-26
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `7.13.5`
