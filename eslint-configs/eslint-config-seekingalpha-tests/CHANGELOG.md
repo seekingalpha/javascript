@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.38.0 - 2025-12-14
+## 4.39.0 - 2025-12-14
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.4.0`
 - [breaking] enable `jest/prefer-to-have-been-called` rule
