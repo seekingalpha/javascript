@@ -158,6 +158,12 @@ export default {
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/prefer-to-contain.md
     'jest/prefer-to-contain': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called.md
+    'jest/prefer-to-have-been-called': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called-times.md
+    'jest/prefer-to-have-been-called-times': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-have-length.md
     'jest/prefer-to-have-length': 'error',
 
