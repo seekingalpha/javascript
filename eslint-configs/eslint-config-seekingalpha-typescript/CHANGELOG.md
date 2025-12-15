@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.52.0 - 2025-12-15
+
+- [breaking] disable `@typescript-eslint/no-useless-default-assignment` rule
+
 ## 8.51.0 - 2025-12-15
 
 - [deps] upgrade `typescript-eslint` to version `8.50.0`

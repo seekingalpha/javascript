@@ -45,6 +45,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/no-unsafe-unary-minus': 'off',
 
+  '@typescript-eslint/no-useless-default-assignment': 'off',
+
   '@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
   '@typescript-eslint/only-throw-error': 'off',
@@ -235,8 +237,6 @@ export default {
   '@typescript-eslint/no-non-null-assertion': 'error',
 
   '@typescript-eslint/no-unused-private-class-members': 'error',
-
-  '@typescript-eslint/no-useless-default-assignment': 'error',
 
   '@typescript-eslint/parameter-properties': [
     'error',
