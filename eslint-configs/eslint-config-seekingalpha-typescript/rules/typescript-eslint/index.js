@@ -236,6 +236,8 @@ export default {
 
   '@typescript-eslint/no-unused-private-class-members': 'error',
 
+  '@typescript-eslint/no-useless-default-assignment': 'error',
+
   '@typescript-eslint/parameter-properties': [
     'error',
     { allow: ['private', 'protected'] },
