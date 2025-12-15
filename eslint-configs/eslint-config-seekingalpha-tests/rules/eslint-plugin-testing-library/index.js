@@ -93,5 +93,8 @@ export default {
 
     // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/render-result-naming-convention.md
     'testing-library/render-result-naming-convention': 'error',
+
+    // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-user-event-setup.md
+    'testing-library/prefer-user-event-setup': 'error',
   },
 };

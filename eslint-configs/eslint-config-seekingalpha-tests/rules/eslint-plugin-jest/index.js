@@ -113,6 +113,9 @@ export default {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
     'jest/no-test-return-statement': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-unneeded-async-expect-function.md
+    'jest/no-unneeded-async-expect-function': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-untyped-mock-factory.md
     'jest/no-untyped-mock-factory': 'off',
 
