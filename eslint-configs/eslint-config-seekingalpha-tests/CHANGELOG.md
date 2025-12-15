@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.40.0 - 2025-12-15
+
+- [deps] upgrade `eslint-plugin-testing-library` to version `7.14.0`
+- [deps] upgrade `eslint-plugin-jest` to version `29.5.0`
+- [breaking] enable `jest/no-unneeded-async-expect-function` rule
+- [breaking] enable `testing-library/prefer-user-event-setup` rule
+
 ## 4.39.0 - 2025-12-14
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.4.0`
