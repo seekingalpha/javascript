@@ -1,5 +1,19 @@
 import pluginJest from 'eslint-plugin-jest';
 
+const RULES_REQUIRE_TS = {
+  // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-error-equal.md
+  'jest/no-error-equal': 'off',
+
+  // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-unnecessary-assertion.md
+  'jest/no-unnecessary-assertion': 'off',
+
+  // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
+  'jest/unbound-method': 'off',
+
+  // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-expect-with-promise.md
+  'jest/valid-expect-with-promise': 'off',
+};
+
 export default {
   plugins: {
     jest: pluginJest,
@@ -7,6 +21,8 @@ export default {
 
   rules: {
     // Jest Plugin https://github.com/jest-community/eslint-plugin-jest
+
+    ...RULES_REQUIRE_TS,
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/consistent-test-it.md
     'jest/consistent-test-it': 'error',
@@ -197,11 +213,5 @@ export default {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
     'jest/valid-title': 'error',
-
-    /*
-     * only relevant for TypeScript
-     * https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
-     */
-    'jest/unbound-method': 'off',
   },
 };
