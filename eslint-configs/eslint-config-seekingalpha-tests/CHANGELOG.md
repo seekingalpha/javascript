@@ -1,5 +1,10 @@
 # Change Log
 
+## 4.44.0 - 2025-12-24
+
+- [deps] upgrade `eslint-plugin-jest` to version `29.11.0`
+- [breaking] enable `jest/prefer-mock-return-shorthand` rule
+
 ## 4.43.0 - 2025-12-23
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.10.1`

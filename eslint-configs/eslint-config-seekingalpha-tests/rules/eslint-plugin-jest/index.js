@@ -41,6 +41,9 @@ export default {
 
     'jest/prefer-mock-promise-shorthand': 'error',
 
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-mock-return-shorthand.md
+    'jest/prefer-mock-return-shorthand': 'error',
+
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-snapshot-hint.md
     'jest/prefer-snapshot-hint': 'off',
 
