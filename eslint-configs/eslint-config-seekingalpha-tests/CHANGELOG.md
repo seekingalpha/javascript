@@ -2,7 +2,7 @@
 
 ## 4.45.0 - 2025-12-30
 
-- [deps] upgrade `eslint-plugin-jest` to version `29.11.0`
+- [deps] upgrade `eslint-plugin-jest` to version `29.11.2`
 
 ## 4.44.0 - 2025-12-24
 
