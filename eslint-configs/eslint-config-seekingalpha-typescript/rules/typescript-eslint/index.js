@@ -115,6 +115,8 @@ const rulesRunTs = {
 
   '@typescript-eslint/restrict-template-expressions': 'off',
 
+  '@typescript-eslint/strict-void-return': 'off',
+
   '@typescript-eslint/use-unknown-in-catch-callback-variable': 'off',
 
   '@typescript-eslint/no-unnecessary-type-parameters': 'off',
