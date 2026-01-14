@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-node",
-  "version": "9.30.0",
+  "version": "9.31.0",
   "description": "SeekingAlpha's sharable node.js ESLint config",
   "main": "index.js",
   "type": "module",
@@ -51,11 +51,11 @@
   },
   "peerDependencies": {
     "eslint": "9.39.2",
-    "eslint-plugin-n": "17.23.1"
+    "eslint-plugin-n": "17.23.2"
   },
   "devDependencies": {
     "eslint": "9.39.2",
     "eslint-find-rules": "5.0.0",
-    "eslint-plugin-n": "17.23.1"
+    "eslint-plugin-n": "17.23.2"
   }
 }
