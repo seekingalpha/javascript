@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.33.0 - 2025-12-20
+
+- [new] expose eslint OXC config
+
 ## 11.32.0 - 2025-12-13
 
 - [deps] update `eslint` to version `9.39.2`
