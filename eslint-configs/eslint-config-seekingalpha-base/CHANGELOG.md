@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.34.0 - 2025-12-26
+
+- [new] add sharable oxlint config with base eslint rules
+
 ## 11.33.0 - 2025-12-20
 
 - [new] expose eslint OXC config
