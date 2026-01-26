@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.36.1 - 2025-12-26
+
+- [new] extend sharable oxlint config with eslint-plugin-unicorn rules
+
 ## 11.36.0 - 2025-12-26
 
 - [new] extend sharable oxlint config with eslint-plugin-unicorn rules
