@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["promise"],
   "extends": [
     "./rules/eslint/oxlint-config.json",
     "./rules/eslint-plugin-promise/oxlint-config.json"
