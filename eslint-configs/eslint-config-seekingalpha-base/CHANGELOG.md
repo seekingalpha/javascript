@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.35.0 - 2025-12-26
+
+- [new] extend sharable oxlint config with eslint-plugin-promise rules
+
 ## 11.34.0 - 2025-12-26
 
 - [new] add sharable oxlint config with base eslint rules
