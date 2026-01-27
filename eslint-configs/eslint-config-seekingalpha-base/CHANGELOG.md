@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.38.0 - 2025-12-27
+
+- [new] extend sharable oxlint config with eslint-plugin-import rules
+
 ## 11.37.0 - 2025-12-27
 
 - [breaking] drop `eslint-plugin-array-func`
