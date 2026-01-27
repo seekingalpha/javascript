@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.26.0 - 2026-01-27
+
+- [new] add sharable oxlint config with eslint-plugin-react rules
+
 ## 10.25.0 - 2025-12-13
 
 - [deps] upgrade `eslint` to version `9.39.2`

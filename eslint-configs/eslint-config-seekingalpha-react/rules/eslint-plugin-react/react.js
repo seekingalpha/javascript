@@ -35,12 +35,7 @@ export default {
   'react/destructuring-assignment': ['error', 'always'],
 
   // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-  'react/display-name': [
-    'off',
-    {
-      ignoreTranspilerName: false,
-    },
-  ],
+  'react/display-name': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
