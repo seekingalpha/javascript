@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.27.0 - 2026-01-27
+
+- [new] add sharable oxlint config with eslint-plugin-jsx-a11y and eslint-plugin-react-hooks rules
+
 ## 10.26.0 - 2026-01-27
 
 - [new] add sharable oxlint config with eslint-plugin-react rules
