@@ -1,0 +1,57 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import"],
+  "rules": {
+    "import/no-named-as-default": "error",
+    "import/no-named-as-default-member": "error",
+    "import/no-empty-named-blocks": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-amd": "error",
+    "import/default": "error",
+    "import/export": "error",
+    "import/exports-last": "off",
+    "import/namespace": [
+      "error",
+      {
+        "allowComputed": true
+      }
+    ],
+    "import/no-absolute-path": [
+      "error",
+      {
+        "esmodule": true,
+        "commonjs": true,
+        "amd": false
+      }
+    ],
+    "import/no-dynamic-require": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/prefer-default-export": "off",
+    "import/unambiguous": "off",
+    "import/no-self-import": "error",
+    "import/consistent-type-specifier-style": ["error", "prefer-top-level"],
+    "import/first": "error",
+    "import/group-exports": "off",
+    "import/max-dependencies": "off",
+    "import/named": "error",
+    "import/no-duplicates": "error",
+    "import/no-namespace": "error",
+    "import/extensions": [
+      "error",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "ignorePackages": true
+      }
+    ],
+    "import/no-unassigned-import": "error",
+    "import/no-named-default": "error",
+    "import/no-named-export": "off",
+    "import/no-default-export": "error",
+    "import/no-anonymous-default-export": "error",
+    "import/no-commonjs": "off",
+    "import/no-cycle": "off"
+  }
+}

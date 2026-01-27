@@ -2,6 +2,7 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "extends": [
     "./rules/eslint/oxlint-config.json",
+    "./rules/eslint-plugin-import/oxlint-config.json",
     "./rules/eslint-plugin-promise/oxlint-config.json",
     "./rules/eslint-plugin-unicorn/oxlint-config.json"
   ]
