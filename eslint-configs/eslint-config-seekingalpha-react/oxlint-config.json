@@ -1,4 +1,8 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "extends": ["./rules/eslint-plugin-react/oxlint-config.json"]
+  "extends": [
+    "./rules/eslint-plugin-react/oxlint-config.json",
+    "./rules/eslint-plugin-a11y/oxlint-config.json",
+    "./rules/eslint-plugin-react-hooks/oxlint-config.json"
+  ]
 }
