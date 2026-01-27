@@ -33,7 +33,7 @@
     "jsx-a11y/aria-role": [
       "error",
       {
-        "ignoreNonDom": false
+        "ignoreNonDOM": false
       }
     ],
     "jsx-a11y/aria-unsupported-elements": "error",

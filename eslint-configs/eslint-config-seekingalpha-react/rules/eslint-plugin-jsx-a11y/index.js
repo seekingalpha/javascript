@@ -50,7 +50,7 @@ export default {
     'jsx-a11y/aria-role': [
       'error',
       {
-        ignoreNonDom: false,
+        ignoreNonDOM: false,
       },
     ],
 
