@@ -6,7 +6,7 @@ This package includes the shareable ESLint config used by [SeekingAlpha](https:/
 
 Install ESLint and all [Peer Dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/):
 
-    npm install eslint@9.39.2 eslint-plugin-array-func@5.1.0 eslint-plugin-import@2.32.0 eslint-plugin-promise@7.2.1 eslint-plugin-unicorn@62.0.0 --save-dev
+    npm install eslint@9.39.2 eslint-plugin-import@2.32.0 eslint-plugin-promise@7.2.1 eslint-plugin-unicorn@62.0.0 --save-dev
 
 Install SeekingAlpha shareable ESLint:
 
@@ -17,7 +17,6 @@ Install SeekingAlpha shareable ESLint:
 This shareable config includes all ESLint rules. We also extend our configuration with following plugins:
 
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-- [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
