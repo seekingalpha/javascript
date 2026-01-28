@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
+    "lint": "oxlint && eslint .",
     "prepare": "node .husky/install.js",
     "prettier:check": "prettier --no-editorconfig --check .",
     "prettier:write": "prettier --no-editorconfig --write ."
@@ -41,21 +41,22 @@
     "*.{yml,yaml,md,mdx,html,json}": "prettier --write",
     "*.js": [
       "prettier --write",
+      "oxlint",
       "eslint"
     ]
   },
   "devDependencies": {
     "@seekingalpha/prettier-config-samw": "2.0.0",
     "eslint": "9.39.2",
-    "eslint-config-seekingalpha-base": "11.32.0",
+    "eslint-config-seekingalpha-base": "11.38.0",
     "eslint-config-seekingalpha-node": "9.31.0",
-    "eslint-plugin-array-func": "5.1.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "17.23.2",
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-unicorn": "62.0.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
-    "prettier": "3.7.4"
+    "oxlint": "1.42.0",
+    "prettier": "3.8.1"
   }
 }
