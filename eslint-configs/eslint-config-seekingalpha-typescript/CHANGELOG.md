@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.58.0 - 2026-01-28
+
+- [new] add sharable oxlint config with base typescript-eslint rules
+
 ## 8.57.0 - 2026-01-28
 
 - [deps] upgrade `typescript-eslint` to version `8.54.0`
