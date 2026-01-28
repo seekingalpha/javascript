@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-typescript",
-  "version": "8.58.0",
+  "version": "8.58.1",
   "description": "SeekingAlpha's sharable typescript ESLint config",
   "main": "index.js",
   "type": "module",
