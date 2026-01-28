@@ -2,7 +2,7 @@ import nodePlugin from 'eslint-plugin-n';
 
 export default {
   plugins: {
-    // eslint-disable-next-line id-length
+    // oxlint-disable-next-line id-length
     n: nodePlugin,
   },
   rules: {

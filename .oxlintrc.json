@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "extends": [
+    "./node_modules/eslint-config-seekingalpha-base/oxlint-config.json"
+  ],
+  "env": {
+    "builtin": true
+  },
+  "rules": {
+    "import/no-anonymous-default-export": "off",
+    "import/no-default-export": "off",
+    "import/extensions": "off"
+  }
+}
