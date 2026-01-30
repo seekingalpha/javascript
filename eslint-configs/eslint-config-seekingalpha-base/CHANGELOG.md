@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.39.0 - 2025-12-30
+
+- [breaking] drop `eslint-plugin-promise` from oxlint config
+
 ## 11.38.0 - 2025-12-27
 
 - [new] extend sharable oxlint config with eslint-plugin-import rules
