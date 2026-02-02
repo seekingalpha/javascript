@@ -13,12 +13,7 @@
       }
     ],
     "anchor-ambiguous-text": "off",
-    "jsx-a11y/anchor-has-content": [
-      "error",
-      {
-        "components": ["Anchor", "Link"]
-      }
-    ],
+    "jsx-a11y/anchor-has-content": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
