@@ -1,38 +1,42 @@
 # Change Log
 
-## 11.39.1 - 2025-12-30
+## 11.40.0 - 2026-02-02
+
+- [new] extend oxlint config
+
+## 11.39.1 - 2026-01-30
 
 - [breaking] drop `eslint-plugin-promise` from oxlint config
 
-## 11.39.0 - 2025-12-30
+## 11.39.0 - 2026-01-30
 
 - [breaking] drop `eslint-plugin-promise` from oxlint config
 
-## 11.38.0 - 2025-12-27
+## 11.38.0 - 2026-01-26
 
 - [new] extend sharable oxlint config with eslint-plugin-import rules
 
-## 11.37.0 - 2025-12-27
+## 11.37.0 - 2026-01-27
 
 - [breaking] drop `eslint-plugin-array-func`
 
-## 11.36.1 - 2025-12-26
+## 11.36.1 - 2026-01-26
 
 - [new] extend sharable oxlint config with eslint-plugin-unicorn rules
 
-## 11.36.0 - 2025-12-26
+## 11.36.0 - 2026-01-26
 
 - [new] extend sharable oxlint config with eslint-plugin-unicorn rules
 
-## 11.35.0 - 2025-12-26
+## 11.35.0 - 2026-01-26
 
 - [new] extend sharable oxlint config with eslint-plugin-promise rules
 
-## 11.34.0 - 2025-12-26
+## 11.34.0 - 2026-01-26
 
 - [new] add sharable oxlint config with base eslint rules
 
-## 11.33.0 - 2025-12-20
+## 11.33.0 - 2026-01-20
 
 - [new] expose eslint OXC config
 

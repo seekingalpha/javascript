@@ -667,14 +667,7 @@ export default {
   'sort-imports': 'off',
 
   // https://eslint.org/docs/rules/sort-keys
-  'sort-keys': [
-    'off',
-    'asc',
-    {
-      caseSensitive: false,
-      natural: true,
-    },
-  ],
+  'sort-keys': 'off',
 
   // https://eslint.org/docs/rules/sort-vars
   'sort-vars': [

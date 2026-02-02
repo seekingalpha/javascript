@@ -277,6 +277,13 @@
     "no-warning-comments": "off",
     "no-with": "error",
     "operator-assignment": ["error", "never"],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
     "prefer-destructuring": [
       "error",
       {

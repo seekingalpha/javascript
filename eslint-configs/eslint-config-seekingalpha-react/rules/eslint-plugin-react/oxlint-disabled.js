@@ -31,6 +31,7 @@ export const ESLintPluginReactDisabled = {
   'react/no-find-dom-node': 'off',
   'react/no-is-mounted': 'off',
   'react/no-namespace': 'off',
+  'react/no-multi-comp': 'off',
   'react/no-redundant-should-component-update': 'off',
   'react/no-render-return-value': 'off',
   'react/no-set-state': 'off',
