@@ -32,12 +32,7 @@
       }
     ],
     "react/jsx-no-comment-textnodes": "error",
-    "react/jsx-no-duplicate-props": [
-      "error",
-      {
-        "ignoreCase": true
-      }
-    ],
+    "react/jsx-no-duplicate-props": "error",
     "react/jsx-props-no-spread-multi": "error",
     "react/no-multi-comp": "off",
     "react/jsx-no-target-blank": [
