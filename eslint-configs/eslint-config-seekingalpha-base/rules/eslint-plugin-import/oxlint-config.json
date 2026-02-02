@@ -28,6 +28,7 @@
     "import/no-webpack-loader-syntax": "error",
     "import/prefer-default-export": "off",
     "import/unambiguous": "off",
+    "import/no-relative-parent-imports": "off",
     "import/no-self-import": "error",
     "import/consistent-type-specifier-style": ["error", "prefer-top-level"],
     "import/first": "error",
@@ -36,6 +37,7 @@
     "import/named": "error",
     "import/no-duplicates": "error",
     "import/no-namespace": "error",
+    "import/no-nodejs-modules": "off",
     "import/extensions": [
       "error",
       {

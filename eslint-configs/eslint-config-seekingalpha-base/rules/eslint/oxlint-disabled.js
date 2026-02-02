@@ -144,6 +144,7 @@ export const ESLintDisabled = {
   'no-warning-comments': 'off',
   'no-with': 'off',
   'operator-assignment': 'off',
+  'prefer-const': 'off',
   'prefer-destructuring': 'off',
   'prefer-exponentiation-operator': 'off',
   'prefer-numeric-literals': 'off',

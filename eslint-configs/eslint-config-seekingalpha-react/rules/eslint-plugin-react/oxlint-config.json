@@ -39,6 +39,7 @@
       }
     ],
     "react/jsx-props-no-spread-multi": "error",
+    "react/no-multi-comp": "off",
     "react/jsx-no-target-blank": [
       "error",
       {
