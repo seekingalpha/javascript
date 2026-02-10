@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.48.0 - 2026-02-10
+
+- [deps] upgrade `eslint-plugin-jest` to version `29.13.0`
+
 ## 4.47.0 - 2026-01-28
 
 - [new] add sharable oxlint config with eslint-plugin-jest rules
