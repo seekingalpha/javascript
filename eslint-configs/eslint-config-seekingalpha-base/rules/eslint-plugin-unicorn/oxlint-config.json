@@ -120,6 +120,7 @@
     "unicorn/prefer-structured-clone": "error",
     "unicorn/prefer-top-level-await": "off",
     "unicorn/prefer-type-error": "error",
+    "unicorn/relative-url-style": ["error", "never"],
     "unicorn/require-array-join-separator": "error",
     "unicorn/require-module-attributes": "error",
     "unicorn/require-module-specifiers": "error",
