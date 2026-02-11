@@ -112,6 +112,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/prefer-structured-clone': 'off',
   'unicorn/prefer-top-level-await': 'off',
   'unicorn/prefer-type-error': 'off',
+  'unicorn/relative-url-style': 'off',
   'unicorn/require-array-join-separator': 'off',
   'unicorn/require-module-attributes': 'off',
   'unicorn/require-module-specifiers': 'off',

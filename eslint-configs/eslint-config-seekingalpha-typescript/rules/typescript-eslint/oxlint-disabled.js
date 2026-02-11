@@ -39,6 +39,7 @@ export const ESLintPluginTypescriptDisabled = {
   '@typescript-eslint/prefer-namespace-keyword': 'off',
   '@typescript-eslint/triple-slash-reference': 'off',
   '@typescript-eslint/array-type': 'off',
+  '@typescript-eslint/consistent-type-assertions': 'off',
   '@typescript-eslint/explicit-function-return-type': 'off',
   '@typescript-eslint/explicit-module-boundary-types': 'off',
   // require type info
