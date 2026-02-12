@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.61.0 - 2026-02-11
+
+- [new] extend oxlint rules
+
 ## 8.60.0 - 2026-02-11
 
 - [new] extend oxlint rules
