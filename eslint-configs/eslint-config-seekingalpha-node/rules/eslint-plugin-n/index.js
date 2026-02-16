@@ -24,11 +24,17 @@ export default {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/buffer.md
     'n/prefer-global/buffer': ['error', 'always'],
 
+    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/crypto.md
+    'n/prefer-global/crypto': ['error', 'always'],
+
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/console.md
     'n/prefer-global/console': ['error', 'always'],
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/process.md
     'n/prefer-global/process': ['error', 'always'],
+
+    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/timers.md
+    'n/prefer-global/timers': ['error', 'always'],
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/url-search-params.md
     'n/prefer-global/url-search-params': ['error', 'always'],
