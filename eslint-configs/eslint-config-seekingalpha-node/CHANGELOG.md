@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.31.0 - 2026-02-16
+
+- [deps] update `eslint-plugin-n` to version `17.24.0`
+
 ## 9.31.0 - 2026-01-14
 
 - [deps] update `eslint-plugin-n` to version `17.23.2`
