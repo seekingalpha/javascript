@@ -45,9 +45,25 @@
     "typescript/no-unnecessary-type-constraint": "error",
     "typescript/no-unsafe-declaration-merging": "error",
     "typescript/no-unsafe-function-type": "error",
+    "typescript/no-use-before-define": [
+      "error",
+      {
+        "allowNamedExports": false,
+        "classes": true,
+        "enums": true,
+        "functions": true,
+        "ignoreTypeReferences": true,
+        "typedefs": true,
+        "variables": true
+      }
+    ],
     "typescript/no-useless-empty-export": "error",
     "typescript/no-var-requires": "error",
     "typescript/no-wrapper-object-types": "error",
+    "typescript/parameter-properties": [
+      "error",
+      { "allow": ["private", "protected"] }
+    ],
     "typescript/prefer-as-const": "error",
     "typescript/prefer-enum-initializers": "error",
     "typescript/prefer-for-of": "error",
@@ -115,6 +131,7 @@
     "typescript/strict-boolean-expressions": "off",
     "typescript/switch-exhaustiveness-check": "off",
     "typescript/unbound-method": "off",
+    "typescript/unified-signatures": "error",
     "typescript/use-unknown-in-catch-callback-variable": "off"
   }
 }
