@@ -45,12 +45,24 @@
     ],
     "no-self-compare": "error",
     "no-setter-return": "error",
+    "no-shadow": [
+      "error",
+      {
+        "builtinGlobals": true,
+        "hoist": "all",
+        "allow": [],
+        "ignoreFunctionTypeParameterNameValueShadow": true,
+        "ignoreOnInitialization": false,
+        "ignoreTypeValueShadow": true
+      }
+    ],
     "no-sparse-arrays": "error",
     "no-template-curly-in-string": "error",
     "no-ternary": "off",
     "no-this-before-super": "error",
     "no-unassigned-vars": "error",
     "no-unexpected-multiline": "error",
+    "no-unmodified-loop-condition": "error",
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "no-unsafe-optional-chaining": [
