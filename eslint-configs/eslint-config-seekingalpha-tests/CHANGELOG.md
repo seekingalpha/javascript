@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.50.0 - 2026-02-16
+## 4.50.0 - 2026-02-20
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `7.16.0`
 
