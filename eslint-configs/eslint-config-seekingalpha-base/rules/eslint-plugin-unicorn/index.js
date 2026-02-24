@@ -358,11 +358,8 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-math-apis.md
     'unicorn/prefer-modern-math-apis': 'error',
 
-    /*
-     * Enable after migration to nodejs 16 with esm
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md
-     */
-    'unicorn/prefer-module': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md
+    'unicorn/prefer-module': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md
     'unicorn/prefer-native-coercion-functions': 'error',
