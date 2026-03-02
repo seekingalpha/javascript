@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.66.0 - 2026-03-02
+
+- [new] extend oxlint rules with type-aware rules
+
 ## 8.65.0 - 2026-02-24
 
 - [deps] upgrade `typescript-eslint` to version `8.56.1`
