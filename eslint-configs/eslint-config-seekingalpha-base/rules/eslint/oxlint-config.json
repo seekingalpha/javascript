@@ -79,7 +79,13 @@
         "argsIgnorePattern": "[iI]gnored",
         "caughtErrors": "all",
         "caughtErrorsIgnorePattern": "[iI]gnored",
+        "destructuredArrayIgnorePattern": "[iI]gnored",
+        "fix": { "imports": "suggestion", "variables": "suggestion" },
+        "ignoreClassWithStaticInitBlock": false,
         "ignoreRestSiblings": false,
+        "ignoreUsingDeclarations": false,
+        "reportUsedIgnorePattern": false,
+        "reportVarsOnlyUsedAsTypes": false,
         "vars": "all",
         "varsIgnorePattern": "[iI]gnored"
       }
