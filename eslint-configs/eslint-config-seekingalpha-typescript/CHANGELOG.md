@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.67.0 - 2026-03-04
+
+- [new] extend oxlint rules
+
 ## 8.66.0 - 2026-03-02
 
 - [new] extend oxlint rules with type-aware rules
