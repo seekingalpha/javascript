@@ -47,6 +47,7 @@ export default {
     'jest/no-test-prefixes': 'error',
     'jest/no-test-return-statement': 'error',
     'jest/no-untyped-mock-factory': 'off',
+    'jest/no-unneeded-async-expect-function': 'error',
     'jest/prefer-called-with': 'error',
     'jest/prefer-comparison-matcher': 'error',
     'jest/prefer-equality-matcher': 'error',

@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.52.0 - 2026-03-10
+
+- [new] extend oxlint config
+
 ## 4.51.0 - 2026-03-10
 
 - [new] sharable ts oxlint config
