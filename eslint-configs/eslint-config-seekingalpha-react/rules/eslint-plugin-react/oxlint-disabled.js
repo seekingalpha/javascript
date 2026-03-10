@@ -6,7 +6,7 @@ export const ESLintPluginReactDisabled = {
   'react/jsx-key': 'off',
   'react/jsx-max-depth': 'off',
   'react/jsx-no-comment-textnodes': 'off',
-  'react/jsx-no-constructed-context-values': 'off ',
+  'react/jsx-no-constructed-context-values': 'off',
   'react/jsx-no-duplicate-props': 'off',
   'react/jsx-props-no-spread-multi': 'off',
   'react/jsx-no-target-blank': 'off',
