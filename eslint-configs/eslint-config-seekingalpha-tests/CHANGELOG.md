@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.51.0 - 2026-03-10
+
+- [new] sharable ts oxlint config
+
 ## 4.50.0 - 2026-02-20
 
 - [deps] upgrade `eslint-plugin-testing-library` to version `7.16.0`
