@@ -1,5 +1,7 @@
 export const ESLintDisabled = {
   'array-callback-return': 'off',
+  // implemented in ts
+  'consistent-return': 'off',
   'constructor-super': 'off',
   'for-direction': 'off',
   'no-async-promise-executor': 'off',
@@ -64,6 +66,8 @@ export const ESLintDisabled = {
   'default-case': 'off',
   'default-case-last': 'off',
   'default-param-last': 'off',
+  // implemented in ts
+  'dot-notation': 'off',
   eqeqeq: 'off',
   'func-names': 'off',
   'func-style': 'off',
@@ -100,6 +104,8 @@ export const ESLintDisabled = {
   'no-extra-boolean-cast': 'off',
   'no-extra-label': 'off',
   'no-global-assign': 'off',
+  // implemented in ts
+  'no-implied-eval': 'off',
   'no-implicit-coercion': 'off',
   'no-iterator': 'off',
   'no-label-var': 'off',
@@ -128,6 +134,7 @@ export const ESLintDisabled = {
   'no-sequences': 'off',
   'no-shadow-restricted-names': 'off',
   'no-throw-literal': 'off',
+  'no-undef': 'off',
   'no-undefined': 'off',
   'no-unmodified-loop-condition': 'off',
   'no-unneeded-ternary': 'off',
