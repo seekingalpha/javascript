@@ -157,5 +157,9 @@ export default {
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
     'react/state-in-constructor': ['error', 'always'],
+
+    // Oxlint specific rules
+    'react/no-clone-element': 'error',
+    'react/no-react-children': 'error',
   },
 };
