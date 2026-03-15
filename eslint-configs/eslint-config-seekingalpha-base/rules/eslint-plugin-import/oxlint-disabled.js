@@ -10,6 +10,8 @@ export const ESLintPluginImportDisabled = {
   'import/namespace': 'off',
   'import/no-absolute-path': 'off',
   'import/no-dynamic-require': 'off',
+  // disabled in favor of typescript/no-deprecated
+  'import/no-deprecated': 'off',
   'import/no-webpack-loader-syntax': 'off',
   'import/prefer-default-export': 'off',
   'import/unambiguous': 'off',
