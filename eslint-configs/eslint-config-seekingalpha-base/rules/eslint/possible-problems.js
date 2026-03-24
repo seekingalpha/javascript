@@ -51,7 +51,8 @@ export default {
   'no-debugger': 'error',
 
   // https://eslint.org/docs/rules/no-dupe-args
-  'no-dupe-args': 'error',
+  // It is safe to disable this rule when using TypeScript because TypeScript's compiler enforces this check
+  'no-dupe-args': 'off',
 
   // https://eslint.org/docs/rules/no-dupe-class-members
   'no-dupe-class-members': 'error',
@@ -106,9 +107,6 @@ export default {
 
   // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
   'no-new-native-nonconstructor': 'error',
-
-  // https://eslint.org/docs/rules/no-new-symbol
-  'no-new-symbol': 'error',
 
   // https://eslint.org/docs/rules/no-obj-calls
   'no-obj-calls': 'error',
