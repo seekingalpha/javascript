@@ -5,6 +5,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/consistent-empty-array-spread': 'off',
   'unicorn/consistent-existence-index-check': 'off',
   'unicorn/consistent-function-scoping': 'off',
+  'unicorn/custom-error-definition': 'off',
   'unicorn/empty-brace-spaces': 'off',
   'unicorn/error-message': 'off',
   'unicorn/escape-case': 'off',
