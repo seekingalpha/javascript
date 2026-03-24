@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.53.0 - 2026-03-24
+
+- [deps] upgrade `eslint-plugin-testing-library` to version `7.16.1`
+
 ## 4.52.0 - 2026-03-10
 
 - [new] extend oxlint config
