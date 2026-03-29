@@ -1,5 +1,13 @@
 # Change Log
 
+## 11.49.0 - 2026-03-29
+
+- [deps] update `eslint-plugin-unicorn` to version `64.0.0`
+- [breaking] enable `unicorn/consistent-template-literal-escape` rule
+- [breaking] enable `unicorn/no-useless-iterator-to-array` rule
+- [breaking] enable `unicorn/prefer-simple-condition-first` rule
+- [breaking] enable `unicorn/switch-case-break-position` rule
+
 ## 11.48.0 - 2026-03-24
 
 - [new] extend oxlint config

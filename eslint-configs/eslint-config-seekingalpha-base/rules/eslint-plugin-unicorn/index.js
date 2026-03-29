@@ -34,6 +34,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
     'unicorn/consistent-function-scoping': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-template-literal-escape.md
+    'unicorn/consistent-template-literal-escape': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md
     'unicorn/custom-error-definition': 'error',
 
@@ -227,6 +230,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md
     'unicorn/no-useless-collection-argument': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-iterator-to-array.md
+    'unicorn/no-useless-iterator-to-array': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
 
@@ -400,6 +406,9 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-size.md
     'unicorn/prefer-set-size': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-simple-condition-first.md
+    'unicorn/prefer-simple-condition-first': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'off',
 
@@ -461,6 +470,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
     'unicorn/switch-case-braces': ['error', 'always'],
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-break-position.md
+    'unicorn/switch-case-break-position': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md
     'unicorn/template-indent': 'off',
