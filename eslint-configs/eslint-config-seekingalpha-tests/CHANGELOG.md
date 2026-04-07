@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.56.0 - 2026-04-07
+
+- [new] extend oxlint config
+
 ## 4.55.0 - 2026-03-29
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.15.1`
