@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seekingalpha-react",
-  "version": "10.31.1",
+  "version": "10.32.0",
   "description": "SeekingAlpha's sharable React.js ESLint config",
   "main": "index.js",
   "type": "module",

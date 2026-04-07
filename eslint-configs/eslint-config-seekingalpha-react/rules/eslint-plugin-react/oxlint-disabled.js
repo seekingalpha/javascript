@@ -23,6 +23,7 @@ export const ESLintPluginReactDisabled = {
   'react/forbid-dom-props': 'off',
   'react/forbid-elements': 'off',
   'react/forward-ref-uses-ref': 'off',
+  'react/hook-use-state': 'off',
   'react/iframe-missing-sandbox': 'off',
   'react/no-array-index-key': 'off',
   'react/no-children-prop': 'off',
