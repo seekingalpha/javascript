@@ -38,6 +38,7 @@ export const ESLintPluginJestDisabled = {
   'jest/prefer-hooks-in-order': 'off',
   'jest/prefer-hooks-on-top': 'off',
   'jest/prefer-jest-mocked': 'off',
+  'jest/prefer-snapshot-hint': 'off',
   'jest/prefer-spy-on': 'off',
   'jest/prefer-strict-equal': 'off',
   'jest/prefer-to-be': 'off',

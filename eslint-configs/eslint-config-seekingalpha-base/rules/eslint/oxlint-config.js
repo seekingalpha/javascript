@@ -233,6 +233,7 @@ export default {
     'no-proto': 'error',
     'no-redeclare': 'error',
     'no-regex-spaces': 'error',
+    'no-restricted-exports': 'off',
     'no-restricted-globals': [
       'error',
       {
@@ -276,6 +277,7 @@ export default {
       },
     ],
     'no-unused-labels': 'error',
+    'no-useless-assignment': 'error',
     'no-useless-call': 'error',
     'no-useless-catch': 'error',
     'no-useless-computed-key': 'error',
@@ -295,6 +297,14 @@ export default {
     'no-void': 'error',
     'no-warning-comments': 'off',
     'no-with': 'error',
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        ignoreConstructors: false,
+        avoidQuotes: true,
+      },
+    ],
     'operator-assignment': ['error', 'never'],
     'prefer-const': [
       'error',

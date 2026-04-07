@@ -56,6 +56,7 @@ export default {
     'jest/prefer-hooks-on-top': 'error',
     'jest/prefer-jest-mocked': 'error',
     'jest/prefer-mock-return-shorthand': 'error',
+    'jest/prefer-snapshot-hint': 'off',
     'jest/prefer-spy-on': 'error',
     'jest/prefer-strict-equal': 'error',
     'jest/prefer-to-be': 'error',

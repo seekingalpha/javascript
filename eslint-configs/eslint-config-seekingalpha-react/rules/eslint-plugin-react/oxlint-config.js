@@ -131,6 +131,12 @@ export default {
       },
     ],
     'react/forward-ref-uses-ref': 'error',
+    'react/hook-use-state': [
+      'error',
+      {
+        allowDestructuredState: true,
+      },
+    ],
     'react/iframe-missing-sandbox': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
