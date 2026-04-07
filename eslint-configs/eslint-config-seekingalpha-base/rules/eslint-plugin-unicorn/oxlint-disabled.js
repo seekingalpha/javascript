@@ -58,6 +58,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/no-useless-switch-case': 'off',
   'unicorn/no-useless-error-capture-stack-trace': 'off',
   'unicorn/no-useless-fallback-in-spread': 'off',
+  'unicorn/no-useless-iterator-to-array': 'off',
   'unicorn/no-useless-length-check': 'off',
   'unicorn/no-useless-promise-resolve-reject': 'off',
   'unicorn/no-useless-undefined': 'off',
@@ -84,6 +85,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/prefer-dom-node-text-content': 'off',
   'unicorn/prefer-event-target': 'off',
   'unicorn/prefer-global-this': 'off',
+  'unicorn/prefer-import-meta-properties': 'off',
   'unicorn/prefer-includes': 'off',
   'unicorn/prefer-keyboard-event-key': 'off',
   'unicorn/prefer-logical-operator-over-ternary': 'off',
@@ -122,6 +124,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/require-number-to-fixed-digits-argument': 'off',
   'unicorn/require-post-message-target-origin': 'off',
   'unicorn/switch-case-braces': 'off',
+  'unicorn/switch-case-break-position': 'off',
   'unicorn/text-encoding-identifier-case': 'off',
   'unicorn/throw-new-error': 'off',
 };
