@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.72.0 - 2026-04-12
+
+- [deps] upgrade `typescript-eslint` to version `8.58.1`
+
 ## 8.71.0 - 2026-04-07
 
 - [new] extend oxlint rules
