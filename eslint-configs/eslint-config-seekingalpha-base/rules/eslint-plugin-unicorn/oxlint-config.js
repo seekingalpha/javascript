@@ -12,6 +12,7 @@ export default {
     'unicorn/consistent-empty-array-spread': 'error',
     'unicorn/consistent-existence-index-check': 'error',
     'unicorn/consistent-function-scoping': 'error',
+    'unicorn/consistent-template-literal-escape': 'error',
     'unicorn/custom-error-definition': 'error',
     'unicorn/empty-brace-spaces': 'off',
     'unicorn/error-message': 'error',
