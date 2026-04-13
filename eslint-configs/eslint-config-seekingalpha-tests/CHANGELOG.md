@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.60.0 - 2026-04-13
+
+- [new] migrate oxlint config to `oxlint-config` package
+
 ## 4.59.0 - 2026-04-13
 
 - [new] migrate oxlint config to `oxlint-config` package
