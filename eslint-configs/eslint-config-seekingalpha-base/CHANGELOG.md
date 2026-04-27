@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.54.0 - 2026-04-27
+
+- [deps] update `eslint-plugin-promise` to version `7.3.0`
+
 ## 11.53.0 - 2026-04-27
 
 - [new] extend oxlint config
