@@ -3,6 +3,14 @@ export default {
     'array-callback-return': 'error',
     'constructor-super': 'error',
     'for-direction': 'error',
+    'func-name-matching': [
+      'error',
+      'always',
+      {
+        considerPropertyDescriptor: true,
+        includeCommonJSModuleExports: true,
+      },
+    ],
     'no-async-promise-executor': 'error',
     'no-await-in-loop': 'error',
     'no-class-assign': 'error',
@@ -61,6 +69,15 @@ export default {
     'no-this-before-super': 'error',
     'no-unassigned-vars': 'error',
     'no-unexpected-multiline': 'error',
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: [],
+        allowAfterThis: false,
+        allowAfterSuper: false,
+        enforceInMethodNames: false,
+      },
+    ],
     'no-unmodified-loop-condition': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
