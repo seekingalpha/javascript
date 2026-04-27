@@ -75,6 +75,18 @@ export default {
     ],
     'react/checked-requires-onchange-or-readonly': 'error',
     'react/display-name': 'off',
+    'react/forbid-component-props': [
+      'error',
+      {
+        forbid: [
+          'style',
+          {
+            propName: 'className',
+            allowedFor: ['Button', 'Icon', 'Link'],
+          },
+        ],
+      },
+    ],
     'react/forbid-dom-props': [
       'error',
       {
@@ -142,6 +154,7 @@ export default {
     'react/no-children-prop': 'error',
     'react/no-danger-with-children': 'error',
     'react/no-did-mount-set-state': 'off',
+    'react/no-did-update-set-state': 'off',
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',

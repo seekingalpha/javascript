@@ -8,6 +8,7 @@ export const ESLintPluginTypescriptDisabled = {
   '@typescript-eslint/consistent-indexed-object-style': 'off',
   '@typescript-eslint/consistent-type-definitions': 'off',
   '@typescript-eslint/consistent-type-imports': 'off',
+  '@typescript-eslint/explicit-member-accessibility': 'off',
   '@typescript-eslint/no-confusing-non-null-assertion': 'off',
   '@typescript-eslint/no-duplicate-enum-values': 'off',
   '@typescript-eslint/no-dynamic-delete': 'off',

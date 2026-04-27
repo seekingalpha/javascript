@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.35.0 - 2026-04-27
+
+- [new] extend oxlint config
+
 ## 10.34.0 - 2026-04-17
 
 - [deps] upgrade `eslint-plugin-react-hooks` to version `7.1.1`
