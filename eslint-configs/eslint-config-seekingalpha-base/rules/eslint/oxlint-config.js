@@ -167,6 +167,7 @@ export default {
       },
     ],
     'init-declarations': 'off',
+    'logical-assignment-operators': ['error', 'always'],
     'max-classes-per-file': ['error', 1],
     'max-depth': ['error', 2],
     'max-lines': 'off',
@@ -271,6 +272,46 @@ export default {
       },
     ],
     'no-restricted-imports': 'error',
+    'no-restricted-properties': [
+      'error',
+      {
+        object: 'arguments',
+        property: 'callee',
+        message: 'arguments.callee is deprecated',
+      },
+      {
+        object: 'global',
+        property: 'isFinite',
+        message: 'Use Number.isFinite instead',
+      },
+      {
+        object: 'window',
+        property: 'isFinite',
+        message: 'Use Number.isFinite instead',
+      },
+      {
+        object: 'global',
+        property: 'isNaN',
+        message: 'Use Number.isNaN instead',
+      },
+      {
+        object: 'window',
+        property: 'isNaN',
+        message: 'Use Number.isNaN instead',
+      },
+      {
+        property: '__defineGetter__',
+        message: 'Use Object.defineProperty instead',
+      },
+      {
+        property: '__defineSetter__',
+        message: 'Use Object.defineProperty instead',
+      },
+      {
+        object: 'require',
+        message: 'Please call require() directly.',
+      },
+    ],
     'no-return-assign': 'error',
     'no-script-url': 'error',
     'no-sequences': 'error',
@@ -367,6 +408,7 @@ export default {
     ],
     radix: 'error',
     'require-await': 'error',
+    'require-unicode-regexp': 'error',
     'require-yield': 'error',
     'sort-imports': 'off',
     'sort-keys': 'off',
