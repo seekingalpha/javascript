@@ -22,6 +22,7 @@ export const ESLintPluginA11YDisabled = {
   'jsx-a11y/no-aria-hidden-on-focusable': 'off',
   'jsx-a11y/no-autofocus': 'off',
   'jsx-a11y/no-distracting-elements': 'off',
+  'jsx-a11y/no-noninteractive-element-to-interactive-role': 'off',
   'jsx-a11y/no-noninteractive-tabindex': 'off',
   'jsx-a11y/no-redundant-roles': 'off',
   'jsx-a11y/no-static-element-interactions': 'off',
