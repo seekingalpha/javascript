@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.57.0 - 2026-05-12
+
+- [new] extend oxlint config
+
 ## 11.56.0 - 2026-05-12
 
 - [new] extend oxlint config
