@@ -397,6 +397,7 @@ export default {
         allowEmptyReject: true,
       },
     ],
+    'prefer-regex-literals': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
