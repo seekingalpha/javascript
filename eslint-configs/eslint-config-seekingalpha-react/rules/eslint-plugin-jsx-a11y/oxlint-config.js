@@ -11,7 +11,7 @@ export default {
         "input[type='image']": [],
       },
     ],
-    'anchor-ambiguous-text': 'off',
+    'jsx-a11y/anchor-ambiguous-text': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
@@ -33,6 +33,7 @@ export default {
     'jsx-a11y/aria-unsupported-elements': 'error',
     'jsx-a11y/autocomplete-valid': 'error',
     'jsx-a11y/click-events-have-key-events': 'error',
+    'jsx-a11y/control-has-associated-label': 'error',
     'jsx-a11y/heading-has-content': [
       'error',
       {
@@ -101,6 +102,19 @@ export default {
       },
     ],
     'jsx-a11y/no-distracting-elements': 'error',
+    'jsx-a11y/no-noninteractive-element-interactions': [
+      'error',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp',
+        ],
+      },
+    ],
     'jsx-a11y/no-noninteractive-element-to-interactive-role': [
       'error',
       {
@@ -125,6 +139,12 @@ export default {
         li: ['menuitem', 'option', 'row', 'tab', 'treeitem'],
         table: ['grid'],
         td: ['gridcell'],
+      },
+    ],
+    'jsx-a11y/no-interactive-element-to-noninteractive-role': [
+      'error',
+      {
+        tr: ['none', 'presentation'],
       },
     ],
     'jsx-a11y/no-noninteractive-tabindex': [
