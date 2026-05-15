@@ -32,6 +32,7 @@ export default {
     'no-ex-assign': 'error',
     'no-fallthrough': 'error',
     'no-func-assign': 'error',
+    'no-implicit-globals': 'error',
     'no-import-assign': 'error',
     'no-inline-comments': 'off',
     'no-inner-declarations': 'error',
@@ -364,6 +365,13 @@ export default {
       },
     ],
     'operator-assignment': ['error', 'never'],
+    'prefer-arrow-callback': [
+      'error',
+      {
+        allowNamedFunctions: false,
+        allowUnboundThis: true,
+      },
+    ],
     'prefer-const': [
       'error',
       {
