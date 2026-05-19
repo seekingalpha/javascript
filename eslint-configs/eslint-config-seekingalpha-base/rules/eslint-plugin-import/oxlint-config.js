@@ -15,6 +15,7 @@ export default {
         allowComputed: true,
       },
     ],
+    'import/newline-after-import': 'error',
     'import/no-absolute-path': [
       'error',
       {

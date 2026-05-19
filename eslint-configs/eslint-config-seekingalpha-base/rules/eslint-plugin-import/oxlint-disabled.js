@@ -8,6 +8,7 @@ export const ESLintPluginImportDisabled = {
   'import/export': 'off',
   'import/exports-last': 'off',
   'import/namespace': 'off',
+  'import/newline-after-import': 'off',
   'import/no-absolute-path': 'off',
   'import/no-dynamic-require': 'off',
   // disabled in favor of typescript/no-deprecated
