@@ -78,6 +78,7 @@ export const ESLintDisabled = {
   'grouped-accessor-pairs': 'off',
   'guard-for-in': 'off',
   'id-length': 'off',
+  'id-match': 'off',
   'init-declarations': 'off',
   'logical-assignment-operators': 'off',
   'max-classes-per-file': 'off',

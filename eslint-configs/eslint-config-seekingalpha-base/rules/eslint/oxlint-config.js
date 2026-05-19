@@ -167,6 +167,7 @@ export default {
         exceptions: [],
       },
     ],
+    'id-match': 'off',
     'init-declarations': 'off',
     'logical-assignment-operators': ['error', 'always'],
     'max-classes-per-file': ['error', 1],
