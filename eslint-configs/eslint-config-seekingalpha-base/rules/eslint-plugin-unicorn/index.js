@@ -42,7 +42,7 @@ export default {
 
     /*
      * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md
-     * Disabled to work with prettier
+     * Disabled to work with oxfmt
      */
     'unicorn/empty-brace-spaces': 'off',
 

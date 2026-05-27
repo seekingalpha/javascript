@@ -9,10 +9,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "oxlint": "oxlint --no-error-on-unmatched-pattern --report-unused-disable-directives",
     "lint": "oxlint && TIMING=1 eslint .",
     "prepare": "node .husky/install.js",
-    "prettier:check": "prettier --no-editorconfig --check .",
-    "prettier:write": "prettier --no-editorconfig --write ."
+    "oxfmt:check": "oxfmt --check --no-error-on-unmatched-pattern",
+    "oxfmt:write": "oxfmt --write --no-error-on-unmatched-pattern"
   },
   "repository": {
     "type": "git",
@@ -38,15 +39,14 @@
   },
   "homepage": "https://github.com/seekingalpha/javascript#readme",
   "lint-staged": {
-    "*.{yml,yaml,md,mdx,html,json}": "prettier --write",
+    "*.{yml,yaml,md,mdx,html,json}": "oxfmt --write --no-error-on-unmatched-pattern",
     "*.js": [
-      "prettier --write",
+      "oxfmt --write --no-error-on-unmatched-pattern",
       "oxlint",
       "eslint"
     ]
   },
   "devDependencies": {
-    "@seekingalpha/prettier-config-samw": "2.0.0",
     "eslint": "9.39.2",
     "eslint-config-seekingalpha-base": "11.59.0",
     "eslint-config-seekingalpha-node": "9.34.0",
@@ -55,7 +55,7 @@
     "eslint-plugin-unicorn": "64.0.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.5",
-    "oxlint": "1.66.0",
-    "prettier": "3.8.3"
+    "oxfmt": "0.52.0",
+    "oxlint": "1.66.0"
   }
 }

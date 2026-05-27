@@ -1,6 +1,5 @@
-import { defineConfig } from 'oxlint';
-
 import baseConfig from 'eslint-config-seekingalpha-base/oxlint-config.js';
+import { defineConfig } from 'oxlint';
 
 export default defineConfig({
   extends: [baseConfig],
