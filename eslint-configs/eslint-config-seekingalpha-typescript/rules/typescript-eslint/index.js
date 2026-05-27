@@ -206,8 +206,6 @@ export default {
 
   '@typescript-eslint/no-dynamic-delete': 'error',
 
-  '@typescript-eslint/no-empty-interface': 'error',
-
   '@typescript-eslint/no-empty-object-type': 'error',
 
   '@typescript-eslint/no-explicit-any': 'off',
@@ -272,8 +270,6 @@ export default {
 
   '@typescript-eslint/no-useless-empty-export': 'error',
 
-  '@typescript-eslint/no-var-requires': 'error',
-
   '@typescript-eslint/no-wrapper-object-types': 'error',
 
   '@typescript-eslint/prefer-as-const': 'error',
@@ -289,8 +285,6 @@ export default {
   '@typescript-eslint/prefer-namespace-keyword': 'error',
 
   '@typescript-eslint/triple-slash-reference': 'error',
-
-  '@typescript-eslint/typedef': 'off',
 
   '@typescript-eslint/unified-signatures': 'error',
 
@@ -314,6 +308,4 @@ export default {
   ],
 
   '@typescript-eslint/explicit-module-boundary-types': 'off',
-
-  '@typescript-eslint/no-type-alias': 'off',
 };
