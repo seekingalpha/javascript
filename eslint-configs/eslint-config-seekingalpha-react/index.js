@@ -1,6 +1,6 @@
 import jsxA11yConfig from './rules/eslint-plugin-jsx-a11y/index.js';
-import reactConfig from './rules/eslint-plugin-react/index.js';
 import reactHooksConfig from './rules/eslint-plugin-react-hooks/index.js';
+import reactConfig from './rules/eslint-plugin-react/index.js';
 
 export default {
   plugins: {

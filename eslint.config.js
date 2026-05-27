@@ -1,6 +1,6 @@
-import { defineConfig } from 'eslint/config';
 import baseConfig from 'eslint-config-seekingalpha-base/oxc.js';
 import nodeConfig from 'eslint-config-seekingalpha-node';
+import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
   {
@@ -20,6 +20,7 @@ export default defineConfig([
     rules: {
       ...baseConfig.rules,
       ...nodeConfig.rules,
+      'import/order': 'off',
       'import/no-unresolved': 'off',
       'n/file-extension-in-import': 'off',
       'n/no-missing-import': 'off',

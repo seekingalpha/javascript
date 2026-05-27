@@ -13,31 +13,31 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
-   * Disabled to work with prettier
+   * Disabled to work with oxfmt
    */
   'react/jsx-child-element-spacing': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-closing-bracket-location': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-closing-tag-location': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-curly-spacing': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-equals-spacing': 'off',
 
@@ -51,7 +51,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-first-prop-new-line': 'off',
 
@@ -63,13 +63,13 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-indent': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-   * disable ti work with prettier
+   * disable ti work with oxfmt
    */
   'react/jsx-indent-props': 'off',
 
@@ -93,13 +93,13 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-max-props-per-line': 'off',
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-newline': 'off',
 
@@ -147,7 +147,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
-   * disable to worl with prettier
+   * disable to worl with oxfmt
    */
   'react/jsx-one-expression-per-line': 'off',
 
@@ -171,7 +171,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-props-no-multi-spaces': 'off',
 
@@ -193,7 +193,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-tag-spacing': 'off',
 
@@ -208,7 +208,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-wrap-multilines': 'off',
 
@@ -223,7 +223,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
-   * disable to work with prettier
+   * disable to work with oxfmt
    */
   'react/jsx-curly-newline': 'off',
 
