@@ -105,7 +105,8 @@ export default {
     'n/no-restricted-require': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-process-exit.md
-    'n/no-process-exit': 'error',
+    // prefer unicorn
+    'n/no-process-exit': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md
     // requires type checking
@@ -141,6 +142,7 @@ export default {
     'n/hashbang': 'off',
 
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-node-protocol.md
-    'n/prefer-node-protocol': 'error',
+    // prefer unicorn
+    'n/prefer-node-protocol': 'off',
   },
 };
