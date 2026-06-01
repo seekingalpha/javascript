@@ -185,11 +185,8 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md
     'unicorn/no-object-as-default-parameter': 'error',
 
-    /*
-     * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
-     * Already validated by EsLint node rule
-     */
-    'unicorn/no-process-exit': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
+    'unicorn/no-process-exit': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-single-promise-in-promise-methods.md
     'unicorn/no-single-promise-in-promise-methods': 'error',

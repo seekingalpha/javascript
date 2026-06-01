@@ -13,17 +13,14 @@ export default {
   'import/no-duplicates': 'error',
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
-  'import/no-namespace': 'error',
+  'import/no-namespace': ['error', { ignore: ['*.scss'] }],
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
   'import/extensions': [
     'error',
-    'ignorePackages',
+    'always',
     {
-      js: 'never',
-      jsx: 'never',
-      ts: 'never',
-      tsx: 'never',
+      ignorePackages: true,
     },
   ],
 

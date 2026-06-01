@@ -50,7 +50,7 @@ export default {
     'unicorn/no-new-buffer': 'error',
     'unicorn/no-null': 'off',
     'unicorn/no-object-as-default-parameter': 'error',
-    'unicorn/no-process-exit': 'off',
+    'unicorn/no-process-exit': 'error',
     'unicorn/no-single-promise-in-promise-methods': 'error',
     'unicorn/no-unnecessary-slice-end': 'error',
     'unicorn/no-static-only-class': 'error',

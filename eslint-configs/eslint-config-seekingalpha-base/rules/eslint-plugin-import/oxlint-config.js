@@ -36,15 +36,12 @@ export default {
     'import/max-dependencies': 'off',
     'import/named': 'error',
     'import/no-duplicates': 'error',
-    'import/no-namespace': 'error',
+    'import/no-namespace': ['error', { ignore: ['*.scss'] }],
     'import/no-nodejs-modules': 'off',
     'import/extensions': [
       'error',
+      'always',
       {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
         ignorePackages: true,
       },
     ],
