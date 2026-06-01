@@ -1,8 +1,9 @@
 import baseConfig from 'eslint-config-seekingalpha-base/oxlint-config.js';
+import nodeConfig from 'eslint-config-seekingalpha-node/oxlint-config.js';
 import { defineConfig } from 'oxlint';
 
 export default defineConfig({
-  extends: [baseConfig],
+  extends: [baseConfig, nodeConfig],
   env: {
     builtin: true,
   },
@@ -20,6 +21,5 @@ export default defineConfig({
     ],
     'import/no-anonymous-default-export': 'off',
     'import/no-default-export': 'off',
-    'import/extensions': 'off',
   },
 });
