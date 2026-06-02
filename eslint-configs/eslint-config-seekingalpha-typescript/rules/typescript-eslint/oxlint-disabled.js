@@ -9,6 +9,7 @@ export const ESLintPluginTypescriptDisabled = {
   '@typescript-eslint/consistent-type-definitions': 'off',
   '@typescript-eslint/consistent-type-imports': 'off',
   '@typescript-eslint/explicit-member-accessibility': 'off',
+  '@typescript-eslint/method-signature-style': 'off',
   '@typescript-eslint/no-confusing-non-null-assertion': 'off',
   '@typescript-eslint/no-duplicate-enum-values': 'off',
   '@typescript-eslint/no-dynamic-delete': 'off',
