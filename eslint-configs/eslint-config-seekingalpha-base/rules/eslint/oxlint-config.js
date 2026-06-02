@@ -397,6 +397,7 @@ export default {
       },
     ],
     'prefer-exponentiation-operator': 'error',
+    'prefer-named-capture-group': 'off',
     'prefer-numeric-literals': 'error',
     'prefer-object-has-own': 'off',
     'prefer-object-spread': 'error',
