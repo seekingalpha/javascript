@@ -1,5 +1,10 @@
 # Change Log
 
+## 11.63.1 - 2026-06-08
+
+- [breaking] disable `unicorn/prefer-iterator-concat` rule
+- [breaking] disable `unicorn/consistent-compound-words` rule
+
 ## 11.63.0 - 2026-06-08
 
 - [deps] update `eslint-plugin-unicorn` to version `65.0.0`

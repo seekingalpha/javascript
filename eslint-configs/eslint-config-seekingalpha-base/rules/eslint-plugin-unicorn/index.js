@@ -20,7 +20,7 @@ export default {
     'unicorn/consistent-assert': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-compound-words.md
-    'unicorn/consistent-compound-words': 'error',
+    'unicorn/consistent-compound-words': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md
     'unicorn/consistent-date-clone': 'error',
@@ -380,7 +380,7 @@ export default {
     'unicorn/prefer-includes-over-repeated-comparisons': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-concat.md
-    'unicorn/prefer-iterator-concat': 'error',
+    'unicorn/prefer-iterator-concat': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-to-array-at-end.md
     'unicorn/prefer-iterator-to-array-at-end': 'error',
