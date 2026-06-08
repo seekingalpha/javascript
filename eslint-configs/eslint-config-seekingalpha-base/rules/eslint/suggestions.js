@@ -120,7 +120,7 @@ export default {
 
   /*
    * https://eslint.org/docs/rules/guard-for-in
-   * http://2ality.com/2012/01/objects-as-maps.html
+   * https://2ality.com/2012/01/objects-as-maps.html
    */
   'guard-for-in': 'error',
 
