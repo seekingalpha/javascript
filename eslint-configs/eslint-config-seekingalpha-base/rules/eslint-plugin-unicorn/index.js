@@ -6,7 +6,7 @@ export default {
   },
   rules: {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-dom-traversing.md
-    'unicorn/better-dom-traversing': 'error',
+    'unicorn/better-dom-traversing': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md
     'unicorn/catch-error-name': [
