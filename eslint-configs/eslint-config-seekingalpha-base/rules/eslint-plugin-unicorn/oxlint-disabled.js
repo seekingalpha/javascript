@@ -82,7 +82,7 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/prefer-date-now': 'off',
   'unicorn/prefer-default-parameters': 'off',
   'unicorn/prefer-dom-node-append': 'off',
-  'unicorn/prefer-dom-node-dataset': 'off',
+  'unicorn/dom-node-dataset': 'off',
   'unicorn/prefer-dom-node-remove': 'off',
   'unicorn/prefer-dom-node-text-content': 'off',
   'unicorn/prefer-event-target': 'off',

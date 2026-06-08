@@ -1,5 +1,39 @@
 # Change Log
 
+## 11.63.0 - 2026-06-08
+
+- [deps] update `eslint-plugin-unicorn` to version `65.0.0`
+- [breaking] enable `unicorn/better-dom-traversing` rule
+- [breaking] enable `unicorn/consistent-compound-words` rule
+- [breaking] enable `unicorn/consistent-json-file-read` rule
+- [breaking] enable `unicorn/no-array-fill-with-reference-type` rule
+- [breaking] enable `unicorn/no-array-from-fill` rule
+- [breaking] enable `unicorn/no-blob-to-file` rule
+- [breaking] enable `unicorn/no-canvas-to-image` rule
+- [breaking] enable `unicorn/no-confusing-array-splice` rule
+- [breaking] enable `unicorn/no-duplicate-set-values` rule
+- [breaking] enable `unicorn/no-exports-in-scripts` rule
+- [breaking] enable `unicorn/no-incorrect-query-selector` rule
+- [breaking] enable `unicorn/no-invalid-file-input-accept` rule
+- [breaking] enable `unicorn/no-late-current-target-access` rule
+- [breaking] enable `unicorn/no-manually-wrapped-comments` rule
+- [breaking] enable `unicorn/no-unnecessary-nested-ternary` rule
+- [breaking] enable `unicorn/no-this-outside-of-class` rule
+- [breaking] enable `unicorn/no-unused-array-method-return` rule
+- [breaking] enable `unicorn/prefer-array-last-methods` rule
+- [breaking] enable `unicorn/prefer-get-or-insert-computed` rule
+- [breaking] enable `unicorn/prefer-https` rule
+- [breaking] enable `unicorn/prefer-iterator-concat` rule
+- [breaking] enable `unicorn/prefer-iterator-to-array-at-end` rule
+- [breaking] enable `unicorn/prefer-math-abs` rule
+- [breaking] enable `unicorn/prefer-queue-microtask` rule
+- [breaking] enable `unicorn/prefer-split-limit` rule
+- [breaking] enable `unicorn/prefer-string-match-all` rule
+- [breaking] enable `unicorn/prefer-string-pad-start-end` rule
+- [breaking] enable `unicorn/prefer-string-repeat` rule
+- [breaking] enable `unicorn/require-css-escape` rule
+- [breaking] enable `unicorn/require-passive-events` rule
+
 ## 11.62.0 - 2026-06-02
 
 - [new] extend oxlint config
