@@ -538,7 +538,7 @@ export default {
     'unicorn/require-array-join-separator': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-css-escape.md
-    'unicorn/require-css-escape': 'error',
+    'unicorn/require-css-escape': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-attributes.md
     'unicorn/require-module-attributes': 'error',

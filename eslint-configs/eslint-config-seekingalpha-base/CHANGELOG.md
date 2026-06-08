@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.63.3 - 2026-06-08
+
+- [breaking] disable `unicorn/require-css-escape` rule
+
 ## 11.63.2 - 2026-06-08
 
 - [breaking] disable `unicorn/better-dom-traversing` rule
