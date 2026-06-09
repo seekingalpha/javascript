@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.64.0 - 2026-06-09
+
+- [deps] update `eslint-plugin-unicorn` to version `65.0.1`
+
 ## 11.63.3 - 2026-06-08
 
 - [breaking] disable `unicorn/require-css-escape` rule
