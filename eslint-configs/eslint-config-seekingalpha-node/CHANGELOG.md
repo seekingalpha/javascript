@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.1.0 - 2026-06-09
+
+- [deps] update `eslint-plugin-n` to version `18.1.0`
+
 ## 10.0.0 - 2026-06-01
 
 - [new] add sharable oxlint config with eslint-plugin-n rules
