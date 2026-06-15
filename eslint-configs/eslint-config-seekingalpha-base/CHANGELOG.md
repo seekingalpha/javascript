@@ -1,5 +1,9 @@
 # Change Log
 
+## 11.65.0 - 2026-06-15
+
+- [new] extend oxlint config
+
 ## 11.64.0 - 2026-06-09
 
 - [deps] update `eslint-plugin-unicorn` to version `65.0.1`

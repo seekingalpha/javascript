@@ -9,6 +9,7 @@ export const ESLintPluginReactDisabled = {
   'react/jsx-no-constructed-context-values': 'off',
   'react/jsx-no-duplicate-props': 'off',
   'react/jsx-props-no-spread-multi': 'off',
+  'react/jsx-no-literals': 'off',
   'react/jsx-no-target-blank': 'off',
   'react/jsx-no-undef': 'off',
   'react/jsx-curly-brace-presence': 'off',

@@ -33,6 +33,7 @@ export default {
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-constructed-context-values': 'error',
     'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-no-literals': 'off',
     'react/jsx-props-no-spread-multi': 'error',
     'react/no-multi-comp': 'off',
     'react/jsx-no-target-blank': [
