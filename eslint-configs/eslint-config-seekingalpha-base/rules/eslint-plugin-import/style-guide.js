@@ -25,23 +25,8 @@ export default {
   ],
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-  'import/order': [
-    'error',
-    {
-      groups: [
-        'builtin',
-        'external',
-        'internal',
-        'parent',
-        'sibling',
-        'unknown',
-        'index',
-        'type',
-      ],
-
-      'newlines-between': 'always',
-    },
-  ],
+  // handled by oxfmt
+  'import/order': 'off',
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
   'import/newline-after-import': 'error',

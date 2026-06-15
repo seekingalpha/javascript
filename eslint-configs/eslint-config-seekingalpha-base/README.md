@@ -33,9 +33,6 @@ export default [
     rules: {
       ...baseConfig.rules,
     },
-    settings: {
-      ...baseConfig.settings,
-    },
   },
 ];
 ```

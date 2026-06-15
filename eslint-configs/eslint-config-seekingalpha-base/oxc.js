@@ -19,9 +19,6 @@ const oxcConfig = {
     ...ESLintPluginImportDisabled,
     ...ESLintPluginUnicornDisabled,
   },
-  settings: {
-    ...esLintPluginImport.settings,
-  },
 };
 
 export default oxcConfig;

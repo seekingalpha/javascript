@@ -2,13 +2,8 @@
 
 export default {
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-  'import/no-unresolved': [
-    'error',
-    {
-      commonjs: true,
-      caseSensitive: true,
-    },
-  ],
+  // handled by TypeScript
+  'import/no-unresolved': 'off',
 
   // Prefer eslint-plugin-n
   // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/enforce-node-protocol-usage.md

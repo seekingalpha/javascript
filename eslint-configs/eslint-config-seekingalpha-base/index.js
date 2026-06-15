@@ -15,7 +15,4 @@ export default {
     ...esLintPluginPromise.rules,
     ...esLintPluginUnicorn.rules,
   },
-  settings: {
-    ...esLintPluginImport.settings,
-  },
 };
