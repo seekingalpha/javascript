@@ -20,9 +20,6 @@ export default defineConfig([
     rules: {
       ...baseConfig.rules,
       ...nodeConfig.rules,
-      'import/order': 'off',
-      'import/no-unresolved': 'off',
     },
-    settings: baseConfig.settings,
   },
 ]);
