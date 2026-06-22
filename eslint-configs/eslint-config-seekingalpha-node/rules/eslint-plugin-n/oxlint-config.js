@@ -8,5 +8,7 @@ export default {
     'node/no-new-require': 'off',
     'node/no-path-concat': 'error',
     'node/no-process-env': 'error',
+    'node/no-sync': 'error',
+    'node/no-mixed-requires': 'error',
   },
 };
