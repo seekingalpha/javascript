@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.3.0 - 2026-07-21
+
+- [deps] update `eslint-plugin-n` to version `18.2.1`
+
 ## 10.2.0 - 2026-06-22
 
 - [new] extend oxlint config
