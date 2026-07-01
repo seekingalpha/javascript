@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.61.0 - 2026-07-01
+
+- [deps] upgrade `eslint-plugin-jest` to version `29.15.4`
+
 ## 4.60.0 - 2026-04-13
 
 - [new] migrate oxlint config to `oxlint-config` package
