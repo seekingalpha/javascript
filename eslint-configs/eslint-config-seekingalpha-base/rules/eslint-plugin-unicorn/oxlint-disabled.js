@@ -11,6 +11,8 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/error-message': 'off',
   'unicorn/escape-case': 'off',
   'unicorn/explicit-length-check': 'off',
+  // ESLint 10 migration
+  // 'unicorn/explicit-timer-delay': 'off',
   'unicorn/filename-case': 'off',
   'unicorn/import-style': 'off',
   'unicorn/new-for-builtins': 'off',
@@ -26,6 +28,8 @@ export const ESLintPluginUnicornDisabled = {
   'unicorn/no-array-reverse': 'off',
   'unicorn/no-await-expression-member': 'off',
   'unicorn/no-await-in-promise-methods': 'off',
+  // ESLint 10 migration
+  // 'unicorn/no-confusing-array-with': 'off',
   'unicorn/no-console-spaces': 'off',
   'unicorn/no-document-cookie': 'off',
   'unicorn/no-empty-file': 'off',

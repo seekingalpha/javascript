@@ -328,6 +328,7 @@ export default {
       },
     ],
     'no-unreachable': 'error',
+    'no-unreachable-loop': 'error',
     'no-unused-expressions': [
       'error',
       {

@@ -146,6 +146,7 @@ export const ESLintDisabled = {
   'no-unmodified-loop-condition': 'off',
   'no-unneeded-ternary': 'off',
   'no-unreachable': 'off',
+  'no-unreachable-loop': 'off',
   'no-unused-expressions': 'off',
   'no-unused-labels': 'off',
   'no-useless-assignment': 'off',
