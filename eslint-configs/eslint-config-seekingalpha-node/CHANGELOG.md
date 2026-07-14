@@ -1,6 +1,10 @@
 # Change Log
 
-## 10.3.0 - 2026-07-21
+## 10.4.0 - 2026-07-14
+
+- [deps] update `eslint-plugin-n` to version `18.2.2`
+
+## 10.3.0 - 2026-07-01
 
 - [deps] update `eslint-plugin-n` to version `18.2.1`
 
