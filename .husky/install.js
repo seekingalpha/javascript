@@ -1,5 +1,5 @@
 try {
-  // eslint-disable-next-line import/dynamic-import-chunkname
+  // eslint-disable-next-line import-x/dynamic-import-chunkname
   const husky = await import('husky');
   husky.default();
 } catch (err) {
