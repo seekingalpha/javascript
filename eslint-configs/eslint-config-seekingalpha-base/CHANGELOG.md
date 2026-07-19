@@ -1,5 +1,10 @@
 # Change Log
 
+## 12.0.0 - 2026-07-19
+
+- [new] migrate to `eslint-plugin-import-x`
+- [deps] update `eslint` to version `10.7.0`
+
 ## 11.66.0 - 2026-07-07
 
 - [new] extend oxlint config

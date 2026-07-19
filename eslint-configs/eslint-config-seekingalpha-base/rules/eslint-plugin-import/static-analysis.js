@@ -1,33 +1,29 @@
 // https://github.com/benmosher/eslint-plugin-import#static-analysis
 
 export default {
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-unresolved.md
   // handled by TypeScript
-  'import/no-unresolved': 'off',
+  'import-x/no-unresolved': 'off',
 
-  // Prefer eslint-plugin-n
-  // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/enforce-node-protocol-usage.md
-  'import/enforce-node-protocol-usage': 'off',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/named.md#when-not-to-use-it
+  'import-x/named': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
-  'import/named': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/default.md#when-not-to-use-it
+  'import-x/default': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-  'import/default': 'error',
-
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
-  'import/namespace': [
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/namespace.md
+  'import-x/namespace': [
     'error',
     {
       allowComputed: true,
     },
   ],
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
-  'import/no-restricted-paths': 'off',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-restricted-paths.md
+  'import-x/no-restricted-paths': 'off',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
-  'import/no-absolute-path': [
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-absolute-path.md
+  'import-x/no-absolute-path': [
     'error',
     {
       esmodule: true,
@@ -36,33 +32,33 @@ export default {
     },
   ],
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
-  'import/no-dynamic-require': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-dynamic-require.md
+  'import-x/no-dynamic-require': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
-  'import/no-internal-modules': 'off',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-internal-modules.md
+  'import-x/no-internal-modules': 'off',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
-  'import/no-webpack-loader-syntax': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-webpack-loader-syntax.md
+  'import-x/no-webpack-loader-syntax': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
-  'import/no-self-import': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-self-import.md
+  'import-x/no-self-import': 'error',
 
   /*
    * very slow
-   * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+   * https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md
    */
-  'import/no-cycle': 'off',
+  'import-x/no-cycle': 'off',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
-  'import/no-useless-path-segments': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-useless-path-segments.md
+  'import-x/no-useless-path-segments': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
-  'import/no-relative-parent-imports': 'off',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-relative-parent-imports.md
+  'import-x/no-relative-parent-imports': 'off',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md
-  'import/no-relative-packages': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-relative-packages.md
+  'import-x/no-relative-packages': 'error',
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-  'import/no-unused-modules': 'error',
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-unused-modules.md
+  'import-x/no-unused-modules': 'error',
 };
