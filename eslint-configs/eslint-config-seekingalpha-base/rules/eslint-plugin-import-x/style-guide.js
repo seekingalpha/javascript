@@ -1,22 +1,22 @@
 // https://github.com/benmosher/eslint-plugin-import#style-guide
 export default {
-  // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
-  'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/.md
+  'import-x/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/first.md
-  'import/first': 'error',
+  'import-x/first': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/exports-last.md
-  'import/exports-last': 'off',
+  'import-x/exports-last': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-duplicates.md
-  'import/no-duplicates': 'error',
+  'import-x/no-duplicates': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-namespace.md
-  'import/no-namespace': ['error', { ignore: ['*.scss'] }],
+  'import-x/no-namespace': ['error', { ignore: ['*.scss'] }],
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/extensions.md
-  'import/extensions': [
+  'import-x/extensions': [
     'error',
     'always',
     {
@@ -26,34 +26,34 @@ export default {
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/order.md
   // handled by oxfmt
-  'import/order': 'off',
+  'import-x/order': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/newline-after-import.md
-  'import/newline-after-import': 'error',
+  'import-x/newline-after-import': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/prefer-default-export.md
-  'import/prefer-default-export': 'off',
+  'import-x/prefer-default-export': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/max-dependencies.md
-  'import/max-dependencies': 'off',
+  'import-x/max-dependencies': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-unassigned-import.md
   'import-x/no-unassigned-import': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-named-default.md
-  'import/no-named-default': 'error',
+  'import-x/no-named-default': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-default-export.md
-  'import/no-default-export': 'error',
+  'import-x/no-default-export': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-anonymous-default-export.md
-  'import/no-anonymous-default-export': 'error',
+  'import-x/no-anonymous-default-export': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/group-exports.md
-  'import/group-exports': 'off',
+  'import-x/group-exports': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/dynamic-import-chunkname.md
-  'import/dynamic-import-chunkname': [
+  'import-x/dynamic-import-chunkname': [
     'error',
     {
       importFunctions: [],
@@ -62,5 +62,5 @@ export default {
   ],
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-named-export.md
-  'import/no-named-export': 'off',
+  'import-x/no-named-export': 'off',
 };

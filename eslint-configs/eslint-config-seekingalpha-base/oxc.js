@@ -1,5 +1,5 @@
-import esLintPluginImport from './rules/eslint-plugin-import/index.js';
-import { ESLintPluginImportDisabled } from './rules/eslint-plugin-import/oxlint-disabled.js';
+import esLintPluginImport from './rules/eslint-plugin-import-x/index.js';
+import { ESLintPluginImportDisabled } from './rules/eslint-plugin-import-x/oxlint-disabled.js';
 import esLintPluginUnicorn from './rules/eslint-plugin-unicorn/index.js';
 import { ESLintPluginUnicornDisabled } from './rules/eslint-plugin-unicorn/oxlint-disabled.js';
 import esLintConfig from './rules/eslint/index.js';

@@ -16,7 +16,7 @@ export default {
    */
   'import-x/no-deprecated': 'error',
 
-  // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-empty-named-blocks.md
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-empty-named-blocks.md
   'import-x/no-empty-named-blocks': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-extraneous-dependencies.md

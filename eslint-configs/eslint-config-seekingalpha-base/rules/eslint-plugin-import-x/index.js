@@ -1,4 +1,4 @@
-import importPlugin from 'eslint-plugin-import';
+import { importX } from 'eslint-plugin-import-x';
 
 import helpfulWarnings from './helpful-warnings.js';
 import moduleSystem from './module-systems.js';
@@ -7,7 +7,7 @@ import styleGuide from './style-guide.js';
 
 export default {
   plugins: {
-    import: importPlugin,
+    import: importX,
   },
   rules: {
     ...helpfulWarnings,
