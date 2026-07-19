@@ -7,7 +7,7 @@ import styleGuide from './style-guide.js';
 
 export default {
   plugins: {
-    import: importX,
+    'import-x': importX,
   },
   rules: {
     ...helpfulWarnings,

@@ -1,5 +1,9 @@
 # Change Log
 
+## 12.0.2 - 2026-07-19
+
+- [new] migrate to `eslint-plugin-import-x`
+
 ## 12.0.1 - 2026-07-19
 
 - [new] migrate to `eslint-plugin-import-x`
