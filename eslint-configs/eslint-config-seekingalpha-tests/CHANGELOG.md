@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.0.0 - 2026-07-19
+
+- [deps] upgrade `eslint` to version `10.7.0`
+
 ## 4.61.0 - 2026-07-01
 
 - [deps] upgrade `eslint-plugin-jest` to version `29.15.4`
