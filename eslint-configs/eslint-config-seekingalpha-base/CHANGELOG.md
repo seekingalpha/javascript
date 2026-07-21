@@ -1,5 +1,9 @@
 # Change Log
 
+## 12.1.0 - 2026-07-21
+
+- [new] new unicorn rules
+
 ## 12.0.2 - 2026-07-19
 
 - [new] migrate to `eslint-plugin-import-x`

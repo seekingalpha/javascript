@@ -18,7 +18,7 @@ export default {
     'unicorn/error-message': 'error',
     'unicorn/escape-case': 'error',
     'unicorn/explicit-length-check': 'off',
-    'unicorn/explicit-timer-delay': 'error',
+    'unicorn/explicit-timer-delay': ['error', 'always'],
     'unicorn/filename-case': 'off',
     'unicorn/import-style': 'off',
     'unicorn/new-for-builtins': 'error',
