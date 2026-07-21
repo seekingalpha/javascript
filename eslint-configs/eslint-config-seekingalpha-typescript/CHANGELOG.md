@@ -1,5 +1,9 @@
 # Change Log
 
+## 10.1.0 - 2026-07-21
+
+- [deps] upgrade `typescript-eslint` to version `8.65.0`
+
 ## 10.0.0 - 2026-07-19
 
 - [deps] upgrade `eslint` to version `10.7.0`
