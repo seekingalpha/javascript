@@ -337,7 +337,6 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-mismatched-map-key.md
     'unicorn/no-mismatched-map-key': 'error',
 
-    // oxlint-disable-next-line @cspell/spellchecker
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-misrefactored-assignment.md
     'unicorn/no-misrefactored-assignment': 'error',
 
