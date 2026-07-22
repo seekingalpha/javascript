@@ -1,7 +1,0 @@
-export default {
-  plugins: ['react'],
-  rules: {
-    'react/rules-of-hooks': 'error',
-    'react/exhaustive-deps': 'error',
-  },
-};
