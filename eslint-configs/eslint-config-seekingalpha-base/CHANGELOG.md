@@ -1,8 +1,12 @@
 # Change Log
 
+## 12.2.0 - 2026-07-22
+
+- [new] unicorn rules
+
 ## 12.1.0 - 2026-07-21
 
-- [new] new unicorn rules
+- [new] unicorn rules
 
 ## 12.0.2 - 2026-07-19
 
