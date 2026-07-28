@@ -44,7 +44,6 @@ export default {
     'unicorn/no-instanceof-builtins': 'error',
     'unicorn/no-invalid-fetch-options': 'error',
     'unicorn/no-invalid-remove-event-listener': 'error',
-    'unicorn/no-length-as-slice-end': 'off',
     'unicorn/no-lonely-if': 'error',
     'unicorn/no-magic-array-flat-depth': 'error',
     'unicorn/no-negation-in-equality-check': 'error',

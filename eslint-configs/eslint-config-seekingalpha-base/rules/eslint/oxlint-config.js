@@ -167,6 +167,7 @@ export default {
         exceptions: [],
       },
     ],
+    'id-denylist': 'off',
     'id-match': 'off',
     'init-declarations': 'off',
     'logical-assignment-operators': ['error', 'always'],

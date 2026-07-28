@@ -267,9 +267,6 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-global-object-property-assignment.md
     'unicorn/no-global-object-property-assignment': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md
-    'unicorn/no-hex-escape': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md
     'unicorn/no-immediate-mutation': 'error',
 
@@ -282,9 +279,6 @@ export default {
     // we use custom templates for API calls
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-incorrect-template-string-interpolation.md
     'unicorn/no-incorrect-template-string-interpolation': 'off',
-
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
-    'unicorn/no-instanceof-array': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
     'unicorn/no-instanceof-builtins': 'error',
@@ -785,9 +779,6 @@ export default {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-to-array-at-end.md
     'unicorn/prefer-iterator-to-array-at-end': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
-    'unicorn/prefer-json-parse-buffer': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md
     'unicorn/prefer-keyboard-event-key': 'error',
 
@@ -1074,5 +1065,9 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/try-complexity.md
     'unicorn/try-complexity': 'off',
+
+    'unicorn/no-for-each': 'off',
+
+    'unicorn/no-unnecessary-array-flat-map': 'error',
   },
 };
