@@ -139,8 +139,6 @@ const RULES_DUPLICATE_ESLINT = {
 
   '@typescript-eslint/no-magic-numbers': 'off',
 
-  '@typescript-eslint/no-loop-func': 'off',
-
   '@typescript-eslint/no-redeclare': 'off',
 
   '@typescript-eslint/no-shadow': 'off',
