@@ -1,5 +1,6 @@
 export const ESLintPluginNodeDisabled = {
   'n/callback-return': 'off',
+  'n/exports-style': 'off',
   'n/global-require': 'off',
   'n/handle-callback-err': 'off',
   'n/no-exports-assign': 'off',

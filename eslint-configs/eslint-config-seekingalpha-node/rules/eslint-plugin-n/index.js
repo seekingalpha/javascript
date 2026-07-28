@@ -115,9 +115,6 @@ export default {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/callback-return.md
     'n/callback-return': 'off',
 
-    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/shebang.md
-    'n/shebang': 'off',
-
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/text-decoder.md
     'n/prefer-global/text-decoder': ['error', 'always'],
 
