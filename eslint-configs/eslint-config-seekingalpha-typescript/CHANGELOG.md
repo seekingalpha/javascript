@@ -1,5 +1,9 @@
 # Change Log
 
+## 9.4.0 - 2026-08-04
+
+- [deps] upgrade `typescript-eslint` to version `8.66.0`
+
 ## 9.3.0 - 2026-07-28
 
 - [new] remove deprecated rules
