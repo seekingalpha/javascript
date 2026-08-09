@@ -1069,5 +1069,16 @@ export default {
     'unicorn/no-for-each': 'off',
 
     'unicorn/no-unnecessary-array-flat-map': 'error',
+
+    // prefer arrow-body-style
+    'unicorn/consistent-arrow-return-style': 'off',
+
+    'unicorn/iteration-fallback-style': ['error', 'fallback'],
+
+    'unicorn/no-barrel-files': 'error',
+
+    'unicorn/no-unsafe-sqlite-interpolation': 'error',
+
+    'unicorn/single-line-block-comment-style': 'off',
   },
 };
