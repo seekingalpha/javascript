@@ -42,6 +42,12 @@ export default {
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-global/url.md
     'n/prefer-global/url': ['error', 'always'],
 
+    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-import/assert-strict.md
+    'n/prefer-import/assert-strict': 'error',
+
+    // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/prefer-process-get-builtin-module.md
+    'n/prefer-process-get-builtin-module': 'error',
+
     // https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-extraneous-import.md
     // disabled in favour of import/no-extraneous-dependencies
     'n/no-extraneous-import': 'off',
