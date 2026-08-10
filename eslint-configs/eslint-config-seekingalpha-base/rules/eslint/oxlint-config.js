@@ -367,6 +367,7 @@ export default {
         avoidQuotes: true,
       },
     ],
+    'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'never'],
     'prefer-arrow-callback': [
       'error',

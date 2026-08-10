@@ -164,6 +164,7 @@ export const ESLintDisabled = {
   'no-warning-comments': 'off',
   'no-with': 'off',
   'object-shorthand': 'off',
+  'one-var': 'off',
   'operator-assignment': 'off',
   'prefer-arrow-callback': 'off',
   'prefer-const': 'off',
