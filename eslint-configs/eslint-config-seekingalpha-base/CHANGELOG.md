@@ -1,5 +1,9 @@
 # Change Log
 
+## 12.10.0 - 2026-09-05
+
+- [deps] update `eslint` to version `10.10.0`
+
 ## 12.9.0 - 2026-09-03
 
 - [deps] update `eslint` to version `10.9.1`
