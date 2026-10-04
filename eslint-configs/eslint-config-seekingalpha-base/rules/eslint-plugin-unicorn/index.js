@@ -356,7 +356,7 @@ export default {
     'unicorn/no-magic-array-flat-depth': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-manually-wrapped-comments.md
-    'unicorn/no-manually-wrapped-comments': 'error',
+    'unicorn/no-manually-wrapped-comments': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-mismatched-map-key.md
     'unicorn/no-mismatched-map-key': 'error',
@@ -463,7 +463,7 @@ export default {
     'unicorn/no-top-level-assignment-in-function': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-top-level-side-effects.md
-    'unicorn/no-top-level-side-effects': 'error',
+    'unicorn/no-top-level-side-effects': 'off',
 
     // handled by stylelint
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-transition-all.md
@@ -1149,5 +1149,34 @@ export default {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/try-complexity.md
     'unicorn/try-complexity': 'off',
+
+    'unicorn/no-invalid-response-options': 'error',
+    'unicorn/no-prevent-default-in-passive-listener': 'error',
+    'unicorn/no-invalid-boolean-attribute-value': 'error',
+    'unicorn/no-conflicting-constraints': 'off',
+    'unicorn/no-invalid-property-descriptor': 'error',
+    'unicorn/no-invalid-url-protocol-comparison': 'error',
+    'unicorn/no-invalid-integrity': 'error',
+    'unicorn/no-invalid-dom-token': 'error',
+    'unicorn/require-text-decoder-streaming': 'error',
+    'unicorn/no-invalid-temporal-arithmetic': 'error',
+    'unicorn/no-invalid-style-set-property': 'error',
+    'unicorn/no-ineffective-csp-directives': 'error',
+    'unicorn/no-invalid-intl-options': 'error',
+    'unicorn/no-unsafe-json-serialization': 'error',
+    'unicorn/no-url-in-search-params': 'error',
+    'unicorn/comma-spacing': 'off',
+    'unicorn/no-empty-link-text': 'off',
+    'unicorn/no-leading-empty-lines': 'off',
+    'unicorn/no-unnecessary-parameters': 'off',
+    'unicorn/prefer-promise-static-methods': 'error',
+    'unicorn/no-javascript-url': 'off',
+    'unicorn/no-incomplete-accessor-override': 'error',
+    'unicorn/prefer-escaped-irregular-whitespace': 'error',
+    'unicorn/key-name-casing': 'off',
+    'unicorn/prefer-literal-ascii': 'error',
+    'unicorn/prefer-short-escape-sequences': 'error',
+    'unicorn/no-loss-of-precision': 'off',
+    'unicorn/indent': 'off',
   },
 };

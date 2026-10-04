@@ -1,5 +1,10 @@
 # Change Log
 
+## 12.13.2 - 2026-10-04
+
+- [deps] update `eslint` to version `10.12.0`
+- [deps] update `eslint-plugin-unicorn` to version `77.0.0`
+
 ## 12.13.1 - 2026-10-04
 
 - [deps] update `eslint` to version `10.12.0`
