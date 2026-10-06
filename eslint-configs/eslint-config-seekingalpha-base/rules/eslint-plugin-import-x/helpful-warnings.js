@@ -20,14 +20,8 @@ export default {
   'import-x/no-empty-named-blocks': 'error',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-extraneous-dependencies.md
-  'import-x/no-extraneous-dependencies': [
-    'error',
-    {
-      devDependencies: true,
-      optionalDependencies: true,
-      peerDependencies: true,
-    },
-  ],
+  // Knip `unlisted` already catches unlisted imports
+  'import-x/no-extraneous-dependencies': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-mutable-exports.md
   'import-x/no-mutable-exports': 'error',

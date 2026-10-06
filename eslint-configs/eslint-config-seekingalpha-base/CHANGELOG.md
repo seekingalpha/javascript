@@ -1,5 +1,11 @@
 # Change Log
 
+## 12.14.0 - 2026-10-04
+
+- [breaking] disable `import-x/no-extraneous-dependencies` rule
+- [breaking] disable `import-x/no-relative-packages` rule
+- [breaking] disable `import-x/no-unused-modules` rule
+
 ## 12.13.2 - 2026-10-04
 
 - [deps] update `eslint` to version `10.12.0`

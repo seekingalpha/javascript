@@ -57,8 +57,10 @@ export default {
   'import-x/no-relative-parent-imports': 'off',
 
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-relative-packages.md
-  'import-x/no-relative-packages': 'error',
+  // Only meaningful in a monorepo
+  'import-x/no-relative-packages': 'off',
 
+  // Needs the FileEnumerator API, which ESLint 10 removed
   // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-unused-modules.md
-  'import-x/no-unused-modules': 'error',
+  'import-x/no-unused-modules': 'off',
 };
