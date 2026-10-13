@@ -1,5 +1,9 @@
 # Change Log
 
+## 12.15.0 - 2026-10-04
+
+- [deps] update `eslint-plugin-unicorn` to version `78.0.0`
+
 ## 12.14.0 - 2026-10-04
 
 - [breaking] disable `import-x/no-extraneous-dependencies` rule
