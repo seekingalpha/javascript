@@ -69,7 +69,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-   * disable ti work with oxfmt
+   * disable to work with oxfmt
    */
   'react/jsx-indent-props': 'off',
 
@@ -147,7 +147,7 @@ export default {
 
   /*
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
-   * disable to worl with oxfmt
+   * disable to work with oxfmt
    */
   'react/jsx-one-expression-per-line': 'off',
 
